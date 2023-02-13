@@ -1,6 +1,6 @@
 [
     {
-        "id": 0,
+        "id": "0",
         "title": "Ate-Oh-Ate Katsu Melt",
         "url": "https://everout.com/portland/events/ate-oh-ate-katsu-melt/e120603/",
         "location": "Ate Oh Ate",
@@ -17,7 +17,7 @@
         "hours": "11 am-9 pm"
     },
     {
-        "id": 1,
+        "id": "1",
         "title": "Birds and the Bees",
         "url": "https://everout.com/portland/events/birds-and-the-bees/e120574/",
         "location": "Nick's Famous Coney Island",
@@ -34,7 +34,7 @@
         "hours": "12-8 pm"
     },
     {
-        "id": 2,
+        "id": "2",
         "title": "Bout That Cheddar!",
         "url": "https://everout.com/portland/events/bout-that-cheddar/e120552/",
         "location": "Kevin & Franky's",
@@ -51,7 +51,7 @@
         "hours": "Tues-Sat 11 am-7 pm"
     },
     {
-        "id": 3,
+        "id": "3",
         "title": "Bread Over Alice Waters",
         "url": "https://everout.com/portland/events/bread-over-alice-waters/e120606/",
         "location": "Marty's Sandwich Depot",
@@ -70,7 +70,7 @@
         "hours": "Tue, Thur, Fri 11 am-6 pm, Wed & Sat 12-6 pm"
     },
     {
-        "id": 4,
+        "id": "4",
         "title": "Cheesesteak Hoagie",
         "url": "https://everout.com/portland/events/cheesesteak-hoagie/e120600/",
         "location": "Buddy's Steaks",
@@ -85,10 +85,11 @@
             "vegan"
         ],
         "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1673642765/sandwichweek/2022/cheesesteak-hoagie.jpg",
-        "address": "The Fine Print!"
+        "address": "The Fine Print!",
+        "hours": "11 am - 8 pm"
     },
     {
-        "id": 5,
+        "id": "5",
         "title": "Haymaker Cubano",
         "url": "https://everout.com/portland/events/haymaker-cubano/e120580/",
         "location": "Haymaker",
@@ -105,7 +106,7 @@
         "hours": "Mon-Thurs 3-9 pm, Fri-Sat 3-11 pm (live music with cover at 9 pm), Sun 3-7 pm"
     },
     {
-        "id": 6,
+        "id": "6",
         "title": "High on the Hog",
         "url": "https://everout.com/portland/events/high-on-the-hog/e120498/",
         "location": "Laurelhurst Market Butcher Shop & Restaurant",
@@ -122,7 +123,7 @@
         "hours": "11 am-3 pm"
     },
     {
-        "id": 7,
+        "id": "7",
         "title": "Holler Summer BBQ Fried Chicken",
         "url": "https://everout.com/portland/events/holler-summer-bbq-fried-chicken/e120582/",
         "location": "Holler",
@@ -139,7 +140,7 @@
         "hours": "Mon-Thurs 12-9 pm, Fri 11 am-9 pm, Sat-Sun 10 am-9 pm"
     },
     {
-        "id": 8,
+        "id": "8",
         "title": "King Katsu Banh Mi",
         "url": "https://everout.com/portland/events/king-katsu-banh-mi/e120607/",
         "location": "Banh Mi Up",
@@ -154,10 +155,11 @@
             "vegan"
         ],
         "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1673642765/sandwichweek/2022/king-katsu-banh-mi.jpg",
-        "address": "8037 N Lombard St, Mon-Sat 11 am-7:45 pm"
+        "address": "8037 N Lombard St, Mon-Sat 11 am-7:45 pm",
+        "hours": "Mon-Sat 11 am-7:45 pm"
     },
     {
-        "id": 9,
+        "id": "9",
         "title": "Moreland Cubano",
         "url": "https://everout.com/portland/events/moreland-cubano/e120776/",
         "location": "Moreland Ale House",
@@ -174,7 +176,7 @@
         "hours": "11:30 am-11 pm"
     },
     {
-        "id": 10,
+        "id": "10",
         "title": "No Pharm Chicken Sando",
         "url": "https://everout.com/portland/events/no-pharm-chicken-sando/e120619/",
         "location": "Bar Maven",
@@ -193,7 +195,7 @@
         "hours": "4 pm-1 am"
     },
     {
-        "id": 11,
+        "id": "11",
         "title": "Obscenely Decadent \"Croque Philip\"",
         "url": "https://everout.com/portland/events/obscenely-decadent-croque-philip/e120773/",
         "location": "Phil's Meat Market & Delicatessen",
@@ -210,7 +212,7 @@
         "hours": "11 am-6 pm"
     },
     {
-        "id": 12,
+        "id": "12",
         "title": "Phat Belly Cubano",
         "url": "https://everout.com/portland/events/phat-belly-cubano/e120605/",
         "location": "Dick's Primal Burger",
@@ -227,7 +229,7 @@
         "hours": "11 am-9 pm"
     },
     {
-        "id": 13,
+        "id": "13",
         "title": "Pit Stop",
         "url": "https://everout.com/portland/events/pit-stop/e120490/",
         "location": "Reverend's BBQ",
@@ -240,10 +242,11 @@
         "times": "Address/Hours of Availability: 7712 SE 13th Ave, 12-9 pm",
         "diet": [],
         "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1673642765/sandwichweek/2022/pit-stop.jpg",
-        "address": "7712 SE 13th Ave, 12-9 pm"
+        "address": "7712 SE 13th Ave, 12-9 pm",
+        "hours": "12-9 pm"
     },
     {
-        "id": 14,
+        "id": "14",
         "title": "Pork Belly Banh Mi",
         "url": "https://everout.com/portland/events/pork-belly-banh-mi/e120578/",
         "location": "Migration Brewing Co.",
@@ -260,7 +263,7 @@
         "hours": "12-9 pm"
     },
     {
-        "id": 15,
+        "id": "15",
         "title": "Pork Belly Caprese",
         "url": "https://everout.com/portland/events/pork-belly-caprese/e120579/",
         "location": "Migration Brewing",
@@ -277,7 +280,7 @@
         "hours": "12-9 pm"
     },
     {
-        "id": 16,
+        "id": "16",
         "title": "Porketta-Bout-It",
         "url": "https://everout.com/portland/events/porketta-bout-it/e120601/",
         "location": "City Bridge & Tunnel",
@@ -294,7 +297,7 @@
         "hours": "Sun-Tues 4-10 pm, Wed-Sat 4 pm-2 am"
     },
     {
-        "id": 17,
+        "id": "17",
         "title": "River Pig Cubano",
         "url": "https://everout.com/portland/events/river-pig-cubano/e120503/",
         "location": "River Pig Saloon",
@@ -311,7 +314,7 @@
         "hours": "Mon-Thur 2 pm - 1 am, Fri 12 pm - 1 am, Sat-Sun 9 am - 1 am"
     },
     {
-        "id": 18,
+        "id": "18",
         "title": "Slammin' Jammin' Fondue Cannon",
         "url": "https://everout.com/portland/events/slammin-jammin-fondue-cannon/e120717/",
         "location": "North Bar",
@@ -328,7 +331,7 @@
         "hours": "11 am-2 am"
     },
     {
-        "id": 19,
+        "id": "19",
         "title": "Smoked BBQ Chicken Sandwich",
         "url": "https://everout.com/portland/events/smoked-bbq-chicken-sandwich/e120602/",
         "location": "Big's Chicken",
@@ -345,7 +348,7 @@
         "hours": "11:30 am-9 pm"
     },
     {
-        "id": 20,
+        "id": "20",
         "title": "Smokehouse Beef",
         "url": "https://everout.com/portland/events/smokehouse-beef/e120556/",
         "location": "Snappy's",
@@ -362,7 +365,7 @@
         "hours": "Mon-Sat 10:30 am-7 pm, Sun 10:30 am-4 pm"
     },
     {
-        "id": 21,
+        "id": "21",
         "title": "Southwestern Faux-lette O' Fish",
         "url": "https://everout.com/portland/events/southwestern-faux-lette-o-fish/e120573/",
         "location": "Oregon Public House",
@@ -381,7 +384,7 @@
         "hours": "Thurs-Sun 4-9 pm"
     },
     {
-        "id": 22,
+        "id": "22",
         "title": "Spicy Bourbon on Spicy Dutch Crunch",
         "url": "https://everout.com/portland/events/spicy-bourbon-on-spicy-dutch-crunch/e120598/",
         "location": "The Baker's Mark",
@@ -398,7 +401,7 @@
         "hours": "11 am-3 pm"
     },
     {
-        "id": 23,
+        "id": "23",
         "title": "Steakadelphia Supreme",
         "url": "https://everout.com/portland/events/steakadelphia-supreme/e120718/",
         "location": "Steakadelphia",
@@ -415,7 +418,7 @@
         "hours": "Mon-Sat 11 am-8 pm"
     },
     {
-        "id": 24,
+        "id": "24",
         "title": "Strawbasil Ice Cream Sandwich",
         "url": "https://everout.com/portland/events/strawbasil-ice-cream-sandwich/e120584/",
         "location": "Holler Treats",
@@ -434,7 +437,7 @@
         "hours": "Mon-Fri 1-9 pm, Sat-Sun 11 am-9 pm"
     },
     {
-        "id": 25,
+        "id": "25",
         "title": "Tampa Cubano",
         "url": "https://everout.com/portland/events/tampa-cubano/e120604/",
         "location": "Pambiche",
@@ -451,7 +454,7 @@
         "hours": "Wed-Fri 4-10 pm, Sat-Sun 11 am-10 pm"
     },
     {
-        "id": 26,
+        "id": "26",
         "title": "The Wexler",
         "url": "https://everout.com/portland/events/the-wexler/e120562/",
         "location": "The Secret Pizza Society",
@@ -470,7 +473,7 @@
         "hours": "Daily 1-9 pm"
     },
     {
-        "id": 27,
+        "id": "27",
         "title": "Torta De Milanesa",
         "url": "https://everout.com/portland/events/torta-de-milanesa/e120502/",
         "location": "Papi Chulo's Taqueria",
