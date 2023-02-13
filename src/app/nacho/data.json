@@ -1,0 +1,732 @@
+[
+    {
+        "title": "23 TOTchos!",
+        "id": "23 TOTchos!",
+        "location": "23 Hoyt",
+        "locationUrl": "http://www.23hoyt.com/",
+        "neighborhood": [
+            "northwest"
+        ],
+        "date": "Oct 14-19Thurs Nov 28",
+        "description": "House tots, creamy Mornay cheese sauce, pickled jalapeños, Castelvetrano olives, and fresh scallion",
+        "info": "Dine-in only, not available during brunch",
+        "availability": "Mon-Sat 3-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=529+NW+23rd%2C+Portland%2C+OR+97210",
+        "hours": "Tue-Thu 5-10 pm, Fri-Sat 5-10:30 pm, Sun 4:30-9:30 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/23-totchos.jpg",
+        "url": "https://www.portlandmercury.com/events/27231799/23-totchos",
+        "diet": []
+    },
+    {
+        "title": "Nachos Volcan",
+        "id": "Nachos Volcan",
+        "location": "Pepino's",
+        "locationUrl": "http://www.pepinos.org/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "A heaping mound of freshly made chips, melted Monterey Jack cheese, salsa fresca, guacamole, sour cream, salsa Suzy (spicy salsa), and roasted jalapeños",
+        "availability": "Mon-Sat 11 am-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=3832+SE+Hawthorne+Blvd.%2C+Portland%2C+OR+97214",
+        "hours": "Daily 11 am-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/nachos-volcan.jpg",
+        "url": "https://www.portlandmercury.com/events/27232285/nachos-volcan",
+        "diet": []
+    },
+    {
+        "title": "Sellwoods Spicy Buffalo Totchos",
+        "id": "Sellwoods Spicy Buffalo Totchos",
+        "location": "Oaks Bottom Public House",
+        "locationUrl": "http://www.newoldlompoc.com/oaksbottomhome.html",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Crispy tater tots smothered with jalapeño and pepper jack queso and topped with Lompoc Brewing's Lomporter-braised beef",
+        "info": "Dine-in only, available until 10 pm.",
+        "availability": "Mon-Sat 11 am-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=1621+SE+Bybee+Blvd.%2C+Portland%2C+OR+97202",
+        "hours": "Mon-Sat 11 am-12 am, Sun 11 am-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/sellwoods-spicy-buffalo-totchos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232276/sellwoods-spicy-buffalo-totchos",
+        "diet": []
+    },
+    {
+        "title": "Sushi Nachos",
+        "id": "Sushi Nachos",
+        "location": "Saucebox",
+        "locationUrl": "http://www.saucebox.com",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Crispy wontons topped with avocado, cucumber, spicy mayo, unagi sauce, and spicy tuna",
+        "info": "Dine-in only, no minors after 10 pm.",
+        "availability": "Mon-Sat 4:30 pm-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=214+SW+Broadway%2C+Portland%2C+OR+97205",
+        "hours": "Tues-Thurs 4:30 pm-midnight, Fri 4:30 pm-2:30 am, Sat 5 pm-2:30 am (Closed Sun-Mon)",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/sushi-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232302/sushi-nachos",
+        "diet": []
+    },
+    {
+        "title": "Tarochos",
+        "id": "Tarochos",
+        "location": "Ate Oh Ate",
+        "locationUrl": "http://www.ateohate.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Taro chips topped with Kalua pig, Longboard kimchi queso, green onion straws, and shaved radish",
+        "info": "Dine-in only, no delivery services, no substitutions.",
+        "availability": "Mon-Sat 11 am-9 pm, Also available at Woodstock location.",
+        "mapUrl": "http://maps.google.com/maps?q=2454+E+Burnside%2C+Portland%2C+OR+97214",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/tarochos.jpg",
+        "url": "https://www.portlandmercury.com/events/27231861/tarochos",
+        "diet": []
+    },
+    {
+        "title": "El Cubano Nacho",
+        "id": "El Cubano Nacho",
+        "location": "Ascendant Beer Company",
+        "locationUrl": "https://www.ascendantbeer.com/",
+        "neighborhood": [
+            "northwest"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tortilla chips, Swiss beer-cheese sauce, mustard-braised pork, Pilsner dill pickle chips, and spicy mustard sauce",
+        "info": "Dine-in only, no modifications.",
+        "availability": "Mon-Sat 11:30 am-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=412+NW+5th+Ave.%2C+Portland%2C+OR+97209",
+        "hours": "Mon - Thurs 11:30 am-10 pm, Sat 11 am-11 pm, Sun 11 am-9 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/el-cubano-nacho.jpg",
+        "url": "https://www.portlandmercury.com/events/27231857/el-cubano-nacho",
+        "diet": []
+    },
+    {
+        "title": "The 9-Os",
+        "id": "The 9-Os",
+        "location": "Retro Game Bar",
+        "locationUrl": "https://www.rgbpdx.com/",
+        "neighborhood": [
+            "northeast"
+        ],
+        "date": "Oct 14-19Wed Oct 9 at 7 pm",
+        "description": "Mango, avocado, cilantro, habanero, pico, queso, manchego, pinto, with Dorito",
+        "info": "Dine-in only, minors allowed Sat 11 am-3 pm.",
+        "availability": "Mon-Sat 3 pm-2 am (21+), Sat 11 am-3 pm (all ages)",
+        "mapUrl": "http://maps.google.com/maps?q=6720+NE+Martin+Luther+King+Jr+Blvd%2C+Portland%2C+Oregon+97211",
+        "hours": "Daily 3 pm-2 am (21+ Only), Sat & Sun 11 am-3 pm (all ages)",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/the-9-os.jpg",
+        "url": "https://www.portlandmercury.com/events/27232289/the-9-os",
+        "diet": [
+            "vegan"
+        ]
+    },
+    {
+        "title": "Basic Bitch Beef Brisket Nachos",
+        "id": "Basic Bitch Beef Brisket Nachos",
+        "location": "Reverend's BBQ",
+        "locationUrl": "http://reverendsbbq.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tortilla chips with brisket and ground-beef taco meat, green chili cheese sauce, pickled jalapeños, red onion, radish, black olives, and sour cream",
+        "info": "Dine-in only, no delivery services, no substitutions.",
+        "availability": "Mon-Sat 11 am-9 pm",
+        "mapUrl": "http://maps.google.com/maps?q=7712+SE+13th%2C+Portland%2C+Oregon+97202",
+        "hours": "Sun-Thurs 11:30am-9pm, Fri-Sat 11:30am-10pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/basic-bitch-beef-brisket-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232295/basic-bitch-beef-brisket-nachos",
+        "diet": []
+    },
+    {
+        "title": "Heatwave to the Flavor Zone",
+        "id": "Heatwave to the Flavor Zone",
+        "location": "Oregon Public House",
+        "locationUrl": "http://oregonpublichouse.com",
+        "neighborhood": [
+            "northeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Juanita's corn chips topped with melted pepper jack cheese, roasted jalapeños, black beans, charred corn, and chopped Mama Lil's pickled peppers, drizzled with a house-made queso sauce featuring Mama Lil&#x2019;s peppers. Garnished with fresh cilantro and Mexican crema",
+        "info": "No substitutions or modifications. ",
+        "availability": "Mon-Thurs 11:30 am-10 pm, Fri-Sat 11:30 am-11 pm",
+        "mapUrl": "http://maps.google.com/maps?q=700+NE+Dekum%2C+Portland%2C+Oregon+97211",
+        "hours": "Sun-Thurs 11:30am-10pmFri-Sat 11:30am-11pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/heatwave-to-the-flavor-zone.jpg",
+        "url": "https://www.portlandmercury.com/events/27232281/heatwave-to-the-flavor-zone",
+        "diet": []
+    },
+    {
+        "title": "El Pollo Grande",
+        "id": "El Pollo Grande",
+        "location": "Big's Chicken",
+        "locationUrl": "https://www.bigschicken.com/",
+        "neighborhood": [],
+        "date": "Oct 14-19",
+        "description": "Big's spiced tortilla chips, ground chicken chili verde, queso sauce, smoked corn salsa, cotija, and cilantro",
+        "info": "Dine-in only, no substitutions.",
+        "availability": "Mon-Sat 11 am-9 pm",
+        "mapUrl": "http://maps.google.com/maps?q=4570+SW+Watson%2C+Beaverton%2C+Bigs+Chicke+97005",
+        "hours": "Daily 11 am-9 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/el-pollo-grande.jpg",
+        "url": "https://www.portlandmercury.com/events/27231934/el-pollo-grande",
+        "diet": []
+    },
+    {
+        "title": "NotchYo Fries",
+        "id": "NotchYo Fries",
+        "location": "Brunch Box",
+        "locationUrl": "https://www.brunchboxpdx.com/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Chili lime-coated fries topped with taco-seasoned ground beef, nacho cheese, and pickled jalapeños",
+        "info": "Dine-in only, cannot be combined with other offers.",
+        "availability": "Mon-Sat 8 am-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=676+SE+Morrison%2C+Portland%2C+Oregon+97214",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/notchyo-fries.jpg",
+        "url": "https://www.portlandmercury.com/events/27231967/notchyo-fries",
+        "diet": []
+    },
+    {
+        "title": "Duros Supreme",
+        "id": "Duros Supreme",
+        "location": "Avid Cider & Kitchen",
+        "locationUrl": "https://www.avidcider.com",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Fried duros seasoned with Tajín, topped with cotija cheese, house chorizo, pickled onions and hot peppers, then drizzled with cilantro aioli",
+        "info": "Dine-in only, one order per person per day, no substitutions. We'll try not to run out, but since most components are made fresh daily, we might. If we do, we'll have more the next day.",
+        "availability": "Mon-Wed 3-10 pm, Thurs 3&#x2013;11 pm, Fri-Sat noon&#x2013;11 pm",
+        "mapUrl": "http://maps.google.com/maps?q=121+NW+9th%2C+Portland%2C+Oregon+97209",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/duros-supreme.jpg",
+        "url": "https://www.portlandmercury.com/events/27231922/duros-supreme",
+        "diet": []
+    },
+    {
+        "title": "Rockfish Ceviche NOTchos",
+        "id": "Rockfish Ceviche NOTchos",
+        "location": "Bluehour",
+        "locationUrl": "http://www.bluehouronline.com/",
+        "neighborhood": [
+            "northwest"
+        ],
+        "date": "Oct 14-19Thurs Nov 28, noonSat Oct 26 at 9 pmFri Oct 25 at 9 pmSat Oct 19 at 9 pmSat Oct 12 at 9 pmFri Oct 11 at 9 pm",
+        "description": "Pickled serranos, red onions, lime, taro chips, and avocado crema",
+        "info": "Available in cafe/bar only. ",
+        "availability": "Mon-Thurs 4-10 pm, Fri 4 pm-midnight, Sat 3 pm-midnight",
+        "mapUrl": "http://maps.google.com/maps?q=250+NW+13th+Ave.%2C+Portland%2C+OR+97209",
+        "hours": "Bar: Mon-Thu 4 pm-11 pm, Fri 4 pm-midnight, Sat 10 am-midnight, Sun 10 am-9 pm, Dining Room: Sun-Wed 5 pm-9 pm, Thurs-Sat 5 pm-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/rockfish-ceviche-notchos.jpg",
+        "url": "https://www.portlandmercury.com/events/27231938/rockfish-ceviche-notchos",
+        "diet": []
+    },
+    {
+        "title": "The Wurst Nacho",
+        "id": "The Wurst Nacho",
+        "location": "The Wurst",
+        "locationUrl": "http://thewurstpdx.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Wood-fired carne asada with a roasted chipotle aioli, Monterey Jack fondue, fresh tomatoes, onions and cilantro",
+        "info": "Dine-in only, no minors, no substitutions.",
+        "availability": "Mon-Sat 3 pm-until we run out",
+        "mapUrl": "http://maps.google.com/maps?q=724+E+Burnside%2C+Portland%2C+OR+97214",
+        "hours": "Daily 3pm-2:30am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/the-wurst-nacho.jpg",
+        "url": "https://www.portlandmercury.com/events/27232364/the-wurst-nacho",
+        "diet": []
+    },
+    {
+        "title": "Greek Nachos",
+        "id": "Greek Nachos",
+        "location": "Bar Maven",
+        "locationUrl": "http://barmaven-pdx.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Homemade tortilla chips, house-made tzatziki sauce, house-braised shredded beef with Greek seasonings, feta cheese, fresh tomatoes, pepperoncinis, fresh cucumbers, house-pickled white onions, kalamata olives, and parsley, sprinkled with sumac",
+        "info": "Absolutely NO TAKE OUT !! Or to go orders on the nachos!! NO Adding any ingredients! This is any assembly line that has a rhythm and a beat to it. When you add or take stuff off, it stalls the assembly line and makes your order take longer as well as other peoples' orders. So please keep this in mind with trying to customize your nachos. ",
+        "availability": "Mon-Sat 4 pm-2 am ",
+        "mapUrl": "http://maps.google.com/maps?q=6219+SE+Foster%2C+Portland%2C+Oregon+97206",
+        "hours": "Mon-Fri 4pm-2:30am, Sat-Sun 10am-2:30am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/greek-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27231930/greek-nachos",
+        "diet": [
+            "gf"
+        ]
+    },
+    {
+        "title": "Elote Nacho",
+        "id": "Elote Nacho",
+        "location": "West Coast Grocery Company",
+        "locationUrl": "https://westcoastgrocerycompany.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Corn tortilla chips smothered in queso blanco and topped with fire-roasted corn, cotija cheese, cilantro, pepino and Tajín",
+        "info": "Dine-in only, no substitutions.",
+        "availability": "Mon-Thurs 11:30 am-10 pm, Fri-Sat 11:30 am-11 pm",
+        "mapUrl": "http://maps.google.com/maps?q=1403+SE+Stark%2C+Portland%2C+Oregon+97214",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/elote-nacho.jpg",
+        "url": "https://www.portlandmercury.com/events/27232360/elote-nacho",
+        "diet": []
+    },
+    {
+        "title": "Carlita's Ardiente Nachos",
+        "id": "Carlita's Ardiente Nachos",
+        "location": "Carlita's",
+        "locationUrl": "http://www.carlitaspdx.com/",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "House-made tortilla lime chips, black beans, white cheddar queso with fire-roasted jalapeños and Fresno red peppers, tomatoes, red onions, black olives, cotija, and cilantro",
+        "info": "Dine-in only, no minors inside.",
+        "availability": "Mon-Thurs 4 pm-midnight, Fri 4 pm-1 am, Sat 12 pm-1 am",
+        "mapUrl": "http://maps.google.com/maps?q=1101+NW+Northrup%2C+Portland%2C+Oregon+97209",
+        "hours": "Mon - Thurs 4 pm-midnight, Fri 4 pm-1 am, Sat noon-1 am, Sun noon-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/carlitas-ardiente-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232017/carlitas-ardiente-nachos",
+        "diet": []
+    },
+    {
+        "title": "Totchos Con Jefe",
+        "id": "Totchos Con Jefe",
+        "location": "Tilt (Pearl District)",
+        "locationUrl": "http://tiltitup.com",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Housemade cheddar tots topped with queso, ground beef, black olives, onions, sour cream, and salsa. Also available at Tilt's Swan Island and East Burnside Bridge locations.",
+        "mapUrl": "http://maps.google.com/maps?q=1335+NW+Everett%2C+Suite+120%2C+Portland%2C+Oregon+97209",
+        "hours": "Sun-Thurs 7am-11pmFri-Sat 7am-12am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/totchos-con-jefe.jpg",
+        "url": "https://www.portlandmercury.com/events/27232306/totchos-con-jefe",
+        "diet": [
+            "vegetarian"
+        ]
+    },
+    {
+        "title": "BRIX Chips",
+        "id": "BRIX Chips",
+        "location": "BRIX Tavern",
+        "locationUrl": "http://www.brixtavern.com",
+        "neighborhood": [
+            "northwest"
+        ],
+        "date": "Oct 14-19",
+        "description": "Braised roasted pork shoulder, Swiss cheese fondue, grilled tomato salsa, cilantro cream, and tortilla chips",
+        "info": "On Sat, nachos available after brunch at 3 pm.",
+        "availability": "Mon-Fri 11 am to close, Sat 3 pm to close",
+        "mapUrl": "http://maps.google.com/maps?q=1338+NW+Hoyt+St.%2C+Portland%2C+OR+97209",
+        "hours": "Mon-Thu 11am-12am, Fri 11am-1am, Sat 9:30am-1am, Sun 9:30am-12am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/brix-chips.jpg",
+        "url": "https://www.portlandmercury.com/events/27231951/brix-chips",
+        "diet": []
+    },
+    {
+        "title": "Chilaquiles de Casa",
+        "id": "Chilaquiles de Casa",
+        "location": "Casa Tolteca",
+        "locationUrl": "https://casatoltecapdx.com",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Chilaquiles are made with our oven-baked tostadas and are topped with red and green sauce, queso fresco, and Mexican crema",
+        "info": "This dish can be made vegan upon request.",
+        "availability": "Mon-Sat 11 am-2 pm, and 4-9 pm ",
+        "mapUrl": "http://maps.google.com/maps?q=422+NW+8th%2C+Portland%2C+Oregon+97209",
+        "hours": "Mon - Thurs 4 pm-9 pm, Fri 4 pm-10 pm, Saturday 11 am-10pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/chilaquiles-de-casa.jpg",
+        "url": "https://www.portlandmercury.com/events/27232021/chilaquiles-de-casa",
+        "diet": [
+            "vegan"
+        ]
+    },
+    {
+        "title": "Boke Togorashi Not-Choze!",
+        "id": "Boke Togorashi Not-Choze!",
+        "location": "Boke Bowl",
+        "locationUrl": "http://bokebowl.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Szechuan pork and garlic chive with togorashi Tillamook cheese sauce over crispy house-fried wonton chips",
+        "info": "Dine-in Only, No Substitutions",
+        "availability": "Mon-Sat 11am-9 pm<i>Also available at Boke Bowl's<a href=\"http://www.portlandmercury.com/Locations/20254111/boke-bowl\"> NW location</a>.</i>",
+        "mapUrl": "http://maps.google.com/maps?q=1028+SE+Water%2C+Portland%2C+OR+97214",
+        "hours": "Daily 11 am-9 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/boke-togorashi-not-choze.jpg",
+        "url": "https://www.portlandmercury.com/events/27231947/boke-togorashi-not-choze",
+        "diet": []
+    },
+    {
+        "title": "Chow Chow Nachos",
+        "id": "Chow Chow Nachos",
+        "location": "Church",
+        "locationUrl": "http://churchbarpdx.com",
+        "neighborhood": [
+            "northeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Braised chicken, corn salsa, chimichurri crema, and wonton chips",
+        "availability": "Mon-Sat 4 pm-2 am",
+        "mapUrl": "http://maps.google.com/maps?q=2600+NE+Sandy%2C+Portland%2C+Oregon+97232",
+        "hours": "Daily 4 pm-2 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/chow-chow-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232029/chow-chow-nachos",
+        "diet": []
+    },
+    {
+        "title": "Waffacho",
+        "id": "Waffacho",
+        "location": "Concordia Ale House & Eatery",
+        "locationUrl": "http://concordia-ale.com",
+        "neighborhood": [
+            "northeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Seasoned waffle fries, queso sauce, taco-seasoned beef, tomatoes, olives, and pickled jalapeños and green onions, topped with fire-roasted salsa",
+        "info": "Dine-in only, no minors.",
+        "availability": "Mon-Sat 11 am-9 pm",
+        "mapUrl": "http://maps.google.com/maps?q=3276+NE+Killingsworth%2C+Portland%2C+OR+97211",
+        "hours": "Mon-Fri 11 am-2:30 am, Sat 9 am-2:30 am, Sun 9 am-12 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/waffacho.jpg",
+        "url": "https://www.portlandmercury.com/events/27232037/waffacho",
+        "diet": []
+    },
+    {
+        "title": "The Supreme Leader",
+        "id": "The Supreme Leader",
+        "location": "Dots Cafe",
+        "locationUrl": "http://dotscafeportland.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19Tues at 9 pmLast, Second Sun at 9 pm",
+        "description": "Fried wontons, Tillamook cheddar/jack, kimchi, and Gochujang",
+        "info": "Dine-in only, limit one per customer. ",
+        "availability": "Mon-Fri 2 pm-close, Sat 4 pm-close",
+        "mapUrl": "http://maps.google.com/maps?q=2521+SE+Clinton+St.%2C+Portland%2C+OR+97202",
+        "hours": "Mon-Fri 12pm-2:30am, Sat-Sun 10am-2:30am, BrunchSat-Sun 10am-2:30pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/the-supreme-leader.jpg",
+        "url": "https://www.portlandmercury.com/events/27232100/the-supreme-leader",
+        "diet": []
+    },
+    {
+        "title": "Mediterranean Nachos",
+        "id": "Mediterranean Nachos",
+        "location": "Clarklewis",
+        "locationUrl": "http://www.clarklewispdx.com/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Pita chips, feta cheese fondue, pickled peppers, salsa verde, za' atar, scallions, and Castelvetrano olives",
+        "info": "Dine-in only, no substitutions, available for lunch and happy hour.",
+        "availability": "Mon-Sat 11:30 am-2 pm and 4:30 pm-6:30 pm",
+        "mapUrl": "http://maps.google.com/maps?q=1001+SE+Water+Ave.%2C+Portland%2C+OR+97214",
+        "hours": "Lunch: Mon-Fri 11:30 am-2 pm, Dinner: Mon-Thu 4:30 pm-9 pm, Fri-Sat 4:30pm-10pm, Closed Sunday",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/mediterranean-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232033/mediterranean-nachos",
+        "diet": []
+    },
+    {
+        "title": "Barbacoa Beef Nacho",
+        "id": "Barbacoa Beef Nacho",
+        "location": "Moreland Ale House",
+        "locationUrl": "https://morelandalehouse.com/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Corn tortilla chips, house-made nacho cheese sauce, shredded barbacoa brisket with a crema drizzle and a pickled jalapeño relish ",
+        "info": "Dine-in only, no substitutions. Sorry, no vegan or vegetarian options.",
+        "availability": "Mon-Sat 3 pm to close",
+        "mapUrl": "http://maps.google.com/maps?q=7995+SE+Milwaukie%2C+Portland%2C+Oregon+97202",
+        "hours": "Mon-Thurs 3-11 pm, Fri 3 pm-midnight, Sat 9 am-midnight, Sun 9 am-11 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/barbacoa-beef-nacho.jpg",
+        "url": "https://www.portlandmercury.com/events/27232198/barbacoa-beef-nacho",
+        "diet": []
+    },
+    {
+        "title": "Hong Shao Rou Nachos",
+        "id": "Hong Shao Rou Nachos",
+        "location": "Danwei Canting",
+        "locationUrl": "http://www.danweicanting.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tortilla chips, red braised pork, red chili cheese sauce, scallion, and cilantro",
+        "info": "Dine-in only.",
+        "availability": "Mon-Thurs 11:30 am-9 pm, Fri-Sat 11:30 am-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=803+SE+Stark+St.%2C+Portland+OR",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/hong-shao-rou-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232087/hong-shao-rou-nachos",
+        "diet": []
+    },
+    {
+        "title": "Tata-totchos",
+        "id": "Tata-totchos",
+        "location": "Lucky Devil Lounge",
+        "locationUrl": "http://www.luckydevillounge.com/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tater tots, chipotle cheese sauce, ground taco beef, green and white onions, tomatoes, jalapeños, and sour cream",
+        "info": "Dine-in only. Can be made vegetarian. Tip the dancers!",
+        "availability": "Mon-Sat 11am-2:30 am",
+        "mapUrl": "http://maps.google.com/maps?q=633+SE+Powell+Blvd.%2C+Portland%2C+OR+97202",
+        "hours": "Daily 11 am-2:30 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/tata-totchos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232190/tata-totchos",
+        "diet": []
+    },
+    {
+        "title": "Ig\"nacho\" Anayalator",
+        "id": "Ig\"nacho\" Anayalator",
+        "location": "HopCity Tavern & Market",
+        "locationUrl": "http://www3.hilton.com/en/hotels/oregon/hilton-portland-downtown-PDXPHHH/dining/index.html,",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Blue corn tortilla chips, housemade refried black beans, pork carnitas, Oaxaca cheese, pickled jalapeño, carrots and radishes, salsa verde, and cilantro crema ",
+        "info": "Dine-in only, no additional coupons or discounts, no modifications.",
+        "availability": "Mon-Sat 11 am-11:30 pm",
+        "mapUrl": "http://maps.google.com/maps?q=921+SW+6th+Ave.%2C+Portland%2C+OR+97204",
+        "hours": "Mon - Fri 6:30 am-11:30 pm, Sat 7 am-11:30 pm, Sun 7 am-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/ignacho-anayalator.jpg",
+        "url": "https://www.portlandmercury.com/events/27232109/ignacho-anayalator",
+        "diet": []
+    },
+    {
+        "title": "Mole Man Nacho Savage",
+        "id": "Mole Man Nacho Savage",
+        "location": "Migration Brewing Co.",
+        "locationUrl": "http://migrationbrewing.com/",
+        "neighborhood": [
+            "northeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Mole sauce, roasted chicken, Hatch chile crema, black beans, fried plantain, and pickled red onion ",
+        "info": "No take-outs. Only tap outs.",
+        "availability": "Mon-Sat 11 am-11 pm ",
+        "mapUrl": "http://maps.google.com/maps?q=2828+NE+Glisan%2C+Portland%2C+OR+97232",
+        "hours": "Mon-Sat 11 am-12 am, Sun 11 am-10 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/mole-man-nacho-savage.jpg",
+        "url": "https://www.portlandmercury.com/events/27232194/mole-man-nacho-savage",
+        "diet": []
+    },
+    {
+        "title": "Truck Stop Nachos",
+        "id": "Truck Stop Nachos",
+        "location": "The Liberty Glass",
+        "locationUrl": "http://www.libertyglassbar.com/",
+        "neighborhood": [
+            "north"
+        ],
+        "date": "Oct 14-19",
+        "description": "The base: deep-fried white corn tortillas sprinkled with salt and Tajín. The sauce: our queso-or, as we like to call it, liquid gold! The toppings: spicy pickled jalapeños and crumbled queso fresco ",
+        "info": "Dine-in only, limit to one order per person, minors permitted until 9 pm.",
+        "availability": "Mon-Fri 3 pm-midnight, Sat noon-midnight",
+        "mapUrl": "http://maps.google.com/maps?q=938+N+Cook+Ave.%2C+Portland%2C+OR+97227",
+        "hours": "Daily 3 pm-2:30 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/truck-stop-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232180/truck-stop-nachos",
+        "diet": []
+    },
+    {
+        "title": "The Pastrano",
+        "id": "The Pastrano",
+        "location": "Local 66 Bar and Grill",
+        "locationUrl": "https://www.local66bar.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19Sat at 9 pmFri at 7 pmSat at 5 pm",
+        "description": "House-made seasoned corn chips, house-made dill pickle queso cheese sauce, pastrami, white onions, tomato, and a horseradish spicy brown mustard ",
+        "info": "Dine-in only, no minors, no substitutions.",
+        "availability": "Mon-Sat 3 pm-midnight",
+        "mapUrl": "http://maps.google.com/maps?q=6618+SE+Powell%2C+Portland%2C+OR+97206",
+        "hours": "Mon-Thurs 10 am-1 am, Fri-Sat 10 am-2 am, Sun 10 am-midnight",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/the-pastrano.jpg",
+        "url": "https://www.portlandmercury.com/events/27232186/the-pastrano",
+        "diet": []
+    },
+    {
+        "title": "The Double Stack",
+        "id": "The Double Stack",
+        "location": "Night Light Lounge",
+        "locationUrl": "http://www.nightlightlounge.net",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19Sat, Sun at 11 am",
+        "description": "Fried smoked chicken, three local Mexican cheeses, roasted poblanos, queso, and pico de gallo",
+        "info": "Dine-in only, no minors. We also have a vegetarian option.",
+        "availability": "Mon-Sat 2 pm-2 am",
+        "mapUrl": "http://maps.google.com/maps?q=2100+SE+Clinton+St.%2C+Portland%2C+OR+97202",
+        "hours": "Mon-Fri 2 pm-2:30 am, Sat-Sun 10 am-2:30 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/the-double-stack.jpg",
+        "url": "https://www.portlandmercury.com/events/27232268/the-double-stack",
+        "diet": [
+            "vegetarian"
+        ]
+    },
+    {
+        "title": "Kimchi Nachos",
+        "id": "Kimchi Nachos",
+        "location": "No Bones Beach Club",
+        "locationUrl": "http://nobonesbeachclub.com",
+        "neighborhood": [
+            "north"
+        ],
+        "date": "Oct 14-19",
+        "description": "Homemade chips, cashew poblano cheese sauce, Gochujang soy curls, sriracha aioli, sesame seeds, scallions, and kimchi ",
+        "info": "Dine-in only! ",
+        "availability": "Mon, Wed-Thurs 4-10 pm, Fri-Sat 11 am-10 pm (closed Tues)",
+        "mapUrl": "http://maps.google.com/maps?q=3928+N+Mississippi%2C+Portland%2C+Oregon+97217",
+        "hours": "Tues - Thurs 4 pm-9 pm, Fri & Sat 11 am-10 pm, Sun 11 am-9 pm (closed Mon)",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/kimchi-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232272/kimchi-nachos",
+        "diet": [
+            "vegan",
+            "gf",
+            "vegetarian"
+        ]
+    },
+    {
+        "title": "Nacho-roni",
+        "id": "Nacho-roni",
+        "location": "Le Bistro Montage",
+        "locationUrl": "http://www.montageportland.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Juanita's tortilla chips, topped with spicy creole pulled chicken, cajun nacho cheese macaroni, and fresh-cut pico de gallo ",
+        "availability": "Mon-Sat 4 pm-2 am",
+        "mapUrl": "http://maps.google.com/maps?q=301+SE+Morrison+St.%2C+Portland%2C+OR+97214",
+        "hours": "Sun-Thurs 5 pm-2 am, Fri-Sat 5 pm-4 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/nacho-roni.jpg",
+        "url": "https://www.portlandmercury.com/events/27232176/nacho-roni",
+        "diet": []
+    },
+    {
+        "title": "Sas-squash",
+        "id": "Sas-squash",
+        "location": "DEN at the Portland Marriott City Center",
+        "locationUrl": "https://www.marriott.com/hotels/hotel-information/restaurant/pdxct-portland-marriott-city-center/",
+        "neighborhood": [
+            "downtown"
+        ],
+        "date": "Oct 14-19",
+        "description": "Blue corn chips, chili-roasted winter squash, corn milk queso, cilantro, red onion, green chiles, and chocolate mole",
+        "info": "No substitutions. Gluten-free and lacto-ovo friendly. ",
+        "availability": "Mon-Fri 11 am-11 pm, Sat 4 pm-11 pm",
+        "mapUrl": "http://maps.google.com/maps?q=520+SW+Broadway%2C+Portland%2C+OR+97205",
+        "hours": "",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/sas-squash.jpg",
+        "url": "https://www.portlandmercury.com/events/27232096/sas-squash",
+        "diet": [
+            "gf"
+        ]
+    },
+    {
+        "title": "Crispy Pork Belly Nachos",
+        "id": "Crispy Pork Belly Nachos",
+        "location": "Haymaker",
+        "locationUrl": "https://www.haymakerportland.com/",
+        "neighborhood": [
+            "north"
+        ],
+        "date": "Oct 14-19",
+        "description": "Pork belly, brown sugar-glazed and fried crispy. Served on a base of tortilla, queso blanco, flamed grilled red peppers, and green onion ",
+        "availability": "Mon-Sat 3 pm-11 pm",
+        "mapUrl": "http://maps.google.com/maps?q=1233+N+Killingsworth%2C+Portland%2C+Oregon+97217",
+        "hours": "Sun - Thurs 3 pm-midnight, Fri & Sat 3 pm-1 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/crispy-pork-belly-nachos.jpg",
+        "url": "https://www.portlandmercury.com/events/27232105/crispy-pork-belly-nachos",
+        "diet": []
+    },
+    {
+        "title": "Nach'yo Mama's Fries",
+        "id": "Nach'yo Mama's Fries",
+        "location": "Next Level Burger",
+        "locationUrl": "http://www.nextlevelburger.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tasty fries topped with vegan chz, black beans, tomatoes, onions, vegan sour cream, guacamole, and spicy jalapeños",
+        "info": "Dine-in only, No substitutions.",
+        "availability": "Portland: Mon-Fri 11 am-10:30 pm, Sat 9 am-10:30 pm. <a href=\"http://www.portlandmercury.com/Locations/21122736/next-level-burger\">Lake Oswego</a>: Mon-Fri 11 am-9 pm, Sat 9 am-9 pm",
+        "mapUrl": "http://maps.google.com/maps?q=4121+SE+Hawthorne%2C+Portland%2C+Oregon+97214",
+        "hours": "Mon-Fri 11 am-10:30 pm, Sat-Sun 9 am-10:30 pm",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/nachyo-mamas-fries.jpg",
+        "url": "https://www.portlandmercury.com/events/27232202/nachyo-mamas-fries",
+        "diet": [
+            "vegan",
+            "vegetarian"
+        ]
+    },
+    {
+        "title": "Viva La Elote",
+        "id": "Viva La Elote",
+        "location": "Nick's Famous Coney Island",
+        "locationUrl": "http://www.nicksfamousconeys.com",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Tortilla chips smothered in queso blanco, then topped with roasted sweet corn, fresh cilantro, and chili powder",
+        "availability": "Mon-Sat 11 am-midnight",
+        "mapUrl": "http://maps.google.com/maps?q=3746+SE+Hawthorne+Blvd.%2C+Portland%2C+OR+97214",
+        "hours": "Mon-Fri 11am-close, Sat-Sun 10am-close",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/viva-la-elote.jpg",
+        "url": "https://www.portlandmercury.com/events/27232207/viva-la-elote",
+        "diet": []
+    },
+    {
+        "title": "Nacho Special",
+        "id": "Nacho Special",
+        "location": "Landmark Saloon",
+        "locationUrl": "http://thelandmarksaloon.com/",
+        "neighborhood": [
+            "southeast"
+        ],
+        "date": "Oct 14-19",
+        "description": "Smoked pork butt, roasted chiles, onions, and special cheese sauce",
+        "info": "No takeout, no problems.",
+        "availability": "Mon-Sat 3-10 pm",
+        "mapUrl": "http://maps.google.com/maps?q=4847+SE+Division%2C+Portland%2C+OR+97206",
+        "hours": "Mon-Sat noon-2 am, Sun noon-12 am",
+        "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/v1570603656/nachoweek/nacho-special.jpg",
+        "url": "https://www.portlandmercury.com/events/27232113/nacho-special",
+        "diet": []
+    }
+]

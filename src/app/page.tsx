@@ -1,91 +1,75 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import { Inter } from "@next/font/google";
+import Link from "next/link";
+import Image from "../components/Image";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
+    <div className="flex gap-5 py-12">
+      <div className="mx-auto overflow-hidden rounded-lg bg-neutral shadow flex flex-col gap-3">
+        <div className="flex h-full w-full justify-center items-center">
+          <Link href="/burger">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+              src="https://res.cloudinary.com/joelmturner/image/upload/v1676264377/burgerweek/portland-mercury-burger-week-logo-isolated-removebg-preview.png"
+              className="w-full object-contain aspect-square"
+              alt="pdx burger week logo"
+              height={900}
+              width={900}
             />
-          </a>
+          </Link>
+        </div>
+        <div className="p-4">
+          <h3 className="text-xl font-medium text-base-content">
+            <Link href="/burger">PDX Burger Week</Link>
+          </h3>
+          <p className="mt-1 text-neutral-content">
+            Annual celebration of great burgers in Portland, Oregon.
+          </p>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+      <div className="mx-auto overflow-hidden rounded-lg bg-neutral shadow flex flex-col gap-3">
+        <div className="flex h-full w-full justify-center items-center">
+          <Link href="/sandwich">
+            <Image
+              src="https://res.cloudinary.com/joelmturner/image/upload/v1676264411/sandwichweek/portland-mercury-sandwich-week-logo-removebg-preview.png"
+              className="w-full object-contain aspect-square"
+              alt="pdx sandwich week logo"
+              height={900}
+              width={900}
+            />
+          </Link>
+        </div>
+        <div className="p-4">
+          <h3 className="text-xl font-medium text-base-content">
+            <Link href="/sandwich">PDX Sandwich Week</Link>
+          </h3>
+          <p className="mt-1 text-neutral-content">
+            Annual celebration of great sandwiches in Portland, Oregon.
+          </p>
         </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+      <div className="mx-auto overflow-hidden rounded-lg bg-neutral shadow flex flex-col gap-3">
+        <div className="flex h-full w-full justify-center items-center">
+          <Link href="/nacho">
+            <Image
+              src="https://res.cloudinary.com/joelmturner/image/upload/v1676264340/nachoweek/portland-mercury-nacho-week-logo-isolated-removebg-preview.png"
+              className="w-full object-contain aspect-square"
+              alt="pdx nacho week logo"
+              height={900}
+              width={900}
+            />
+          </Link>
+        </div>
+        <div className="p-4">
+          <h3 className="text-xl font-medium text-base-content">
+            <Link href="/nacho">PDX Nacho Week</Link>
+          </h3>
+          <p className="mt-1 text-neutral-content">
+            Annual celebration of great nachos in Portland, Oregon.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </div>
       </div>
-    </main>
-  )
+    </div>
+  );
 }
