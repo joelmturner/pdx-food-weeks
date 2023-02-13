@@ -14,7 +14,7 @@ export default function RootLayout({
         <div className="navbar bg-base-100">
           <div className="flex-1">
             <Link href="/" className="btn btn-ghost normal-case text-xl">
-              PDX Food Week
+              PDX Food Weeks
             </Link>
           </div>
           <div className="flex-none">
