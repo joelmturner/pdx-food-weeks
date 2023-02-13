@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex justify-around py-12">
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 py-12">
       <div className="mx-auto overflow-hidden rounded-lg bg-neutral shadow flex flex-col p-3">
         <div className="flex h-full w-full justify-center items-center">
           <Link href="/burger">

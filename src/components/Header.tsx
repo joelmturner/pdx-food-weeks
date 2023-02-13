@@ -2,7 +2,7 @@ import { Filters } from "./Filters";
 
 export function Header({ title }: { title: string }) {
   return (
-    <div className="flex justify-between align-middle">
+    <div className="flex justify-between align-middle flex-col lg:flex-row">
       <h2 className="text-2xl font-bold">{title}</h2>
 
       <div className="collapse collapse-arrow">

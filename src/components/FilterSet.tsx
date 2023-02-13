@@ -15,7 +15,7 @@ export function FilterSet({
   const [activeFilters, dispatch] = useFilter();
 
   return (
-    <div className="flex gap-2 justify-end">
+    <div className="flex gap-2 justify-end flex-wrap">
       {KEY_VS_FILTER_SET[filterKey].map(item => (
         <div
           key={item}
