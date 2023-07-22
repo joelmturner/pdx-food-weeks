@@ -9,22 +9,29 @@ const KEY_VS_FILTER_SET = {
 
 export function FilterSet({
   filterKey,
+  dietary = KEY_VS_FILTER_SET.dietary,
+  neighborhoods = KEY_VS_FILTER_SET.neighborhoods,
 }: {
   filterKey: "dietary" | "neighborhoods";
+  dietary?: string[];
+  neighborhoods?: string[];
 }) {
   const [activeFilters, dispatch] = useFilter();
+  const filters = filterKey === "neighborhoods" ? neighborhoods : dietary;
 
   return (
     <div className="flex gap-2 justify-end flex-wrap">
-      {KEY_VS_FILTER_SET[filterKey].map(item => (
+      {filters.map(item => (
         <div
           key={item}
           className={`badge badge-lg cursor-pointer ${
-            activeFilters[filterKey].includes(item)
+            activeFilters[filterKey].includes(item.toLowerCase())
               ? "bg-neutral-content text-base-100"
               : "badge-neutral"
           }`}
-          onClick={() => dispatch({ type: filterKey, value: item })}
+          onClick={() =>
+            dispatch({ type: filterKey, value: item.toLowerCase() })
+          }
         >
           {item.toUpperCase()}
         </div>

@@ -20,7 +20,7 @@ export function DataFilterWrap({ data }: { data: CardData[] }) {
 
       const overlapDietary = _intersection(item.diet, activeFilters.dietary);
       const overlapNeighborhoods = _intersection(
-        item.neighborhood,
+        item.neighborhood.map(neighborhood => neighborhood.toLowerCase()),
         activeFilters.neighborhoods
       );
 

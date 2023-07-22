@@ -1,6 +1,16 @@
 import { CardData } from "../types";
 import ClientImage from "./Image";
 
+function getResolvedImageUrl(imageUrl: string): string {
+  if (imageUrl.includes("res.cloudinary.com")) {
+    return imageUrl;
+  }
+
+  return `https://res.cloudinary.com/joelmturner/image/fetch/${encodeURIComponent(
+    imageUrl
+  )}`;
+}
+
 export function Card({
   description,
   title,
@@ -12,16 +22,27 @@ export function Card({
   imageUrl,
   neighborhood,
 }: CardData) {
+  const isCloudinary = imageUrl.includes("res.cloudinary.com");
   return (
     <div className="card w-full bg-neutral shadow-xl">
       <figure>
-        <ClientImage
-          width="600"
-          height="600"
-          src={imageUrl}
-          sizes="30vw"
-          alt={title}
-        />
+        {isCloudinary ? (
+          <ClientImage
+            width="600"
+            height="600"
+            src={imageUrl}
+            sizes="30vw"
+            alt={title}
+          />
+        ) : (
+          <img
+            src={imageUrl}
+            width="600"
+            height="600"
+            sizes="30vw"
+            alt={title}
+          />
+        )}
       </figure>
 
       <div className="card-body">
