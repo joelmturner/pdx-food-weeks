@@ -29,12 +29,14 @@ function useThemeSwitch() {
 const switchStyle = css({
   px: "2",
   py: "1",
-  textStyle: "xl",
+  textStyle: "md",
   fontWeight: "semibold",
   letterSpacing: "tight",
   rounded: "md",
+  cursor: "pointer",
+  bg: "bg.muted",
   _hover: {
-    bg: "bg.emphasized.hover",
+    bg: "bg",
   },
 });
 
