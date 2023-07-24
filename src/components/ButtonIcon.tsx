@@ -43,22 +43,14 @@ function Sun() {
 const ICON_MAP = {
   Sun: Sun,
   Moon: Moon,
-};
+} as const;
 
-export const ButtonIcon = (
-  props: HTMLStyledProps<"span"> & { icon: string }
-) => {
-  const { children, ...rest } = props;
-
-  const _children = isValidElement(children)
-    ? cloneElement(children, {
-        // @ts-expect-error typings are wrong
-        "aria-hidden": true,
-        focusable: false,
-      })
-    : children;
-
-  const Icon = (ICON_MAP[(props.icon as any) ?? "Sun"] as any) ?? null;
+export const ButtonIcon = ({
+  children,
+  icon,
+  ...rest
+}: HTMLStyledProps<"span"> & { icon: string }) => {
+  const Icon = ICON_MAP[icon as keyof typeof ICON_MAP] ?? null;
 
   return (
     <styled.span {...rest}>
