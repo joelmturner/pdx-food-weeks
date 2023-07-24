@@ -1,15 +1,6 @@
+import { css } from "../styled-system/css";
 import { CardData } from "../types";
 import ClientImage from "./Image";
-
-function getResolvedImageUrl(imageUrl: string): string {
-  if (imageUrl.includes("res.cloudinary.com")) {
-    return imageUrl;
-  }
-
-  return `https://res.cloudinary.com/joelmturner/image/fetch/${encodeURIComponent(
-    imageUrl
-  )}`;
-}
 
 export function Card({
   description,
@@ -24,7 +15,15 @@ export function Card({
 }: CardData) {
   const isCloudinary = imageUrl.includes("res.cloudinary.com");
   return (
-    <div className="card w-full bg-neutral shadow-xl">
+    <div
+      className={css({
+        w: "full",
+        shadow: "xl",
+        borderRadius: "lg",
+        overflow: "hidden",
+        bg: "bg.muted",
+      })}
+    >
       <figure>
         {isCloudinary ? (
           <ClientImage
@@ -45,17 +44,46 @@ export function Card({
         )}
       </figure>
 
-      <div className="card-body">
-        <div className="flex justify-between gap-3 items-center">
-          <h3 className="card-title text-2xl text-accent">
+      <div
+        className={css({
+          display: "flex",
+          flexDir: "column",
+          gap: "2",
+          p: "4",
+        })}
+      >
+        <div
+          className={css({
+            display: "flex",
+            justifyContent: "space-between",
+            gap: "3",
+            alignItems: "center",
+          })}
+        >
+          <h3
+            className={css({
+              fontSize: "3xl",
+              fontWeight: "bold",
+              lineHeight: "relaxed",
+              color: "primary",
+            })}
+          >
             <a href={url} target="_blank" rel="nofollow noopener noreferrer">
               {title}
             </a>
           </h3>
         </div>
 
-        <div className="flex gap-3 items-center">
-          <h3 className="text-lg text-neutral-content">
+        <div
+          className={css({ display: "flex", gap: "3", alignItems: "center" })}
+        >
+          <h3
+            className={css({
+              fontSize: "xl",
+              lineHeight: "loose",
+              color: "secondary",
+            })}
+          >
             <a
               href={locationUrl}
               target="_blank"
@@ -64,28 +92,54 @@ export function Card({
               {location}
             </a>
           </h3>
-          <div className="tooltip" data-tip={hours}>
-            <p className="underline">Hours</p>
-          </div>
+          {hours ? (
+            <div>
+              <p className={css({ textDecorationLine: "underline" })}>
+                Hours: {hours}
+              </p>
+            </div>
+          ) : null}
         </div>
 
-        <p className="prose">{description}</p>
+        <p
+          className={css({
+            color: "text",
+            letterSpacing: "wide",
+            lineHeight: "relaxed",
+          })}
+        >
+          {description}
+        </p>
 
-        <div className="card-actions justify-between">
-          <div className="flex gap-1 md:gap-2 lg:gap-3">
+        <div className={css({ justifyContent: "space-between" })}>
+          <div
+            className={css({
+              display: "flex",
+              gap: "1",
+              md: { gap: "2" },
+              lg: { gap: "3" },
+            })}
+          >
+            <div className={css({ color: "text.muted" })}>Neighborhood:</div>
             {neighborhood.map(item => (
-              <div key={item} className="text-neutral-content">
+              <div key={item} className={css({ color: "text.muted" })}>
                 {item}
               </div>
             ))}
           </div>
 
-          <div className="flex gap-1 md:gap-2 lg:gap-3">
-            {diet.map(item => (
-              <div key={item} className="text-neutral-content">
-                {item}
-              </div>
-            ))}
+          <div
+            className={css({
+              display: "flex",
+              gap: "1",
+              md: { gap: "2" },
+              lg: { gap: "3" },
+            })}
+          >
+            <div className={css({ color: "text.muted" })}>Dietary Options:</div>
+            <div className={css({ color: "text.muted" })}>
+              {diet.join(", ")}
+            </div>
           </div>
         </div>
       </div>
