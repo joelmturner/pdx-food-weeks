@@ -2,21 +2,25 @@ import { Inter } from "@next/font/google";
 import Link from "next/link";
 import { css } from "../styled-system/css";
 import Image from "../components/Image";
+import { Grid } from "@/styled-system/jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div
-      className={css({
-        display: "grid",
-        gridTemplateColumns: "cols.1",
-        gap: "6",
-        sm: { gridTemplateColumns: "cols.2" },
-        lg: { gridTemplateColumns: "cols.3", gap: "8" },
-        pt: "12",
-        pb: "12",
-      })}
+    <Grid
+      columns={{ base: 1, sm: 2, lg: 3 }}
+      gap="6"
+      py="12"
+      //   className={css({
+      //     display: "grid",
+      //     gridTemplateColumns: "1",
+      //     gap: "6",
+      //     sm: { gridTemplateColumns: "cols.2" },
+      //     lg: { gridTemplateColumns: "cols.3", gap: "8" },
+      //     pt: "12",
+      //     pb: "12",
+      //   })}
     >
       <div
         className={css({
@@ -24,10 +28,11 @@ export default function Home() {
           mr: "auto",
           overflow: "hidden",
           rounded: "lg",
-          shadow: "shadow",
+          shadow: "lg",
           display: "flex",
           flexDir: "column",
           p: "3",
+          bg: "bg.muted",
         })}
       >
         <div
@@ -57,7 +62,7 @@ export default function Home() {
           <h3
             className={css({
               fontSize: "xl",
-              lineHeight: "xl",
+              lineHeight: "loose",
               fontWeight: "medium",
             })}
           >
@@ -74,10 +79,11 @@ export default function Home() {
           mr: "auto",
           overflow: "hidden",
           rounded: "lg",
-          shadow: "shadow",
+          shadow: "lg",
           display: "flex",
           flexDir: "column",
           p: "3",
+          bg: "bg.muted",
         })}
       >
         <div
@@ -107,7 +113,7 @@ export default function Home() {
           <h3
             className={css({
               fontSize: "xl",
-              lineHeight: "xl",
+              lineHeight: "loose",
               fontWeight: "medium",
             })}
           >
@@ -124,10 +130,11 @@ export default function Home() {
           mr: "auto",
           overflow: "hidden",
           rounded: "lg",
-          shadow: "shadow",
+          shadow: "lg",
           display: "flex",
           flexDir: "column",
           p: "3",
+          bg: "bg.muted",
         })}
       >
         <div
@@ -157,7 +164,7 @@ export default function Home() {
           <h3
             className={css({
               fontSize: "xl",
-              lineHeight: "xl",
+              lineHeight: "loose",
               fontWeight: "medium",
             })}
           >
@@ -168,6 +175,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </div>
+    </Grid>
   );
 }

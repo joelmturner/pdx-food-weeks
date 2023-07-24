@@ -5,11 +5,11 @@ export function Badge({
   children,
   active,
   ...rest
-}: HTMLDivElement &
-  PropsWithChildren<{
-    active: boolean;
-    className: string;
-  }>) {
+}: PropsWithChildren<{
+  active: boolean;
+  className?: string;
+  onClick: () => void;
+}>) {
   return (
     <div
       {...(rest as any)}
@@ -21,7 +21,7 @@ export function Badge({
         transitionProperty:
           "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
         transitionTimingFunction: "in-out",
-        transitionDuration: "200ms",
+        transitionDuration: "normal",
         h: "5",
         fontSize: "sm",
         lineHeight: "loose",

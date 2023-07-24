@@ -82,6 +82,7 @@ export function Card({
               fontSize: "xl",
               lineHeight: "loose",
               color: "secondary",
+              w: "full",
             })}
           >
             <a
@@ -92,13 +93,7 @@ export function Card({
               {location}
             </a>
           </h3>
-          {hours ? (
-            <div>
-              <p className={css({ textDecorationLine: "underline" })}>
-                Hours: {hours}
-              </p>
-            </div>
-          ) : null}
+          {hours ? <p>Hours: {hours}</p> : null}
         </div>
 
         <p
