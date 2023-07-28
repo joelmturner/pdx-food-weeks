@@ -30,8 +30,6 @@ export function MobileNav() {
           inset: "0",
           bg: "amber.500",
           transitionTimingFunction: "ease-in-out" as any,
-          userSelect: "none",
-          pointerEvents: "none",
           ...RESET_DRAWER,
           "input:checked ~ &": {
             transition: ["transform", "opacity"],
@@ -51,8 +49,6 @@ export function MobileNav() {
             p: "2",
             w: "full",
             h: "full",
-            userSelect: "auto",
-            pointerEvents: "auto",
           })}
         >
           {NAVIGATION_ITEMS.map(item => (
