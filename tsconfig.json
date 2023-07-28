@@ -1,10 +1,6 @@
 {
-  "ts-node": {
-    "esm": true
-  },
   "compilerOptions": {
-    "target": "es2015",
-    "module": "ESNext",
+    "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -12,6 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -32,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/fetchData.mjs"
+    "panda.config.js"
   ],
   "exclude": ["node_modules"]
 }

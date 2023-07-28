@@ -1,6 +1,8 @@
 import { Filters } from "./Filters";
 import Image from "../components/Image";
 import { FOOD_VS_LOGO_URL } from "../constants";
+import { css, cx } from "../styled-system/css";
+import { Flex } from "@/styled-system/jsx";
 
 export function Header({
   title,
@@ -12,31 +14,62 @@ export function Header({
   food: keyof typeof FOOD_VS_LOGO_URL;
 }) {
   return (
-    <div className="flex justify-between items-center flex-col lg:flex-row">
-      <div className="flex items-center gap-3">
-        <Image
-          src={FOOD_VS_LOGO_URL[food]}
-          className="w-full object-contain aspect-square"
-          alt={`pdx ${food.toLocaleLowerCase()} week logo`}
-          height={150}
-          width={150}
-        />
+    <div
+      className={css({
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "flex-start",
+        flexDir: { base: "column" },
+      })}
+    >
+      <Flex justify="space-between" align="center" w="full">
+        <div
+          className={css({
+            display: "flex",
+            alignItems: "center",
+            gap: "3",
+          })}
+        >
+          <Image
+            src={FOOD_VS_LOGO_URL[food]}
+            className={css({
+              w: { base: "8", lg: "full" },
+              h: { base: "8", lg: "full" },
+              objectFit: "contain",
+              aspectRatio: "square",
+            })}
+            alt={`pdx ${food.toLocaleLowerCase()} week logo`}
+            height={150}
+            width={150}
+          />
 
-        <h2 className="text-2xl font-bold">{title}</h2>
-      </div>
+          <h2
+            className={css({
+              fontSize: "2xl",
+              lineHeight: "tight",
+              fontWeight: "bold",
+            })}
+          >
+            {title}
+          </h2>
+        </div>
 
-      <div className="collapse collapse-arrow">
-        <input type="checkbox" className="peer" />
-
-        <div className="collapse-title text-neutral-content peer-checked:text-neutral-content">
-          <div className="flex gap-3 justify-end items-center">
+        <label className={css({ cursor: "pointer" })} htmlFor="filterBox">
+          <div
+            className={css({
+              display: "flex",
+              gap: "3",
+              justifyContent: "flex-end",
+              alignItems: "center",
+            })}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-6 h-6"
+              className={css({ w: "6", h: "6" })}
             >
               <path
                 strokeLinecap="round"
@@ -46,11 +79,28 @@ export function Header({
             </svg>
             Filters
           </div>
-        </div>
+        </label>
+      </Flex>
 
-        <div className="collapse-content text-neutral-content peer-checked:text-neutral-content max-w-2xl">
-          <Filters neighborhoods={neighborhoods} />
-        </div>
+      <input
+        type="checkbox"
+        name="filterBox"
+        id="filterBox"
+        className={css({ visibility: "hidden", position: "absolute" })}
+      />
+
+      <div
+        className={cx(
+          css({
+            display: "none",
+            justifyContent: "flex-end",
+            w: "full",
+            "input:checked ~ &": { display: "flex" },
+            pt: "3",
+          })
+        )}
+      >
+        <Filters neighborhoods={neighborhoods} />
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 "use client";
 
+import { css } from "../styled-system/css";
 import { useFilter } from "../app/filterProvider";
+import { Badge } from "./Badge";
 
 const KEY_VS_FILTER_SET = {
   dietary: ["vegan", "vegetarian", "gf"],
@@ -20,33 +22,42 @@ export function FilterSet({
   const filters = filterKey === "neighborhoods" ? neighborhoods : dietary;
 
   return (
-    <div className="flex gap-2 justify-end flex-wrap">
+    <div
+      className={css({
+        display: "flex",
+        gap: "2",
+        justifyContent: "flex-end",
+        flexWrap: "wrap",
+      })}
+    >
+      <div className="inline-flex items-center justify-center transition duration-200 ease-in-out h-5 text-sm leading-5"></div>
       {filters.map(item => (
-        <div
+        <Badge
           key={item}
-          className={`badge badge-lg cursor-pointer ${
-            activeFilters[filterKey].includes(item.toLowerCase())
-              ? "bg-neutral-content text-base-100"
-              : "badge-neutral"
-          }`}
+          active={activeFilters[filterKey].includes(item.toLowerCase())}
           onClick={() =>
             dispatch({ type: filterKey, value: item.toLowerCase() })
           }
         >
           {item.toUpperCase()}
-        </div>
+        </Badge>
       ))}
-      <div
-        className={`badge badge-lg cursor-pointer ${
-          activeFilters[filterKey].length ? "bg-secondary-focus" : ""
-        }`}
+      <Badge
+        key={"close"}
+        active={!!activeFilters[filterKey].length}
         onClick={() => dispatch({ type: filterKey, value: null })}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          className="inline-block w-4 h-4 stroke-current"
+          className={css({
+            display: "inline-block",
+            w: "4",
+            h: "4",
+            stroke: "current",
+            cursor: "pointer",
+          })}
         >
           <path
             strokeLinecap="round"
@@ -55,7 +66,7 @@ export function FilterSet({
             d="M6 18L18 6M6 6l12 12"
           ></path>
         </svg>
-      </div>
+      </Badge>
     </div>
   );
 }
