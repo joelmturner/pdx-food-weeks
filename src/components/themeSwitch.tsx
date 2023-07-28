@@ -1,7 +1,6 @@
 "use client";
 
 import { css } from "@/styled-system/css";
-import { HStack } from "@/styled-system/jsx";
 import { ButtonIcon } from "@/components/ButtonIcon";
 import { useTheme } from "next-themes";
 import { useMounted } from "nextra/hooks";
@@ -34,14 +33,10 @@ const switchStyle = css({
   letterSpacing: "tight",
   rounded: "md",
   cursor: "pointer",
-  bg: "bg.muted",
-  _hover: {
-    bg: "bg",
-  },
 });
 
 export function ThemeSwitchButton() {
-  const { iconToUse, toggleTheme, mounted, iconText } = useThemeSwitch();
+  const { iconToUse, toggleTheme, mounted } = useThemeSwitch();
 
   return (
     <button
@@ -49,10 +44,7 @@ export function ThemeSwitchButton() {
       onClick={toggleTheme}
       className={switchStyle}
     >
-      <HStack gap="2">
-        <span>{iconText} </span>
-        <ButtonIcon icon={iconToUse} />
-      </HStack>
+      <ButtonIcon icon={iconToUse} />
     </button>
   );
 }
