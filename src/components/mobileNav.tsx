@@ -52,7 +52,7 @@ export function MobileNav() {
           })}
         >
           {NAVIGATION_ITEMS.map(item => (
-            <li key={item.path} className={css({ fontSize: "3xl" })}>
+            <li key={item.path} className={css({ fontSize: "5xl" })}>
               <Link href={item.path}>{item.label}</Link>
             </li>
           ))}
@@ -93,7 +93,7 @@ export function MobileNav() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className={css({
               w: "5",
@@ -106,8 +106,8 @@ export function MobileNav() {
             })}
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>
