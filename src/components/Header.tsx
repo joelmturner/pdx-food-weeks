@@ -18,42 +18,41 @@ export function Header({
       className={css({
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "center",
-        flexDir: "column",
-        lg: { flexDir: "row" },
+        alignItems: "flex-start",
+        flexDir: { base: "column" },
       })}
     >
-      <div className={css({ display: "flex", alignItems: "center", gap: "3" })}>
-        <Image
-          src={FOOD_VS_LOGO_URL[food]}
+      <Flex justify="space-between" align="center" w="full">
+        <div
           className={css({
-            w: "full",
-            objectFit: "contain",
-            aspectRatio: "square",
-          })}
-          alt={`pdx ${food.toLocaleLowerCase()} week logo`}
-          height={150}
-          width={150}
-        />
-
-        <h2
-          className={css({
-            fontSize: "2xl",
-            lineHeight: "loose",
-            fontWeight: "bold",
+            display: "flex",
+            alignItems: "center",
+            gap: "3",
           })}
         >
-          {title}
-        </h2>
-      </div>
+          <Image
+            src={FOOD_VS_LOGO_URL[food]}
+            className={css({
+              w: { base: "8", lg: "full" },
+              h: { base: "8", lg: "full" },
+              objectFit: "contain",
+              aspectRatio: "square",
+            })}
+            alt={`pdx ${food.toLocaleLowerCase()} week logo`}
+            height={150}
+            width={150}
+          />
 
-      <Flex gap="6" direction="column">
-        <input
-          type="checkbox"
-          name="filterBox"
-          id="filterBox"
-          className={css({ visibility: "hidden" })}
-        />
+          <h2
+            className={css({
+              fontSize: "2xl",
+              lineHeight: "tight",
+              fontWeight: "bold",
+            })}
+          >
+            {title}
+          </h2>
+        </div>
 
         <label className={css({ cursor: "pointer" })} htmlFor="filterBox">
           <div
@@ -81,19 +80,28 @@ export function Header({
             Filters
           </div>
         </label>
-
-        <div
-          className={cx(
-            css({
-              display: "none",
-              maxW: "2xl",
-              "input:checked ~ &": { display: "block" },
-            })
-          )}
-        >
-          <Filters neighborhoods={neighborhoods} />
-        </div>
       </Flex>
+
+      <input
+        type="checkbox"
+        name="filterBox"
+        id="filterBox"
+        className={css({ visibility: "hidden", position: "absolute" })}
+      />
+
+      <div
+        className={cx(
+          css({
+            display: "none",
+            justifyContent: "flex-end",
+            w: "full",
+            "input:checked ~ &": { display: "flex" },
+            pt: "3",
+          })
+        )}
+      >
+        <Filters neighborhoods={neighborhoods} />
+      </div>
     </div>
   );
 }

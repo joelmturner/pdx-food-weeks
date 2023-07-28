@@ -11,16 +11,8 @@ export default function Home() {
     <Grid
       columns={{ base: 1, sm: 2, lg: 3 }}
       gap="6"
-      py="12"
-      //   className={css({
-      //     display: "grid",
-      //     gridTemplateColumns: "1",
-      //     gap: "6",
-      //     sm: { gridTemplateColumns: "cols.2" },
-      //     lg: { gridTemplateColumns: "cols.3", gap: "8" },
-      //     pt: "12",
-      //     pb: "12",
-      //   })}
+      py={{ base: "6", lg: "12" }}
+      px={{ base: "6", lg: "12" }}
     >
       <div
         className={css({

@@ -6,3 +6,10 @@ export const FOOD_VS_LOGO_URL = {
   SANDWICH:
     "https://res.cloudinary.com/joelmturner/image/upload/v1676264411/sandwichweek/portland-mercury-sandwich-week-logo-removebg-preview.png",
 } as const;
+
+export const NAVIGATION_ITEMS = [
+  { path: "/burger", label: "Burgers" },
+  { path: "/nacho", label: "Nachos" },
+  { path: "/sandwich", label: "Sandwiches" },
+  // {path: '/pizza', label: 'Pizza'},
+];
