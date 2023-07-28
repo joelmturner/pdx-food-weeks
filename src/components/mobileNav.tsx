@@ -52,7 +52,7 @@ export function MobileNav() {
           })}
         >
           {NAVIGATION_ITEMS.map(item => (
-            <li key={item.path} className={css({ fontSize: "5xl" })}>
+            <li key={item.path} tabIndex={0} className={css({ fontSize: "5xl" })}>
               <Link href={item.path}>{item.label}</Link>
             </li>
           ))}
