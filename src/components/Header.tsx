@@ -1,7 +1,7 @@
 import { Filters } from "./Filters";
-import Image from "../components/Image";
-import { FOOD_VS_LOGO_URL } from "../constants";
-import { css, cx } from "../styled-system/css";
+import Image from "@/components/Image";
+import { FOOD_VS_LOGO_URL } from "@/constants";
+import { css, cx } from "@/styled-system/css";
 import { Flex } from "@/styled-system/jsx";
 
 export function Header({
@@ -95,7 +95,7 @@ export function Header({
             display: "none",
             justifyContent: "flex-end",
             w: "full",
-            "input:checked ~ &": { display: "flex" },
+            "input[name='filterBox']:checked ~ &": { display: "flex" },
             pt: "3",
           })
         )}

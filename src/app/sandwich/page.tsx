@@ -1,6 +1,6 @@
-import { css } from "../../styled-system/css";
-import { DataFilterWrap } from "../../components/DataFilterWrap";
-import { Header } from "../../components/Header";
+import { css } from "@/styled-system/css";
+import { DataFilterWrap } from "@/components/DataFilterWrap";
+import { Header } from "@/components/Header";
 import sandwichData from "./data.json";
 
 export default function SandwichPage() {

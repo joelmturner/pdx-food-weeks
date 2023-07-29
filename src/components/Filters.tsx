@@ -1,4 +1,4 @@
-import { css } from "../styled-system/css";
+import { css } from "@/styled-system/css";
 import { FilterSet } from "./FilterSet";
 
 export function Filters({ neighborhoods }: { neighborhoods?: string[] }) {

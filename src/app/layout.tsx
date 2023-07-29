@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { css } from "../styled-system/css";
+import { css } from "@/styled-system/css";
 import FilterProvider from "./filterProvider";
-import "./globals.css";
-import { ThemeSwitchButton } from "../components/themeSwitch";
-import { Providers } from "../components/Providers";
-import { Flex } from "../styled-system/jsx";
-import { flex } from "../styled-system/patterns";
+import { ThemeSwitchButton } from "@/components/themeSwitch";
+import { Providers } from "@/components/Providers";
+import { Flex } from "@/styled-system/jsx";
+import { flex } from "@/styled-system/patterns";
 import { NAVIGATION_ITEMS } from "@/constants";
 import { MobileNav } from "@/components/mobileNav";
+import "./globals.css";
 
 export default function RootLayout({
   children,

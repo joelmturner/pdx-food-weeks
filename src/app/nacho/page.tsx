@@ -1,17 +1,26 @@
 import Link from "next/link";
-import { css } from "../../styled-system/css";
+import { css } from "@/styled-system/css";
+import { NACHO_YEARS } from "./constants";
 
 export default function NachoPage() {
   return (
-    <div
-      className={css({ display: "flex", flexDir: "column", gap: "5", p: "6" })}
+    <ul
+      className={css({
+        display: "flex",
+        flexDir: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "4",
+        p: "2",
+        w: "full",
+        h: "full",
+      })}
     >
-      <div className="">
-        <Link href="/nacho/2019">2019</Link>
-      </div>
-      <div className="">
-        <Link href="/nacho/2023">2023</Link>
-      </div>
-    </div>
+      {NACHO_YEARS.map(year => (
+        <li key={year} className={css({ fontSize: "5xl" })}>
+          <Link href={`/nacho/${year}`}>{year}</Link>
+        </li>
+      ))}
+    </ul>
   );
 }

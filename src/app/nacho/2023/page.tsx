@@ -1,7 +1,7 @@
-import { css } from "../../../styled-system/css";
-import { DataFilterWrap } from "../../../components/DataFilterWrap";
-import { Header } from "../../../components/Header";
-import { getUniqueNeighborhoods } from "../../../utilities";
+import { css } from "@/styled-system/css";
+import { DataFilterWrap } from "@/components/DataFilterWrap";
+import { Header } from "@/components/Header";
+import { getUniqueNeighborhoods } from "@/utilities";
 import nachoData from "./data.json";
 
 export default function NachoPage() {

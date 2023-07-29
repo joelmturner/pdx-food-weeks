@@ -2,9 +2,9 @@
 
 import { useMemo } from "react";
 import _intersection from "lodash/intersection";
-import { useFilter } from "../app/filterProvider";
+import { useFilter } from "@/app/filterProvider";
+import { CardData } from "@/types";
 import { CardGrid } from "./CardGrid";
-import { CardData } from "../types";
 
 export function DataFilterWrap({ data }: { data: CardData[] }) {
   const [activeFilters] = useFilter();

@@ -1,5 +1,5 @@
-import { css } from "../styled-system/css";
-import { CardData } from "../types";
+import { css } from "@/styled-system/css";
+import { CardData } from "@/types";
 import ClientImage from "./Image";
 
 export function Card({

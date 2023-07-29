@@ -1,10 +1,7 @@
-import { Inter } from "@next/font/google";
 import Link from "next/link";
-import { css } from "../styled-system/css";
-import Image from "../components/Image";
+import Image from "@/components/Image";
 import { Grid } from "@/styled-system/jsx";
-
-const inter = Inter({ subsets: ["latin"] });
+import { css } from "@/styled-system/css";
 
 export default function Home() {
   return (

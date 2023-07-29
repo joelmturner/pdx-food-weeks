@@ -1,7 +1,7 @@
 "use client";
 
-import { css } from "../styled-system/css";
-import { useFilter } from "../app/filterProvider";
+import { css } from "@/styled-system/css";
+import { useFilter } from "@/app/filterProvider";
 import { Badge } from "./Badge";
 
 const KEY_VS_FILTER_SET = {

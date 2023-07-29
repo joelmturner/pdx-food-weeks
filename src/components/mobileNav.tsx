@@ -1,42 +1,42 @@
+"use client";
+
 import { NAVIGATION_ITEMS } from "@/constants";
 import { css } from "@/styled-system/css";
-import {
-  CssVarProperties,
-  SystemProperties,
-} from "@/styled-system/types/style-props";
-import Link from "next/link";
 import { ThemeSwitchButton } from "./themeSwitch";
 import { Flex } from "@/styled-system/jsx";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
-const RESET_DRAWER: SystemProperties & CssVarProperties = {
-  transition: ["transform", "opacity"],
-  transform: "translateX(100%)",
-  opacity: 0,
+const DRAWER_OPEN_STYLES = {
+  transform: "translateX(0)",
+  opacity: 1,
 };
 
 export function MobileNav() {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const router = useRouter();
+
+  function handleToggleDrawer() {
+    setDrawerOpen(prev => !prev);
+  }
+
+  function handleNavigation(path: string) {
+    setDrawerOpen(false);
+    router.push(path);
+  }
+
   return (
     <div className={css({ md: { display: "none" } })}>
-      <input
-        type="checkbox"
-        name="drawer"
-        id="drawer"
-        className={css({ visibility: "hidden", position: "absolute" })}
-      />
-
       <div
         className={css({
           position: "fixed",
           inset: "0",
           bg: "amber.500",
           transitionTimingFunction: "ease-in-out" as any,
-          ...RESET_DRAWER,
-          "input:checked ~ &": {
-            transition: ["transform", "opacity"],
-            transform: "translateX(0)",
-            opacity: 1,
-          },
-          "&:has(ul:focus-within)": RESET_DRAWER,
+          transition: ["transform", "opacity"],
+          transform: "translateX(100%)",
+          opacity: 0,
+          ...(drawerOpen ? DRAWER_OPEN_STYLES : {}),
         })}
       >
         <ul
@@ -53,7 +53,9 @@ export function MobileNav() {
         >
           {NAVIGATION_ITEMS.map(item => (
             <li key={item.path} className={css({ fontSize: "5xl" })}>
-              <Link href={item.path}>{item.label}</Link>
+              <div onClick={() => handleNavigation(item.path)}>
+                {item.label}
+              </div>
             </li>
           ))}
         </ul>
@@ -62,56 +64,35 @@ export function MobileNav() {
       <Flex align="center" gap="1">
         <ThemeSwitchButton />
 
-        <label
-          tabIndex={0}
-          htmlFor="drawer"
-          className={css({ zIndex: 10 as any, position: "relative" })}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="1.5"
+          stroke="currentColor"
+          className={css({
+            w: "5",
+            h: "5",
+            zIndex: 10 as any,
+          })}
+          onClick={handleToggleDrawer}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className={css({
-              h: "5",
-              w: "5",
-              ":not(:has(ul:focus-within)) :has(input[id='drawer']:checked) &":
-                {
-                  display: "none",
-                },
-            })}
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+          {drawerOpen ? (
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          ) : (
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
               d="M4 6h16M4 12h16M4 18h7"
             />
-          </svg>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className={css({
-              w: "5",
-              h: "5",
-              display: "none",
-              ":not(:has(ul:focus-within)) :has(input[id='drawer']:checked) &":
-                {
-                  display: "block",
-                },
-            })}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </label>
+          )}
+        </svg>
       </Flex>
     </div>
   );

@@ -1,5 +1,5 @@
 import { Grid } from "@/styled-system/jsx";
-import { CardData } from "../types";
+import { CardData } from "@/types";
 import { Card } from "./Card";
 
 export function CardGrid({ data }: { data: CardData[] }) {
