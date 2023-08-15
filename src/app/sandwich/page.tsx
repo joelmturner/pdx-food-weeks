@@ -2,6 +2,7 @@ import { css } from "@/styled-system/css";
 import { DataFilterWrap } from "@/components/DataFilterWrap";
 import { Header } from "@/components/Header";
 import sandwichData from "./data.json";
+import { Metadata } from "next";
 
 export default function SandwichPage() {
   return (
@@ -13,3 +14,8 @@ export default function SandwichPage() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "PDX Sandwich Week",
+  description: "Fan site for PDX sandwich week",
+};

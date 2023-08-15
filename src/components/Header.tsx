@@ -3,13 +3,16 @@ import Image from "@/components/Image";
 import { FOOD_VS_LOGO_URL } from "@/constants";
 import { css, cx } from "@/styled-system/css";
 import { Flex } from "@/styled-system/jsx";
+import { flex } from "@/styled-system/patterns";
 
 export function Header({
   title,
+  subtitle,
   neighborhoods,
   food,
 }: {
   title: string;
+  subtitle?: string;
   neighborhoods?: string[];
   food: keyof typeof FOOD_VS_LOGO_URL;
 }) {
@@ -43,15 +46,30 @@ export function Header({
             width={150}
           />
 
-          <h2
-            className={css({
-              fontSize: "2xl",
-              lineHeight: "tight",
-              fontWeight: "bold",
-            })}
-          >
-            {title}
-          </h2>
+          <div className={flex({ direction: "column", gap: "1" })}>
+            <h2
+              className={css({
+                fontSize: { base: "xl", lg: "2xl" },
+                lineHeight: "tight",
+                fontWeight: "bold",
+              })}
+            >
+              {title}
+            </h2>
+            {subtitle ? (
+              <h3
+                className={css({
+                  fontSize: "md",
+                  color: "gray.300",
+                  lineHeight: "tight",
+                  fontWeight: "bold",
+                  whiteSpace: "nowrap",
+                })}
+              >
+                {subtitle}
+              </h3>
+            ) : null}
+          </div>
         </div>
 
         <label className={css({ cursor: "pointer" })} htmlFor="filterBox">

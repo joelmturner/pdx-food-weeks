@@ -8,6 +8,7 @@ import { flex } from "@/styled-system/patterns";
 import { NAVIGATION_ITEMS } from "@/constants";
 import { MobileNav } from "@/components/mobileNav";
 import "./globals.css";
+import { Metadata } from "next";
 
 export default function RootLayout({
   children,
@@ -68,3 +69,11 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  title: "PDX Food Weeks",
+  description: "Fan site for PDX burger, nacho, and sandwich weeks",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};

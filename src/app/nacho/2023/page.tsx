@@ -3,6 +3,7 @@ import { DataFilterWrap } from "@/components/DataFilterWrap";
 import { Header } from "@/components/Header";
 import { getUniqueNeighborhoods } from "@/utilities";
 import nachoData from "./data.json";
+import { Metadata } from "next";
 
 export default function NachoPage() {
   const neighborhoods = getUniqueNeighborhoods(nachoData);
@@ -16,3 +17,7 @@ export default function NachoPage() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "PDX Nacho Week 2023",
+};

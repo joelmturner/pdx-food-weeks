@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { css } from "@/styled-system/css";
 import { NACHO_YEARS } from "./constants";
+import { Metadata } from "next";
 
 export default function NachoPage() {
   return (
@@ -24,3 +25,8 @@ export default function NachoPage() {
     </ul>
   );
 }
+
+export const metadata: Metadata = {
+  title: "PDX Nacho Week",
+  description: "Fan site for PDX nacho week",
+};
