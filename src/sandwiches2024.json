@@ -1,0 +1,807 @@
+[
+    {
+        "id": "0",
+        "title": "ABC - Anthony Bourdain Classic",
+        "url": "https://everout.com/portland/events/abc-anthony-bourdain-classic/e168673/",
+        "location": "503 Distilling",
+        "locationUrl": "https://everout.com/portland/locations/503-distilling/l41778/",
+        "neighborhood": [
+            "Brooklyn"
+        ],
+        "date": "Multiple dates between February 22 - February 25, various times",
+        "mapUrl": null,
+        "description": "Mortadella, provolone, arugula, garlic aioli, tarragon mustard, sourdough",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MTc3ODQ2OTU3Ny01MDNfRGlzdGlsbGluZy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "1",
+        "title": "Kimcheesesteak",
+        "url": "https://everout.com/portland/events/kimcheesesteak/e168676/",
+        "location": "Aji Tram Restaurant and Bar",
+        "locationUrl": "https://everout.com/portland/locations/aji-tram-restaurant-and-bar/l19774/",
+        "neighborhood": [
+            "Lake Oswego"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Bulgogi beef, kimchi, cheese, Mamas Lil's peppers, chili powders, hoagie roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MzA1MDE4MjM1NS1BamlfVHJhbS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Chicken Katsu Bánh Mì",
+        "url": "https://everout.com/portland/events/chicken-katsu-banh-mi/e168668/",
+        "location": "An An",
+        "locationUrl": "https://everout.com/portland/locations/an-an/l44096/",
+        "neighborhood": [
+            "Kenton"
+        ],
+        "date": "Every day, from February 19-25, 10 am-8 pm",
+        "mapUrl": null,
+        "description": "Fried chicken, mayo,  carrot and daikon pickle, jalapeño, cilantro ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MDI4MjIxNTY3NC1Bbl9Bbl9QRFguanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "vegan",
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Star Anise Sloppy Joe",
+        "url": "https://everout.com/portland/events/star-anise-sloppy-joe/e168667/",
+        "location": "Bánh Mì Up",
+        "locationUrl": "https://everout.com/portland/locations/banh-mi-up/l44672/",
+        "neighborhood": [
+            "St. Johns"
+        ],
+        "date": "Every day, from February 19-25, 11 am-8 pm",
+        "mapUrl": null,
+        "description": "Ground beef, lemongrass, star anise, tomato sauce, carrot, mayo, carrot and daikon pickle, jalapeño, and cilantro",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1OTkyNDU1NDQwMi1CYW5oX01pX1VwXy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Sweet and Spicy Turkey Melt",
+        "url": "https://everout.com/portland/events/sweet-and-spicy-turkey-melt/e168453/",
+        "location": "Bethany Public House",
+        "locationUrl": "https://everout.com/portland/locations/bethany-public-house/l43253/",
+        "neighborhood": [
+            "Bethany (Seattle)"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 11 am",
+        "mapUrl": null,
+        "description": "Garlic mayo, brunoise red pepper, jalapeño mango chutney, roasted turkey, and melted cheddar cheese on toasted white bread",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NDQ3OTAzNjEyOS1CZXRoYW55X0JyZXdpbmcuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Smoked Chicken Gyro",
+        "url": "https://everout.com/portland/events/smoked-chicken-gyro/e168648/",
+        "location": "Big's Chicken",
+        "locationUrl": "https://everout.com/portland/locations/bigs-chicken/l42343/",
+        "neighborhood": [
+            "Multiple Locations"
+        ],
+        "date": "Every day, from February 19-25, 11:30 am-9 pm",
+        "mapUrl": null,
+        "description": "Fresno pepper-marinated and smoked chicken thighs, charred green onion sauce, lettuce, feta, pickled red onions, and Fresno sauce, on a pita",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1Mzc5NTY5Mzg2LUJpZ19zX0NoaWNrZW4uanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Korean Hot Chicken Sando",
+        "url": "https://everout.com/portland/events/korean-hot-chicken-sando/e168448/",
+        "location": "Boke Bowl",
+        "locationUrl": "https://everout.com/portland/locations/boke-bowl/l21230/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Every day, from February 20-25, 11 am-8 pm",
+        "mapUrl": null,
+        "description": "Boke fried chicken dipped in hot and sour gochujang sauce, Chinese mustard slaw, and pickles, on a toasted An Xuyen brioche bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4MjkzMTIzNDIzMS1Cb2tlX0Jvd2wuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Crispy Creole Chicken Sandwich",
+        "url": "https://everout.com/portland/events/crispy-creole-chicken-sandwich/e168441/",
+        "location": "Bucket Brigade Sports Bar & Restaurant",
+        "locationUrl": "https://everout.com/portland/locations/bucket-brigade-sports-bar-restaurant/l23133/",
+        "neighborhood": [
+            "Foster - Powell"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Crispy hand-battered and fried chicken, Cajun mayo, lettuce, and tomato on a locally made butter bun. ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3NzUzOTY5MTQ2Ni1CdWNrZXQtQnJpZ2FkZS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Bánh Melt",
+        "url": "https://everout.com/portland/events/banh-melt/e168664/",
+        "location": "Bunk Bar",
+        "locationUrl": "https://everout.com/portland/locations/bunk-bar/l21835/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Every day, from February 19-25, 11:30 am-8 pm",
+        "mapUrl": null,
+        "description": "Lemongrass pork sausage, grilled scallions, American cheese, daikon and carrot pickles, crushed peanuts, chili-lime mayo, cilantro, and mint on garlic-chili Texas toast",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1ODkxMTIzOTUzLUJ1bmtfU2FuZHdpY2hlcy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Holy Schnitz!",
+        "url": "https://everout.com/portland/events/holy-schnitz/e168458/",
+        "location": "Cascade Brewing Barrel House",
+        "locationUrl": "https://everout.com/portland/locations/cascade-brewing-barrel-house/l21764/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Multiple dates between February 21 - February 25, various times",
+        "mapUrl": null,
+        "description": "Pork schnitzel, German potato salad, red cabbage and apple slaw, stone-ground mustard aioli, Portland French pub bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzMxODU5NzI0NTE1OC1DYXNjYWRlX0JyZXdpbmcuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Pepper Jack Rabbit",
+        "url": "https://everout.com/portland/events/pepper-jack-rabbit/e168675/",
+        "location": "Chubby Bunny",
+        "locationUrl": "https://everout.com/portland/locations/chubby-bunny/l43668/",
+        "neighborhood": [
+            "Sunnyside"
+        ],
+        "date": "Every day, from February 19-25, 8 am-2 pm",
+        "mapUrl": null,
+        "description": "Soyrizo and sausage patty, egg patty, Pepper Jack cheese, grilled jalapeños, and chipotle aioli on a toasted English muffin. ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2Mjc4ODA1MDY4OS1DaHViYnlfQnVubnkuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "vegan"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "The Porky Pretzel",
+        "url": "https://everout.com/portland/events/the-porky-pretzel/e168666/",
+        "location": "Clarklewis",
+        "locationUrl": "https://everout.com/portland/locations/clarklewis/l24469/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Every day, from February 19-25, 4-9 pm",
+        "mapUrl": null,
+        "description": "Wood oven slow-roasted pork, sweet and spicy honey bourbon BBQ sauce, cave-aged cheddar aioli, kale slaw, housemade pretzel bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1OTU0MjgwNzMzNC1DbGFya2xld2lzLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Eighth Street Spiedie",
+        "url": "https://everout.com/portland/events/eighth-street-spiedie/e168449/",
+        "location": "Crux Portland Pub",
+        "locationUrl": "https://everout.com/portland/locations/crux-portland-pub/l43327/",
+        "neighborhood": [
+            "Hosford-Abernethy"
+        ],
+        "date": "Multiple dates between February 20 - February 25, various times",
+        "mapUrl": null,
+        "description": "Marinated chicken skewered and grilled, then dressed with zesty garlic aioli and parsley, nested inside a toasted long bread roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4MzI2MDc4MTA1NC1DcnV4LmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Two Brother Club",
+        "url": "https://everout.com/portland/events/two-brother-club/e168670/",
+        "location": "Dos Hermanos",
+        "locationUrl": "https://everout.com/portland/locations/dos-hermanos/l44673/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Every day, from February 19-25, 11 am-4 pm",
+        "mapUrl": null,
+        "description": null,
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MTE5Nzg4MDc1OC1Eb3NfSGVybWFub3MuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": []
+    },
+    {
+        "id": "14",
+        "title": "Lemongrass Chicken Meatball Báhn Mì Sando",
+        "url": "https://everout.com/portland/events/lemongrass-chicken-meatball-bahn-mi-sando/e168437/",
+        "location": "Duke's Public House",
+        "locationUrl": "https://everout.com/portland/locations/dukes-public-house/l42442/",
+        "neighborhood": [
+            "Lake Oswego"
+        ],
+        "date": "Every day, from February 19-25, 11:30 am-8 pm",
+        "mapUrl": null,
+        "description": "Lemongrass chicken meatballs, herbs, jalapeño, pickled carrots, pickled daikon, cucumber, sriracha mayo, Amoroso roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3NTc1NjAxNzU1MS1EdWtlcy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "Club Sandwich",
+        "url": "https://everout.com/portland/events/club-sandwich/e168455/",
+        "location": "Fuller's Coffee Shop",
+        "locationUrl": "https://everout.com/portland/locations/fullers-coffee-shop/l25594/",
+        "neighborhood": [
+            "Northwest Portland"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Chicken salad, lettuce, tomato, and bacon on homemade bread, served with a garden salad, and choice of dressing",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NTAxMjU1MDk0NS1GdWxsZXJzLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "Open-Face Danish Roast Beef on Rye",
+        "url": "https://everout.com/portland/events/open-face-danish-roast-beef-on-rye/e168461/",
+        "location": "Fullerton Tasting Room",
+        "locationUrl": "https://everout.com/portland/locations/fullerton-tasting-room/l20007/",
+        "neighborhood": [
+            "Northwest Portland"
+        ],
+        "date": "Multiple dates between February 21 - February 25, 12 pm",
+        "mapUrl": null,
+        "description": "Roast beef, Bibb lettuce, caper and horseradish aioli, radishes, greens",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzMyMDI2MjE0NTkzNS1GdWxsZXJ0b25fV2luZXMuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "vegan",
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Gigantic Beef 'n Cheddar",
+        "url": "https://everout.com/portland/events/gigantic-beef-n-cheddar/e168456/",
+        "location": "Gigantic Brewing",
+        "locationUrl": "https://everout.com/portland/locations/gigantic-brewing/l41700/",
+        "neighborhood": [
+            "Hawthorne District"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Roast beef, Tillamook sharp cheddar cheese sauce, grilled onions, and horseradish sauce on a Kaiser bun. ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NTIxMjYxMzQxMS1HaWdhbnRpY19CcmV3aW5nLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "BBQ Pulled Pork Sandwich with IPA Honey Mustard Slaw",
+        "url": "https://everout.com/portland/events/bbq-pulled-pork-sandwich-with-ipa-honey-mustard-slaw/e168674/",
+        "location": "Grand Fir Brewing",
+        "locationUrl": "https://everout.com/portland/locations/grand-fir-brewing/l42985/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Multiple dates between February 20 - February 25, 12 pm",
+        "mapUrl": null,
+        "description": "BBQ pork shoulder, GFB IPA honey mustard slaw, sweet hot pickles ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MjE3MDg1NzA5Ni1HcmFuZF9GaXJfQnJld2luZy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegan",
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "Portland \"Cubano\"",
+        "url": "https://everout.com/portland/events/portland-cubano/e168659/",
+        "location": "Hunker Down",
+        "locationUrl": "https://everout.com/portland/locations/hunker-down/l43581/",
+        "neighborhood": [
+            "Mount Tabor"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Ham, bacon, house dill pickles, caramelized onions, Swiss cheese, stone-ground mustard",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1NTIxOTU1MjQyMS1IdW5rZXJfRG93bi5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "Curry Chicken Salad Sando",
+        "url": "https://everout.com/portland/events/curry-chicken-salad-sando/e168663/",
+        "location": "John's Marketplace",
+        "locationUrl": "https://everout.com/portland/locations/johns-marketplace/l43597/",
+        "neighborhood": [
+            "Multiple Locations"
+        ],
+        "date": "Every day, from February 19-25, 11 am-8 pm",
+        "mapUrl": null,
+        "description": "A rich and aromatic curry chicken salad sandwich made from chopped chicken, celery, red onion, apples, grapes, and pecans, served with a layer of fresh arugula on a toasted ciabatta bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1NjAyMDUxNDEwNy1Kb2huX3NfTWFya2VwbGFjZS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "New Jersey Hangover",
+        "url": "https://everout.com/portland/events/new-jersey-hangover/e168440/",
+        "location": "Lardo",
+        "locationUrl": "https://everout.com/portland/locations/lardo/l21485/",
+        "neighborhood": [
+            "Ladd's Addition"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 11 am",
+        "mapUrl": null,
+        "description": "Pork roll, egg, cheese, pepper jelly, poppy seed roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3NzI1NjA2NTE5NS1MYXJkby5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Slow-Cooked Portuguese Caçoila",
+        "url": "https://everout.com/portland/events/slow-cooked-portuguese-cacoila/e168655/",
+        "location": "Laurelhurst Market Butcher Shop & Restaurant",
+        "locationUrl": "https://everout.com/portland/locations/laurelhurst-market-butcher-shop-restaurant/l22453/",
+        "neighborhood": [
+            "Kerns"
+        ],
+        "date": "Every day, from February 19-25, 11 am-3 pm",
+        "mapUrl": null,
+        "description": "Madeira-braised pork on a Bon Baguette roll, with roasted garlic mayo, and an orange and fennel slaw",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1NDc5MTI2OTYwOC1MYXVyZWxodXJzdC5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "Chopped Cheese Smashy Boi",
+        "url": "https://everout.com/portland/events/chopped-cheese-smashy-boi/e168452/",
+        "location": "MidCity SmashedBurger at BinaryBrewing.co",
+        "locationUrl": "https://everout.com/portland/locations/midcity-smashedburger-at-binarybrewing-co/l44665/",
+        "neighborhood": [
+            "Central Beaverton"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 12 pm",
+        "mapUrl": null,
+        "description": "Two smash patties, American cheese, lettuce, tomato, smash sauce, nacho cheese, hero roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NDE4MjQ0NDEwMi1CaW5hcnlfQnJld2luZy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegan",
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "24",
+        "title": "For Schnitz and Giggles",
+        "url": "https://everout.com/portland/events/for-schnitz-and-giggles/e168450/",
+        "location": "Migration Brewing",
+        "locationUrl": "https://everout.com/portland/locations/migration-brewing/l39982/",
+        "neighborhood": [
+            "Boise"
+        ],
+        "date": "Multiple dates between February 20 - February 25, various times",
+        "mapUrl": null,
+        "description": "Buttermilk dill marinated pork loin in a panko coating, with pickled red onions, cucumber, totatoes, arugula, and whole grain mustard lemon aioli",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4MzUzNTcyOTMwMy1NaWdyYXRpb25fV2lsbGlhbS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "25",
+        "title": "Straight Outta Porkland",
+        "url": "https://everout.com/portland/events/straight-outta-porkland/e168447/",
+        "location": "Migration Brewing Co.",
+        "locationUrl": "https://everout.com/portland/theaters/migration-brewing-co/l22111/",
+        "neighborhood": [
+            "Kerns"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 12 pm",
+        "mapUrl": null,
+        "description": "Maple mustard glazed roast pork tenderloin with apricot preserves, arugula dressed with lemon garlic vinaigrette, mayo, and Parmesan ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4MjcwMDIzOTA0Mi1NaWdyYXRpb25fR2xpc2FuLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "26",
+        "title": "Chicken Cordon Blue Sammy",
+        "url": "https://everout.com/portland/events/chicken-cordon-blue-sammy/e168650/",
+        "location": "Moreland Ale House",
+        "locationUrl": "https://everout.com/portland/locations/moreland-ale-house/l19392/",
+        "neighborhood": [
+            "Southeast Portland"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Battered and fried chicken breast with Black Forest ham, Swiss cheese, and a Dijon aoli, served on top of shredded lettuce on a toasted Grand Central brioche bun ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1NDIzMDE4Mzk4My1Nb3JlbGFuZF9BbGVfSG91c2UuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "27",
+        "title": "Pan con Lechón",
+        "url": "https://everout.com/portland/events/pan-con-lechon/e168677/",
+        "location": "Pambiche",
+        "locationUrl": "https://everout.com/portland/locations/pambiche/l25394/",
+        "neighborhood": [
+            "Kerns"
+        ],
+        "date": "Every day, from February 21-25, 11 am-10 pm",
+        "mapUrl": null,
+        "description": "The Pan con Lechón consists of Cuban roast pork hand-pulled and braised in creole gravy with red onions, then served on a toasted Cuban roll. ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2Mzk0OTc0NjIxNC1QYW1iaWNoZS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "28",
+        "title": "Sausage and Peppers",
+        "url": "https://everout.com/portland/events/sausage-and-peppers/e168443/",
+        "location": "Picone's Quality Deli",
+        "locationUrl": "https://everout.com/portland/locations/picones-quality-deli/l44663/",
+        "neighborhood": [
+            "Portsmouth"
+        ],
+        "date": "Multiple dates between February 19 - February 24, various times",
+        "mapUrl": null,
+        "description": "Sausage, peppers, onions",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3ODMwNjg1NTUzOS1QaWNvbmVfUXVhbGl0eV9EZWxpLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "29",
+        "title": "Carolina Cool Arrow",
+        "url": "https://everout.com/portland/events/carolina-cool-arrow/e168438/",
+        "location": "Podnah's Pit Barbecue",
+        "locationUrl": "https://everout.com/portland/locations/podnahs-pit-barbecue/l24182/",
+        "neighborhood": [
+            "Vernon"
+        ],
+        "date": "Every day, from February 21-25, 12-8 pm",
+        "mapUrl": null,
+        "description": "Pulled pork, refried black beans, cabbage slaw, salsa verde, and crema on a Dos Hermanos bolillo roll",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3NjU3NjI3MTEwMi1Qb2RuYWhfc19QaXQuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "30",
+        "title": "\"Slammin' Sammy's Texas Pork \"",
+        "url": "https://everout.com/portland/events/slammin-sammys-texas-pork/e168665/",
+        "location": "Sammich",
+        "locationUrl": "https://everout.com/portland/locations/sammich/l19953/",
+        "neighborhood": [
+            "Kerns"
+        ],
+        "date": "Every day, from February 19-25, 10 am-8 pm",
+        "mapUrl": null,
+        "description": "House-smoked Texas pulled pork with our pickled red onion, pickled candied jalapeños, slaw, and barbecue sauce on a toasted bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1OTI2NjAyMzUzNC1TYW1taWNoLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "31",
+        "title": "Braised Pork Chile Verde",
+        "url": "https://everout.com/portland/events/braised-pork-chile-verde/e168646/",
+        "location": "Sandy-O's",
+        "locationUrl": "https://everout.com/portland/locations/sandy-os/l43962/",
+        "neighborhood": [
+            "Parkrose Heights"
+        ],
+        "date": "Every day, from February 19-25, 10 am-8 pm",
+        "mapUrl": null,
+        "description": "Braised pork, tomatillo salsa, cabbage, onion, cilantro, and mayo",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1MzE4NjkwNjIwNC1TYW5keU9fcy5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "32",
+        "title": "Baked Ziti on Garlic Bread",
+        "url": "https://everout.com/portland/events/baked-ziti-on-garlic-bread/e168661/",
+        "location": "Sit Tite",
+        "locationUrl": "https://everout.com/portland/locations/sit-tite/l44203/",
+        "neighborhood": [
+            "Arbor Lodge"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 4 pm",
+        "mapUrl": null,
+        "description": "Ziti, tomato sauce, Italian sausage, fresh mozzarella, Parmesan, garlic bread semolina roll, basil",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM1NTY5MDM1NDUxMi1TaXRfVGl0ZS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "33",
+        "title": "Ham and Egg'n",
+        "url": "https://everout.com/portland/events/ham-and-eggn/e168460/",
+        "location": "Snappy's",
+        "locationUrl": "https://everout.com/portland/locations/snappys/l41802/",
+        "neighborhood": [
+            "Buckman"
+        ],
+        "date": "Every day, from February 19-25, 11 am-7 pm",
+        "mapUrl": null,
+        "description": "Ham, bacon, cheddar, green chili egg salad, cracked pepper, and scallions",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzMxOTAzNjIwMjM5Ny1TbmFwcHlzLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "34",
+        "title": "Cali Katsu",
+        "url": "https://everout.com/portland/events/cali-katsu/e168439/",
+        "location": "Speed-o Cappuccino",
+        "locationUrl": "https://everout.com/portland/locations/speed-o-cappuccino/l41536/",
+        "neighborhood": [
+            "Central Eastside"
+        ],
+        "date": "Multiple dates between February 20 - February 25, 12 pm",
+        "mapUrl": null,
+        "description": "Panko-crusted avocado with katsu aioli, topped with cabbage, and served on Dos Hermanos milk bread",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3Njk3MDk3MjgxNC1TcGVlZG8tT19DYXBwdWNjaW5vLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "vegan"
+        ]
+    },
+    {
+        "id": "35",
+        "title": "Smoked Pork Cracklin Sandwich",
+        "url": "https://everout.com/portland/events/smoked-pork-cracklin-sandwich/e168672/",
+        "location": "Spoke & Fork",
+        "locationUrl": "https://everout.com/portland/locations/spoke-fork/l41504/",
+        "neighborhood": [
+            "Lloyd District"
+        ],
+        "date": "Every day, from February 19-25, 5-11 pm",
+        "mapUrl": null,
+        "description": "Pulled pork, chicarrones, Carolina BBQ sauce, pickeled onion, potato bun ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzM2MTQxMzk4NjM2NC1TcG9rZV9hbmRfRm9yay5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "36",
+        "title": "Pesto Paradise",
+        "url": "https://everout.com/portland/events/pesto-paradise/e168445/",
+        "location": "Steeplejack Brewing",
+        "locationUrl": "https://everout.com/portland/locations/steeplejack-brewing/l44664/",
+        "neighborhood": [
+            ""
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Grilled, sliced chicken thighs tossed with sundried tomato and pistachio pesto, with Calabrian aioli, arugula, and a squeeze of lemon, served cold on toasted ciabatta ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3OTE3NjM3MzU4OC1TdGVlcGxlamFja19IaWxsc2Jvcm8uanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "37",
+        "title": "Pastor Al",
+        "url": "https://everout.com/portland/events/pastor-al/e168444/",
+        "location": "Steeplejack Brewing Co.",
+        "locationUrl": "https://everout.com/portland/locations/steeplejack-brewing-co/l41011/",
+        "neighborhood": [
+            "Sullivan's Gulch"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 11 am",
+        "mapUrl": null,
+        "description": "Al Pastor marinated pork shoulder, avocado crema, pickled red onions, pineapple salsa",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3ODczODM2NDA3NS1TdGVlcGxlamFja19Ccm9hZHdheS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegan",
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "38",
+        "title": "Chickpea Curry Smash",
+        "url": "https://everout.com/portland/events/chickpea-curry-smash/e168446/",
+        "location": "The Hostel Cafe",
+        "locationUrl": "https://everout.com/portland/locations/the-hostel-cafe/l19770/",
+        "neighborhood": [
+            "Northwest Portland"
+        ],
+        "date": "Every day, from February 19-25, 11 am-10 pm",
+        "mapUrl": null,
+        "description": "Smashed chickpea salad with golden raisins and curry spices, served on rustic bread with our zigzag sauce, spring mix, pickled red onions, and tomato",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4MjQzMDE4NDQ5NS1Ib3N0ZWxfQ2FmZS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegan",
+            "vegetarian"
+        ]
+    },
+    {
+        "id": "39",
+        "title": "Italian Grilled Cheese",
+        "url": "https://everout.com/portland/events/italian-grilled-cheese/e168457/",
+        "location": "The Lucky Horseshoe Lounge",
+        "locationUrl": "https://everout.com/portland/locations/the-lucky-horseshoe-lounge/l20779/",
+        "neighborhood": [
+            "Hosford-Abernethy"
+        ],
+        "date": "Multiple dates between February 19 - February 25, 4 pm",
+        "mapUrl": null,
+        "description": "Mozzarella, provolone, pancetta marmellata, red onions caramelized over fresh rosemary",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NTQyNzQzMzMxOC1MdWNreV9Ib3JzZXNob2VfTG91bmdlLmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegetarian",
+            "meat"
+        ]
+    },
+    {
+        "id": "40",
+        "title": "Bahn...James Bahn",
+        "url": "https://everout.com/portland/events/bahn-james-bahn/e168454/",
+        "location": "The Secret Pizza Society",
+        "locationUrl": "https://everout.com/portland/locations/the-secret-pizza-society/l19610/",
+        "neighborhood": [
+            "Montavilla"
+        ],
+        "date": "Multiple dates between February 19 - February 25, various times",
+        "mapUrl": null,
+        "description": "Spicy mayo, baked tofu cutlets, jalapeño, shredded carrot and cabbage, topped with cilantro ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4NDcyMTYzMDcwMi1TZWNyZXRfUGl6emFfU29jaWV0eS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
+        "diet": [
+            "vegan",
+            "vegetarian"
+        ]
+    },
+    {
+        "id": "41",
+        "title": "Just the Tip (With the Fixings)",
+        "url": "https://everout.com/portland/events/just-the-tip-with-the-fixings/e168451/",
+        "location": "Three Mermaids Public House",
+        "locationUrl": "https://everout.com/portland/locations/three-mermaids-public-house/l43583/",
+        "neighborhood": [
+            ""
+        ],
+        "date": "Every day, from February 19-25, 11 am-9 pm",
+        "mapUrl": null,
+        "description": "House-smoked tri-tip, thinly sliced, served with sharp white cheddar, housemade garlic aioli, sautéed onions, and arugula on a soft pub bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI4Mzc1NTM4ODI3Mi1UaHJlZV9NZXJtYWlkc19QdWJsaWNfSG91c2UuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "42",
+        "title": "The Iowa Pork Tenderloin",
+        "url": "https://everout.com/portland/events/the-iowa-pork-tenderloin/e168442/",
+        "location": "Wonderboy's Smokestack",
+        "locationUrl": "https://everout.com/portland/locations/wonderboys-smokestack/l44515/",
+        "neighborhood": [
+            "King"
+        ],
+        "date": "Every day, from February 19-25, 12-8 pm",
+        "mapUrl": null,
+        "description": "Hand-cut, tenderized pork loin marinated in buttermilk and eggs, dredged in corn flakes, saltines, and secret spices, then shallow fried to perfection, and plopped onto a toasted bun with pickles, onion, ketchup, and mustard. ",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzI3Nzk0MzEzNjAwMi1Xb25kZXJib3lfc19TbW9rZXN0YWNrLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    },
+    {
+        "id": "43",
+        "title": "Sujuk Sandwich",
+        "url": "https://everout.com/portland/events/sujuk-sandwich/e168459/",
+        "location": "Ya Hala",
+        "locationUrl": "https://everout.com/portland/locations/ya-hala/l25515/",
+        "neighborhood": [
+            "Montavilla"
+        ],
+        "date": "Every day, from February 19-25, 12-8 pm",
+        "mapUrl": null,
+        "description": "Sujuk spiced beef patty, labneh, pickles, olives, tomato, lettuce, fresh mint and parsley, served in a hoagie bun",
+        "hours": "",
+        "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzMxODgwODYwMDcyNi1ZYV9IYWxhLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
+        "diet": [
+            "meat"
+        ]
+    }
+]

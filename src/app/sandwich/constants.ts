@@ -1,0 +1,1 @@
+export const SANDWICH_YEARS = ["2022", "2024"];

@@ -1,6 +1,7 @@
 import { css } from "@/styled-system/css";
 import { CardData } from "@/types";
 import ClientImage from "./Image";
+import Image from "next/image";
 
 export function Card({
   description,
@@ -34,7 +35,7 @@ export function Card({
             alt={title}
           />
         ) : (
-          <img
+          <Image
             src={imageUrl}
             width="600"
             height="600"
@@ -116,7 +117,7 @@ export function Card({
             })}
           >
             <div className={css({ color: "text.muted" })}>Neighborhood:</div>
-            {neighborhood.map(item => (
+            {neighborhood.map((item) => (
               <div key={item} className={css({ color: "text.muted" })}>
                 {item}
               </div>

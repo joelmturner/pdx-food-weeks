@@ -1,17 +1,28 @@
+import Link from "next/link";
 import { css } from "@/styled-system/css";
-import { DataFilterWrap } from "@/components/DataFilterWrap";
-import { Header } from "@/components/Header";
-import sandwichData from "./data.json";
+import { SANDWICH_YEARS } from "./constants";
 import { Metadata } from "next";
 
 export default function SandwichPage() {
   return (
-    <div
-      className={css({ display: "flex", flexDir: "column", gap: "5", p: "6" })}
+    <ul
+      className={css({
+        display: "flex",
+        flexDir: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "4",
+        p: "2",
+        w: "full",
+        h: "full",
+      })}
     >
-      <Header title="2022" food="SANDWICH" />
-      <DataFilterWrap data={sandwichData} />
-    </div>
+      {SANDWICH_YEARS.map(year => (
+        <li key={year} className={css({ fontSize: "5xl" })}>
+          <Link href={`/sandwich/${year}`}>{year}</Link>
+        </li>
+      ))}
+    </ul>
   );
 }
 
