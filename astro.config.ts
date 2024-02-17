@@ -7,7 +7,7 @@ import { SITE } from "./src/config";
 export default defineConfig({
   site: SITE.website,
   image: {
-    domains: ["res.cloudinary.com", "d2sa0osf92td39.cloudfront.net", "*.cloudfront.net"],
+    domains: ["res.cloudinary.com"],
   },
   integrations: [
     tailwind({
