@@ -1,0 +1,19 @@
+---
+export interface Props {
+  noPadding?: boolean;
+  ariaHidden?: boolean;
+  exclude?: {
+    top?: boolean;
+    bottom?: boolean;
+  };
+}
+
+const { noPadding = false, ariaHidden = true, exclude } = Astro.props;
+
+const top = exclude?.top ? "mt-0" : "";
+const bottom = exclude?.bottom ? "mb-0" : "";
+---
+
+<div class={`max-w-6xl mx-auto ${noPadding ? "px-0" : "px-4"}`}>
+  <div class={`divider ${top} ${bottom}`} aria-hidden="true"></div>
+</div>

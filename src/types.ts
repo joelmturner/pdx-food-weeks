@@ -1,28 +1,19 @@
-export type CardData = {
-  id: string;
-  description: string;
+import type socialIcons from "@assets/socialIcons";
+
+export type Site = {
+  website: string;
+  author: string;
+  desc: string;
   title: string;
-  url: string;
-  location: string;
-  locationUrl: string;
-  hours: string;
-  diet: string[];
-  imageUrl: string;
-  neighborhood: string[];
+  ogImage?: string;
+  lightAndDarkMode: boolean;
+  postPerPage: number;
+  scheduledPostMargin: number;
 };
 
-export type PageResults = {
-  id: number;
-  name: string;
-  url: string;
-  venue: string;
-  venueUrl: string | null;
-  neighborhood: string | null;
-  date: string;
-  mapUrl: string | null;
-  ingredients: string;
-  description: string;
-  times: string;
-  info: string;
-  imageUrl: string | null;
-};
+export type SocialObjects = {
+  name: keyof typeof socialIcons;
+  href: string;
+  active: boolean;
+  linkTitle: string;
+}[];
