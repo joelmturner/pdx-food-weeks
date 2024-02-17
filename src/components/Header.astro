@@ -1,0 +1,100 @@
+---
+import Hr from "./Hr.astro";
+import NavItems from "./NavItems.astro";
+import { Image } from "astro:assets";
+import logo from "@assets/images/FoodWeeksLogo.png";
+
+export interface Props {
+  activeNav?: "burgers" | "nachos" | "about" | "sandwich";
+}
+
+const { activeNav } = Astro.props;
+---
+
+<header>
+  <a id="skip-to-content" href="#main-content">Skip to content</a>
+  <div class="text-base-content">
+    <div class="navbar max-w-6xl mx-auto">
+      <div class="flex-1">
+        <a class="text-xl" href="/">
+          <Image
+            src={logo}
+            alt="PDX Food Weeks neon glow Logo"
+            height="80"
+            class="light:bg-slate-900 dark:bg-transparent"
+            data-id="logo"
+          />
+        </a>
+      </div>
+      <div class="flex-none">
+        <div class="drawer drawer-end">
+          <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content">
+            <!-- content here -->
+            <div class="flex-none block md:hidden">
+              <label for="my-drawer-4" class="drawer-button p-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block w-5 h-5 stroke-current"
+                  ><path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path></svg
+                >
+              </label>
+            </div>
+            <div class="flex-none md:block hidden">
+              <ul class="menu menu-horizontal px-1 items-center">
+                <NavItems activeNav={activeNav} />
+              </ul>
+            </div>
+          </div>
+          <div class="drawer-side z-50">
+            <label
+              for="my-drawer-4"
+              aria-label="close sidebar"
+              class="drawer-overlay"></label>
+            <ul
+              class="menu p-4 w-full min-h-full bg-base-200 text-base-content"
+            >
+              <div class="flex w-full justify-end p-2">
+                <label
+                  for="my-drawer-4"
+                  aria-label="close sidebar"
+                  class="drawer-overlay"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18 18 6M6 6l12 12"></path>
+                  </svg>
+                </label>
+              </div>
+              <!-- Sidebar content here - mobile -->
+              <ul class="menu menu-vertical px-1 text-3xl gap-4">
+                <NavItems activeNav={activeNav} />
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <Hr exclude={{ top: true }} />
+</header>
+
+<style>
+  #skip-to-content {
+    @apply absolute -top-full left-16 z-50 bg-accent px-3 py-2 text-base-100 transition-all focus:top-4;
+  }
+</style>

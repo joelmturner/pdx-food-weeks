@@ -1,0 +1,48 @@
+---
+const KEY_VS_FILTER_SET = {
+  dietary: ["vegan", "vegetarian", "gf"],
+  neighborhoods: ["north", "northwest", "northeast", "southeast", "downtown"],
+};
+
+type Props = {
+  filterKey: keyof typeof KEY_VS_FILTER_SET;
+  dietary?: string[];
+  neighborhoods?: string[];
+};
+
+const {
+  filterKey,
+  dietary = KEY_VS_FILTER_SET.dietary,
+  neighborhoods = KEY_VS_FILTER_SET.neighborhoods,
+} = Astro.props;
+
+const filters = filterKey === "neighborhoods" ? neighborhoods : dietary;
+---
+
+<div class="flex gap-2 justify-end flex-wrap w-100">
+  {
+    filters?.map(item => (
+      <div
+        class="badge badge-outline text-xs cursor-pointer"
+        data-filter-id={item.toUpperCase()}
+        data-filter-key={filterKey}
+      >
+        {item.toUpperCase()}
+      </div>
+    ))
+  }
+  <div class="badge" data-filter-id={filterKey}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      class="w-4 h-4 inline-block stroke-current cursor-pointer"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M6 18L18 6M6 6l12 12"></path>
+    </svg>
+  </div>
+</div>

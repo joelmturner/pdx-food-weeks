@@ -1,0 +1,63 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import CollectionFilters from "@components/CollectionFilters.astro";
+
+interface StringTitleProp {
+  pageTitle: string;
+  pageDesc?: string;
+  neighborhoods?: string[];
+  hideFilters?: boolean;
+}
+
+interface ArrayTitleProp {
+  pageTitle: [string, string];
+  titleTransition: string;
+  pageDesc?: string;
+  neighborhoods?: string[];
+  hideFilters?: boolean;
+}
+
+export type Props = StringTitleProp | ArrayTitleProp;
+
+const { props } = Astro;
+---
+
+<Breadcrumbs />
+
+<main id="main-content">
+  <div class="flex justify-between items-start flex-col lg:flex-row">
+    <div class="flex-0 flex-shrink-0 flex-grow-0">
+      {
+        "titleTransition" in props ? (
+          <h1>
+            {props.pageTitle[0]}
+            <span transition:name={props.titleTransition}>
+              {props.pageTitle[1]}
+            </span>
+          </h1>
+        ) : (
+          <h1>{props.pageTitle}</h1>
+        )
+      }
+      <p>{props.pageDesc}</p>
+    </div>
+    {
+      !props.hideFilters ? (
+        <CollectionFilters neighborhoods={props.neighborhoods} />
+      ) : null
+    }
+  </div>
+  <slot />
+</main>
+
+<style>
+  #main-content {
+    @apply mx-auto w-full max-w-6xl px-4 pb-4;
+  }
+  #main-content h1 {
+    @apply text-2xl font-semibold sm:text-3xl;
+  }
+  #main-content p {
+    @apply mb-6 mt-2 italic;
+  }
+</style>

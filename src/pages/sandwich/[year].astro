@@ -1,0 +1,39 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Main from "@layouts/Main.astro";
+import Footer from "@components/Footer.astro";
+import { getCollection, getEntry } from "astro:content";
+import CardGrid from "../../components/CardGrid.astro";
+import { getUniqueNeighborhoods } from "@utils/collections";
+
+const { year } = Astro.params;
+
+// filter to get the burger collection for the year
+const sandwiches = await getEntry("sandwiches", year);
+const neighborhoods = sandwiches
+  ? getUniqueNeighborhoods<"sandwiches">(sandwiches.data)
+  : [];
+
+export async function getStaticPaths() {
+  const sandwichCollections = await getCollection("sandwiches");
+  return sandwichCollections.map(sandwichCollection => {
+    return {
+      params: {
+        year: sandwichCollection.id + "",
+      },
+    };
+  });
+}
+---
+
+<Layout
+  title={`PDX Sanwich Week ${year}`}
+  description="A fan site celebrating PDX Sanwich Week"
+>
+  <Header />
+  <Main pageTitle={`Sandwiches ${year}`} neighborhoods={neighborhoods}>
+    {sandwiches?.data && <CardGrid items={sandwiches?.data} />}
+  </Main>
+  <Footer />
+</Layout>

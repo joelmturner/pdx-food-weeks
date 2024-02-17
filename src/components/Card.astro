@@ -1,0 +1,87 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+type Props = CollectionEntry<"burgers">["data"][number];
+const {
+  url,
+  imageUrl,
+  title,
+  locationUrl,
+  location,
+  hours,
+  description,
+  neighborhood,
+  diet,
+} = Astro.props;
+
+const dietaryOptions = diet?.join(",");
+const neighborhoodOptions = neighborhood?.join(",");
+---
+
+<div
+  class="card grid-item bg-neutral overflow-hidden"
+  data-dietary={dietaryOptions}
+  data-neighborhood={neighborhoodOptions}
+>
+  <a href={url} target="_blank" rel="nofollow noopener noreferrer">
+    <Image
+      src={imageUrl}
+      alt={title}
+      width="400"
+      height="400"
+      widths={[341, 384, 400]}
+      sizes="(min-width: 1024px) 33.33vw, (min-width: 768px) 50vw, 100vw"
+    />
+  </a>
+  <div class="card-body flex flex-col gap-2 p-4">
+    <div class="flex flex-col gap-0">
+      <h3 class="card-title text-accent">
+        <a href={url} target="_blank" rel="nofollow noopener noreferrer">
+          {title}
+        </a>
+      </h3>
+
+      <div class="flex items-center gap-3">
+        <h3
+          class="text-neutral-content w-full text-l font-semibold tracking-wide"
+        >
+          <a
+            href={locationUrl}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            {location}
+          </a>
+        </h3>
+        {hours ? <p>Hours: {hours}</p> : null}
+      </div>
+    </div>
+
+    <p class="text-neutral-content">
+      {description}
+    </p>
+
+    <div class="justify-between text-sm">
+      {
+        neighborhood?.length ? (
+          <div class="md:gap-2 lg:gap3 flex gap-1">
+            <div class="text-neutral-content">Neighborhood:</div>
+            {neighborhood.map(item => (
+              <div class="text-neutral-content">{item}</div>
+            ))}
+          </div>
+        ) : null
+      }
+
+      {
+        diet?.length ? (
+          <div class="md:gap-2 lg:gap3 flex gap-1">
+            <div class="text-neutral-content">Dietary Options:</div>
+            <div class="text-neutral-content">{diet?.join(", ")}</div>
+          </div>
+        ) : null
+      }
+    </div>
+  </div>
+</div>
