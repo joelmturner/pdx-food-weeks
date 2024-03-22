@@ -3,11 +3,12 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
-import { Sandwiches, db } from "astro:db";
+import { Food, db, eq } from "astro:db";
 
 const sandwichYears = await db
-  .select({ year: Sandwiches.year })
-  .from(Sandwiches);
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "sandwich"));
 
 const years = Array.from(
   new Set(sandwichYears.map(sandwich => sandwich.year + ""))

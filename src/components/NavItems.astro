@@ -1,12 +1,21 @@
 ---
 import { getYearsFromData } from "@utils/collections";
-import { Burgers, Sandwiches, Nachos, db } from "astro:db";
+import { Food, db, eq } from "astro:db";
 
-const burgersYears = await db.select({ year: Burgers.year }).from(Burgers);
+const burgersYears = await db
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "burger"));
+
 const sandwichYears = await db
-  .select({ year: Sandwiches.year })
-  .from(Sandwiches);
-const nachosYears = await db.select({ year: Nachos.year }).from(Nachos);
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "sandwich"));
+
+const nachosYears = await db
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "nacho"));
 
 const collectionNavItems = [
   {

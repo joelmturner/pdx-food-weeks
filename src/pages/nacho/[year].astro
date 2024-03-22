@@ -5,19 +5,24 @@ import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
 import CardGrid from "../../components/CardGrid.astro";
 import { getPaths, getUniqueNeighborhoods } from "@utils/collections";
-import { db, Nachos, like } from "astro:db";
+import { db, Food, eq, and } from "astro:db";
 import type { FoodItem } from "types";
 
 const { year } = Astro.params;
 
 const nachos = (await db
   .select()
-  .from(Nachos)
-  .where(like(Nachos.year, year))) as FoodItem[];
+  .from(Food)
+  .where(
+    and(eq(Food.year, parseInt(year)), eq(Food.type, "nacho"))
+  )) as FoodItem[];
 const neighborhoods = nachos ? getUniqueNeighborhoods(nachos) : [];
 
 export async function getStaticPaths() {
-  const result = await db.select({ year: Nachos.year }).from(Nachos);
+  const result = await db
+    .select({ year: Food.year })
+    .from(Food)
+    .where(eq(Food.type, "nacho"));
   return getPaths(result);
 }
 ---

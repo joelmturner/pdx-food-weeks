@@ -3,9 +3,12 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
-import { Burgers, db } from "astro:db";
+import { Food, db, eq } from "astro:db";
 
-const burgerYears = await db.select({ year: Burgers.year }).from(Burgers);
+const burgerYears = await db
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "burger"));
 const years = Array.from(new Set(burgerYears.map(burger => burger.year + "")));
 ---
 
