@@ -1,26 +1,28 @@
 ---
 import { getYearsFromData } from "@utils/collections";
-import { getCollection } from "astro:content";
+import { Burgers, Sandwiches, Nachos, db } from "astro:db";
 
-const burgersCollection = await getCollection("burgers");
-const sandwichesCollection = await getCollection("sandwiches");
-const nachosCollection = await getCollection("nachos");
+const burgersYears = await db.select({ year: Burgers.year }).from(Burgers);
+const sandwichYears = await db
+  .select({ year: Sandwiches.year })
+  .from(Sandwiches);
+const nachosYears = await db.select({ year: Nachos.year }).from(Nachos);
 
 const collectionNavItems = [
   {
     name: "Burgers",
     slug: "burger",
-    years: getYearsFromData<"burgers">(burgersCollection),
+    years: getYearsFromData(burgersYears),
   },
   {
     name: "Nachos",
     slug: "nacho",
-    years: getYearsFromData<"nachos">(nachosCollection),
+    years: getYearsFromData(nachosYears),
   },
   {
     name: "Sandwiches",
     slug: "sandwich",
-    years: getYearsFromData<"sandwiches">(sandwichesCollection),
+    years: getYearsFromData(sandwichYears),
   },
 ];
 

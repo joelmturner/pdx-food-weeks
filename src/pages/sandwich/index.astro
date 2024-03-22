@@ -3,11 +3,14 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
-import { getCollection } from "astro:content";
+import { Sandwiches, db } from "astro:db";
 
-const sandwichCollections = await getCollection("sandwiches");
-const years = sandwichCollections.map(
-  sandwichCollection => sandwichCollection.id + ""
+const sandwichYears = await db
+  .select({ year: Sandwiches.year })
+  .from(Sandwiches);
+
+const years = Array.from(
+  new Set(sandwichYears.map(sandwich => sandwich.year + ""))
 );
 ---
 

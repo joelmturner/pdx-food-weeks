@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://pdx-food-weeks.vercel.app/",
+  website: "https://pdxfoodweeks.com/",
   author: "Joel M Turner",
   desc: "A fan site celebrating the best of Portland's food weeks",
   title: "PDX Food Weeks",

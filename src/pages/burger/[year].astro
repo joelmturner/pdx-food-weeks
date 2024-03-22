@@ -3,27 +3,18 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
-import { getCollection, getEntry } from "astro:content";
 import CardGrid from "@components/CardGrid.astro";
-import { getUniqueNeighborhoods } from "@utils/collections";
+import { getPaths, getUniqueNeighborhoods } from "@utils/collections";
+import { db, Burgers, like } from "astro:db";
 
 const { year } = Astro.params;
 
-// filter to get the burger collection for the year
-const burgers = await getEntry("burgers", year);
-const neighborhoods = burgers
-  ? getUniqueNeighborhoods<"burgers">(burgers.data)
-  : [];
+const burgers = await db.select().from(Burgers).where(like(Burgers.year, year));
+const neighborhoods = burgers ? getUniqueNeighborhoods(burgers) : [];
 
 export async function getStaticPaths() {
-  const burgerCollections = await getCollection("burgers");
-  return burgerCollections.map(burgerCollection => {
-    return {
-      params: {
-        year: burgerCollection.id + "",
-      },
-    };
-  });
+  const result = await db.select({ year: Burgers.year }).from(Burgers);
+  return getPaths(result);
 }
 ---
 
@@ -33,7 +24,7 @@ export async function getStaticPaths() {
 >
   <Header />
   <Main pageTitle={`Burgers ${year}`} neighborhoods={neighborhoods}>
-    {burgers?.data && <CardGrid items={burgers?.data} />}
+    {burgers && <CardGrid items={burgers} />}
   </Main>
   <Footer />
 </Layout>

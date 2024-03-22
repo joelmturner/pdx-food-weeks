@@ -3,10 +3,10 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
-import { getCollection } from "astro:content";
+import { Nachos, db } from "astro:db";
 
-const nachoCollections = await getCollection("nachos");
-const years = nachoCollections.map(nachoCollection => nachoCollection.id + "");
+const nachoYears = await db.select({ year: Nachos.year }).from(Nachos);
+const years = Array.from(new Set(nachoYears.map(nacho => nacho.year + "")));
 ---
 
 <Layout
