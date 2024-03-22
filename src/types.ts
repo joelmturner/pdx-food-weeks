@@ -30,4 +30,5 @@ export type FoodItem = {
     imageUrl: string;
     neighborhood: string[];
     year: number;
+    type: "sandwich" | "nacho" | "burger" | 'pizza';
 };
