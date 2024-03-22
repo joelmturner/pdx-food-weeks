@@ -17,3 +17,17 @@ export type SocialObjects = {
   active: boolean;
   linkTitle: string;
 }[];
+
+export type FoodItem = {
+    id: string;
+    description: string;
+    title: string;
+    url: string;
+    location: string;
+    locationUrl: string;
+    hours: string;
+    diet: ("gf" | "vegetarian" | "vegan" | "meat")[];
+    imageUrl: string;
+    neighborhood: string[];
+    year: number;
+};

@@ -6,10 +6,14 @@ import Footer from "@components/Footer.astro";
 import CardGrid from "../../components/CardGrid.astro";
 import { getPaths, getUniqueNeighborhoods } from "@utils/collections";
 import { db, Nachos, like } from "astro:db";
+import type { FoodItem } from "types";
 
 const { year } = Astro.params;
 
-const nachos = await db.select().from(Nachos).where(like(Nachos.year, year));
+const nachos = (await db
+  .select()
+  .from(Nachos)
+  .where(like(Nachos.year, year))) as FoodItem[];
 const neighborhoods = nachos ? getUniqueNeighborhoods(nachos) : [];
 
 export async function getStaticPaths() {

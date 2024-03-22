@@ -1,18 +1,17 @@
-import type { CollectionEntry, DataEntryMap } from "astro:content";
-import { Sandwiches, db } from "astro:db";
+import type { FoodItem } from "types";
 
 export function getYearsFromData(data: {year: number}[]) {
     const uniqueYears = new Set([...data.map(item => item.year)]);
     return Array.from(uniqueYears);
 }
-const foodItems = db.select().from(Sandwiches);
-export function getUniqueNeighborhoods(data: ( Awaited<typeof foodItems>)[]): string[] {
+
+export function getUniqueNeighborhoods(data: FoodItem[]): string[] {
     return [
       ...new Set(
         data
           .map(item => item.neighborhood)
           .flat()
-          .filter(neighborhood => !!neighborhood)
+          .filter(neighborhood => !!neighborhood) as string[]
       ),
     ];
   }

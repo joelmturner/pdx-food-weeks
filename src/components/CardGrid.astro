@@ -1,9 +1,9 @@
 ---
+import type { FoodItem } from "types";
 import Card from "./Card.astro";
-import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  items: CollectionEntry<"burgers">["data"];
+  items: FoodItem[];
 };
 const { items } = Astro.props;
 ---
