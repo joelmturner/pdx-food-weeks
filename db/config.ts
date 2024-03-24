@@ -2,7 +2,7 @@ import { column, defineDb, defineTable } from 'astro:db';
 
 const foodDataItem = {
     columns: {
-        id: column.text(),
+        id: column.number({primaryKey: true}),
         description: column.text(),
         title: column.text(),
         url: column.text(),
