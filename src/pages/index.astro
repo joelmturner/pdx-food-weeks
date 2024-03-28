@@ -6,25 +6,26 @@ import Hr from "@components/Hr.astro";
 import { Image } from "astro:assets";
 
 import heroImage from "../assets/images/Neon 80s Style Food.webp";
+const username = Astro.locals.user?.username;
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <div class="flex gap-2 flex-col pb-12">
-        <h1 class="text-center text-3xl pt-4 pb-8 font-300 text-base-content">
-          Welcome to PDX Food Weeks!
+      <div class="flex flex-col gap-2 pb-12">
+        <h1 class="font-300 text-base-content pb-8 pt-4 text-center text-3xl">
+          {`Welcome to PDX Food Weeks${username ? ", " + username : ""}!`}
         </h1>
-        <div class="flex flex-col md:flex-row gap-12">
-          <div class="flex justify-center items-center w-full md:w-1/2">
+        <div class="flex flex-col gap-12 md:flex-row">
+          <div class="flex w-full items-center justify-center md:w-1/2">
             <Image
               src={heroImage}
               alt="PDX Food Weeks Hero Image"
               class="rounded-2xl shadow-xl"
             />
           </div>
-          <div class="flex flex-col w-full md:w-1/2">
+          <div class="flex w-full flex-col md:w-1/2">
             <p>
               Welcome, fellow foodies, to a celebration of Portland's much-loved
               food weeks put on by Portland Mercury! Here, we're all about
@@ -39,7 +40,7 @@ import heroImage from "../assets/images/Neon 80s Style Food.webp";
 
             <Hr />
 
-            <div class="flex flex-col gap-1 w-100">
+            <div class="w-100 flex flex-col gap-1">
               <img
                 src="https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTcwNzE4MTExNjA2NTcxNC1TYW5kd2ljaFdlZWsyNC05NzB4MjUwLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ=="
                 class="rounded-lg shadow"
@@ -75,9 +76,8 @@ import heroImage from "../assets/images/Neon 80s Style Food.webp";
       0 0 11px rgba(255, 0, 183, 0.2),
       0 0 13px rgba(255, 0, 183, 0.1);
 
-      [data-theme="cupcake"] & {
-        color: white;
-      }
+    [data-theme="cupcake"] & {
+      color: white;
+    }
   }
-
 </style>

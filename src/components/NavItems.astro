@@ -40,6 +40,7 @@ type Props = {
 };
 
 const { activeNav } = Astro.props;
+const user = Astro.locals.user;
 ---
 
 {
@@ -79,3 +80,33 @@ const { activeNav } = Astro.props;
     </svg>
   </button>
 </li>
+
+<!-- we'll add this later -->
+<!-- {
+  user ? (
+    <li>
+      <details>
+        <summary>
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content rounded-full w-8">
+              <span class="text-s">{user.username?.[0]}</span>
+            </div>
+          </div>
+        </summary>
+        <ul class="p-2 bg-base-100 rounded-t-none">
+          <li>
+            <form method="post" action="/api/logout">
+              <button>Logout</button>
+            </form>
+          </li>
+        </ul>
+      </details>
+    </li>
+  ) : (
+    <li>
+      <div class="flex gap-2 leading-tight">
+        <a href="/login">Login</a> / <a href="/signup">Sign Up</a>
+      </div>
+    </li>
+  )
+} -->
