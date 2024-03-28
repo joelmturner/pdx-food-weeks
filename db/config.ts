@@ -1,6 +1,6 @@
 import { column, defineDb, defineTable } from 'astro:db';
 
-const foodDataItem = {
+const Food = defineTable({
     columns: {
         id: column.number({primaryKey: true}),
         description: column.text(),
@@ -15,11 +15,26 @@ const foodDataItem = {
         year: column.number(),
         type: column.text(),
     }
-};
+});
 
-const Food = defineTable( foodDataItem );
+export const user = defineTable( {
+    columns: {
+        id: column.text({primaryKey: true, notNull: true, unique: true}),
+        username: column.text(),
+        password: column.text(),
+        role: column.text(),
+    }
+} );
+
+export const session = defineTable( {
+    columns: {
+        id: column.text({primaryKey: true, notNull: true}),
+        userId: column.text(),
+        expiresAt: column.number(),
+    }
+} );
 
 // https://astro.build/db/config
 export default defineDb( {
-    tables: { Food }
+    tables: { Food, user, session}
 } );

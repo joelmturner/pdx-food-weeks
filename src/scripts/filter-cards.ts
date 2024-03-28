@@ -58,7 +58,6 @@ function runIt() {
         )
         .filter(Boolean);
 
-      console.log("activeDietaryTags", activeDietaryTags);
       // return early if no tags are active
       if (
         activeDietaryTags.length === 0 &&
@@ -79,7 +78,6 @@ function runIt() {
         const dietaryTags =
           card.dataset.dietary?.split(",").map(item => item.toLowerCase()) ??
           [];
-        console.log("dietaryTags", dietaryTags);
 
         const overlapDietary = intersection(activeDietaryTags, dietaryTags);
 

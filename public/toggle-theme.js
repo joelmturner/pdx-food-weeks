@@ -57,7 +57,6 @@ window.onload = () => {
     // now this script can find and listen for clicks on the control
     document.querySelectorAll("#theme-btn")?.forEach(element =>
       element?.addEventListener("click", () => {
-        console.log("themeValue", themeValue);
         themeValue = themeValue === "cupcake" ? "business" : "cupcake";
         setPreference();
       })
@@ -74,7 +73,6 @@ window.onload = () => {
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches: isDark }) => {
-    console.log("isDark", isDark);
     themeValue = isDark ? "business" : "cupcake";
     setPreference();
   });
