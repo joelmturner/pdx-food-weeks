@@ -2,10 +2,7 @@ import { load } from "cheerio";
 import axios from "axios";
 import fs from "fs";
 
-const baseUrl =
-  "https://everout.com/portland/events/the-portland-mercurys-nacho-week-2023/e150488/";
-
-const fetchData = async (url) => {
+const fetchData = async url => {
   const result = await axios.get(url);
   return load(result.data);
 };
@@ -63,13 +60,32 @@ function extractIngredientsValue(data) {
   }
 }
 
-const getPages = async (eventUrls) => {
-  const events = eventUrls.map(async function (url, index) {
+function getValue($, key) {
+  return $("strong")
+    .filter(function () {
+      return $(this).text().trim() === key;
+    })
+    .next()
+    .text()
+    .trim();
+}
+
+const getPages = async eventUrls => {
+  const events = eventUrls.map(async function (url) {
     const $ = await fetchData(url);
-    const data = $(".description > span").attr("data-sheets-value");
-    const vegan = extractBooleanValue(data, "Available Vegan");
-    const vegetarian = extractBooleanValue(data, "Available Vegetarian");
-    const dietary = extractMeatOrVegetarianValue(data);
+
+    // seems like pizza week has different structure
+    // const data = $(".description > span").attr("data-sheets-value");
+    // const vegan = extractBooleanValue(data, "Vegan Substitute");
+    // const vegetarian = extractBooleanValue(data, "Vegetarian Substitute");
+    // const dietary = extractMeatOrVegetarianValue(data);
+
+    const vegan = getValue($, "Vegan Substitute?");
+    const vegetarian = getValue($, "Vegetarian Substitute?");
+    const dietary = getValue($, "Meat or Vegetarian?");
+    const ingredients = getValue($, "What's On It:");
+    const hours = getValue($, "Where and When to Get It:");
+
     const diet = [
       ...new Set(
         [
@@ -85,17 +101,22 @@ const getPages = async (eventUrls) => {
       !!rawNeighborhood && !rawNeighborhood.includes(",")
         ? [rawNeighborhood]
         : rawNeighborhood.split(",");
+
+    const title = $("header > h1").text().trim();
+    const location = $(".location > a").text().trim();
     return {
-      id: `${index}`,
-      title: $("header > h1").text().trim(),
+      id: `${location}-${title}`,
+      title,
       url,
-      location: $(".location > a").text().trim(),
+      location,
       locationUrl: $(".location > a").attr("href") ?? null,
       neighborhood,
       date: $(".date-summary > span").text().trim(),
       mapUrl: $(".map .google-maps-link > a").attr("href") ?? null,
-      description: extractIngredientsValue(data),
-      hours: $(".description p:nth-child(3)").text().trim(),
+      description: ingredients,
+      hours,
+      //   description: extractIngredientsValue(data),
+      //   hours: $(".description p:nth-child(3)").text().trim(),
       imageUrl: $(".item-image img").attr("src") ?? null,
       diet,
     };
@@ -104,7 +125,7 @@ const getPages = async (eventUrls) => {
   return await Promise.all(events);
 };
 
-const getEventUrls = async () => {
+const getEventUrls = async baseUrl => {
   const $ = await fetchData(baseUrl);
   const eventUrls = [];
 
@@ -127,7 +148,7 @@ function parseAddressHours(text) {
 
 function processData(eventData) {
   const newData = [];
-  eventData.forEach((result) => {
+  eventData.forEach(result => {
     newData.push({
       ...result,
       ...parseAddressHours(result.times),
@@ -141,69 +162,26 @@ function processData(eventData) {
   return newData;
 }
 
+// for testing structure
 const staticUrls = [
-  "https://everout.com/portland/events/abc-anthony-bourdain-classic/e168673/",
-  "https://everout.com/portland/events/kimcheesesteak/e168676/",
-  "https://everout.com/portland/events/chicken-katsu-banh-mi/e168668/",
-  "https://everout.com/portland/events/star-anise-sloppy-joe/e168667/",
-  "https://everout.com/portland/events/sweet-and-spicy-turkey-melt/e168453/",
-  "https://everout.com/portland/events/smoked-chicken-gyro/e168648/",
-  "https://everout.com/portland/events/korean-hot-chicken-sando/e168448/",
-  "https://everout.com/portland/events/crispy-creole-chicken-sandwich/e168441/",
-  "https://everout.com/portland/events/banh-melt/e168664/",
-  "https://everout.com/portland/events/holy-schnitz/e168458/",
-  "https://everout.com/portland/events/pepper-jack-rabbit/e168675/",
-  "https://everout.com/portland/events/the-porky-pretzel/e168666/",
-  "https://everout.com/portland/events/eighth-street-spiedie/e168449/",
-  "https://everout.com/portland/events/two-brother-club/e168670/",
-  "https://everout.com/portland/events/lemongrass-chicken-meatball-bahn-mi-sando/e168437/",
-  "https://everout.com/portland/events/club-sandwich/e168455/",
-  "https://everout.com/portland/events/open-face-danish-roast-beef-on-rye/e168461/",
-  "https://everout.com/portland/events/gigantic-beef-n-cheddar/e168456/",
-  "https://everout.com/portland/events/bbq-pulled-pork-sandwich-with-ipa-honey-mustard-slaw/e168674/",
-  "https://everout.com/portland/events/portland-cubano/e168659/",
-  "https://everout.com/portland/events/curry-chicken-salad-sando/e168663/",
-  "https://everout.com/portland/events/new-jersey-hangover/e168440/",
-  "https://everout.com/portland/events/slow-cooked-portuguese-cacoila/e168655/",
-  "https://everout.com/portland/events/chopped-cheese-smashy-boi/e168452/",
-  "https://everout.com/portland/events/for-schnitz-and-giggles/e168450/",
-  "https://everout.com/portland/events/straight-outta-porkland/e168447/",
-  "https://everout.com/portland/events/chicken-cordon-blue-sammy/e168650/",
-  "https://everout.com/portland/events/pan-con-lechon/e168677/",
-  "https://everout.com/portland/events/sausage-and-peppers/e168443/",
-  "https://everout.com/portland/events/carolina-cool-arrow/e168438/",
-  "https://everout.com/portland/events/slammin-sammys-texas-pork/e168665/",
-  "https://everout.com/portland/events/braised-pork-chile-verde/e168646/",
-  "https://everout.com/portland/events/baked-ziti-on-garlic-bread/e168661/",
-  "https://everout.com/portland/events/ham-and-eggn/e168460/",
-  "https://everout.com/portland/events/cali-katsu/e168439/",
-  "https://everout.com/portland/events/smoked-pork-cracklin-sandwich/e168672/",
-  "https://everout.com/portland/events/pesto-paradise/e168445/",
-  "https://everout.com/portland/events/pastor-al/e168444/",
-  "https://everout.com/portland/events/chickpea-curry-smash/e168446/",
-  "https://everout.com/portland/events/italian-grilled-cheese/e168457/",
-  "https://everout.com/portland/events/bahn-james-bahn/e168454/",
-  "https://everout.com/portland/events/just-the-tip-with-the-fixings/e168451/",
-  "https://everout.com/portland/events/the-iowa-pork-tenderloin/e168442/",
-  "https://everout.com/portland/events/sujuk-sandwich/e168459/",
+  "https://everout.com/portland/events/butchers-bolognese/e172841/",
 ];
 
 /* 
     1. replace staticUrls with eventUrls
     2. update writeFile name
-    3. node -e "import('./src/fetchData.mjs').then(module => { module.crawl(); })"
+    3. node -e "import('./src/scripts/fetchData.mjs').then(module => { module.crawl(); })"
 */
 
 export async function crawl() {
-  const eventData = await getPages(staticUrls);
-  //   console.dir({ eventData }, { depth: null });
-  // save eventData to a json file named sandwiches2024.json
+  const urls = await getEventUrls('https://everout.com/portland/events/the-portland-mercurys-pizza-week-2024/e170026/');
+  const eventData = await getPages(urls);
 
-  fs.writeFile("sandwiches2024.json", JSON.stringify(eventData), (err) => {
+  fs.writeFile("pizza2024.json", JSON.stringify(eventData), err => {
     if (err) {
       console.error("Error writing file:", err);
     } else {
-      console.log("Event data saved to sandwiches2024.json");
+      console.log("Event data saved to pizza2024.json");
     }
   });
 }

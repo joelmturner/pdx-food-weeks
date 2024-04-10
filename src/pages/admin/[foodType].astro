@@ -1,19 +1,12 @@
 ---
+import DataForm from "@components/DataForm.svelte";
 import Layout from "@layouts/Layout.astro";
-import { Food } from "astro:db";
-import { db, eq } from "astro:db";
-import type { FoodItem } from "types";
 
 if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
   return Astro.redirect("/");
 }
 
 const { foodType } = Astro.params;
-
-const foodItems = (await db
-  .select()
-  .from(Food)
-  .where(eq(Food.type, foodType as string))) as unknown as FoodItem[];
 ---
 
 <Layout>
@@ -22,144 +15,11 @@ const foodItems = (await db
       <h1 class="text-3xl"><a href="/admin">Admin</a></h1>
     </div>
   </header>
-  <main class="max-w-6xl mx-auto align-left w-full" card-edit={null}>
-    <h2 class="text-2xl">foodType</h2>
-    <div class="grid gap-4 grid-cols-3">
-      {
-        foodItems.map(foodItem => (
-          <div class="card bg-base-300">
-            <form method="post" action="/api/editFood" data-id={foodItem.id}>
-              <div class="card-body gap-3">
-                <div>
-                  <label for={`title_${foodItem.id}`}>Title</label>
-                  <input
-                    type="text"
-                    id={`title_${foodItem.id}`}
-                    name={`title_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.title}
-                  />
-                </div>
-
-                <div>
-                  <label for={`neighborhood_${foodItem.id}`}>
-                    Neighborhood
-                  </label>
-                  <input
-                    type="text"
-                    id={`neighborhood_${foodItem.id}`}
-                    name={`neighborhood_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.neighborhood?.join(", ")}
-                  />
-                </div>
-
-                <div>
-                  <label for={`diet_${foodItem.id}`}>Diet</label>
-                  <input
-                    type="text"
-                    id={`diet_${foodItem.id}`}
-                    name={`diet_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.diet?.join(", ")}
-                  />
-                </div>
-
-                <div>
-                  <label for={`url_${foodItem.id}`}>URL</label>
-                  <input
-                    type="text"
-                    id={`url_${foodItem.id}`}
-                    name={`url_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.url}
-                  />
-                </div>
-
-                <div>
-                  <label for={`imageUrl_${foodItem.id}`}>Image Url</label>
-                  <input
-                    type="text"
-                    id={`imageUrl_${foodItem.id}`}
-                    name={`imageUrl_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.imageUrl}
-                  />
-                </div>
-
-                <div>
-                  <label for={`location_${foodItem.id}`}>Location</label>
-                  <input
-                    type="text"
-                    id={`location_${foodItem.id}`}
-                    name={`location_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.location}
-                  />
-                </div>
-
-                <div>
-                  <label for={`year_${foodItem.id}`}>Year</label>
-                  <input
-                    type="text"
-                    id={`year_${foodItem.id}`}
-                    name={`year_${foodItem.id}`}
-                    class="input input-bordered input-sm w-full max-w-xs"
-                    value={foodItem.year}
-                  />
-                </div>
-
-                <div>
-                  <label for={`description_${foodItem.id}`}>Description</label>
-                  <textarea
-                    class="textarea textarea-bordered w-full"
-                    id={`description_${foodItem.id}`}
-                    name={`description_${foodItem.id}`}
-                  >
-                    {foodItem.description}
-                  </textarea>
-                </div>
-
-                <div>
-                  <label for={`hours_${foodItem.id}`}>Hours</label>
-                  <textarea
-                    class="textarea textarea-bordered w-full"
-                    id={`hours_${foodItem.id}`}
-                    name={`hours_${foodItem.id}`}
-                  >
-                    {foodItem.hours}
-                  </textarea>
-                </div>
-
-                <input hidden="true" name="id" value={foodItem.id} />
-
-                <button type="submit" class="btn btn-primary">
-                  Update
-                </button>
-              </div>
-            </form>
-          </div>
-        ))
-      }
-    </div>
+  <main
+    class="max-w-6xl mx-auto align-left w-full flex flex-col gap-8"
+    card-edit={null}
+  >
+    <h2 class="text-2xl">{foodType}</h2>
+    <DataForm client:only="svelte" />
   </main>
 </Layout>
-
-<script>
-  //   const errorMessageElement = document.getElementById("form-error")!;
-
-  Array.from(document.forms).forEach(form => {
-    form.addEventListener("submit", async e => {
-      e.preventDefault();
-      console.log("e", e);
-      //   errorMessageElement.innerText = "";
-      const formElement = e.target as HTMLFormElement;
-      console.log("new FormData(formElement)", new FormData(formElement));
-      const response = await fetch(formElement.action, {
-        method: formElement.method,
-        body: new FormData(formElement),
-      });
-      console.log("response", response);
-    });
-  });
-</script>

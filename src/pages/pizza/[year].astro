@@ -1,0 +1,39 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Main from "@layouts/Main.astro";
+import Footer from "@components/Footer.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import { getPaths, getUniqueNeighborhoods } from "@utils/collections";
+import { db, Food, eq, and } from "astro:db";
+import type { FoodItem } from "types";
+
+const { year } = Astro.params;
+
+const pizzas = (await db
+  .select()
+  .from(Food)
+  .where(
+    and(eq(Food.year, parseInt(year)), eq(Food.type, "pizza"))
+  )) as FoodItem[];
+const neighborhoods = pizzas ? getUniqueNeighborhoods(pizzas) : [];
+
+export async function getStaticPaths() {
+  const result = await db
+    .select({ year: Food.year })
+    .from(Food)
+    .where(eq(Food.type, "sandwich"));
+  return getPaths(result);
+}
+---
+
+<Layout
+  title={`PDX Sandwich Week ${year}`}
+  description="A fan site celebrating PDX Sandwich Week"
+>
+  <Header />
+  <Main pageTitle={`Pizza ${year}`} neighborhoods={neighborhoods}>
+    {pizzas && <CardGrid items={pizzas} />}
+  </Main>
+  <Footer />
+</Layout>

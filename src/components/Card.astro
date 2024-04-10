@@ -54,7 +54,13 @@ const neighborhoodOptions = neighborhood?.join(",");
             {location}
           </a>
         </h3>
-        {hours ? <p>Hours: {hours}</p> : null}
+        {
+          hours ? (
+            <div class="tooltip tooltip-left" data-tip={hours}>
+              <p class="text-neutral-content link">Hours</p>
+            </div>
+          ) : null
+        }
       </div>
     </div>
 
@@ -85,3 +91,9 @@ const neighborhoodOptions = neighborhood?.join(",");
     </div>
   </div>
 </div>
+
+<style>
+  .tooltip::before {
+    @apply max-w-60 border p-2;
+  }
+</style>
