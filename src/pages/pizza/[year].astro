@@ -22,14 +22,14 @@ export async function getStaticPaths() {
   const result = await db
     .select({ year: Food.year })
     .from(Food)
-    .where(eq(Food.type, "sandwich"));
+    .where(eq(Food.type, "pizza"));
   return getPaths(result);
 }
 ---
 
 <Layout
-  title={`PDX Sandwich Week ${year}`}
-  description="A fan site celebrating PDX Sandwich Week"
+  title={`PDX Pizza Week ${year}`}
+  description="A fan site celebrating PDX Pizza Week"
 >
   <Header />
   <Main pageTitle={`Pizza ${year}`} neighborhoods={neighborhoods}>
