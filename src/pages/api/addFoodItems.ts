@@ -1,5 +1,6 @@
 import type { APIContext } from "astro";
 import { Food, db } from "astro:db";
+import type { FoodItem } from "types";
 
 export async function POST(context: APIContext): Promise<Response> {
   if (!context.locals.session) {
@@ -9,7 +10,7 @@ export async function POST(context: APIContext): Promise<Response> {
   }
 
   const data = await context.request.json();
-  const allData = JSON.parse(data.data);
+  const allData = JSON.parse(data.data) as FoodItem[];
   const year = parseInt(data.year);
   const type = data.type;
 

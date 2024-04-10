@@ -15,7 +15,7 @@ const burgers = (await db
   .from(Food)
   .where(
     and(eq(Food.year, parseInt(year)), eq(Food.type, "burger"))
-  )) as FoodItem[];
+  )) as unknown as FoodItem[];
 const neighborhoods = burgers ? getUniqueNeighborhoods(burgers) : [];
 
 export async function getStaticPaths() {

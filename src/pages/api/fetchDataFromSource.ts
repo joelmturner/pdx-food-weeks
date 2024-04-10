@@ -11,7 +11,7 @@ const fetchData = async (url: string) => {
 
 function getValue($: any, key: string) {
   return $("strong")
-    .filter(function () {
+    .filter(function (this: any) {
       return $(this).text().trim() === key;
     })
     .next()
