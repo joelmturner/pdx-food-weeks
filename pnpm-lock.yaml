@@ -29,6 +29,9 @@ dependencies:
   '@resvg/resvg-js':
     specifier: ^2.6.2
     version: 2.6.2
+  '@vercel/analytics':
+    specifier: ^1.2.2
+    version: 1.2.2(react@18.2.0)
   astro:
     specifier: ^4.5.15
     version: 4.5.15(@types/node@20.12.4)(typescript@5.4.4)
