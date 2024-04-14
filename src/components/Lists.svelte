@@ -59,12 +59,12 @@
         </form>
       </div>
 
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-12 md:gap-8">
         {#if list.foodIds.length === 0}
           <p>No items in this list yet</p>
         {:else}
           {#each savedListItems.filter( savedListItem => list.foodIds.includes(savedListItem.id) ) as food (food.id)}
-            <div class="flex gap-8">
+            <div class="flex flex-col gap-8 md:flex-row">
               <img src={food.imageUrl} alt={food.title} class="w-60 h-60" />
 
               <div class="prose">
@@ -82,7 +82,7 @@
               </div>
 
               <div
-                class="flex flex-col flex-grow gap-3 justify-center items-end"
+                class="flex flex-col flex-grow gap-3 justify-center items-start md:items-end"
               >
                 <form
                   method="POST"
