@@ -21,7 +21,7 @@ export const user = defineTable( {
     columns: {
         id: column.text({primaryKey: true, notNull: true, unique: true}),
         username: column.text(),
-        email: column.text(),
+        email: column.text({optional: true, unique: true}),
         password: column.text(),
         role: column.text(),
     }
