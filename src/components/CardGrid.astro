@@ -1,13 +1,14 @@
 ---
-import type { FoodItem } from "types";
+import type { FoodItem, ListItem } from "types";
 import Card from "./Card.astro";
 
 type Props = {
   items: FoodItem[];
+  lists: ListItem[] | null;
 };
-const { items } = Astro.props;
+const { items, lists } = Astro.props;
 ---
 
 <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-  {items?.map(item => <Card {...item} />)}
+  {items?.map(item => <Card {...item} lists={lists} />)}
 </div>

@@ -1,0 +1,50 @@
+---
+import Header from "@components/Header.astro";
+import Lists from "@components/Lists.svelte";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import { Food, inArray } from "astro:db";
+import { eq, list } from "astro:db";
+import { db } from "astro:db";
+
+if (!Astro.locals.user) {
+  return Astro.redirect("/");
+}
+
+const savedLists = await db
+  .select()
+  .from(list)
+  .where(eq(list.userId, Astro.locals.user.id));
+
+const foodIds = savedLists
+  .map(list => list.foodIds)
+  ?.flat()
+  ?.filter(Boolean) as number[];
+
+const savedListItems = await db
+  .select()
+  .from(Food)
+  .where(inArray(Food.id, foodIds?.length ? foodIds : [0]));
+---
+
+<Layout title={`My stuff - ${Astro.locals.user.username}`}>
+  <Header />
+  <Main pageTitle={`My stuff`} hideFilters={true}>
+    <div class="flex flex-col gap-6">
+      <p class="text-xl">
+        Welcome back, {Astro.locals.user.username}! Here are your lists.
+      </p>
+      {
+        savedLists ? (
+          <Lists
+            client:load
+            savedLists={savedLists}
+            savedListItems={savedListItems}
+          />
+        ) : (
+          <p>You don't have any saved lists yet.</p>
+        )
+      }
+    </div>
+  </Main>
+</Layout>

@@ -92,18 +92,36 @@ const user = Astro.locals.user;
 </li>
 
 <!-- we'll add this later -->
-<!-- {
+{
   user ? (
     <li>
       <details>
         <summary>
           <div class="avatar placeholder">
             <div class="bg-neutral text-neutral-content rounded-full w-8">
-              <span class="text-s">{user.username?.[0]}</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="0"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <>
+                  <circle cx="12" cy="8" r="5" />
+                  <path d="M20 21a8 8 0 0 0-16 0" />
+                </>
+              </svg>
             </div>
           </div>
         </summary>
-        <ul class="p-2 bg-base-100 rounded-t-none">
+        <ul class="p-2 bg-base-100 rounded-t-none min-w-32">
+          <li>
+            <a href="/me">My Lists</a>
+          </li>
           <li>
             <form method="post" action="/api/logout">
               <button>Logout</button>
@@ -119,4 +137,4 @@ const user = Astro.locals.user;
       </div>
     </li>
   )
-} -->
+}

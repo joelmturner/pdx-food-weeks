@@ -4,27 +4,17 @@ import Header from "@components/Header.astro";
 import Main from "@layouts/Main.astro";
 import Footer from "@components/Footer.astro";
 import CardGrid from "@components/CardGrid.astro";
-import { getPaths, getUniqueNeighborhoods } from "@utils/collections";
-import { db, Food, eq, and } from "astro:db";
-import type { FoodItem } from "types";
+import {
+  getFoodItems,
+  getLists,
+  getUniqueNeighborhoods,
+} from "@utils/collections";
 
 const { year } = Astro.params;
 
-const burgers = (await db
-  .select()
-  .from(Food)
-  .where(
-    and(eq(Food.year, parseInt(year)), eq(Food.type, "burger"))
-  )) as unknown as FoodItem[];
+const burgers = await getFoodItems(year!, "burger");
 const neighborhoods = burgers ? getUniqueNeighborhoods(burgers) : [];
-
-export async function getStaticPaths() {
-  const result = await db
-    .select({ year: Food.year })
-    .from(Food)
-    .where(eq(Food.type, "burger"));
-  return getPaths(result);
-}
+const lists = await getLists(Astro.locals?.user?.id);
 ---
 
 <Layout
@@ -33,7 +23,7 @@ export async function getStaticPaths() {
 >
   <Header />
   <Main pageTitle={`Burgers ${year}`} neighborhoods={neighborhoods}>
-    {burgers && <CardGrid items={burgers} />}
+    {burgers && <CardGrid items={burgers} lists={lists} />}
   </Main>
   <Footer />
 </Layout>

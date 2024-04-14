@@ -20,6 +20,6 @@ const { foodType } = Astro.params;
     card-edit={null}
   >
     <h2 class="text-2xl">{foodType}</h2>
-    <DataForm client:only="svelte" />
+    <DataForm client:load />
   </main>
 </Layout>

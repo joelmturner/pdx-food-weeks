@@ -1,9 +1,11 @@
 ---
 import { Image } from "astro:assets";
-import type { FoodItem } from "types";
+import type { FoodItem, ListItem } from "types";
+import SaveToList from "./SaveToList.svelte";
 
-type Props = FoodItem;
+type Props = FoodItem & { lists: ListItem[] | null };
 const {
+  id,
   url,
   imageUrl,
   title,
@@ -13,6 +15,7 @@ const {
   description,
   neighborhood,
   diet,
+  lists,
 } = Astro.props;
 
 const dietaryOptions = diet?.join(",");
@@ -89,11 +92,19 @@ const neighborhoodOptions = neighborhood?.join(",");
         ) : null
       }
     </div>
-  </div>
-</div>
 
-<style>
-  .tooltip::before {
-    @apply max-w-60 border p-2;
-  }
-</style>
+    {
+      Astro.locals.user && lists ? (
+        <div>
+          <SaveToList client:load foodId={id} lists={lists} />
+        </div>
+      ) : null
+    }
+  </div>
+
+  <style>
+    .tooltip::before {
+      @apply max-w-60 border p-2;
+    }
+  </style>
+</div>

@@ -19,16 +19,23 @@ export type SocialObjects = {
 }[];
 
 export type FoodItem = {
-    id: string;
-    description: string;
-    title: string;
-    url: string;
-    location: string;
-    locationUrl: string;
-    hours: string;
-    diet: ("gf" | "vegetarian" | "vegan" | "meat")[];
-    imageUrl: string;
-    neighborhood: string[];
-    year: number;
-    type: "sandwich" | "nacho" | "burger" | 'pizza';
+  id: string;
+  description: string;
+  title: string;
+  url: string;
+  location: string;
+  locationUrl: string;
+  hours: string;
+  diet: ("gf" | "vegetarian" | "vegan" | "meat")[];
+  imageUrl: string;
+  neighborhood: string[];
+  year: number;
+  type: "sandwich" | "nacho" | "burger" | "pizza";
+};
+
+export type ListItem = {
+  id: number;
+  name?: string;
+  foodIds: number[];
+  userId: string;
 };
