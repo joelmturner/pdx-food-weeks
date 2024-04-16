@@ -21,7 +21,7 @@ const eventDetails = await getEventDetails(year!, "pizza");
 
 const dateRange = eventDetails
   ? `${formatter.format(new Date(eventDetails.dateStart))} - ${formatter.format(new Date(eventDetails.dateEnd))} ${eventDetails.year}`
-  : null;
+  : undefined;
 ---
 
 <Layout
@@ -29,8 +29,11 @@ const dateRange = eventDetails
   description="A fan site celebrating PDX Pizza Week"
 >
   <Header />
-  <Main pageTitle={`Pizza ${year}`} neighborhoods={neighborhoods}>
-    {dateRange ? <h3>{dateRange}</h3> : null}
+  <Main
+    pageTitle={`Pizza ${year}`}
+    neighborhoods={neighborhoods}
+    pageDesc={dateRange}
+  >
     {pizzas && <CardGrid items={pizzas} lists={lists} />}
   </Main>
   <Footer />
