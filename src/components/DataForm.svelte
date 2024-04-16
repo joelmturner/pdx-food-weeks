@@ -1,5 +1,5 @@
 <script lang="ts">
-  $: data = null;
+  $: data = null as { eventDetails: any; food: any[] } | null;
 
   $: status = "idle";
 
@@ -49,6 +49,40 @@
       console.error("Failed to add data to db");
     }
   }
+
+  async function handleSubmitEventDetails(
+    event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement }
+  ) {
+    const formData = new FormData(event.target);
+    const eventData = formData.get("data");
+    const { title, description, dateStart, dateEnd, url, year, type } =
+      JSON.parse(eventData);
+
+    status = "loading";
+    // Handle form submission logic here
+    const response = await fetch("/api/events/addDetails", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title,
+        description,
+        dateStart,
+        dateEnd,
+        url,
+        year,
+        type,
+      }),
+    });
+
+    if (response.ok) {
+      status = "Data added to db";
+    } else {
+      status = "Failed to add data to db";
+      console.error("Failed to add data to db");
+    }
+  }
 </script>
 
 <form on:submit|preventDefault={handleSubmitUrl} class="flex flex-col gap-3">
@@ -66,6 +100,7 @@
 {/if}
 
 {#if data}
+  <h3>Food</h3>
   <form on:submit|preventDefault={handleSubmitData} class="flex flex-col gap-3">
     <div class="flex flex-col gap-1">
       <label for="year">Year</label>
@@ -91,12 +126,33 @@
     </div>
 
     <button type="submit" class="btn btn-primary max-w-xs">Add to db</button>
-    <input value={JSON.stringify(data)} hidden name="data" id="data" />
+    <input value={JSON.stringify(data.food)} hidden name="data" id="data" />
+  </form>
+
+  <h3>Event Details</h3>
+  <form
+    on:submit|preventDefault={handleSubmitEventDetails}
+    class="flex flex-col gap-3"
+  >
+    <input
+      type="hidden"
+      value={JSON.stringify(data.eventDetails)}
+      name="data"
+      id="name"
+    />
+    <button type="submit" class="btn btn-primary max-w-xs">Add to db</button>
   </form>
 
   <div class="h-full max-h-96 w-full p-4 overflow-auto">
     <pre><code>
-        {JSON.stringify(data, null, 2)}
+        {JSON.stringify(data.eventDetails, null, 2)}
+    </code></pre>
+  </div>
+
+  <div class="py-24" />
+  <div class="h-full max-h-96 w-full p-4 overflow-auto">
+    <pre><code>
+        {JSON.stringify(data.food, null, 2)}
     </code></pre>
   </div>
 {/if}

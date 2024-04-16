@@ -1,5 +1,5 @@
-import { Food, and, db, eq, list } from "astro:db";
-import type { FoodItem, ListItem } from "types";
+import { Food, and, db, eq, events, list } from "astro:db";
+import type { EventsItem, FoodItem, ListItem } from "types";
 
 export function getYearsFromData(data: { year: number }[]) {
   const uniqueYears = new Set([...data.map(item => item.year)]);
@@ -49,3 +49,18 @@ export async function getFoodItems(
       and(eq(Food.year, parseInt(year)), eq(Food.type, type))
     )) as unknown as FoodItem[];
 }
+
+export async function getEventDetails(year: string, type: EventsItem["type"]) {
+  return (
+    await db
+      .select()
+      .from(events)
+      .where(and(eq(events.year, parseInt(year)), eq(events.type, type)))
+  )?.[0] as unknown as EventsItem;
+}
+
+export const formatter = new Intl.DateTimeFormat("en-US", {
+  month: "long", // full name of the month
+  day: "numeric", // numeric day of the month
+  timeZone: "UTC", // important to ensure correct day regardless of local timezone
+});

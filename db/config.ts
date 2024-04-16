@@ -17,6 +17,19 @@ const Food = defineTable({
     }
 });
 
+export const events = defineTable({
+    columns: {
+        id: column.number({primaryKey: true, unique: true}),
+        title: column.text(),
+        description: column.text(),
+        dateStart: column.text(),
+        dateEnd: column.text(),
+        url: column.text(),
+        type: column.text(),
+        year: column.number(),
+    }
+});
+
 export const user = defineTable( {
     columns: {
         id: column.text({primaryKey: true, notNull: true, unique: true}),
@@ -46,5 +59,5 @@ const list = defineTable({
 
 // https://astro.build/db/config
 export default defineDb( {
-    tables: { Food, user, session, list}
+    tables: { Food, user, session, list, events }
 } );

@@ -33,6 +33,17 @@ export type FoodItem = {
   type: "sandwich" | "nacho" | "burger" | "pizza";
 };
 
+export type EventsItem = {
+  id: string;
+  title: string;
+  description: string;
+  dateStart: string;
+  dateEnd: string;
+  url: string;
+  type: "sandwich" | "nacho" | "burger" | "pizza";
+  year: number;
+};
+
 export type ListItem = {
   id: number;
   name?: string;
