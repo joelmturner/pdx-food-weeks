@@ -69,8 +69,9 @@
 
               <div class="prose">
                 <h3 class="text-xl">
-                  <span class="font-bold">{food.title}</span
-                  >{` from ${food.location}`}
+                  <span class="font-bold"
+                    ><a href={food.url}>{food.title}</a></span
+                  >{` from `}<a href={food.locationUrl}>{food.location}</a>
                 </h3>
                 <p>{food.description}</p>
                 {#if !!food.neighborhood}
