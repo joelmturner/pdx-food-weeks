@@ -16,7 +16,7 @@
       body: JSON.stringify({ url: formData.get("url") }),
     });
 
-    if (response.ok) {
+    if (response?.ok) {
       data = await response.json();
     } else {
       console.error("Failed to fetch data");
@@ -53,10 +53,10 @@
   async function handleSubmitEventDetails(
     event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement }
   ) {
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
     const eventData = formData.get("data");
     const { title, description, dateStart, dateEnd, url, year, type } =
-      JSON.parse(eventData);
+      JSON.parse(eventData as string);
 
     status = "loading";
     // Handle form submission logic here
@@ -122,6 +122,7 @@
         <option value="burger">Burger</option>
         <option value="nacho">Nachos</option>
         <option value="sandwich">Sandwich</option>
+        <option value="wing">Wing</option>
       </select>
     </div>
 

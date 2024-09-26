@@ -30,7 +30,7 @@ export type FoodItem = {
   imageUrl: string;
   neighborhood: string[];
   year: number;
-  type: "sandwich" | "nacho" | "burger" | "pizza";
+  type: "sandwich" | "nacho" | "burger" | "pizza" | "wing";
 };
 
 export type EventsItem = {
@@ -40,7 +40,7 @@ export type EventsItem = {
   dateStart: string;
   dateEnd: string;
   url: string;
-  type: "sandwich" | "nacho" | "burger" | "pizza";
+  type: "sandwich" | "nacho" | "burger" | "pizza" | "wing";
   year: number;
 };
 

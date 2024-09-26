@@ -22,6 +22,11 @@ const pizzaYears = await db
   .from(Food)
   .where(eq(Food.type, "pizza"));
 
+const wingYears = await db
+  .select({ year: Food.year })
+  .from(Food)
+  .where(eq(Food.type, "wing"));
+
 const collectionNavItems = [
   {
     name: "Burgers",
@@ -42,6 +47,11 @@ const collectionNavItems = [
     name: "Pizzas",
     slug: "pizza",
     years: getYearsFromData(pizzaYears),
+  },
+  {
+    name: "Wings",
+    slug: "wing",
+    years: getYearsFromData(wingYears),
   },
 ];
 
