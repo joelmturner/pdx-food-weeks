@@ -22,15 +22,19 @@ const fetchData = async (url: string) => {
 };
 
 function getValue($: any, key: string) {
-  const output = $("strong")
-    .filter(function (this: any) {
-      return $(this).text().trim() === key;
-    })
-    .next()
-    .text()
-    .trim();
+  const strongElement = $("strong").filter(function (this: any) {
+    return $(this).text().trim() === key;
+  });
 
-  return !!output ? output : null;
+  // try to get the next sibling's text
+  let output = strongElement.next().text().trim();
+
+  // if that's empty, try getting the text node directly after the strong tag
+  if (!output) {
+    output = strongElement.get(0)?.nextSibling?.nodeValue?.trim() ?? "";
+  }
+
+  return output || null;
 }
 
 const getPages = async (eventUrls: string[]) => {
@@ -39,31 +43,40 @@ const getPages = async (eventUrls: string[]) => {
 
     const vegan =
       getValue($, "Vegan Substitute?") ||
+      getValue($, "Available Vegan?") ||
       getValue($, "Available Vegetarian/Vegan?");
     const vegetarian =
       getValue($, "Vegetarian Substitute?") ||
-      getValue($, "Available Vegetarian/Vegan?");
+      getValue($, "Available Vegetarian/Vegan?") ||
+      getValue($, "Available Vegetarian?");
     const glutenFree = getValue($, "Available Gluten-Free?");
     const dietary =
       getValue($, "Meat or Vegetarian?") ||
       getValue($, "Chicken or Vegetarian?");
     const ingredients =
-      getValue($, "What's On It:") || getValue($, "What's On Them:");
+      getValue($, "What's On It:") ||
+      getValue($, "What's On Them:") ||
+      getValue($, "What's In It:");
     const hours =
       getValue($, "Where and When to Get It:") ||
       getValue($, "Where and When To Get Them:");
 
     const veganCheck = ["yes", "vegan"];
-
     const isVegan = vegan
-      ? veganCheck.some(item => vegan.toLowerCase().includes(item)) ||
-        veganCheck.some(item => dietary.toLowerCase().includes(item))
+      ? veganCheck.some(
+          item =>
+            vegan.toLowerCase().includes(item) ||
+            dietary.toLowerCase().includes(item)
+        )
       : false;
 
     const vegetarianCheck = ["yes", "vegetarian"];
     const isVegetarian = vegetarian
-      ? vegetarianCheck.some(item => vegetarian.toLowerCase().includes(item)) ||
-        vegetarianCheck.some(item => dietary.toLowerCase().includes(item))
+      ? vegetarianCheck.some(
+          item =>
+            vegetarian.toLowerCase().includes(item) ||
+            dietary.toLowerCase().includes(item)
+        )
       : false;
 
     const dietaryItem = dietary?.toLowerCase().split(" ")[0];
@@ -130,7 +143,10 @@ async function getEventDetails(baseUrl: string) {
   const dateText = $(".date-summary > span").text().trim();
   const { dateStart, dateEnd } = parseDates(dateText);
   const url = baseUrl;
-  const description = $(".descriptions > .description").text().trim();
+  const description =
+    $(".descriptions > .description").text().trim() ||
+    getValue($, "What They Say About It:") ||
+    getValue($, "What's In It:");
   const year = dateStart.getFullYear();
   const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
   // check which type the title contains
