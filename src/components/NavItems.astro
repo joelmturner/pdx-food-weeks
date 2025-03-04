@@ -43,54 +43,53 @@ const collectionNavItems = [
 
 type Props = {
   activeNav?: string;
+  type?: "desktop" | "mobile";
 };
 
 const user = Astro.locals.user;
+const { type } = Astro.props;
 ---
 
 <div class="flex flex-col md:flex-row md:items-center gap-1 w-full">
-  <!-- mobile -->
-
-  <div class="mobile-nav-collection md:hidden w-full wa-body-xl">
-    {
-      collectionNavItems.map(item => (
-        <wa-details summary={item.name} class="w-full">
-          <div class="flex flex-col gap-2 wa-body-l">
-            {item.years.map(year => (
-              <a href={`/${item.slug}/${year}/`}>{year}</a>
-            ))}
-          </div>
-        </wa-details>
-      ))
-    }
-  </div>
-
-  <!-- desktop -->
-  <div class="hidden md:flex items-center gap-1">
-    {
-      collectionNavItems.map(item => (
-        <wa-dropdown>
-          <wa-button slot="trigger" caret appearance="plain" size="small">
-            <div class="text-lg">{item.name}</div>
-          </wa-button>
-          <wa-menu>
-            {item?.years?.map(year => (
-              <wa-menu-item>
-                <wa-menu-label>
-                  <a
-                    class="w-full wa-body-m hover:text-inherit hover:no-underline"
-                    href={`/${item.slug}/${year}/`}
-                  >
-                    {year}
-                  </a>
-                </wa-menu-label>
-              </wa-menu-item>
-            ))}
-          </wa-menu>
-        </wa-dropdown>
-      ))
-    }
-  </div>
+  {
+    type === "mobile" ? (
+      <div class="mobile-nav-collection md:hidden w-full wa-body-xl">
+        {collectionNavItems.map(item => (
+          <wa-details summary={item.name} class="w-full">
+            <div class="flex flex-col gap-2 wa-body-l">
+              {item.years.map(year => (
+                <a href={`/${item.slug}/${year}/`}>{year}</a>
+              ))}
+            </div>
+          </wa-details>
+        ))}
+      </div>
+    ) : (
+      <div class="hidden md:flex items-center gap-1">
+        {collectionNavItems.map(item => (
+          <wa-dropdown>
+            <wa-button slot="trigger" caret appearance="plain" size="small">
+              <div class="text-lg">{item.name}</div>
+            </wa-button>
+            <wa-menu>
+              {item?.years?.map(year => (
+                <wa-menu-item>
+                  <wa-menu-label>
+                    <a
+                      class="w-full wa-body-m hover:text-inherit hover:no-underline"
+                      href={`/${item.slug}/${year}/`}
+                    >
+                      {year}
+                    </a>
+                  </wa-menu-label>
+                </wa-menu-item>
+              ))}
+            </wa-menu>
+          </wa-dropdown>
+        ))}
+      </div>
+    )
+  }
 
   <wa-button
     id="theme-btn"

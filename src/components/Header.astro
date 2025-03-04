@@ -28,12 +28,12 @@ const { activeNav } = Astro.props;
       </div>
 
       <div class="flex-none md:block hidden">
-        <NavItems activeNav={activeNav} />
+        <NavItems activeNav={activeNav} type="desktop" />
       </div>
 
       <div class="flex-none md:hidden">
         <wa-drawer with-header class="drawer-header">
-          <NavItems activeNav={activeNav} />
+          <NavItems activeNav={activeNav} type="mobile" />
         </wa-drawer>
         <wa-button appearance="plain">
           <svg

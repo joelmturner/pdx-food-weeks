@@ -22,9 +22,6 @@ function runIt() {
         item.replace("___", " - ").replaceAll("_", " ").toLowerCase()
       ) || [];
 
-    console.log("activeDietaryTags", activeDietaryTags);
-    console.log("activeNeighborhoodTags", activeNeighborhoodTags);
-
     // return early if no tags are active
     if (activeDietaryTags.length === 0 && activeNeighborhoodTags.length === 0) {
       foodCards.forEach(card => {
