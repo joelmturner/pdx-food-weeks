@@ -116,37 +116,25 @@ const user = Astro.locals.user;
       <>
         <wa-dropdown>
           <wa-button slot="trigger" caret appearance="plain">
-            <div class="text-lg">
-              <div class="avatar placeholder">
-                <div class="bg-neutral text-neutral-content rounded-full w-8">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="0"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <circle cx="12" cy="8" r="5" />
-                    <path d="M20 21a8 8 0 0 0-16 0" />
-                  </svg>
-                </div>
-              </div>
-            </div>
+            <wa-avatar label="User" initials={user.username?.[0]} />
           </wa-button>
           <wa-menu>
             <wa-menu-item>
-              <wa-button appearance="plain" href="/me">
-                My Lists
-              </wa-button>
+              <wa-menu-label>
+                <a
+                  class="w-full wa-body-m hover:text-inherit hover:no-underline"
+                  href={`/me`}
+                >
+                  My Lists
+                </a>
+              </wa-menu-label>
             </wa-menu-item>
             <wa-menu-item>
-              <form method="post" action="/api/logout">
-                <wa-button appearance="plain">Logout</wa-button>
-              </form>
+              <wa-menu-label>
+                <form method="post" action="/api/logout">
+                  <wa-button appearance="plain">Logout</wa-button>
+                </form>
+              </wa-menu-label>
             </wa-menu-item>
           </wa-menu>
         </wa-dropdown>
@@ -173,10 +161,11 @@ const user = Astro.locals.user;
 </script>
 
 <style>
-  wa-button {
-    width: 100%;
-  }
+  wa-button,
   wa-details {
     width: 100%;
+  }
+  wa-avatar {
+    --size: 1.5rem;
   }
 </style>

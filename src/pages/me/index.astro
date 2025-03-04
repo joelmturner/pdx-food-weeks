@@ -6,6 +6,7 @@ import Main from "@layouts/Main.astro";
 import { Food, inArray } from "astro:db";
 import { eq, list } from "astro:db";
 import { db } from "astro:db";
+import food from "@content/food/food.json";
 
 if (!Astro.locals.user) {
   return Astro.redirect("/");
@@ -21,10 +22,7 @@ const foodIds = savedLists
   ?.flat()
   ?.filter(Boolean) as number[];
 
-const savedListItems = await db
-  .select()
-  .from(Food)
-  .where(inArray(Food.id, foodIds?.length ? foodIds : [0]));
+const savedListItems = food.filter(item => foodIds.includes(item.id));
 ---
 
 <Layout title={`My stuff - ${Astro.locals.user.username}`}>

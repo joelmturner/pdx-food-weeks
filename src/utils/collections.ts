@@ -1,4 +1,4 @@
-import { Food, and, db, eq, events, list } from "astro:db";
+import { and, db, eq, events, list } from "astro:db";
 import type { EventsItem, FoodItem, ListItem } from "types";
 import food from "../content/food/food.json";
 
