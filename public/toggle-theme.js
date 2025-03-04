@@ -25,7 +25,6 @@ function setPreference() {
 
 function reflectPreference() {
   document.firstElementChild.setAttribute("data-theme", themeValue);
-
   document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
 
   // Get a reference to the body element
@@ -33,6 +32,13 @@ function reflectPreference() {
 
   // Check if the body element exists before using getComputedStyle
   if (body) {
+    // Handle wa-dark class based on theme
+    if (themeValue === "business") {
+      document.documentElement.classList.add("wa-dark");
+    } else {
+      document.documentElement.classList.remove("wa-dark");
+    }
+
     // Get the computed styles for the body element
     const computedStyles = window.getComputedStyle(body);
 

@@ -19,30 +19,26 @@ const {
 const filters = filterKey === "neighborhoods" ? neighborhoods : dietary;
 ---
 
-<div class="flex gap-2 justify-end flex-wrap w-100">
-  {
-    filters?.map(item => (
-      <div
-        class="badge badge-outline text-xs cursor-pointer"
-        data-filter-id={item.toUpperCase()}
-        data-filter-key={filterKey}
-      >
-        {item.toUpperCase()}
-      </div>
-    ))
-  }
-  <div class="badge" data-filter-id={filterKey}>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      class="w-4 h-4 inline-block stroke-current cursor-pointer"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </div>
+<div class="flex gap-2 justify-end flex-wrap w-1/2">
+  <wa-select
+    label={filterKey.toUpperCase()}
+    multiple
+    clearable
+    size="small"
+    data-filter-key={filterKey}
+  >
+    {
+      filters?.map(item => (
+        <wa-option value={item.replace(" ", "_").replace("-", "_")}>
+          {item.toUpperCase()}
+        </wa-option>
+      ))
+    }
+  </wa-select>
 </div>
+
+<style>
+  wa-select {
+    @apply w-full;
+  }
+</style>

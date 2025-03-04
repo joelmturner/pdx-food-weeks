@@ -4,104 +4,69 @@ function intersection(arr1: string[], arr2: string[]) {
 }
 
 function runIt() {
-  // Find all buttons with the `alert` class on the page.
-  const tags = document.querySelectorAll("[data-filter-id]");
+  // Find the select elements
+  const dietarySelect = document.querySelector(
+    'wa-select[data-filter-key="dietary"]'
+  );
+  const neighborhoodSelect = document.querySelector(
+    'wa-select[data-filter-key="neighborhoods"]'
+  );
 
-  // Handle clicks on each button.
-  tags.forEach(tag => {
-    if (!(tag instanceof HTMLElement)) {
+  const handleFilterChange = (e: Event) => {
+    const foodCards = document.querySelectorAll(".card");
+
+    // Get selected values from the selects - value is already an array for multiple selects
+    const activeDietaryTags = (dietarySelect as any)?.value || [];
+    const activeNeighborhoodTags =
+      (neighborhoodSelect as any)?.value?.map(item =>
+        item.replace("___", " - ").replaceAll("_", " ").toLowerCase()
+      ) || [];
+
+    console.log("activeDietaryTags", activeDietaryTags);
+    console.log("activeNeighborhoodTags", activeNeighborhoodTags);
+
+    // return early if no tags are active
+    if (activeDietaryTags.length === 0 && activeNeighborhoodTags.length === 0) {
+      foodCards.forEach(card => {
+        card.classList.remove("hidden");
+      });
       return;
     }
 
-    tag.addEventListener("click", () => {
-      const foodCards = document.querySelectorAll(".card");
-      // clear all tags of this filterKey
-      if (["dietary", "neighborhoods"].includes(tag.dataset.filterId ?? "")) {
-        tags.forEach(t => {
-          if (!(t instanceof HTMLElement)) {
-            return;
-          }
-          if (t.dataset.filterKey === tag.dataset.filterId) {
-            t.classList.remove("badge-primary");
-            t.classList.add("badge-outline");
-          }
-        });
-      } else {
-        // toggle selection
-        tag.classList.toggle("badge-primary");
-        tag.classList.toggle("badge-outline");
-      }
-
-      const activeDietaryTags = Array.from(
-        document.querySelectorAll("[data-filter-id][data-filter-key=dietary]")
-      )
-        .filter(t => t.classList.contains("badge-primary"))
-        .map(
-          tag =>
-            (tag instanceof HTMLElement &&
-              tag.dataset.filterId?.toLowerCase()) ||
-            ""
-        )
-        .filter(Boolean);
-
-      const activeNeighborhoodTags = Array.from(
-        document.querySelectorAll(
-          "[data-filter-id][data-filter-key=neighborhoods]"
-        )
-      )
-        .filter(t => t.classList.contains("badge-primary"))
-        .map(
-          tag =>
-            (tag instanceof HTMLElement &&
-              tag.dataset.filterId?.toLowerCase()) ||
-            ""
-        )
-        .filter(Boolean);
-
-      // return early if no tags are active
-      if (
-        activeDietaryTags.length === 0 &&
-        activeNeighborhoodTags.length === 0
-      ) {
-        foodCards.forEach(card => {
-          card.classList.remove("hidden");
-        });
+    // loop over the posts and hide/show them based on selected filters
+    foodCards.forEach(card => {
+      if (!(card instanceof HTMLElement)) {
         return;
       }
 
-      // loop over the posts and hide/show them based on selected filters
-      foodCards.forEach(card => {
-        if (!(card instanceof HTMLElement)) {
-          return;
-        }
+      const dietaryTags =
+        card.dataset.dietary?.split(",").map(item => item.toLowerCase()) ?? [];
 
-        const dietaryTags =
-          card.dataset.dietary?.split(",").map(item => item.toLowerCase()) ??
-          [];
+      const overlapDietary = intersection(activeDietaryTags, dietaryTags);
 
-        const overlapDietary = intersection(activeDietaryTags, dietaryTags);
+      const neighborhoodTags =
+        card.dataset.neighborhood?.split(",").map(item => item.toLowerCase()) ??
+        [];
 
-        const neighborhoodTags =
-          card.dataset.neighborhood
-            ?.split(",")
-            .map(item => item.toLowerCase()) ?? [];
+      const overlapNeighborhood = intersection(
+        activeNeighborhoodTags,
+        neighborhoodTags
+      );
 
-        const overlapNeighborhood = intersection(
-          activeNeighborhoodTags,
-          neighborhoodTags
-        );
-
-        if (
-          (overlapDietary.length || !activeDietaryTags.length) &&
-          (overlapNeighborhood.length || !activeNeighborhoodTags.length)
-        ) {
-          card.classList.remove("hidden");
-        } else {
-          card.classList.add("hidden");
-        }
-      });
+      if (
+        (overlapDietary.length || !activeDietaryTags.length) &&
+        (overlapNeighborhood.length || !activeNeighborhoodTags.length)
+      ) {
+        card.classList.remove("hidden");
+      } else {
+        card.classList.add("hidden");
+      }
     });
-  });
+  };
+
+  // Add change event listeners to the selects
+  dietarySelect?.addEventListener("change", handleFilterChange);
+  neighborhoodSelect?.addEventListener("change", handleFilterChange);
 }
 
 // run on initial page load

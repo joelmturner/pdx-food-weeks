@@ -41,11 +41,13 @@ const { props } = Astro;
       }
       <p>{props.pageDesc}</p>
     </div>
-    {
-      !props.hideFilters ? (
-        <CollectionFilters neighborhoods={props.neighborhoods} />
-      ) : null
-    }
+    <div class="w-full flex justify-end">
+      {
+        !props.hideFilters ? (
+          <CollectionFilters neighborhoods={props.neighborhoods} />
+        ) : null
+      }
+    </div>
   </div>
   <slot />
 </main>
