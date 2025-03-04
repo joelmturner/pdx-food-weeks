@@ -3,7 +3,6 @@ import Header from "@components/Header.astro";
 import Lists from "@components/Lists.svelte";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
-import { Food, inArray } from "astro:db";
 import { eq, list } from "astro:db";
 import { db } from "astro:db";
 import food from "@content/food/food.json";
@@ -20,7 +19,7 @@ const savedLists = await db
 const foodIds = savedLists
   .map(list => list.foodIds)
   ?.flat()
-  ?.filter(Boolean) as number[];
+  ?.filter(Boolean);
 
 const savedListItems = food.filter(item => foodIds.includes(item.id));
 ---

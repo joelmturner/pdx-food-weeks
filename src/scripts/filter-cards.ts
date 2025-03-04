@@ -18,7 +18,7 @@ function runIt() {
     // Get selected values from the selects - value is already an array for multiple selects
     const activeDietaryTags = (dietarySelect as any)?.value || [];
     const activeNeighborhoodTags =
-      (neighborhoodSelect as any)?.value?.map(item =>
+      (neighborhoodSelect as any)?.value?.map((item: string) =>
         item.replace("___", " - ").replaceAll("_", " ").toLowerCase()
       ) || [];
 

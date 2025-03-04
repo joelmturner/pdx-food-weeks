@@ -56,9 +56,12 @@ const { activeNav } = Astro.props;
 
 <script>
   const drawer = document.querySelector(".drawer-header");
-  const openButton = drawer.nextElementSibling;
+  const openButton = drawer?.nextElementSibling;
 
-  openButton.addEventListener("click", () => (drawer.open = true));
+  openButton?.addEventListener("click", () => {
+    // @ts-ignore-next-line
+    if (drawer) drawer.open = true;
+  });
 </script>
 
 <style>

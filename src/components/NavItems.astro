@@ -51,7 +51,7 @@ const user = Astro.locals.user;
 <div class="flex flex-col md:flex-row md:items-center gap-1 w-full">
   <!-- mobile -->
 
-  <div class="details-group-example md:hidden w-full wa-body-xl">
+  <div class="mobile-nav-collection md:hidden w-full wa-body-xl">
     {
       collectionNavItems.map(item => (
         <wa-details summary={item.name} class="w-full">
@@ -148,14 +148,18 @@ const user = Astro.locals.user;
 </div>
 
 <script>
-  const container = document.querySelector(".details-group-example");
+  const container = document.querySelector(".mobile-nav-collection");
 
   // Close all other details when one is shown
-  container.addEventListener("wa-show", event => {
-    if (event.target.localName === "wa-details") {
-      [...container.querySelectorAll("wa-details")].map(
-        details => (details.open = event.target === details)
-      );
+  container?.addEventListener("wa-show", event => {
+    if (
+      event.target instanceof HTMLElement &&
+      event.target.localName === "wa-details"
+    ) {
+      [...(container?.querySelectorAll("wa-details") || [])].map(details => {
+        // @ts-ignore-next-line
+        return (details.open = event.target === details);
+      });
     }
   });
 </script>
