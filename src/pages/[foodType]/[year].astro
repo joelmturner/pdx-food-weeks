@@ -38,18 +38,45 @@ const foodTypeCapitalized =
   foodType!.charAt(0).toUpperCase() + foodType!.slice(1);
 const foodTypePlural =
   foodType === "sandwich" ? "Sandwiches" : `${foodTypeCapitalized}s`;
+
+// SEO optimized content
+const pageTitle = `Portland ${foodTypePlural} Week ${year} - PDX Food Weeks`;
+const description = `Explore Portland ${foodTypePlural} Week ${year}! ${items.length} unique ${foodTypePlural.toLowerCase()} across ${neighborhoods.length} Portland neighborhoods. ${dateRange ? `Running ${dateRange}` : ""}`;
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: `Portland ${foodTypePlural} Week ${year}`,
+  description: description,
+  ...(eventDetails && {
+    startDate: eventDetails.dateStart,
+    endDate: eventDetails.dateEnd,
+  }),
+  location: {
+    "@type": "City",
+    name: "Portland",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Portland",
+      addressRegion: "OR",
+      addressCountry: "US",
+    },
+  },
+};
 ---
 
-<Layout
-  title={`PDX ${foodTypePlural} Week ${year}`}
-  description={`A fan site celebrating PDX ${foodTypePlural} Week`}
->
+<Layout title={pageTitle} description={description}>
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(schema)}
+  />
   <Header />
   <Main
     pageTitle={`${foodTypePlural} ${year}`}
     neighborhoods={neighborhoods}
     pageDesc={dateRange}
   >
+    <h2 class="sr-only">Available {foodTypePlural} for {year}</h2>
     {items && <CardGrid items={items} lists={lists} />}
   </Main>
   <Footer />

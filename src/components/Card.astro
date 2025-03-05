@@ -20,6 +20,41 @@ const {
 
 const dietaryOptions = diet?.join(",");
 const neighborhoodOptions = neighborhood?.join(",");
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  name: location,
+  url: locationUrl,
+  image: imageUrl,
+  description: description,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Portland",
+    addressRegion: "OR",
+    addressCountry: "US",
+    addressNeighborhood: neighborhood?.join(", "),
+  },
+  servesCuisine: "American",
+  menu: {
+    "@type": "MenuItem",
+    name: title,
+    description: description,
+    url: url,
+    ...(diet && {
+      suitableForDiet: diet
+        .map(option =>
+          option === "vegan"
+            ? "VeganDiet"
+            : option === "vegetarian"
+              ? "VegetarianDiet"
+              : "None"
+        )
+        .filter(diet => diet !== "None"),
+    }),
+  },
+  ...(hours && { openingHours: hours }),
+};
 ---
 
 <div
@@ -27,6 +62,7 @@ const neighborhoodOptions = neighborhood?.join(",");
   data-dietary={dietaryOptions}
   data-neighborhood={neighborhoodOptions}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <a href={url} target="_blank" rel="nofollow noopener noreferrer">
     <Image
       src={imageUrl}
