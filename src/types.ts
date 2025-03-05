@@ -42,6 +42,7 @@ export type EventsItem = {
   url: string;
   type: "sandwich" | "nacho" | "burger" | "pizza" | "wing";
   year: number;
+  ogImage?: string;
 };
 
 export type ListItem = {
