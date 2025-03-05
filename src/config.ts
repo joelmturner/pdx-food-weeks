@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://pdxfoodweeks.com/",
   author: "Joel M Turner",
-  desc: "A fan site celebrating the best of Portland's food weeks",
+  desc: "Your ultimate guide to Portland's Food Weeks! Easily discover and filter special menu items from Portland Mercury's Burger Week, Pizza Week, Wing Week, Sandwich Week, and Nacho Week. Find vegetarian, vegan, and meat options across Portland's neighborhoods, complete with locations and descriptions. The easiest to navigate collection of PDX food week specials, helping you explore Portland's diverse food scene.",
   title: "PDX Food Weeks",
   ogImage: "PDX-food-weeks-og.jpg",
   lightAndDarkMode: true,

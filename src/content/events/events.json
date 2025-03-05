@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "url": "https://everout.com/portland/events/the-portland-mercurys-pizza-week-2024/e170026/",
+    "type": "pizza",
+    "year": "2024",
+    "title": "The Portland Mercury's Pizza Week 2024!",
+    "dateEnd": "2024-04-21T00:00:00.000Z",
+    "dateStart": "2024-04-15T00:00:00.000Z",
+    "description": "The Portland Mercury's Pizza Week is back, giving pizza lovers the chance to get special slices from some of Portland's finest purveyors of pizza pies... for a mere three dollars each! That's right: Each slice is just THREE MEASLY DOLLARS or, at participating venues, a WHOLE PIE for $24. (You heard correctly: Once again this year certain Pizza Week participants may also be offering $24 whole pies along with slices—or whole pies alone!)Work up an appetite for all those slices with our friends at Mule Extracts!Then wash it all down with a shot of Jim Beam!"
+  },
+  {
+    "id": 2,
+    "url": "https://everout.com/portland/events/mercury-burger-week-2024/e180638/",
+    "type": "burger",
+    "year": "2023",
+    "title": "Mercury Burger Week 2024",
+    "dateEnd": "2024-01-01T00:00:00.000Z",
+    "dateStart": "2023-12-26T00:00:00.000Z",
+    "description": "Hamburglars, it's your time to shine! You have one week, beginning August 19, to see how many juicy burgers you can put away at an absolute steal (only $8 each!) You won't get a trophy or anything, but you will have bragging rights among your fellow burger lovers and one very satisfied stomach. Brought to you in partnership with Jim Beam and the Oregon Beef Council, The Merc's most popular food week event by a landslide features vegan, vegetarian, and gluten-free options, so no growling belly is left behind. Plot your own personalized burger adventure and try as many as you like. For maximum success, we recommend wearing something with an elastic waistband. Plus, don't forget to tip the kitchen staff and servers, and make sure to tag @portlandmercury and use #mercuryburgerweek on Instagram.Enjoy this sneak peak of the Burger Week list! We're adding more participants every day so be sure to check back on August 8 when the full list will be available."
+  },
+  {
+    "id": 3,
+    "url": "https://everout.com/portland/events/mercury-wing-week-2024/e185575/",
+    "type": "wing",
+    "year": "2023",
+    "title": "Mercury Wing Week 2024",
+    "dateEnd": "2024-01-01T00:00:00.000Z",
+    "dateStart": "2023-12-26T00:00:00.000Z",
+    "description": "What, dear reader, was the greatest week of your life? Think back on that moment. Treasure its beautiful memory. Then THROW IT IN THE TRASH, because the Portland Mercury's Wing Week is about to make every other week you've ever experienced look like GARBAGE. That's right: From Monday, September 30 to Sunday, October 6, the Portland Mercury's Wing Week returns with one-of-a-kind chicken wings available at some of Portland's favorite bars and restaurants! Even better? Each order of wings will only cost you a mere $8!\nAlso, Wing Fanatics - our sponsor Rose City Rollers is hosting the roller derby global championships in November and will be giving away swag and tickets during wing week at select locations. See below for all the details!\nRose City Rollers has partnered up with Gigantic Brewing to release another beer in their Weird Portland collection- the RCR Power Jam Pale Ale! This pale ale is described as the ultimate crusher for superfans in the stands at The Hangar and skaters cooling down after a bout. Crisp, refreshing, and perfectly hoppy—grab one and let the good vibes roll! Roller derby skaters from RCR will be making their way across town during Wing Week, rolling (literally) through participating Wing Week locations that are carrying the beer to hand out free merch, stickers, handbills, and if you're lucky (or spotted drinking the RCR beer)- free tickets to 2024 WFTDA Global Championships Nov 1-3 at VMC, hosted by Rose City Rollers!"
+  },
+  {
+    "id": 4,
+    "url": "https://everout.com/portland/events/mercury-sandwich-week-2024/e185576/",
+    "type": "sandwich",
+    "year": "2025",
+    "title": "Mercury Sandwich Week 2025",
+    "dateEnd": "2025-03-09T23:59:59.999Z",
+    "dateStart": "2025-03-03T00:00:00.000Z",
+    "description": "IT'S A FACT: The pinnacle of human ingenuity is undoubtedly THE SANDWICH. And at long last, it's time to celebrate humankind's greatest feat with the Portland Mercury's Sandwich Week! And if you love sandwiches, you are gonna lose your damn mind, because from Monday, March 3 to Sunday, March 9, Portlanders will be feasting on delectable, original sandwiches built by some of the city's most creative sandwich makers... and if that's not enough, each of those sammies can be had for a mere $10! Are you dreaming? NO, YOU ARE NOT!  -- Special thanks to Travel Portland and Jim Beam for helping make it all happen!",
+    "ogImage": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTczOTMwNzE3OTkxNjU5MS05NzB4MjUwLVNhbmRvV2VlazIwMjUucG5nIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTcwLCAiaGVpZ2h0IjogMjUwfX19"
+  }
+]

@@ -37,15 +37,15 @@ const dateRange = eventDetails
 const foodTypeCapitalized =
   foodType!.charAt(0).toUpperCase() + foodType!.slice(1);
 const foodTypePlural =
-  foodType === "sandwich" ? "Sandwiches" : `${foodTypeCapitalized}s`;
+  foodType === "sandwich" ? "Sandwich" : `${foodTypeCapitalized}s`;
 
 // SEO optimized content
-const pageTitle = `Portland ${foodTypePlural} Week ${year} - PDX Food Weeks`;
-const description = `Explore Portland ${foodTypePlural} Week ${year}! ${items.length} unique ${foodTypePlural.toLowerCase()} across ${neighborhoods.length} Portland neighborhoods. ${dateRange ? `Running ${dateRange}` : ""}`;
+const pageTitle = `Portland ${foodTypeCapitalized} Week ${year} - PDX Food Weeks`;
+const description = `Explore Portland ${foodTypeCapitalized} Week ${year}! ${items.length} unique ${foodTypePlural.toLowerCase()} across ${neighborhoods.length} Portland neighborhoods. ${dateRange ? `Running ${dateRange}` : ""}`;
 const schema = {
   "@context": "https://schema.org",
   "@type": "Event",
-  name: `Portland ${foodTypePlural} Week ${year}`,
+  name: `Portland ${foodTypeCapitalized} Week ${year}`,
   description: description,
   ...(eventDetails && {
     startDate: eventDetails.dateStart,
@@ -64,7 +64,11 @@ const schema = {
 };
 ---
 
-<Layout title={pageTitle} description={description}>
+<Layout
+  title={pageTitle}
+  description={description}
+  ogImage={eventDetails?.ogImage}
+>
   <script
     is:inline
     type="application/ld+json"

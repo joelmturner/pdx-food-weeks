@@ -1,6 +1,7 @@
-import { and, db, eq, events, list } from "astro:db";
+import { and, db, eq, list } from "astro:db";
 import type { EventsItem, FoodItem, ListItem } from "types";
 import food from "../content/food/food.json";
+import events from "../content/events/events.json";
 
 export function getYearsFromData(data: string[]) {
   const uniqueYears = new Set(data);
@@ -51,12 +52,9 @@ export async function getFoodItems(
 }
 
 export async function getEventDetails(year: string, type: EventsItem["type"]) {
-  return (
-    await db
-      .select()
-      .from(events)
-      .where(and(eq(events.year, parseInt(year)), eq(events.type, type)))
-  )?.[0] as unknown as EventsItem;
+  return events.find(
+    event => event.year === year && event.type === type
+  ) as unknown as EventsItem;
 }
 
 export const formatter = new Intl.DateTimeFormat("en-US", {

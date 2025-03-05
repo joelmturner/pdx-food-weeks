@@ -1,0 +1,33 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getYearsFromData } from "@utils/collections";
+import food from "@content/food/food.json";
+import Header from "@components/Header.astro";
+import Main from "@layouts/Main.astro";
+
+const { foodType } = Astro.params;
+
+const years = getYearsFromData(
+  food.filter(item => item.type === foodType).map(item => item.year)
+);
+const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
+---
+
+<Layout>
+  <Header />
+  <Main
+    pageTitle={`Portland ${foodType ? capitalize(foodType) : "Food"} Weeks`}
+  >
+    <ul>
+      {
+        years.map(year => (
+          <li>
+            <wa-button href={`/${foodType}/${year}`} appearance="plain">
+              <div class="wa-body-xl">{year}</div>
+            </wa-button>
+          </li>
+        ))
+      }
+    </ul>
+  </Main>
+</Layout>
