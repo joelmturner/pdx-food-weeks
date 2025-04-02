@@ -22,20 +22,36 @@ const fetchData = async (url: string) => {
 };
 
 function getValue($: any, key: string) {
-  const strongElement = $("strong").filter(function (this: any) {
+  // Find the div with class question-text that contains the key text
+  const questionElement = $(".question-text").filter(function (this: any) {
     return $(this).text().trim() === key;
   });
 
-  // try to get the next sibling's text
-  let output = strongElement.next().text().trim();
+  // Get the parent div with class 'answer row' and then find the answer-text div within it
+  const answerElement = questionElement
+    .closest(".answer.row")
+    .find(".answer-text");
 
-  // if that's empty, try getting the text node directly after the strong tag
-  if (!output) {
-    output = strongElement.get(0)?.nextSibling?.nodeValue?.trim() ?? "";
-  }
+  // Get the text from the answer element
+  const output = answerElement.text().trim();
 
   return output || null;
 }
+// function getValue($: any, key: string) {
+//   const strongElement = $("strong").filter(function (this: any) {
+//     return $(this).text().trim() === key;
+//   });
+
+//   // try to get the next sibling's text
+//   let output = strongElement.next().text().trim();
+
+//   // if that's empty, try getting the text node directly after the strong tag
+//   if (!output) {
+//     output = strongElement.get(0)?.nextSibling?.nodeValue?.trim() ?? "";
+//   }
+
+//   return output || null;
+// }
 
 const getPages = async (eventUrls: string[]) => {
   const events = eventUrls.map(async function (url) {
@@ -49,17 +65,20 @@ const getPages = async (eventUrls: string[]) => {
       getValue($, "Vegetarian Substitute?") ||
       getValue($, "Available Vegetarian/Vegan?") ||
       getValue($, "Available Vegetarian?");
-    const glutenFree = getValue($, "Available Gluten-Free?");
+    const glutenFree =
+      getValue($, "Available Gluten-Free?") || getValue($, "Gluten Free?");
     const dietary =
       getValue($, "Meat or Vegetarian?") ||
       getValue($, "Chicken or Vegetarian?");
     const ingredients =
       getValue($, "What's On It:") ||
       getValue($, "What's On Them:") ||
-      getValue($, "What's In It:");
+      getValue($, "What's In It:") ||
+      getValue($, "What's On It...");
     const hours =
       getValue($, "Where and When to Get It:") ||
-      getValue($, "Where and When To Get Them:");
+      getValue($, "Where and When To Get Them:") ||
+      $(".date-summary > span").text().trim();
 
     const veganCheck = ["yes", "vegan"];
     const isVegan = vegan
@@ -79,6 +98,11 @@ const getPages = async (eventUrls: string[]) => {
         )
       : false;
 
+    const glutenFreeCheck = ["yes", "gluten free", "available"];
+    const isGlutenFree = glutenFree
+      ? glutenFreeCheck.some(item => glutenFree.toLowerCase().includes(item))
+      : false;
+
     const dietaryItem = dietary?.toLowerCase().split(" ")[0];
     const dietaryResolved = dietaryItem === "chicken" ? "meat" : dietaryItem;
 
@@ -87,7 +111,7 @@ const getPages = async (eventUrls: string[]) => {
         [
           isVegan ? "vegan" : undefined,
           isVegetarian ? "vegetarian" : undefined,
-          glutenFree === "Yes" ? "gf" : undefined,
+          isGlutenFree ? "gf" : undefined,
           dietaryResolved,
         ].filter(Boolean)
       ),
@@ -211,7 +235,7 @@ export async function POST(context: APIContext): Promise<Response> {
   const eventDetails = await getEventDetails(baseUrl);
   const urls = await getEventUrls(baseUrl);
   const eventData = await getPages(urls);
-  console.log("eventData", eventData);
+  console.log("eventData", JSON.stringify(eventData, null, 2));
 
   cache[baseUrl] = { eventDetails, food: eventData };
   return new Response(JSON.stringify(eventData));

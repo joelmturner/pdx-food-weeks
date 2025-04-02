@@ -6,6 +6,7 @@ import { Image } from "astro:assets";
 
 import heroImage from "../assets/images/Neon 80s Style Food.webp";
 const username = Astro.locals.user?.username;
+Astro.locals.user.role = "admin";
 ---
 
 <Layout>
@@ -40,22 +41,22 @@ const username = Astro.locals.user?.username;
 
             <div class="w-100 flex flex-col gap-1">
               <img
-                src="https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTczOTMwNzE3OTkxNjU5MS05NzB4MjUwLVNhbmRvV2VlazIwMjUucG5nIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTcwLCAiaGVpZ2h0IjogMjUwfX19"
+                src="https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MTExMjU0ODQ5NjcxOS05NzB4MjUwLU1lcmNfUGl6emFXZWVrMjUucG5nIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTcwLCAiaGVpZ2h0IjogMjUwfX19"
                 class="rounded-lg shadow"
               />
               <p class="py-2">
                 <a
                   class="link"
-                  href="https://everout.com/portland/events/the-portland-mercurys-2025-sandwich-week/e198392/"
-                  target="_blank">Portland Mercury's Sandwich Week</a
-                > is back! From March 3 - March 9, enjoy $10 sandos.
+                  href="https://everout.com/portland/events/portland-pizza-week-2025/e199642/"
+                  target="_blank">Portland Mercury's Pizza Week</a
+                > is back! From April 14 - April 20, enjoy $4 slices.
               </p>
 
               <wa-button
                 appearance="accent"
                 variant="brand"
                 size="large"
-                href="/sandwich/2025">Check out the sandos</wa-button
+                href="/pizza/2025">Check out the za's</wa-button
               >
             </div>
           </div>
