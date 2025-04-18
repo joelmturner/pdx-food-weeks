@@ -80,20 +80,16 @@ const hasQueryParams = searchParams.toString().length > 0;
             <wa-button slot="trigger" caret appearance="plain" size="small">
               <div class="text-lg">{item.name}</div>
             </wa-button>
-            <wa-menu>
+            <div class="flex flex-col gap-2 w-full pt-2 bg-base-100 border border-base-300">
               {item?.years?.map(year => (
-                <wa-menu-item>
-                  <wa-menu-label>
-                    <a
-                      class="w-full wa-body-m hover:text-inherit hover:no-underline nav-link"
-                      href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
-                    >
-                      {year}
-                    </a>
-                  </wa-menu-label>
-                </wa-menu-item>
+                <a
+                  class="w-full py-2 px-8 wa-body-m hover:text-inherit hover:no-underline nav-link hover:bg-base-300"
+                  href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
+                >
+                  {year}
+                </a>
               ))}
-            </wa-menu>
+            </div>
           </wa-dropdown>
         ))}
       </div>
