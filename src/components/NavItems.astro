@@ -48,6 +48,10 @@ type Props = {
 
 const user = Astro.locals.user;
 const { type } = Astro.props;
+
+// Get current query parameters
+const searchParams = new URLSearchParams(Astro.url.search);
+const hasQueryParams = searchParams.toString().length > 0;
 ---
 
 <div class="flex flex-col md:flex-row md:items-center gap-1 w-full">
@@ -58,7 +62,12 @@ const { type } = Astro.props;
           <wa-details summary={item.name} class="w-full">
             <div class="flex flex-col gap-2 wa-body-l">
               {item.years.map(year => (
-                <a href={`/${item.slug}/${year}/`}>{year}</a>
+                <a
+                  href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
+                  class="nav-link"
+                >
+                  {year}
+                </a>
               ))}
             </div>
           </wa-details>
@@ -76,8 +85,8 @@ const { type } = Astro.props;
                 <wa-menu-item>
                   <wa-menu-label>
                     <a
-                      class="w-full wa-body-m hover:text-inherit hover:no-underline"
-                      href={`/${item.slug}/${year}/`}
+                      class="w-full wa-body-m hover:text-inherit hover:no-underline nav-link"
+                      href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
                     >
                       {year}
                     </a>
@@ -160,6 +169,20 @@ const { type } = Astro.props;
         return (details.open = event.target === details);
       });
     }
+  });
+
+  // Update navigation links when URL changes
+  window.addEventListener("url-changed", event => {
+    const url = new URL(event.detail.url);
+    const searchParams = url.search;
+
+    // Update all navigation links
+    document.querySelectorAll(".nav-link").forEach(link => {
+      if (link instanceof HTMLAnchorElement) {
+        const baseUrl = link.href.split("?")[0];
+        link.href = baseUrl + (searchParams ? searchParams : "");
+      }
+    });
   });
 </script>
 
