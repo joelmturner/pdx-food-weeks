@@ -76,7 +76,7 @@ const hasQueryParams = searchParams.toString().length > 0;
 
   <wa-button
     id="theme-btn"
-    class="focus-outline"
+    class="focus-outline justify-start md:justify-center"
     title="Toggles light & dark"
     aria-label="auto"
     aria-live="polite"
@@ -113,17 +113,41 @@ const hasQueryParams = searchParams.toString().length > 0;
             </wa-menu-item>
             <wa-menu-item>
               <wa-menu-label>
-                <form method="post" action="/api/logout">
-                  <wa-button appearance="plain">Logout</wa-button>
-                </form>
+                <a
+                  href="#"
+                  class="w-full wa-body-m hover:text-inherit hover:no-underline"
+                  onclick="event.preventDefault(); fetch('/api/logout', { method: 'POST' }).then(() => window.location.href = '/')"
+                >
+                  Logout
+                </a>
               </wa-menu-label>
             </wa-menu-item>
           </wa-menu>
         </wa-dropdown>
       </>
+    ) : type === "mobile" ? (
+      <wa-button
+        appearance="plain"
+        class="justify-start md:justify-center wa-body-xl"
+      >
+        <a href="/login" class="wa-body-xl">
+          Login
+        </a>{" "}
+        <a href="/signup" class="wa-body-xl">
+          / Sign Up
+        </a>
+      </wa-button>
     ) : (
-      <wa-button appearance="plain">
-        <a href="/login">Login</a> / <a href="/signup">Sign Up</a>
+      <wa-button
+        appearance="plain"
+        class="justify-start md:justify-center wa-body-m"
+      >
+        <a href="/login" class="wa-body-m">
+          Login
+        </a>{" "}
+        <a href="/signup" class="wa-body-m">
+          / Sign Up
+        </a>
       </wa-button>
     )
   }
@@ -132,7 +156,7 @@ const hasQueryParams = searchParams.toString().length > 0;
 <script>
   const container = document.querySelector(".mobile-nav-collection");
 
-  // Close all other details when one is shown
+  // close all other details when one is shown
   container?.addEventListener("wa-show", event => {
     if (
       event.target instanceof HTMLElement &&
@@ -145,12 +169,12 @@ const hasQueryParams = searchParams.toString().length > 0;
     }
   });
 
-  // Update navigation links when URL changes
+  // update navigation links when URL changes
   window.addEventListener("url-changed", event => {
     const url = new URL(event.detail.url);
     const searchParams = url.search;
 
-    // Update all navigation links
+    // update all navigation links
     document.querySelectorAll(".nav-link").forEach(link => {
       if (link instanceof HTMLAnchorElement) {
         const baseUrl = link.href.split("?")[0];

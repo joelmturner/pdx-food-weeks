@@ -55,13 +55,23 @@ const { activeNav } = Astro.props;
 </header>
 
 <script>
-  const drawer = document.querySelector(".drawer-header");
-  const openButton = drawer?.nextElementSibling;
+  function setupDrawer() {
+    const drawer = document.querySelector(".drawer-header");
+    const openButton = drawer?.nextElementSibling;
 
-  openButton?.addEventListener("click", () => {
-    // @ts-ignore-next-line
-    if (drawer) drawer.open = true;
-  });
+    if (openButton instanceof HTMLElement) {
+      openButton.addEventListener("click", () => {
+        // @ts-ignore-next-line
+        if (drawer) drawer.open = true;
+      });
+    }
+  }
+
+  // initial setup
+  setupDrawer();
+
+  // re-setup after navigation
+  document.addEventListener("astro:after-swap", setupDrawer);
 </script>
 
 <style>
