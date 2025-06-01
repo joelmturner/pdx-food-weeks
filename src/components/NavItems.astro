@@ -171,6 +171,7 @@ const hasQueryParams = searchParams.toString().length > 0;
 
   // update navigation links when URL changes
   window.addEventListener("url-changed", event => {
+    // @ts-ignore
     const url = new URL(event.detail.url);
     const searchParams = url.search;
 

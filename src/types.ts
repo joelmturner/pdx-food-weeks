@@ -1,5 +1,5 @@
 import type socialIcons from "@assets/socialIcons";
-import type { FOOD_TYPES } from "constants";
+import { FOOD_TYPES } from "./constants";
 
 export type Site = {
   website: string;

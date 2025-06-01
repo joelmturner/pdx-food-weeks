@@ -78,7 +78,7 @@ function runIt() {
         card.dataset.dietary?.split(",").map(item => item.toLowerCase()) ?? [];
 
       // Check if ALL active dietary tags are present in the card's tags
-      const hasAllDietaryTags = activeDietaryTags.every(tag =>
+      const hasAllDietaryTags = activeDietaryTags.every((tag: string) =>
         dietaryTags.includes(tag.toLowerCase())
       );
 
