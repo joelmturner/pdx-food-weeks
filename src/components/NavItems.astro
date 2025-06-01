@@ -1,45 +1,23 @@
 ---
 import { getYearsFromData } from "@utils/collections";
 import food from "@content/food/food.json";
+import { FOOD_TYPES } from "../constants";
 
-const types = ["burger", "sandwich", "nacho", "pizza", "wing"];
-const yearsByType = types.reduce(
+const yearsByType = FOOD_TYPES.reduce(
   (acc, type) => {
     acc[`${type}Years`] = food
       .filter(item => item.type === type)
       .map(item => item.year);
     return acc;
   },
-  {} as Record<string, string[]>
+  {} as Record<string, number[]>
 );
 
-const collectionNavItems = [
-  {
-    name: "Burgers",
-    slug: "burger",
-    years: getYearsFromData(yearsByType.burgerYears),
-  },
-  {
-    name: "Nachos",
-    slug: "nacho",
-    years: getYearsFromData(yearsByType.nachoYears),
-  },
-  {
-    name: "Sandwiches",
-    slug: "sandwich",
-    years: getYearsFromData(yearsByType.sandwichYears),
-  },
-  {
-    name: "Pizzas",
-    slug: "pizza",
-    years: getYearsFromData(yearsByType.pizzaYears),
-  },
-  {
-    name: "Wings",
-    slug: "wing",
-    years: getYearsFromData(yearsByType.wingYears),
-  },
-];
+const collectionNavItems = FOOD_TYPES.map(type => ({
+  name: type.charAt(0).toUpperCase() + type.slice(1),
+  slug: type,
+  years: getYearsFromData(yearsByType[`${type}Years`]),
+}));
 
 type Props = {
   activeNav?: string;

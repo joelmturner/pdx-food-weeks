@@ -1,12 +1,15 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import CollectionFilters from "@components/CollectionFilters.astro";
+import { Image } from "astro:assets";
+import type { EventsItem } from "types";
 
 interface StringTitleProp {
   pageTitle: string;
   pageDesc?: string;
   neighborhoods?: string[];
   hideFilters?: boolean;
+  eventDetails?: EventsItem;
 }
 
 interface ArrayTitleProp {
@@ -15,18 +18,21 @@ interface ArrayTitleProp {
   pageDesc?: string;
   neighborhoods?: string[];
   hideFilters?: boolean;
+  eventDetails?: EventsItem;
 }
 
 export type Props = StringTitleProp | ArrayTitleProp;
 
 const { props } = Astro;
+const { organizer } = props.eventDetails || {};
+const { logo, url, name, description } = organizer || {};
 ---
 
 <Breadcrumbs />
 
 <main id="main-content">
   <div class="flex justify-between items-start flex-col lg:flex-row">
-    <div class="flex-0 flex-shrink-0 flex-grow-0">
+    <div class="flex-0 flex-grow-0">
       {
         "titleTransition" in props ? (
           <h1>
@@ -40,6 +46,15 @@ const { props } = Astro;
         )
       }
       <p>{props.pageDesc}</p>
+      <div class="flex flex-col gap-2">
+        {
+          logo && typeof logo === "string" && (
+            <Image src={logo} alt={name || ""} width={400} height={200} />
+          )
+        }
+        {url && <a href={url}>{name}</a>}
+        {description && <p>{description}</p>}
+      </div>
     </div>
     <div class="w-full flex justify-end">
       {

@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+import { FOOD_TYPES } from "../constants";
 
 const food = defineCollection({
   type: "data",
@@ -17,7 +18,7 @@ const foodDataItem = z.object({
   imageUrl: z.string().url(),
   neighborhood: z.array(z.string()),
   year: z.string(),
-  type: z.enum(["burger", "nacho", "sandwich", "pizza", "wing"]),
+  type: z.enum(FOOD_TYPES),
 });
 
 export const collections = { food };

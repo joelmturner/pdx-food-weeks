@@ -1,4 +1,5 @@
 import type socialIcons from "@assets/socialIcons";
+import type { FOOD_TYPES } from "constants";
 
 export type Site = {
   website: string;
@@ -30,7 +31,7 @@ export type FoodItem = {
   imageUrl: string;
   neighborhood: string[];
   year: number;
-  type: "sandwich" | "nacho" | "burger" | "pizza" | "wing";
+  type: FoodType;
 };
 
 export type EventsItem = {
@@ -40,9 +41,15 @@ export type EventsItem = {
   dateStart: string;
   dateEnd: string;
   url: string;
-  type: "sandwich" | "nacho" | "burger" | "pizza" | "wing";
+  type: FoodType;
   year: number;
   ogImage?: string;
+  organizer: {
+    name: string;
+    description: string;
+    url: string;
+    logo: string;
+  };
 };
 
 export type ListItem = {
@@ -51,3 +58,5 @@ export type ListItem = {
   foodIds: number[];
   userId: string;
 };
+
+export type FoodType = (typeof FOOD_TYPES)[number];

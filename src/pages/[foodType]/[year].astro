@@ -15,18 +15,18 @@ import food from "@content/food/food.json";
 
 const { foodType, year } = Astro.params;
 
-const validFoodTypes = ["burger", "nacho", "pizza", "sandwich", "wing"];
+const validFoodTypes = ["burger", "nacho", "pizza", "sandwich", "wing", "taco"];
 if (!validFoodTypes.includes(foodType!)) {
   return Astro.redirect("/404");
 }
 
 const items = food.filter(
-  item => item.year === year && item.type === foodType
+  item => item.year === Number(year) && item.type === foodType
 ) as unknown as FoodItem[];
 const neighborhoods = items ? getUniqueNeighborhoods(items) : [];
 const lists = await getLists(Astro.locals?.user?.id);
 const eventDetails = await getEventDetails(
-  year!,
+  Number(year),
   foodType! as FoodItem["type"]
 );
 
@@ -79,6 +79,7 @@ const schema = {
     pageTitle={`${foodTypePlural} ${year}`}
     neighborhoods={neighborhoods}
     pageDesc={dateRange}
+    eventDetails={eventDetails}
   >
     <h2 class="sr-only">Available {foodTypePlural} for {year}</h2>
     {items && <CardGrid items={items} lists={lists} />}

@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import { FOOD_TYPES } from "../../constants";
 
 if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
   return Astro.redirect("/");
@@ -16,7 +17,7 @@ if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
     <h2 class="text-2xl">Edit Da Foods</h2>
     <div class="grid gap-4 grid-cols-3">
       {
-        ["sandwich", "burger", "nacho", "pizza", "wing"].map(item => (
+        FOOD_TYPES.map(item => (
           <div class="card bg-base-300">
             <div class="card-body gap-3">
               <div class="card-title">
