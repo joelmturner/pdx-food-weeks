@@ -22,10 +22,44 @@ const fetchData = async (url: string) => {
 };
 
 function getValue($: any, key: string) {
-  // Find the div with class question-text that contains the key text
-  const questionElement = $(".question-text").filter(function (this: any) {
-    return $(this).text().trim() === key;
+  // First try the specific structure we know about
+  let questionElement = $(".answer.row .question-text").filter(function (
+    this: any
+  ) {
+    const text = $(this).text().trim();
+    // Normalize the text by removing extra spaces and special characters
+    const normalizedText = text
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .replace(/[^\w\s]/g, "");
+    const normalizedKey = key
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .replace(/[^\w\s]/g, "");
+    return (
+      normalizedText.includes(normalizedKey) ||
+      normalizedKey.includes(normalizedText)
+    );
   });
+
+  // If we don't find it, try a broader search
+  if (questionElement.length === 0) {
+    questionElement = $(".question-text").filter(function (this: any) {
+      const text = $(this).text().trim();
+      const normalizedText = text
+        .toLowerCase()
+        .replace(/\s+/g, " ")
+        .replace(/[^\w\s]/g, "");
+      const normalizedKey = key
+        .toLowerCase()
+        .replace(/\s+/g, " ")
+        .replace(/[^\w\s]/g, "");
+      return (
+        normalizedText.includes(normalizedKey) ||
+        normalizedKey.includes(normalizedText)
+      );
+    });
+  }
 
   // Get the parent div with class 'answer row' and then find the answer-text div within it
   const answerElement = questionElement
@@ -37,21 +71,6 @@ function getValue($: any, key: string) {
 
   return output || null;
 }
-// function getValue($: any, key: string) {
-//   const strongElement = $("strong").filter(function (this: any) {
-//     return $(this).text().trim() === key;
-//   });
-
-//   // try to get the next sibling's text
-//   let output = strongElement.next().text().trim();
-
-//   // if that's empty, try getting the text node directly after the strong tag
-//   if (!output) {
-//     output = strongElement.get(0)?.nextSibling?.nodeValue?.trim() ?? "";
-//   }
-
-//   return output || null;
-// }
 
 const getPages = async (eventUrls: string[]) => {
   const events = eventUrls.map(async function (url) {
@@ -70,11 +89,13 @@ const getPages = async (eventUrls: string[]) => {
     const dietary =
       getValue($, "Meat or Vegetarian?") ||
       getValue($, "Chicken or Vegetarian?");
+
     const ingredients =
-      getValue($, "What's On It:") ||
-      getValue($, "What's On Them:") ||
-      getValue($, "What's In It:") ||
+      getValue($, "What's On It") ||
+      getValue($, "What's On Them") ||
+      getValue($, "What's In It") ||
       getValue($, "What's On It...");
+
     const hours =
       getValue($, "Where and When to Get It:") ||
       getValue($, "Where and When To Get Them:") ||
@@ -126,8 +147,9 @@ const getPages = async (eventUrls: string[]) => {
 
     const title = $("header > h1").text().trim();
     const location = $(".location > a").text().trim();
+    const year = new Date().getFullYear();
     return {
-      id: `${location}-${title}`,
+      id: `${location}-${title}-${year}`,
       title,
       url,
       location,
@@ -149,10 +171,12 @@ const getPages = async (eventUrls: string[]) => {
 };
 
 // Function to parse the date from the given text
-function parseDates(dateStr: string): { dateStart: Date; dateEnd: Date } {
+function parseDates(
+  dateStr: string,
+  year: number
+): { dateStart: Date; dateEnd: Date } {
   const dateEndText = dateStr.split("through ")[1]; // Extracts "April 21"
-  const currentYear = new Date().getFullYear(); // Gets the current year
-  const dateEnd = new Date(`${dateEndText}, ${currentYear}`); // Assumes the end date is within the current year
+  const dateEnd = new Date(`${dateEndText}, ${year}`); // Assumes the end date is within the current year
 
   // dateStart is dateEnd minus 7 days
   const dateStart = new Date(dateEnd);
@@ -165,13 +189,17 @@ async function getEventDetails(baseUrl: string) {
   const $ = await fetchData(baseUrl);
   const title = $("header > h1").text().trim();
   const dateText = $(".date-summary > span").text().trim();
-  const { dateStart, dateEnd } = parseDates(dateText);
+  const year = new Date().getFullYear();
+  const { dateStart, dateEnd } = parseDates(dateText, year);
   const url = baseUrl;
   const description =
     $(".descriptions > .description").text().trim() ||
     getValue($, "What They Say About It:") ||
-    getValue($, "What's In It:");
-  const year = dateStart.getFullYear();
+    getValue($, "What's In It:") ||
+    getValue($, "What's On It:") ||
+    getValue($, "What's On Them:") ||
+    getValue($, "What's In It:") ||
+    getValue($, "What's On It...");
   const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
   // check which type the title contains
   const type = types.find(type => title.toLowerCase().includes(type));
@@ -212,8 +240,13 @@ const getEventUrls = async (baseUrl: string) => {
     3. node -e "import('./src/scripts/fetchData.mjs').then(module => { module.crawl(); })"
 */
 
+function getEventType(url: string) {
+  const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
+  const type = types.find(type => url.toLowerCase().includes(type));
+  return type;
+}
+
 export async function POST(context: APIContext): Promise<Response> {
-  console.log("context.locals.session", context.locals.session);
   if (!context.locals.session) {
     return new Response(null, {
       status: 401,
@@ -223,6 +256,7 @@ export async function POST(context: APIContext): Promise<Response> {
   const data = await context.request.json();
   console.log("data", data);
   const baseUrl = data.url;
+  const type = getEventType(baseUrl);
 
   if (!cache) {
     cache = {};
@@ -235,8 +269,19 @@ export async function POST(context: APIContext): Promise<Response> {
   const eventDetails = await getEventDetails(baseUrl);
   const urls = await getEventUrls(baseUrl);
   const eventData = await getPages(urls);
-  console.log("eventData", JSON.stringify(eventData, null, 2));
+  const fullData = eventData.reduce<
+    Array<(typeof eventData)[0] & { type: string; year: number }>
+  >((acc, item) => {
+    acc.push({
+      ...item,
+      type: type as string,
+      year: new Date().getFullYear(),
+    });
+    return acc;
+  }, []);
+  console.log("fullData", JSON.stringify(fullData, null, 2));
+  console.log("eventDetails", JSON.stringify(eventDetails, null, 2));
 
-  cache[baseUrl] = { eventDetails, food: eventData };
-  return new Response(JSON.stringify(eventData));
+  cache[baseUrl] = { eventDetails, food: fullData };
+  return new Response(JSON.stringify(fullData));
 }

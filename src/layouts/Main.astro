@@ -49,7 +49,15 @@ const { logo, url, name, description } = organizer || {};
       <div class="flex flex-col gap-2">
         {
           logo && typeof logo === "string" && (
-            <Image src={logo} alt={name || ""} width={400} height={200} />
+            <div class="logo-container">
+              <Image
+                src={logo}
+                alt={name || ""}
+                width={400}
+                height={200}
+                id="logo-image"
+              />
+            </div>
           )
         }
         {url && <a href={url}>{name}</a>}
@@ -76,5 +84,12 @@ const { logo, url, name, description } = organizer || {};
   }
   #main-content p {
     @apply mb-6 mt-2 italic;
+  }
+  .logo-container {
+    @apply p-4 rounded-lg;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .logo-container.dark-logo {
+    background-color: rgba(255, 255, 255, 0.8);
   }
 </style>

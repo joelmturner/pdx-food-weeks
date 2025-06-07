@@ -131,5 +131,21 @@
       "url": "https://www.theactualportland.com/",
       "logo": "https://res.cloudinary.com/joelmturner/image/fetch/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/910dcbd2-1e2f-4ddf-9d77-3debda2fecca/cad_tap_logo_secondary_fullcolor_dark_rainbow.png?format=1500w"
     }
+  },
+  {
+    "id": 9,
+    "title": "The Portland Mercury's Nacho Week 2025",
+    "description": "Not only are nachos the Platonic ideal of bar food, they also present a wonderful canvas for creativity: Crunchy tortilla chips (or tots or what have you) provide a base for whatever toppings your heart desires. The Portland Mercury’s annual Nacho Week demonstrates the dizzying versatility of the beloved Tex-Mex dish with exclusive specials created by chefs all over Portland for a mere $10 each. Plot your itinerary, round up some friends, and go share some full-sized plates of hearty nachos smothered in melty cheese until you fist-fight over the last bite. A big thank you to our partners Travel Portland and Hornitos!",
+    "dateStart": "2025-06-23T08:00:00.000Z",
+    "dateEnd": "2025-06-29T08:00:00.000Z",
+    "url": "https://everout.com/portland/events/the-portland-mercurys-nacho-week-2025/e205790/",
+    "type": "nacho",
+    "year": 2025,
+    "organizer": {
+      "name": "Portland Mercury",
+      "description": "The Portland Mercury is a weekly newspaper published in Portland, Oregon, covering local news, culture, and events.",
+      "logo": "https://res.cloudinary.com/joelmturner/image/fetch/https://www.portlandmercury.com/assets/sites/mercury/images/site-logo.png?20220525222143",
+      "url": "https://portlandmercury.com"
+    }
   }
 ]

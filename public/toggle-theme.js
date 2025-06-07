@@ -23,6 +23,47 @@ function setPreference() {
   reflectPreference();
 }
 
+function checkLogoBrightness() {
+  const logoImage = document.getElementById("logo-image");
+  if (logoImage instanceof HTMLImageElement) {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    canvas.width = logoImage.naturalWidth;
+    canvas.height = logoImage.naturalHeight;
+    ctx.drawImage(logoImage, 0, 0);
+
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const data = imageData.data;
+
+    let totalBrightness = 0;
+    const pixelCount = data.length / 4;
+
+    // Sample pixels (every 4th pixel to improve performance)
+    for (let i = 0; i < data.length; i += 16) {
+      const r = data[i];
+      const g = data[i + 1];
+      const b = data[i + 2];
+
+      // Calculate relative luminance using the formula: 0.299R + 0.587G + 0.114B
+      const brightness = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+      totalBrightness += brightness;
+    }
+
+    const averageBrightness = totalBrightness / (pixelCount / 4);
+    const isDark = averageBrightness < 0.5;
+
+    if (logoImage.parentElement) {
+      if (isDark) {
+        logoImage.parentElement.classList.add("dark-logo");
+      } else {
+        logoImage.parentElement.classList.remove("dark-logo");
+      }
+    }
+  }
+}
+
 function reflectPreference() {
   document.firstElementChild.setAttribute("data-theme", themeValue);
   document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
@@ -49,6 +90,9 @@ function reflectPreference() {
     document
       .querySelector("meta[name='theme-color']")
       ?.setAttribute("content", bgColor);
+
+    // Check logo brightness when theme changes
+    checkLogoBrightness();
   }
 }
 
