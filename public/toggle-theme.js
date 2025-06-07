@@ -111,12 +111,26 @@ window.onload = () => {
         setPreference();
       })
     );
+
+    // Check logo brightness when image loads
+    const logoImage = document.getElementById("logo-image");
+    if (logoImage instanceof HTMLImageElement) {
+      if (logoImage.complete) {
+        checkLogoBrightness();
+      } else {
+        logoImage.addEventListener("load", checkLogoBrightness);
+      }
+    }
   }
 
   setThemeFeature();
 
   // Runs on view transitions navigation
-  document.addEventListener("astro:after-swap", setThemeFeature);
+  document.addEventListener("astro:after-swap", () => {
+    setThemeFeature();
+    // Add a small delay to ensure the image is loaded after navigation
+    setTimeout(checkLogoBrightness, 100);
+  });
 };
 
 // sync with system changes
