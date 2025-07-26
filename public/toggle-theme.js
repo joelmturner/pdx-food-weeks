@@ -26,6 +26,15 @@ function setPreference() {
 function checkLogoBrightness() {
   const logoImage = document.getElementById("logo-image");
   if (logoImage instanceof HTMLImageElement) {
+    // check if image has loaded and has valid dimensions
+    if (
+      !logoImage.complete ||
+      logoImage.naturalWidth === 0 ||
+      logoImage.naturalHeight === 0
+    ) {
+      return;
+    }
+
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
     if (!ctx) return;

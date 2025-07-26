@@ -1,11 +1,12 @@
 ---
+import AddListForm from "@components/AddListForm.astro";
 import Header from "@components/Header.astro";
 import Lists from "@components/Lists.svelte";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
+import { getFoodItemsByIds } from "@utils/collections";
 import { eq, list } from "astro:db";
 import { db } from "astro:db";
-import food from "@content/food/food.json";
 
 if (!Astro.locals.user) {
   return Astro.redirect("/");
@@ -21,25 +22,40 @@ const foodIds = savedLists
   ?.flat()
   ?.filter(Boolean);
 
-const savedListItems = food.filter(item => foodIds.includes(item.id));
+const savedListItems = await getFoodItemsByIds(foodIds as string[]);
+console.log("savedLists", savedLists);
 ---
 
 <Layout title={`My stuff - ${Astro.locals.user.username}`}>
   <Header />
   <Main pageTitle={`My stuff`} hideFilters={true}>
     <div class="flex flex-col gap-6">
-      <p class="text-xl">
-        Welcome back, {Astro.locals.user.username}! Here are your lists.
-      </p>
+      <div class="flex justify-between items-center gap-2">
+        <p class="text-xl">
+          Welcome back, {Astro.locals.user.username}! Here are your lists.
+        </p>
+        <wa-popover for="popover__overview">
+          <AddListForm />
+        </wa-popover>
+
+        <wa-button id="popover__overview">Create a list</wa-button>
+      </div>
       {
-        savedLists ? (
+        savedLists?.length > 0 ? (
           <Lists
             client:load
             savedLists={savedLists}
             savedListItems={savedListItems}
           />
         ) : (
-          <p>You don't have any saved lists yet.</p>
+          <div class="flex flex-col gap-2">
+            <p>
+              You don't have any saved lists yet. Would you like to create one?
+            </p>
+            <div class="flex w-full md:w-1/2">
+              <AddListForm />
+            </div>
+          </div>
         )
       }
     </div>

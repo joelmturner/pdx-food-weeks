@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "142",
+    "url": "https://www.portlandmercury.com/events/26831521/chef-kristas-boomin-shroom-burger",
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gf"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Daily 8am-10pm",
+    "title": "Chef Krista's Boomin' Shroom Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/chef-kristas-boomin-shroom-burger.jpg",
+    "location": "New Seasons",
+    "description": "Grass-fed beef patty, Swiss cheese, Dijon mustard, and lettuce, topped with mushroom duxelle sauce and stacked on a house-made hamburger bun",
+    "locationUrl": "https://goo.gl/maps/QG8CRQnxUNygJoLr9",
+    "neighborhood": [
+      "Various"
+    ]
+  },
+  {
+    "id": "143",
+    "url": "https://www.portlandmercury.com/events/26831184/marios-power-up",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Tue 3pm-11pm, Wed-Thurs 12pm-11pm, Fri-Sat 12pm-2am, Sun 12pm-10pm",
+    "title": "Mario's Power-Up",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/marios-power-up.jpg",
+    "location": "Loyal Legion",
+    "description": "Pub bun, burger patty, mushroom gravy, and pickled onion",
+    "locationUrl": "https://goo.gl/maps/VpXkmbSafw6rBToT6",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "144",
+    "url": "https://www.portlandmercury.com/events/26831525/the-daddy-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Daily 11 am-2:30 am",
+    "title": "The Daddy Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-daddy-burger.jpg",
+    "location": "Lucky Devil Lounge",
+    "description": "Fried egg over barbecue pulled pork and Angus ground beef. Topped with Tillamook cheddar cheese and a pinch of blue cheese, tomato, and lettuce on a toasted pub bun",
+    "locationUrl": "https://goo.gl/maps/U9VWo5JJaHtGKEG58",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "145",
+    "url": "https://www.portlandmercury.com/events/26831189/grapeful-dead-bbq-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 3-10 pm, Fri-Sat 3-11 pm",
+    "title": "Grapeful Dead BBQ Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/grapeful-dead-bbq-burger.jpg",
+    "location": "23Hoyt",
+    "description": "Savory grape barbecue sauce, cornmeal-fried jalapeños, cheddar jack cheese, iceberg lettuce, local beef",
+    "locationUrl": "https://goo.gl/maps/J5DsvaceYan3ZrnG7",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "146",
+    "url": "https://www.portlandmercury.com/events/26831530/we-got-seoul",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11 pm (Glisan) Mon-Sat 11 am-6 pm (Lloyd Center Burger Shack)",
+    "title": "We Got Seoul",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/we-got-seoul.jpg",
+    "location": "Migration Brewing",
+    "description": "Kimchi slaw, gochujang aioli, and 50/50 beef-to-pork patty on a sweet Hawaiian roll",
+    "locationUrl": "https://goo.gl/maps/oa65T34xCUfGPtN9A",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "147",
+    "url": "https://www.portlandmercury.com/events/26831193/philly-cheesesteak-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Wed 11 am-2 pm and 4-9 pm, Thurs-Fri 11 am-2 pm and 4-10 pm, Sat 4-10 pm",
+    "title": "Philly Cheesesteak Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/philly-cheesesteak-burger.jpg",
+    "location": "Aji Tram",
+    "description": "Burger patty with sirloin steak, onions, and bell peppers with a sambal cheese whiz topping",
+    "locationUrl": "https://goo.gl/maps/8i6mXMDDUjYoQWS88",
+    "neighborhood": [
+      "southwest"
+    ]
+  },
+  {
+    "id": "148",
+    "url": "https://www.portlandmercury.com/events/26831534/brie-and-caramelized-onion-burger",
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gf"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 3-11 pm",
+    "title": "Brie and Caramelized Onion Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/brie-and-caramelized-onion-burger.jpg",
+    "location": "Moreland Ale House",
+    "description": "Grand Central brioche bun, hand-pressed beef patty, mayo, and shredded lettuce",
+    "locationUrl": "https://goo.gl/maps/AjRWYy3wywj45XDD7",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "149",
+    "url": "https://www.portlandmercury.com/events/26831198/poached-pear-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 3 pm-1:30 am",
+    "title": "Poached Pear Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/poached-pear-burger.jpg",
+    "location": "Bar Maven",
+    "description": "Six-ounce Angus ground beef, pickled red onions, blue cheese fig jam, red wine poached pears, and arugula on a brioche bun",
+    "locationUrl": "https://goo.gl/maps/H3jvAMjwRgTe9zeu8",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "150",
+    "url": "https://www.portlandmercury.com/events/26831539/mediterranean-burger",
+    "diet": [
+      "vegan"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Fri 11 am-10 pm, Sat 9 am-10 pm (Hawthorne) Mon-Fri 11 am-9 pm, Sat 9 am-9 pm (Lake Oswego)",
+    "title": "Mediterranean Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/mediterranean-burger.jpg",
+    "location": "Next Level Burger",
+    "description": "Organic house-made Mediterranean patty served on a sprouted seven-grain bun, topped with crumbled feta-style cheese, organic cucumber, organic red onion, and house-made lemon herbed aioli",
+    "locationUrl": "https://goo.gl/maps/JtmexMXZs5iodRYn9",
+    "neighborhood": [
+      "southeast",
+      "southwest"
+    ]
+  },
+  {
+    "id": "151",
+    "url": "https://www.portlandmercury.com/events/26831202/the-liberace-burger",
+    "diet": [
+      "vegetarian"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat noon-2 am",
+    "title": "The Liberace Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-liberace-burger.jpg",
+    "location": "Bar Bar",
+    "description": "100 percent grass-fed, Oregon-raised burger patty with melty fontina cheese, truffle salt, and a house-made roasted garlic aioli. Served with diced onions and shredded lettuce on our signature, locally made potato bun",
+    "locationUrl": "https://goo.gl/maps/FaTRxr1BwAvXx2Bs8",
+    "neighborhood": [
+      "north"
+    ]
+  },
+  {
+    "id": "152",
+    "url": "https://www.portlandmercury.com/events/26831588/flyn-hawaiian",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 11 am-midnight, Fri-Sat 11 am-2:30 am",
+    "title": "Fly'n Hawaiian",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/flyn-hawaiian.jpg",
+    "location": "Nick's Famous Coney Island",
+    "description": "Ground beef patty and pineapple slaw made from pineapple, red onion, cilantro, and jalapeños, dressed in a brown sugar and chipotle glaze",
+    "locationUrl": "https://goo.gl/maps/aNZa3Po9mE7ZpvbM8",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "153",
+    "url": "https://www.portlandmercury.com/events/26831255/the-boke-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-9 pm",
+    "title": "The Boke Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-boke-burger.jpg",
+    "location": "Boke Bowl",
+    "description": "Double patty (quarter-pound) burger with Tillamook cheddar, house pickles, sweet onion, and gochujang special sauce, all stacked on a brioche bun",
+    "locationUrl": "https://goo.gl/maps/HUsHxxuPqDM2Qq8F9",
+    "neighborhood": [
+      "southeast",
+      "northwest"
+    ]
+  },
+  {
+    "id": "154",
+    "url": "https://www.portlandmercury.com/events/26831592/thai-and-stop-me-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 2 pm-2 am",
+    "title": "Thai and Stop Me Burger!",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/thai-and-stop-me-burger.jpg",
+    "location": "Night Light Lounge",
+    "description": "Our Country Natural beef patty with a lime leaf and bird chile aioli, topped with daikon-scallion salad, peanuts, and fried shallots",
+    "locationUrl": "https://goo.gl/maps/T1GxHxRwQ2LAsnPbA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "155",
+    "url": "https://www.portlandmercury.com/events/26831259/ferris-buergers-day-off",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-6 pm // CASH ONLY",
+    "title": "Ferris Buerger's Day Off",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/ferris-buergers-day-off.jpg",
+    "location": "Bridge City Pizza",
+    "description": "Six ounces of ground beef, two (not one) slices of American cheese, heirloom tomato, chopped onions, sweet relish, yellow mustard, and sport peppers",
+    "locationUrl": "https://goo.gl/maps/usfAJRq7Zva1U6VU9",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "156",
+    "url": "https://www.portlandmercury.com/events/26831622/elote-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11 pm",
+    "title": "Elote Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/elote-burger.jpg",
+    "location": "Noraneko",
+    "description": "Delicious, outrageous, \"MOS Burger\"-inspired grilled corn-and-cheese burger with homemade yuzu, Kewpie mayo, and other magic",
+    "locationUrl": "https://goo.gl/maps/pRjjnxoUi26NaQye9",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "157",
+    "url": "https://www.portlandmercury.com/events/26831263/the-norm",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 11 am-midnight, Fri 11 am-1 am, Sat 3 pm-close",
+    "title": "The Norm",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-norm.jpg",
+    "location": "BRIX Tavern",
+    "description": "Smoked Tillamook cheddar fondue, shredded lettuce, tomatoes, caramelized onions, and house sauce",
+    "locationUrl": "https://goo.gl/maps/yJrh6M5WWED8cLdv9",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "158",
+    "url": "https://www.portlandmercury.com/events/26831626/the-bybee-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11 pm",
+    "title": "The Bybee Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-bybee-burger.jpg",
+    "location": "Oaks Bottom Public House",
+    "description": "Arugula, Mama Lil's, caramelized onions, cilantro-lime aioli, and cotija cheese",
+    "locationUrl": "https://goo.gl/maps/yGVh33ectrRhb11y6",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "159",
+    "url": "https://www.portlandmercury.com/events/26831269/chimi-hendrix",
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gf"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 4 pm-2 am",
+    "title": "Chimi Hendrix",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/chimi-hendrix.jpg",
+    "location": "Church",
+    "description": "Chimichurri sauce, matchstick potatoes, and sundried tomatoes on ciabatta",
+    "locationUrl": "https://goo.gl/maps/6CW2xS91249a5XKt5",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "160",
+    "url": "https://www.portlandmercury.com/events/26831673/beer-n-bacon-cheddar-fondue-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-5 pm",
+    "title": "Beer N' Bacon Cheddar Fondue Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/beer-n-bacon-cheddar-fondue-burger.jpg",
+    "location": "Phil's Meat Market & Delicatessen",
+    "description": "A creamy beer 'n' bacon cheddar fondue poured over a hand-formed Angus beef patty, fresh crispy fried onions, and sundried tomato bacon relish. Served open-faced on a brioche burger bun",
+    "locationUrl": "https://goo.gl/maps/yXT4gkADFJDRvHhx6",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "161",
+    "url": "https://www.portlandmercury.com/events/26831273/the-gobbler",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-8 pm",
+    "title": "The Gobbler",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-gobbler.jpg",
+    "location": "Citymaxx",
+    "description": "Garlic turkey burger, Brussels sprouts, stuffing, turkey gravy, and cranberry sauce",
+    "locationUrl": "https://goo.gl/maps/2p6vgAKoVpLrdrUPA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "162",
+    "url": "https://www.portlandmercury.com/events/26831677/wish-you-were-beer-bbq-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Wed 9 am-midnight, Thurs-Fri 9 am-2 am, Sat 8 am-2 am",
+    "title": "Wish You Were Beer BBQ Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/wish-you-were-beer-bbq-burger.jpg",
+    "location": "Ponderosa Lounge & Grill",
+    "description": "Third-pound, hand-formed patty of Northwest beef mixed with a blend of Guinness, garlic and spices, basted with a house-made smoky barbecue sauce, topped with cheddar cheese, caramelized red onion, lettuce, mayonnaise and tomato, and served on a sesame bun",
+    "locationUrl": "https://goo.gl/maps/r1B2dy12N3UiEc449",
+    "neighborhood": [
+      "north"
+    ]
+  },
+  {
+    "id": "163",
+    "url": "https://www.portlandmercury.com/events/26831279/wanderer-chili-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11am-11pm",
+    "title": "Wanderer Chili Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/wanderer-chili-burger.jpg",
+    "location": "CRAFTpdx",
+    "description": "Caramelized smash burger, mustard aioli, coleslaw, CBD beer chili featuring Coalition Brewing CBD Wanderer IPA and Chef Bryant's smoked brisket, Tillamook aged white cheddar, and a Walla Walla onion ring on a Grand Central potato bun, topped with a house pickle",
+    "locationUrl": "https://goo.gl/maps/fon4w658XpTQKffX8",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "164",
+    "url": "https://www.portlandmercury.com/events/26831681/stacys-mom",
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gf"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 11 am-9 pm, Fri-Sat 11 am-11 pm",
+    "title": "Stacy's Mom",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/stacys-mom.jpg",
+    "location": "Portland Burger",
+    "description": "Got-it-going-on sauce, shred-god lettuce, beef patty with screaming-for-vengeance meat dust, single malt Scotch secret weapon baste, Swiss-fantasy cheese, crispy fried onion crunch, and a sun-dried tomato-vinaigrette drizzle of wrongness",
+    "locationUrl": "https://goo.gl/maps/QEVzH9f5p3ig8KEg6",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "165",
+    "url": "https://www.portlandmercury.com/events/26831283/hunan-black-pepper-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 11:30 am-9 pm, Fri-Sat 11:30 am-10 pm",
+    "title": "Hunan Black Pepper Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/hunan-black-pepper-burger.jpg",
+    "location": "Danwei Canting",
+    "description": "Seared prime beef burger seasoned with cumin and black pepper, cilantro sauce, iceberg lettuce, tomato, and hot chili pimento cheese",
+    "locationUrl": "https://goo.gl/maps/NvsquxDUkSSQiKSaA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "166",
+    "url": "https://www.portlandmercury.com/events/26831685/bacon-care-of-business-bcb",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-midnight",
+    "title": "Bacon Care of Business (BCB)",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/bacon-care-of-business-bcb.jpg",
+    "location": "Rialto",
+    "description": "Bacon-and-beef patty with American cheese, shredded iceberg, tomato, diced white onion, pickles, and our special sauce on a soft sesame bun",
+    "locationUrl": "https://goo.gl/maps/1DPLcQpqxuHkjaEX7",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "167",
+    "url": "https://www.portlandmercury.com/events/26831287/the-carls-senior",
+    "diet": [
+      "vegetarian",
+      "vegan"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Tues-Sat 10:30 am-10 pm (closed Mon)",
+    "title": "The Carl's Senior",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-carls-senior.jpg",
+    "location": "DC Vegetarian",
+    "description": "The Before the Butcher patty, smothered in our sweet and smoky house barbecue ranch dressing and served with lettuce, tomato, onion, and pickles",
+    "locationUrl": "https://goo.gl/maps/sZQfWv2nkY3iKvsU7",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "168",
+    "url": "https://www.portlandmercury.com/events/26831689/the-feisty-mick",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Wed 2 pm-1:30 am, Thurs-Sat noon-2:30 am",
+    "title": "The Feisty Mick",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-feisty-mick.jpg",
+    "location": "Rocky's Sports & Spirits",
+    "description": "A 100 percent third-pound ground chuck burger with crispy fried onion, smoky grilled pork ends, Irish coleslaw, and beer cheese sauce, with garlic aioli dressing",
+    "locationUrl": "https://goo.gl/maps/5GZuyDFGWEbNZBfUA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "169",
+    "url": "https://www.portlandmercury.com/events/26831335/polish-bomber",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Tues-Sat 11:30 am-2 pm and 5-9 pm (closed Mon)",
+    "title": "Polish Bomber",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/polish-bomber.jpg",
+    "location": "Delores",
+    "description": "Burger patty, mushroom gravy, bacon onion jam, and swiss cheese on a sweet roll",
+    "locationUrl": "https://goo.gl/maps/p3yj9fTTQjs9aJjk8",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "170",
+    "url": "https://www.portlandmercury.com/events/26831739/islands-in-the-stream",
+    "diet": [
+      "vegetarian"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-midnight",
+    "title": "Islands in the Stream",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/islands-in-the-stream.jpg",
+    "location": "Show Bar (Revolution Hall)",
+    "description": "Painted Hills grass-fed hamburger with pineapple salsa, chimichurri aioli, creamy fontina, and arugula on a potato bun",
+    "locationUrl": "https://goo.gl/maps/yCrxevc7NdK7fGKX6",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "171",
+    "url": "https://www.portlandmercury.com/events/26831339/rhubarbara-ann",
+    "diet": [
+      "vegetarian"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11 pm",
+    "title": "Rhubarbara Ann",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/rhubarbara-ann.jpg",
+    "location": "DEN at the Portland marriott City Center",
+    "description": "Pacific Northwest-raised beef patty (or Beyond Burger), Franz Potato Roll, fermented rhubarb and jalapeño relish, blue cheese-whipped sour cream, green apple, red onion, and cabbage",
+    "locationUrl": "https://goo.gl/maps/xomKbYbUG4x3s3uv6",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "172",
+    "url": "https://www.portlandmercury.com/events/26831744/that-good-good",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Fri 5-10 pm, Sat 10 am-2 pm and 5-10 pm",
+    "title": "That Good Good",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/that-good-good.jpg",
+    "location": "Smallwares",
+    "description": "Beef burger, Swiss cheese, fried onions, sweet chili sauce, shiso, and slaw",
+    "locationUrl": "https://goo.gl/maps/d9WjyQ6oee9hx3fk8",
+    "neighborhood": [
+      "north"
+    ]
+  },
+  {
+    "id": "173",
+    "url": "https://www.portlandmercury.com/events/26831343/smokehouse",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 2 pm-2 am",
+    "title": "Smokehouse",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/smokehouse.jpg",
+    "location": "Double Barrel Tavern",
+    "description": "Smoked cheddar, whiskey onions, smoky barbecue sauce, and white barbecue coleslaw",
+    "locationUrl": "https://goo.gl/maps/kqKXWoD4uiMrYM3RA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "174",
+    "url": "https://www.portlandmercury.com/events/26831753/cemitas",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30 am-midnight",
+    "title": "Cemitas",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/cemitas.jpg",
+    "location": "Spirit of 77",
+    "description": "Cemita bun, fried beef, ham, papalo, shredded mozzarella cheese, avocado, chipotles, onion, virgin olive oil, and mayo",
+    "locationUrl": "https://goo.gl/maps/iCWhErgH9KfxXSbK6",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "175",
+    "url": "https://www.portlandmercury.com/events/26831347/eb-mahalo-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 10 am-10 pm",
+    "title": "EB Mahalo Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/eb-mahalo-burger.jpg",
+    "location": "EastBurn",
+    "description": "Third-pound Northwest grass-fed beef, pepper jack cheese, and aloha pineapple slaw, served on a fresh Franz Hawaiian bun",
+    "locationUrl": "https://goo.gl/maps/DNYQRUbeb7K6UoU38",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "176",
+    "url": "https://www.portlandmercury.com/events/26831757/dork-burger",
+    "diet": [
+      "vegetarian",
+      "vegan"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-9 pm",
+    "title": "Dork Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/dork-burger.jpg",
+    "location": "Stoopid Burger",
+    "description": "Beef, barbecue pork, fried pickles, and Swiss",
+    "locationUrl": "https://goo.gl/maps/BnAo5Qt3VjLCi4kp9",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "177",
+    "url": "https://www.portlandmercury.com/events/26831367/the-sack-lunch",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Tues-Wed 4-11 pm, Thurs-Sat 3-11 pm (closed Mon)",
+    "title": "The Sack Lunch",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-sack-lunch.jpg",
+    "location": "Grand Army Tavern",
+    "description": "Grilled all-beef patty, house-made fried baloney, aioli, American cheese, pickles, mustard, and salt-and-vinegar chips",
+    "locationUrl": "https://goo.gl/maps/zCFRhMuXMmfyii3z5",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "178",
+    "url": "https://www.portlandmercury.com/events/26831761/sunnys-diablo-infernal-bumb",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-8 pm",
+    "title": "Sunny's Diablo Infernal BUMB",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/sunnys-diablo-infernal-bumb.jpg",
+    "location": "Sunny's Diner",
+    "description": "Half-pound hamburger patty served on our house-made bun with jalapeño habanero chimichurri, spicy pickled onions, and chipotle aioli",
+    "locationUrl": "https://goo.gl/maps/Qob9zBatoUSB333i8",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "179",
+    "url": "https://www.portlandmercury.com/events/26831371/grexican",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30 am-2:30 am",
+    "title": "Grexican",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/grexican.jpg",
+    "location": "The Hilt",
+    "description": "Mediterranean-seasoned beef patty, watercress lettuce, queso Chihuahua, and cilantro-lime tzatziki on a brioche bun",
+    "locationUrl": "https://goo.gl/maps/EETvDjqkoqyuEygK6",
+    "neighborhood": [
+      "northeast"
+    ]
+  },
+  {
+    "id": "180",
+    "url": "https://www.portlandmercury.com/events/26831766/my-big-fat-greek-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 3 pm-midnight",
+    "title": "My Big Fat Greek Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/my-big-fat-greek-burger.jpg",
+    "location": "Swine Moonshine & Whiskey Bar",
+    "description": "Pita bread, white sauce, tomatoes, red onion, iceberg, and pickled cucumbers",
+    "locationUrl": "https://goo.gl/maps/pj2UcNjyXFrstJfw6",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "181",
+    "url": "https://www.portlandmercury.com/events/26831375/hasselhoffs-revenge",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11 pm",
+    "title": "Hasselhoff's Revenge",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/hasselhoffs-revenge.jpg",
+    "location": "Home, A Bar",
+    "description": "A burger topped with HOME-made bratwurst patty, beer cheese, pickled onion, and spicy slaw. Finished with pickles and horseradish sauce on an Allesio pretzel bun.",
+    "locationUrl": "https://goo.gl/maps/aS1QvES3zjTExEvEA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "182",
+    "url": "https://www.portlandmercury.com/events/26831770/fig-and-labneh-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat noon-10 pm",
+    "title": "Fig & Labneh Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/fig-and-labneh-burger.jpg",
+    "location": "The Lamp",
+    "description": "A mix of fig jam and house-made labneh cheese on top of a quarter-pound Angus beef burger patty, seasoned with Aleppo pepper and salt with house-made pickled veggie relish and diced red onion",
+    "locationUrl": "https://goo.gl/maps/kPe6E29hiHpUaJbEA",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "183",
+    "url": "https://www.portlandmercury.com/events/26831379/sophia-loren",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-11:30 pm",
+    "title": "Sophia Loren",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/sophia-loren.jpg",
+    "location": "HopCity Tavern & Market",
+    "description": "Provolone, balsamic-caramelized onions, crispy prosciutto, arugula, and truffle aioli on a focaccia bread bun",
+    "locationUrl": "https://goo.gl/maps/LimqUbwZF9a4FraA7",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "184",
+    "url": "https://www.portlandmercury.com/events/26831775/ancho-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat noon-2:30 am",
+    "title": "Ancho Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/ancho-burger.jpg",
+    "location": "The Vern",
+    "description": "Ancho-spiced local organic beef with avocado crema, house smoked cheddar, jalapeno jelly, crispy onions and mizuna greens",
+    "locationUrl": "https://goo.gl/maps/imFaXbuJCa6u3uat7",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "185",
+    "url": "https://www.portlandmercury.com/events/26831430/the-odessa",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30-10 pm",
+    "title": "The Odessa",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-odessa.jpg",
+    "location": "Hopworks Urban Brewery",
+    "description": "Quarter-pound, fresh, local burger with Tillamook cheddar, kale, cabbage mix, roasted red pepper garlic aioli, cilantro salsa, fresh corn, black beans, bell peppers, and various spices",
+    "locationUrl": "https://goo.gl/maps/DsWiX8WeXG9vpy3T8",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "186",
+    "url": "https://www.portlandmercury.com/events/26831828/daybreak-espress",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 11 am-11pm, Fri-Sat 11 am-midnight (E Burnside) // Mon-Thurs 8 am-11 pm, Fri-Sat 8 am-midnight (Pearl District) // Mon-Sat 11 am-4 pm (Swan Island)",
+    "title": "Daybreak Espress",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/daybreak-espress.jpg",
+    "location": "Tilt",
+    "description": "Cilantro key lime aioli, Southwest caramelized onions, bacon, fried egg, smoked gouda cheese, and espresso-rubbed chuck patty",
+    "locationUrl": "https://goo.gl/maps/qgVeKQUEfN5bSaZE7",
+    "neighborhood": [
+      "southeast",
+      "northwest"
+    ]
+  },
+  {
+    "id": "187",
+    "url": "https://www.portlandmercury.com/events/26831436/le-cordon-bleu-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 2-10 pm",
+    "title": "Le Cordon Bleu Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/le-cordon-bleu-burger.jpg",
+    "location": "The Hostel Café",
+    "description": "Grass-fed beef patty with melted Swiss cheese, smoked ham, Dijon mustard, mayonnaise, and a pickle, served on a brioche bun",
+    "locationUrl": "https://goo.gl/maps/Jt4eqTMZTM4E4t9S6",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "188",
+    "url": "https://www.portlandmercury.com/events/26831833/smoky-bacon-cotija-slaw-slammer",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-2:30 am",
+    "title": "Smoky Bacon-Cotija Slaw Slammer",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/smoky-bacon-cotija-slaw-slammer.jpg",
+    "location": "Triple Nickel",
+    "description": "Bacon, cotija cheese, jalapeños, house-made chipotle slaw, and roasted red peppers",
+    "locationUrl": "https://goo.gl/maps/XNzs1WKnXH7wmre9A",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "189",
+    "url": "https://www.portlandmercury.com/events/26831445/mad-mens-breakfast",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 4-10 pm, Fri 4-11 pm, Sat noon-11 pm",
+    "title": "Mad Men's Breakfast",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/mad-mens-breakfast.jpg",
+    "location": "IBU Public House",
+    "description": "Six-ounce ground chuck patty served with bourbon bacon jam, crispy shallots, arugula, and blue cheese and topped with a fried egg on a toasted brioche bun",
+    "locationUrl": "https://goo.gl/maps/3ar4ynkamCuAk8h66",
+    "neighborhood": [
+      "southwest"
+    ]
+  },
+  {
+    "id": "190",
+    "url": "https://www.portlandmercury.com/events/26831837/adobo-juicy-lucy-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 5 pm-midnight, Fri 4 pm-2 am, Sat 2 pm-2 am",
+    "title": "Adobo Juicy Lucy Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/adobo-juicy-lucy-burger.jpg",
+    "location": "Tryst",
+    "description": "Toasted brioche bun with garlic aioli, burger patty marinated in adobo sauce (made with soy sauce, vinegar, and garlic) then stuffed with ooze-liscious cheese and topped with Filipino green papaya relish",
+    "locationUrl": "https://goo.gl/maps/AfK4QD3R4Xg6HXGL8",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "191",
+    "url": "https://www.portlandmercury.com/events/26831449/corned-beef-and-cabbage",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30 am-11 pm",
+    "title": "Corned Beef and Cabbage",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/corned-beef-and-cabbage.jpg",
+    "location": "Kells Brewery",
+    "description": "Irish magic, corned beef, potatoes, bacon, onion, lettuce, bubble and squeak, and tangy mustard aioli on a bun",
+    "locationUrl": "https://goo.gl/maps/aQSxqzpfsb8AnRXX7",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "192",
+    "url": "https://www.portlandmercury.com/events/26831841/impossible-green-chile-cheeseburger",
+    "diet": [
+      "vegetarian",
+      "vegan"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 3 pm-2:30 am",
+    "title": "Impossible Green Chile Cheeseburger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/impossible-green-chile-cheeseburger.jpg",
+    "location": "White Owl Social Club",
+    "description": "Impossible Burger patty, green chiles, American cheese, and roasted garlic aioli",
+    "locationUrl": "https://goo.gl/maps/Afwx2mAqJYdbbdGC7",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "193",
+    "url": "https://www.portlandmercury.com/events/26831453/sloppy-bo-peep",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30 am-9 pm",
+    "title": "Sloppy Bo Peep",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/sloppy-bo-peep.jpg",
+    "location": "Kells (Downtown)",
+    "description": "Lamb, tomatoes, garlic, ginger, pistachios, raisins, spices, and fried turmeric potatoes",
+    "locationUrl": "https://goo.gl/maps/vhiLoqkH334LKHK96",
+    "neighborhood": [
+      "downtown"
+    ]
+  },
+  {
+    "id": "194",
+    "url": "https://www.portlandmercury.com/events/26831846/red-pepper-harissa-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Fri 11 am-9 pm Sat-Sun 9 am-9 pm",
+    "title": "Red Pepper Harissa Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/red-pepper-harissa-burger.jpg",
+    "location": "Ya Hala",
+    "description": "Seven-spice ground beef, harissa mayonnaise, onions, cheese, lettuce, and a brioche bun",
+    "locationUrl": "https://goo.gl/maps/a6u2TCx7zP5AfSHC6",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "195",
+    "url": "https://www.portlandmercury.com/events/26831457/korean-hot-dog-burger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-9 pm",
+    "title": "Korean Hot Dog Burger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/korean-hot-dog-burger.jpg",
+    "location": "Kim Jong Smokehouse",
+    "description": "Burger patty, grilled hot dog, kimchi, and gochujang sauce on a sesame bun",
+    "locationUrl": "https://goo.gl/maps/J1DhSLjcQKb8L3JE8",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "196",
+    "url": "https://www.portlandmercury.com/events/26831850/tha-big-ugly",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 10 am-2 am",
+    "title": "The Big Ugly",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/the-big-ugly.jpg",
+    "location": "Yur's Bar & Grill",
+    "description": "One hundred percent antibiotic- and hormone-free locally sourced beef, three slices of crispy bacon, three slices of American cheese, peanut butter, and a drizzle of sriracha on a Grand Central potato bun",
+    "locationUrl": "https://goo.gl/maps/KFJy3bLazBcg4pE86",
+    "neighborhood": [
+      "northwest"
+    ]
+  },
+  {
+    "id": "197",
+    "url": "https://www.portlandmercury.com/events/26831461/street-style-cheeseburger",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Tues-Fri 11:30-7:30 pm, Sat 10 am-4 pm (closed Mon)",
+    "title": "Street-Style Cheeseburger",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/street-style-cheeseburger.jpg",
+    "location": "Las Primas",
+    "description": "Our quarter-pound beef patty is grilled to perfection with a traditional tangy marinade, then topped with so much delicious! We're talking tostones (crispy, savory PLANTAINS) plus secret sauce, Peruvian-style slaw, and pepper-jack cheese. Yum!",
+    "locationUrl": "https://goo.gl/maps/k17ji3bCUc2Pqod4A",
+    "neighborhood": [
+      "north"
+    ]
+  },
+  {
+    "id": "198",
+    "url": "https://www.portlandmercury.com/events/26831859/leckere-lucy",
+    "diet": [
+      "vegetarian",
+      "vegan",
+      "gf"
+    ],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11 am-10 pm",
+    "title": "Leckere Lucy",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/leckere-lucy.jpg",
+    "location": "Zoiglhaus Brewing Company",
+    "description": "Grass-fed beef stuffed with caramelized onions and smoky gouda, topped with Haus-slaw and a zesty secret sauce",
+    "locationUrl": "https://goo.gl/maps/AGjGjCWHzmJ5gs8F9",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "199",
+    "url": "https://www.portlandmercury.com/events/26831465/rad-walla",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 11:30 am-2 am",
+    "title": "Rad Walla",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/rad-walla.jpg",
+    "location": "Lay Low Tavern",
+    "description": "Painted Hills ground beef, marinated Walla Walla sweet onions, mixed greens, Tillamook Vintage Extra Sharp White, bacon, and horseradish red pepper aioli on a Portland French Pub Bun",
+    "locationUrl": "https://goo.gl/maps/k1xUNcF6XNpMGDB69",
+    "neighborhood": [
+      "southeast"
+    ]
+  },
+  {
+    "id": "200",
+    "url": "https://www.portlandmercury.com/events/26831469/portexico",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Thurs 3 pm-midnight, Fri-Sat 10 am-2 am",
+    "title": "Portexico",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/portexico.jpg",
+    "location": "The Liberty Glass",
+    "description": "Texas-rubbed beef burger with marionberry mole barbecue sauce, roasted chile salad, and queso Oaxaca",
+    "locationUrl": "https://goo.gl/maps/FMR3xWMTHnxB2V9cA",
+    "neighborhood": [
+      "north"
+    ]
+  },
+  {
+    "id": "201",
+    "url": "https://www.portlandmercury.com/events/26831517/smoky-k-pop",
+    "diet": [],
+    "type": "burger",
+    "year": 2019,
+    "hours": "Mon-Sat 3 pm-2 am",
+    "title": "Smoky K-Pop",
+    "imageUrl": "https://res.cloudinary.com/joelmturner/image/upload/q_auto,f_auto,dpr_2/w_400/burgerweek/2019/smoky-k-pop.jpg",
+    "location": "Local 66 Bar and Grill",
+    "description": "Smoked kimchi, peanut butter, smoked bacon, and Korean barbecue sauce",
+    "locationUrl": "https://goo.gl/maps/5TFfUBdxJDMRBfuR9",
+    "neighborhood": [
+      "southeast"
+    ]
+  }
+]

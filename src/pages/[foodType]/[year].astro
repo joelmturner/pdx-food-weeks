@@ -7,11 +7,11 @@ import CardGrid from "@components/CardGrid.astro";
 import {
   formatter,
   getEventDetails,
+  getFoodItems,
   getLists,
   getUniqueNeighborhoods,
 } from "@utils/collections";
 import type { FoodItem } from "types";
-import food from "@content/food/food.json";
 
 const { foodType, year } = Astro.params;
 
@@ -20,9 +20,7 @@ if (!validFoodTypes.includes(foodType!)) {
   return Astro.redirect("/404");
 }
 
-const items = food.filter(
-  item => item.year === Number(year) && item.type === foodType
-) as unknown as FoodItem[];
+const items = await getFoodItems(Number(year), foodType! as FoodItem["type"]);
 const neighborhoods = items ? getUniqueNeighborhoods(items) : [];
 const lists = await getLists(Astro.locals?.user?.id);
 const eventDetails = await getEventDetails(

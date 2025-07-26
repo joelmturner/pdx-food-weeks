@@ -1,0 +1,14 @@
+<form
+  class="flex gap-2 items-start"
+  onsubmit="event.preventDefault(); 
+  const formData = new FormData(event.target);
+  fetch('/api/lists/create', { 
+    method: 'POST', 
+    body: formData 
+  }).then(() => window.location.reload())"
+>
+  <wa-input name="name"></wa-input>
+  <wa-button type="submit" appearance="accent" variant="brand">
+    Create a list
+  </wa-button>
+</form>

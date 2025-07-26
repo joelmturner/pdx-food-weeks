@@ -1,23 +1,15 @@
 ---
-import { getYearsFromData } from "@utils/collections";
-import food from "@content/food/food.json";
+import { getYearsFromFoodType } from "@utils/collections";
+import type { FoodItem } from "types";
 import { FOOD_TYPES } from "../constants";
 
-const yearsByType = FOOD_TYPES.reduce(
-  (acc, type) => {
-    acc[`${type}Years`] = food
-      .filter(item => item.type === type)
-      .map(item => item.year);
-    return acc;
-  },
-  {} as Record<string, number[]>
+const collectionNavItems = await Promise.all(
+  FOOD_TYPES.map(async type => ({
+    name: type.charAt(0).toUpperCase() + type.slice(1),
+    slug: type,
+    years: await getYearsFromFoodType(type as FoodItem["type"]),
+  }))
 );
-
-const collectionNavItems = FOOD_TYPES.map(type => ({
-  name: type.charAt(0).toUpperCase() + type.slice(1),
-  slug: type,
-  years: getYearsFromData(yearsByType[`${type}Years`]),
-}));
 
 type Props = {
   activeNav?: string;
@@ -37,15 +29,17 @@ const hasQueryParams = searchParams.toString().length > 0;
     type === "mobile" ? (
       <div class="mobile-nav-collection md:hidden w-full wa-body-xl">
         {collectionNavItems.map(item => (
-          <wa-details summary={item.name} class="w-full">
+          <wa-details summary={item.name} class="w-full" appearance="plain">
             <div class="flex flex-col gap-2 wa-body-l">
               {item.years.map(year => (
-                <a
-                  href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
-                  class="nav-link"
-                >
-                  {year}
-                </a>
+                <wa-dropdown-item value={`${item.slug}/${year}`} class="">
+                  <a
+                    href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
+                    class="nav-link"
+                  >
+                    {year}
+                  </a>
+                </wa-dropdown-item>
               ))}
             </div>
           </wa-details>
@@ -60,12 +54,17 @@ const hasQueryParams = searchParams.toString().length > 0;
             </wa-button>
             <div class="flex flex-col gap-2 w-full pt-2 bg-base-100 border border-base-300">
               {item?.years?.map(year => (
-                <a
-                  class="w-full py-2 px-8 wa-body-m hover:text-inherit hover:no-underline nav-link hover:bg-base-300"
-                  href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
+                <wa-dropdown-item
+                  value={`${item.slug}/${year}`}
+                  class="w-full p-0 h-8 wa-body-m hover:text-inherit hover:no-underline nav-link hover:bg-base-300"
                 >
-                  {year}
-                </a>
+                  <a
+                    class="w-full py-2 px-8"
+                    href={`/${item.slug}/${year}${hasQueryParams ? `?${searchParams.toString()}` : ""}`}
+                  >
+                    {year}
+                  </a>
+                </wa-dropdown-item>
               ))}
             </div>
           </wa-dropdown>
@@ -80,7 +79,7 @@ const hasQueryParams = searchParams.toString().length > 0;
     title="Toggles light & dark"
     aria-label="auto"
     aria-live="polite"
-    appearance="outlined"
+    appearance="plain"
     ><svg xmlns="http://www.w3.org/2000/svg" id="moon-svg">
       <path
         d="M20.742 13.045a8.088 8.088 0 0 1-2.077.271c-2.135 0-4.14-.83-5.646-2.336a8.025 8.025 0 0 1-2.064-7.723A1 1 0 0 0 9.73 2.034a10.014 10.014 0 0 0-4.489 2.582c-3.898 3.898-3.898 10.243 0 14.143a9.937 9.937 0 0 0 7.072 2.93 9.93 9.93 0 0 0 7.07-2.929 10.007 10.007 0 0 0 2.583-4.491 1.001 1.001 0 0 0-1.224-1.224zm-2.772 4.301a7.947 7.947 0 0 1-5.656 2.343 7.953 7.953 0 0 1-5.658-2.344c-3.118-3.119-3.118-8.195 0-11.314a7.923 7.923 0 0 1 2.06-1.483 10.027 10.027 0 0 0 2.89 7.848 9.972 9.972 0 0 0 7.848 2.891 8.036 8.036 0 0 1-1.484 2.059z"
@@ -100,29 +99,26 @@ const hasQueryParams = searchParams.toString().length > 0;
           <wa-button slot="trigger" caret appearance="plain">
             <wa-avatar label="User" initials={user.username?.[0]} />
           </wa-button>
-          <wa-menu>
-            <wa-menu-item>
-              <wa-menu-label>
-                <a
-                  class="w-full wa-body-m hover:text-inherit hover:no-underline"
-                  href={`/me`}
-                >
-                  My Lists
-                </a>
-              </wa-menu-label>
-            </wa-menu-item>
-            <wa-menu-item>
-              <wa-menu-label>
-                <a
-                  href="#"
-                  class="w-full wa-body-m hover:text-inherit hover:no-underline"
-                  onclick="event.preventDefault(); fetch('/api/logout', { method: 'POST' }).then(() => window.location.href = '/')"
-                >
-                  Logout
-                </a>
-              </wa-menu-label>
-            </wa-menu-item>
-          </wa-menu>
+
+          <wa-dropdown-item value="my-lists">
+            <wa-icon slot="icon" name="list" />
+            <a
+              class="w-full wa-body-m hover:text-inherit hover:no-underline"
+              href={`/me`}
+            >
+              My Lists
+            </a>
+          </wa-dropdown-item>
+          <wa-dropdown-item value="logout">
+            <wa-icon slot="icon" name="right-from-bracket" />
+            <a
+              href="#"
+              class="w-full wa-body-m hover:text-inherit hover:no-underline"
+              onclick="event.preventDefault(); fetch('/api/logout', { method: 'POST' }).then(() => window.location.href = '/')"
+            >
+              Logout
+            </a>
+          </wa-dropdown-item>
         </wa-dropdown>
       </>
     ) : type === "mobile" ? (
