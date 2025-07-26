@@ -124,8 +124,16 @@ const getPages = async (eventUrls: string[]) => {
       ? glutenFreeCheck.some(item => glutenFree.toLowerCase().includes(item))
       : false;
 
-    const dietaryItem = dietary?.toLowerCase().split(" ")[0];
-    const dietaryResolved = dietaryItem === "chicken" ? "meat" : dietaryItem;
+    // handle both single and multiple dietary options
+    const dietaryOptions =
+      dietary
+        ?.toLowerCase()
+        .split(",")
+        .map((option: string) => option.trim()) || [];
+    const dietaryResolved = dietaryOptions.map((option: string) => {
+      const firstWord = option.split(" ")[0];
+      return firstWord === "chicken" ? "meat" : firstWord;
+    });
 
     const diet = [
       ...new Set(
@@ -133,7 +141,7 @@ const getPages = async (eventUrls: string[]) => {
           isVegan ? "vegan" : undefined,
           isVegetarian ? "vegetarian" : undefined,
           isGlutenFree ? "gf" : undefined,
-          dietaryResolved,
+          ...dietaryResolved,
         ].filter(Boolean)
       ),
     ];
