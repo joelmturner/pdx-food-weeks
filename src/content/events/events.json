@@ -135,12 +135,28 @@
   {
     "id": 9,
     "title": "The Portland Mercury's Nacho Week 2025",
-    "description": "Not only are nachos the Platonic ideal of bar food, they also present a wonderful canvas for creativity: Crunchy tortilla chips (or tots or what have you) provide a base for whatever toppings your heart desires. The Portland Mercury’s annual Nacho Week demonstrates the dizzying versatility of the beloved Tex-Mex dish with exclusive specials created by chefs all over Portland for a mere $10 each. Plot your itinerary, round up some friends, and go share some full-sized plates of hearty nachos smothered in melty cheese until you fist-fight over the last bite. A big thank you to our partners Travel Portland and Hornitos!",
+    "description": "Not only are nachos the Platonic ideal of bar food, they also present a wonderful canvas for creativity: Crunchy tortilla chips (or tots or what have you) provide a base for whatever toppings your heart desires. The Portland Mercury's annual Nacho Week demonstrates the dizzying versatility of the beloved Tex-Mex dish with exclusive specials created by chefs all over Portland for a mere $10 each. Plot your itinerary, round up some friends, and go share some full-sized plates of hearty nachos smothered in melty cheese until you fist-fight over the last bite. A big thank you to our partners Travel Portland and Hornitos!",
     "dateStart": "2025-06-23T08:00:00.000Z",
     "dateEnd": "2025-06-29T08:00:00.000Z",
     "url": "https://everout.com/portland/events/the-portland-mercurys-nacho-week-2025/e205790/",
     "type": "nacho",
     "year": 2025,
+    "organizer": {
+      "name": "Portland Mercury",
+      "description": "The Portland Mercury is a weekly newspaper published in Portland, Oregon, covering local news, culture, and events.",
+      "logo": "https://res.cloudinary.com/joelmturner/image/fetch/https://www.portlandmercury.com/assets/sites/mercury/images/site-logo.png?20220525222143",
+      "url": "https://portlandmercury.com"
+    }
+  },
+  {
+    "title": "The Portland Mercury's Burger Week 2025",
+    "dateStart": "2025-08-11T08:00:00.000Z",
+    "dateEnd": "2025-08-17T08:00:00.000Z",
+    "url": "https://everout.com/portland/events/the-portland-mercurys-burger-week-2025/e205791/",
+    "description": "Specially-crafted burgers for only $10!",
+    "year": 2025,
+    "type": "burger",
+    "ogImage": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc1Mjc5MDE4OTA5NjYzOC05NzB4MjUwLU1lcmNCVzI1LnBuZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMCwgIndpdGhvdXRFbmxhcmdlbWVudCI6IGZhbHNlfSwgInJvdGF0ZSI6IG51bGx9fQ==",
     "organizer": {
       "name": "Portland Mercury",
       "description": "The Portland Mercury is a weekly newspaper published in Portland, Oregon, covering local news, culture, and events.",
