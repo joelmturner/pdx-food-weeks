@@ -164,7 +164,7 @@ const getPages = async (eventUrls: string[]) => {
       locationUrl: $(".location > a").attr("href") ?? null,
       neighborhood,
       date: $(".date-summary > span").text().trim(),
-      mapUrl: $(".map .google-maps-link > a").attr("href") ?? null,
+      mapUrl: $(".map iframe").attr("src") ?? null,
       description: ingredients ?? "",
       hours: hours ?? "",
       imageUrl: $(".item-image img").attr("src") ?? null,
@@ -209,9 +209,11 @@ async function getEventDetails(baseUrl: string) {
     getValue($, "What's In It:") ||
     getValue($, "What's On It...");
   const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
+  const mapUrl =
+    $(".description.additional-details iframe").attr("src") ?? null;
   // check which type the title contains
   const type = types.find(type => title.toLowerCase().includes(type));
-  return { title, dateStart, dateEnd, url, description, year, type };
+  return { title, dateStart, dateEnd, url, description, year, type, mapUrl };
 }
 
 const getEventUrls = async (baseUrl: string) => {

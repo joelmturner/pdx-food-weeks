@@ -11,7 +11,7 @@ import {
   getLists,
   getUniqueNeighborhoods,
 } from "@utils/collections";
-import type { FoodItem } from "types";
+import type { FoodItem } from "@content/config";
 
 const { foodType, year } = Astro.params;
 
@@ -79,7 +79,6 @@ const schema = {
     pageDesc={dateRange}
     eventDetails={eventDetails}
   >
-    <h2 class="sr-only">Available {foodTypePlural} for {year}</h2>
     {items && <CardGrid items={items} lists={lists} />}
   </Main>
   <Footer />

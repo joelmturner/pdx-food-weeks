@@ -8,27 +8,9 @@ type Props = {
 const { neighborhoods } = Astro.props;
 ---
 
-<wa-details summary="Filters" appearance="plain">
-  <wa-icon name="filter" slot="expand-icon" variant="solid" class="w-3 h-3">
-  </wa-icon>
-  <wa-icon name="filter" slot="collapse-icon" variant="solid" class="w-3 h-3">
-  </wa-icon>
-  <div class="flex flex-col md:flex-row gap-5 lg:gap-8 w-full">
-    <FilterSet filterKey="dietary" />
-    <FilterSet filterKey="neighborhoods" neighborhoods={neighborhoods} />
-  </div>
-</wa-details>
-
-<style>
-  wa-details {
-    @apply w-full max-w-sm;
-  }
-  wa-details::part(icon) {
-    rotate: none;
-  }
-  wa-details::part(header) {
-    @apply justify-end gap-2;
-  }
-</style>
+<div class="flex gap-5">
+  <FilterSet filterKey="dietary" />
+  <FilterSet filterKey="neighborhoods" neighborhoods={neighborhoods} />
+</div>
 
 <script src="../scripts/filter-cards.ts"></script>

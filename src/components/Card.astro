@@ -1,7 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import type { FoodItem, ListItem } from "types";
+import type { ListItem } from "types";
 import SaveToList from "./SaveToList.svelte";
+import type { FoodItem } from "@content/config";
 
 type Props = FoodItem & { lists: ListItem[] | null };
 const {
@@ -16,6 +17,7 @@ const {
   neighborhood,
   diet,
   lists,
+  mapUrl,
 } = Astro.props;
 
 const dietaryOptions = diet?.join(",");
@@ -88,7 +90,7 @@ const schema = {
           class="text-neutral-content w-full text-l font-semibold tracking-wide"
         >
           <a
-            href={locationUrl}
+            href={mapUrl ? mapUrl : locationUrl}
             target="_blank"
             rel="nofollow noopener noreferrer"
           >

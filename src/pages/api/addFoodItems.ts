@@ -1,6 +1,6 @@
 import type { APIContext } from "astro";
 import { Food, db } from "astro:db";
-import type { FoodItem } from "types";
+import type { FoodItem } from "@content/config";
 
 export async function POST(context: APIContext): Promise<Response> {
   if (!context.locals.session) {
@@ -20,9 +20,14 @@ export async function POST(context: APIContext): Promise<Response> {
     });
   }
 
-  const result = await db
-    .insert(Food)
-    .values(allData.map(({ id, ...item }) => ({ ...item, year, type })));
+  const result = await db.insert(Food).values(
+    allData.map(({ id, ...item }) => ({
+      ...item,
+      year,
+      type,
+      locationUrl: item.locationUrl || "",
+    }))
+  );
 
   if (!result) {
     return new Response(null, {

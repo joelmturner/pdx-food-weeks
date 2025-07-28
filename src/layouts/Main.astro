@@ -2,14 +2,14 @@
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import CollectionFilters from "@components/CollectionFilters.astro";
 import { Image } from "astro:assets";
-import type { EventsItem } from "types";
+import type { EventItem } from "../content/config";
 
 interface StringTitleProp {
   pageTitle: string;
   pageDesc?: string;
   neighborhoods?: string[];
   hideFilters?: boolean;
-  eventDetails?: EventsItem;
+  eventDetails?: EventItem;
 }
 
 interface ArrayTitleProp {
@@ -18,21 +18,41 @@ interface ArrayTitleProp {
   pageDesc?: string;
   neighborhoods?: string[];
   hideFilters?: boolean;
-  eventDetails?: EventsItem;
+  eventDetails?: EventItem;
 }
 
 export type Props = StringTitleProp | ArrayTitleProp;
 
 const { props } = Astro;
-const { organizer } = props.eventDetails || {};
+const { organizer, mapUrl, dateStart, dateEnd } = props.eventDetails || {};
 const { logo, url, name, description } = organizer || {};
+
+const badgeVariantByStatus = {
+  Past: "danger",
+  Upcoming: "brand",
+  Active: "success",
+};
+
+// check if the event is in the past, present, or future
+let eventStatus: keyof typeof badgeVariantByStatus = "Past";
+const hasStartAndEnd = dateStart && dateEnd;
+
+if (hasStartAndEnd) {
+  if (new Date(dateStart) < new Date()) {
+    eventStatus = "Past";
+  } else if (new Date(dateEnd) > new Date()) {
+    eventStatus = "Upcoming";
+  } else {
+    eventStatus = "Active";
+  }
+}
 ---
 
 <Breadcrumbs />
 
-<main id="main-content">
-  <div class="flex justify-between items-start flex-col lg:flex-row">
-    <div class="flex-0 flex-grow-0">
+<main id="main-content" class="flex flex-col gap-4">
+  <div class="flex gap-8 items-start flex-col lg:flex-row">
+    <div class="w-full">
       {
         "titleTransition" in props ? (
           <h1>
@@ -42,7 +62,15 @@ const { logo, url, name, description } = organizer || {};
             </span>
           </h1>
         ) : (
-          <h1>{props.pageTitle}</h1>
+          <div class="flex gap-4 items-center">
+            <h1>{props.pageTitle}</h1>
+            <wa-badge
+              variant={badgeVariantByStatus[eventStatus]}
+              appearance="filled outlined"
+            >
+              {eventStatus}
+            </wa-badge>
+          </div>
         )
       }
       <p>{props.pageDesc}</p>
@@ -64,13 +92,29 @@ const { logo, url, name, description } = organizer || {};
         {description && <p>{description}</p>}
       </div>
     </div>
-    <div class="w-full flex justify-end">
+    <div class="w-full">
       {
-        !props.hideFilters ? (
-          <CollectionFilters neighborhoods={props.neighborhoods} />
-        ) : null
+        mapUrl && (
+          <iframe
+            src={mapUrl}
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="w-full h-full min-h-[400px] rounded-lg"
+          />
+        )
       }
     </div>
+  </div>
+  <div class="w-full flex justify-start">
+    {
+      !props.hideFilters ? (
+        <CollectionFilters neighborhoods={props.neighborhoods} />
+      ) : null
+    }
   </div>
   <slot />
 </main>

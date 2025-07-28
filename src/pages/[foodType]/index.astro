@@ -3,7 +3,7 @@ import Header from "@components/Header.astro";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import { getYearsFromFoodType } from "@utils/collections";
-import type { FoodItem } from "types";
+import type { FoodItem } from "@content/config";
 
 const { foodType } = Astro.params;
 
@@ -15,6 +15,7 @@ const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
   <Header />
   <Main
     pageTitle={`Portland ${foodType ? capitalize(foodType) : "Food"} Weeks`}
+    hideFilters
   >
     <ul>
       {

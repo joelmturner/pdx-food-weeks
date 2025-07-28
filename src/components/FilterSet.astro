@@ -19,26 +19,19 @@ const {
 const filters = filterKey === "neighborhoods" ? neighborhoods : dietary;
 ---
 
-<div class="flex gap-2 justify-end flex-wrap w-1/2">
-  <wa-select
-    label={filterKey.toUpperCase()}
-    multiple
-    clearable
-    size="small"
-    data-filter-key={filterKey}
-  >
-    {
-      filters?.map(item => (
-        <wa-option value={item.replace(" ", "_").replace("-", "_")}>
-          {item.toUpperCase()}
-        </wa-option>
-      ))
-    }
-  </wa-select>
-</div>
-
-<style>
-  wa-select {
-    @apply w-full;
+<wa-select
+  label={filterKey.toUpperCase()}
+  multiple
+  clearable
+  size="small"
+  data-filter-key={filterKey}
+  class="w-full min-w-[160px]"
+>
+  {
+    filters?.map(item => (
+      <wa-option value={item.replace(" ", "_").replace("-", "_")}>
+        {item.toUpperCase()}
+      </wa-option>
+    ))
   }
-</style>
+</wa-select>

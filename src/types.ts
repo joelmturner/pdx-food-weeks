@@ -19,39 +19,6 @@ export type SocialObjects = {
   linkTitle: string;
 }[];
 
-export type FoodItem = {
-  id: string;
-  description: string;
-  title: string;
-  url: string;
-  location: string;
-  locationUrl: string;
-  hours: string;
-  diet: ("gf" | "vegetarian" | "vegan" | "meat")[];
-  imageUrl: string;
-  neighborhood: string[];
-  year: number;
-  type: FoodType;
-};
-
-export type EventsItem = {
-  id: string;
-  title: string;
-  description: string;
-  dateStart: string;
-  dateEnd: string;
-  url: string;
-  type: FoodType;
-  year: number;
-  ogImage?: string;
-  organizer: {
-    name: string;
-    description: string;
-    url: string;
-    logo: string;
-  };
-};
-
 export type ListItem = {
   id: number;
   name?: string;
