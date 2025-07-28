@@ -2,12 +2,12 @@
 import Header from "@components/Header.astro";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
-import { getYearsFromFoodType } from "@utils/collections";
-import type { FoodItem } from "types";
+import { getYearsForFoodType } from "@utils/navigationData";
 
 const { foodType } = Astro.params;
 
-const years = await getYearsFromFoodType(foodType! as FoodItem["type"]);
+// get years from static navigation data
+const years = getYearsForFoodType(foodType!);
 const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 ---
 

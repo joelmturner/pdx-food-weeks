@@ -1,15 +1,9 @@
 ---
-import { getYearsFromFoodType } from "@utils/collections";
-import type { FoodItem } from "types";
+import { getNavigationData } from "@utils/navigationData";
 import { FOOD_TYPES } from "../constants";
 
-const collectionNavItems = await Promise.all(
-  FOOD_TYPES.map(async type => ({
-    name: type.charAt(0).toUpperCase() + type.slice(1),
-    slug: type,
-    years: await getYearsFromFoodType(type as FoodItem["type"]),
-  }))
-);
+// use static navigation data to avoid filesystem access at runtime
+const collectionNavItems = getNavigationData();
 
 type Props = {
   activeNav?: string;
