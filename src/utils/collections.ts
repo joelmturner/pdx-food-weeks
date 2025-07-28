@@ -1,17 +1,15 @@
-import { db, eq, list } from "astro:db";
 import { getCollection } from "astro:content";
-import fs from "node:fs/promises";
-import path from "node:path";
+import { db, eq, list } from "astro:db";
 import type { EventsItem, FoodItem, ListItem } from "types";
-import events from "../content/events/events.json";
 import { FOOD_TYPES } from "../constants";
+import events from "../content/events/events.json";
 
 export function getYearsFromData(data: number[]) {
   const uniqueYears = new Set(data);
   return Array.from(uniqueYears);
 }
 
-export async function getYearsFromFoodType(): Promise<
+export async function getYearsFromAllEvents(): Promise<
   {
     name: string;
     slug: string;
@@ -32,6 +30,14 @@ export async function getYearsFromFoodType(): Promise<
   });
 
   return items;
+}
+
+export async function getYearsFromFoodType(
+  type: FoodItem["type"]
+): Promise<number[]> {
+  const foodCollection = await getCollection("food");
+  const item = foodCollection.find(item => item.id.split("/")[0] === type);
+  return [...new Set(item?.data.map(item => item.year) || [])];
 }
 
 export async function getFoodItemById(

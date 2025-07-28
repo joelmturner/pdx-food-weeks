@@ -8,7 +8,7 @@ export interface Props {
   };
 }
 
-const { noPadding = false, ariaHidden = true, exclude } = Astro.props;
+const { noPadding = false, exclude } = Astro.props;
 
 const top = exclude?.top ? "mt-0" : "";
 const bottom = exclude?.bottom ? "mb-0" : "";
