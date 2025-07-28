@@ -2,11 +2,7 @@
   {
     "id": "142",
     "url": "https://www.portlandmercury.com/events/26831521/chef-kristas-boomin-shroom-burger",
-    "diet": [
-      "vegetarian",
-      "vegan",
-      "gf"
-    ],
+    "diet": ["vegetarian", "vegan", "gf"],
     "type": "burger",
     "year": 2019,
     "hours": "Daily 8am-10pm",
@@ -15,9 +11,7 @@
     "location": "New Seasons",
     "description": "Grass-fed beef patty, Swiss cheese, Dijon mustard, and lettuce, topped with mushroom duxelle sauce and stacked on a house-made hamburger bun",
     "locationUrl": "https://goo.gl/maps/QG8CRQnxUNygJoLr9",
-    "neighborhood": [
-      "Various"
-    ]
+    "neighborhood": ["Various"]
   },
   {
     "id": "143",
@@ -31,9 +25,7 @@
     "location": "Loyal Legion",
     "description": "Pub bun, burger patty, mushroom gravy, and pickled onion",
     "locationUrl": "https://goo.gl/maps/VpXkmbSafw6rBToT6",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "144",
@@ -47,9 +39,7 @@
     "location": "Lucky Devil Lounge",
     "description": "Fried egg over barbecue pulled pork and Angus ground beef. Topped with Tillamook cheddar cheese and a pinch of blue cheese, tomato, and lettuce on a toasted pub bun",
     "locationUrl": "https://goo.gl/maps/U9VWo5JJaHtGKEG58",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "145",
@@ -63,9 +53,7 @@
     "location": "23Hoyt",
     "description": "Savory grape barbecue sauce, cornmeal-fried jalapeños, cheddar jack cheese, iceberg lettuce, local beef",
     "locationUrl": "https://goo.gl/maps/J5DsvaceYan3ZrnG7",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "146",
@@ -79,9 +67,7 @@
     "location": "Migration Brewing",
     "description": "Kimchi slaw, gochujang aioli, and 50/50 beef-to-pork patty on a sweet Hawaiian roll",
     "locationUrl": "https://goo.gl/maps/oa65T34xCUfGPtN9A",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "147",
@@ -95,18 +81,12 @@
     "location": "Aji Tram",
     "description": "Burger patty with sirloin steak, onions, and bell peppers with a sambal cheese whiz topping",
     "locationUrl": "https://goo.gl/maps/8i6mXMDDUjYoQWS88",
-    "neighborhood": [
-      "southwest"
-    ]
+    "neighborhood": ["southwest"]
   },
   {
     "id": "148",
     "url": "https://www.portlandmercury.com/events/26831534/brie-and-caramelized-onion-burger",
-    "diet": [
-      "vegetarian",
-      "vegan",
-      "gf"
-    ],
+    "diet": ["vegetarian", "vegan", "gf"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 3-11 pm",
@@ -115,9 +95,7 @@
     "location": "Moreland Ale House",
     "description": "Grand Central brioche bun, hand-pressed beef patty, mayo, and shredded lettuce",
     "locationUrl": "https://goo.gl/maps/AjRWYy3wywj45XDD7",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "149",
@@ -131,16 +109,12 @@
     "location": "Bar Maven",
     "description": "Six-ounce Angus ground beef, pickled red onions, blue cheese fig jam, red wine poached pears, and arugula on a brioche bun",
     "locationUrl": "https://goo.gl/maps/H3jvAMjwRgTe9zeu8",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "150",
     "url": "https://www.portlandmercury.com/events/26831539/mediterranean-burger",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Fri 11 am-10 pm, Sat 9 am-10 pm (Hawthorne) Mon-Fri 11 am-9 pm, Sat 9 am-9 pm (Lake Oswego)",
@@ -149,17 +123,12 @@
     "location": "Next Level Burger",
     "description": "Organic house-made Mediterranean patty served on a sprouted seven-grain bun, topped with crumbled feta-style cheese, organic cucumber, organic red onion, and house-made lemon herbed aioli",
     "locationUrl": "https://goo.gl/maps/JtmexMXZs5iodRYn9",
-    "neighborhood": [
-      "southeast",
-      "southwest"
-    ]
+    "neighborhood": ["southeast", "southwest"]
   },
   {
     "id": "151",
     "url": "https://www.portlandmercury.com/events/26831202/the-liberace-burger",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat noon-2 am",
@@ -168,9 +137,7 @@
     "location": "Bar Bar",
     "description": "100 percent grass-fed, Oregon-raised burger patty with melty fontina cheese, truffle salt, and a house-made roasted garlic aioli. Served with diced onions and shredded lettuce on our signature, locally made potato bun",
     "locationUrl": "https://goo.gl/maps/FaTRxr1BwAvXx2Bs8",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "152",
@@ -184,9 +151,7 @@
     "location": "Nick's Famous Coney Island",
     "description": "Ground beef patty and pineapple slaw made from pineapple, red onion, cilantro, and jalapeños, dressed in a brown sugar and chipotle glaze",
     "locationUrl": "https://goo.gl/maps/aNZa3Po9mE7ZpvbM8",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "153",
@@ -200,10 +165,7 @@
     "location": "Boke Bowl",
     "description": "Double patty (quarter-pound) burger with Tillamook cheddar, house pickles, sweet onion, and gochujang special sauce, all stacked on a brioche bun",
     "locationUrl": "https://goo.gl/maps/HUsHxxuPqDM2Qq8F9",
-    "neighborhood": [
-      "southeast",
-      "northwest"
-    ]
+    "neighborhood": ["southeast", "northwest"]
   },
   {
     "id": "154",
@@ -217,9 +179,7 @@
     "location": "Night Light Lounge",
     "description": "Our Country Natural beef patty with a lime leaf and bird chile aioli, topped with daikon-scallion salad, peanuts, and fried shallots",
     "locationUrl": "https://goo.gl/maps/T1GxHxRwQ2LAsnPbA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "155",
@@ -233,9 +193,7 @@
     "location": "Bridge City Pizza",
     "description": "Six ounces of ground beef, two (not one) slices of American cheese, heirloom tomato, chopped onions, sweet relish, yellow mustard, and sport peppers",
     "locationUrl": "https://goo.gl/maps/usfAJRq7Zva1U6VU9",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "156",
@@ -249,9 +207,7 @@
     "location": "Noraneko",
     "description": "Delicious, outrageous, \"MOS Burger\"-inspired grilled corn-and-cheese burger with homemade yuzu, Kewpie mayo, and other magic",
     "locationUrl": "https://goo.gl/maps/pRjjnxoUi26NaQye9",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "157",
@@ -265,9 +221,7 @@
     "location": "BRIX Tavern",
     "description": "Smoked Tillamook cheddar fondue, shredded lettuce, tomatoes, caramelized onions, and house sauce",
     "locationUrl": "https://goo.gl/maps/yJrh6M5WWED8cLdv9",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "158",
@@ -281,18 +235,12 @@
     "location": "Oaks Bottom Public House",
     "description": "Arugula, Mama Lil's, caramelized onions, cilantro-lime aioli, and cotija cheese",
     "locationUrl": "https://goo.gl/maps/yGVh33ectrRhb11y6",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "159",
     "url": "https://www.portlandmercury.com/events/26831269/chimi-hendrix",
-    "diet": [
-      "vegetarian",
-      "vegan",
-      "gf"
-    ],
+    "diet": ["vegetarian", "vegan", "gf"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 4 pm-2 am",
@@ -301,9 +249,7 @@
     "location": "Church",
     "description": "Chimichurri sauce, matchstick potatoes, and sundried tomatoes on ciabatta",
     "locationUrl": "https://goo.gl/maps/6CW2xS91249a5XKt5",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "160",
@@ -317,9 +263,7 @@
     "location": "Phil's Meat Market & Delicatessen",
     "description": "A creamy beer 'n' bacon cheddar fondue poured over a hand-formed Angus beef patty, fresh crispy fried onions, and sundried tomato bacon relish. Served open-faced on a brioche burger bun",
     "locationUrl": "https://goo.gl/maps/yXT4gkADFJDRvHhx6",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "161",
@@ -333,9 +277,7 @@
     "location": "Citymaxx",
     "description": "Garlic turkey burger, Brussels sprouts, stuffing, turkey gravy, and cranberry sauce",
     "locationUrl": "https://goo.gl/maps/2p6vgAKoVpLrdrUPA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "162",
@@ -349,9 +291,7 @@
     "location": "Ponderosa Lounge & Grill",
     "description": "Third-pound, hand-formed patty of Northwest beef mixed with a blend of Guinness, garlic and spices, basted with a house-made smoky barbecue sauce, topped with cheddar cheese, caramelized red onion, lettuce, mayonnaise and tomato, and served on a sesame bun",
     "locationUrl": "https://goo.gl/maps/r1B2dy12N3UiEc449",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "163",
@@ -365,18 +305,12 @@
     "location": "CRAFTpdx",
     "description": "Caramelized smash burger, mustard aioli, coleslaw, CBD beer chili featuring Coalition Brewing CBD Wanderer IPA and Chef Bryant's smoked brisket, Tillamook aged white cheddar, and a Walla Walla onion ring on a Grand Central potato bun, topped with a house pickle",
     "locationUrl": "https://goo.gl/maps/fon4w658XpTQKffX8",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "164",
     "url": "https://www.portlandmercury.com/events/26831681/stacys-mom",
-    "diet": [
-      "vegetarian",
-      "vegan",
-      "gf"
-    ],
+    "diet": ["vegetarian", "vegan", "gf"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Thurs 11 am-9 pm, Fri-Sat 11 am-11 pm",
@@ -385,9 +319,7 @@
     "location": "Portland Burger",
     "description": "Got-it-going-on sauce, shred-god lettuce, beef patty with screaming-for-vengeance meat dust, single malt Scotch secret weapon baste, Swiss-fantasy cheese, crispy fried onion crunch, and a sun-dried tomato-vinaigrette drizzle of wrongness",
     "locationUrl": "https://goo.gl/maps/QEVzH9f5p3ig8KEg6",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "165",
@@ -401,9 +333,7 @@
     "location": "Danwei Canting",
     "description": "Seared prime beef burger seasoned with cumin and black pepper, cilantro sauce, iceberg lettuce, tomato, and hot chili pimento cheese",
     "locationUrl": "https://goo.gl/maps/NvsquxDUkSSQiKSaA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "166",
@@ -417,17 +347,12 @@
     "location": "Rialto",
     "description": "Bacon-and-beef patty with American cheese, shredded iceberg, tomato, diced white onion, pickles, and our special sauce on a soft sesame bun",
     "locationUrl": "https://goo.gl/maps/1DPLcQpqxuHkjaEX7",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "167",
     "url": "https://www.portlandmercury.com/events/26831287/the-carls-senior",
-    "diet": [
-      "vegetarian",
-      "vegan"
-    ],
+    "diet": ["vegetarian", "vegan"],
     "type": "burger",
     "year": 2019,
     "hours": "Tues-Sat 10:30 am-10 pm (closed Mon)",
@@ -436,9 +361,7 @@
     "location": "DC Vegetarian",
     "description": "The Before the Butcher patty, smothered in our sweet and smoky house barbecue ranch dressing and served with lettuce, tomato, onion, and pickles",
     "locationUrl": "https://goo.gl/maps/sZQfWv2nkY3iKvsU7",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "168",
@@ -452,9 +375,7 @@
     "location": "Rocky's Sports & Spirits",
     "description": "A 100 percent third-pound ground chuck burger with crispy fried onion, smoky grilled pork ends, Irish coleslaw, and beer cheese sauce, with garlic aioli dressing",
     "locationUrl": "https://goo.gl/maps/5GZuyDFGWEbNZBfUA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "169",
@@ -468,16 +389,12 @@
     "location": "Delores",
     "description": "Burger patty, mushroom gravy, bacon onion jam, and swiss cheese on a sweet roll",
     "locationUrl": "https://goo.gl/maps/p3yj9fTTQjs9aJjk8",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "170",
     "url": "https://www.portlandmercury.com/events/26831739/islands-in-the-stream",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 11 am-midnight",
@@ -486,16 +403,12 @@
     "location": "Show Bar (Revolution Hall)",
     "description": "Painted Hills grass-fed hamburger with pineapple salsa, chimichurri aioli, creamy fontina, and arugula on a potato bun",
     "locationUrl": "https://goo.gl/maps/yCrxevc7NdK7fGKX6",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "171",
     "url": "https://www.portlandmercury.com/events/26831339/rhubarbara-ann",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 11 am-11 pm",
@@ -504,9 +417,7 @@
     "location": "DEN at the Portland marriott City Center",
     "description": "Pacific Northwest-raised beef patty (or Beyond Burger), Franz Potato Roll, fermented rhubarb and jalapeño relish, blue cheese-whipped sour cream, green apple, red onion, and cabbage",
     "locationUrl": "https://goo.gl/maps/xomKbYbUG4x3s3uv6",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "172",
@@ -520,9 +431,7 @@
     "location": "Smallwares",
     "description": "Beef burger, Swiss cheese, fried onions, sweet chili sauce, shiso, and slaw",
     "locationUrl": "https://goo.gl/maps/d9WjyQ6oee9hx3fk8",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "173",
@@ -536,9 +445,7 @@
     "location": "Double Barrel Tavern",
     "description": "Smoked cheddar, whiskey onions, smoky barbecue sauce, and white barbecue coleslaw",
     "locationUrl": "https://goo.gl/maps/kqKXWoD4uiMrYM3RA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "174",
@@ -552,9 +459,7 @@
     "location": "Spirit of 77",
     "description": "Cemita bun, fried beef, ham, papalo, shredded mozzarella cheese, avocado, chipotles, onion, virgin olive oil, and mayo",
     "locationUrl": "https://goo.gl/maps/iCWhErgH9KfxXSbK6",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "175",
@@ -568,17 +473,12 @@
     "location": "EastBurn",
     "description": "Third-pound Northwest grass-fed beef, pepper jack cheese, and aloha pineapple slaw, served on a fresh Franz Hawaiian bun",
     "locationUrl": "https://goo.gl/maps/DNYQRUbeb7K6UoU38",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "176",
     "url": "https://www.portlandmercury.com/events/26831757/dork-burger",
-    "diet": [
-      "vegetarian",
-      "vegan"
-    ],
+    "diet": ["vegetarian", "vegan"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 11 am-9 pm",
@@ -587,9 +487,7 @@
     "location": "Stoopid Burger",
     "description": "Beef, barbecue pork, fried pickles, and Swiss",
     "locationUrl": "https://goo.gl/maps/BnAo5Qt3VjLCi4kp9",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "177",
@@ -603,9 +501,7 @@
     "location": "Grand Army Tavern",
     "description": "Grilled all-beef patty, house-made fried baloney, aioli, American cheese, pickles, mustard, and salt-and-vinegar chips",
     "locationUrl": "https://goo.gl/maps/zCFRhMuXMmfyii3z5",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "178",
@@ -619,9 +515,7 @@
     "location": "Sunny's Diner",
     "description": "Half-pound hamburger patty served on our house-made bun with jalapeño habanero chimichurri, spicy pickled onions, and chipotle aioli",
     "locationUrl": "https://goo.gl/maps/Qob9zBatoUSB333i8",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "179",
@@ -635,9 +529,7 @@
     "location": "The Hilt",
     "description": "Mediterranean-seasoned beef patty, watercress lettuce, queso Chihuahua, and cilantro-lime tzatziki on a brioche bun",
     "locationUrl": "https://goo.gl/maps/EETvDjqkoqyuEygK6",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "180",
@@ -651,9 +543,7 @@
     "location": "Swine Moonshine & Whiskey Bar",
     "description": "Pita bread, white sauce, tomatoes, red onion, iceberg, and pickled cucumbers",
     "locationUrl": "https://goo.gl/maps/pj2UcNjyXFrstJfw6",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "181",
@@ -667,9 +557,7 @@
     "location": "Home, A Bar",
     "description": "A burger topped with HOME-made bratwurst patty, beer cheese, pickled onion, and spicy slaw. Finished with pickles and horseradish sauce on an Allesio pretzel bun.",
     "locationUrl": "https://goo.gl/maps/aS1QvES3zjTExEvEA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "182",
@@ -683,9 +571,7 @@
     "location": "The Lamp",
     "description": "A mix of fig jam and house-made labneh cheese on top of a quarter-pound Angus beef burger patty, seasoned with Aleppo pepper and salt with house-made pickled veggie relish and diced red onion",
     "locationUrl": "https://goo.gl/maps/kPe6E29hiHpUaJbEA",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "183",
@@ -699,9 +585,7 @@
     "location": "HopCity Tavern & Market",
     "description": "Provolone, balsamic-caramelized onions, crispy prosciutto, arugula, and truffle aioli on a focaccia bread bun",
     "locationUrl": "https://goo.gl/maps/LimqUbwZF9a4FraA7",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "184",
@@ -715,9 +599,7 @@
     "location": "The Vern",
     "description": "Ancho-spiced local organic beef with avocado crema, house smoked cheddar, jalapeno jelly, crispy onions and mizuna greens",
     "locationUrl": "https://goo.gl/maps/imFaXbuJCa6u3uat7",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "185",
@@ -731,9 +613,7 @@
     "location": "Hopworks Urban Brewery",
     "description": "Quarter-pound, fresh, local burger with Tillamook cheddar, kale, cabbage mix, roasted red pepper garlic aioli, cilantro salsa, fresh corn, black beans, bell peppers, and various spices",
     "locationUrl": "https://goo.gl/maps/DsWiX8WeXG9vpy3T8",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "186",
@@ -747,10 +627,7 @@
     "location": "Tilt",
     "description": "Cilantro key lime aioli, Southwest caramelized onions, bacon, fried egg, smoked gouda cheese, and espresso-rubbed chuck patty",
     "locationUrl": "https://goo.gl/maps/qgVeKQUEfN5bSaZE7",
-    "neighborhood": [
-      "southeast",
-      "northwest"
-    ]
+    "neighborhood": ["southeast", "northwest"]
   },
   {
     "id": "187",
@@ -764,9 +641,7 @@
     "location": "The Hostel Café",
     "description": "Grass-fed beef patty with melted Swiss cheese, smoked ham, Dijon mustard, mayonnaise, and a pickle, served on a brioche bun",
     "locationUrl": "https://goo.gl/maps/Jt4eqTMZTM4E4t9S6",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "188",
@@ -780,9 +655,7 @@
     "location": "Triple Nickel",
     "description": "Bacon, cotija cheese, jalapeños, house-made chipotle slaw, and roasted red peppers",
     "locationUrl": "https://goo.gl/maps/XNzs1WKnXH7wmre9A",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "189",
@@ -796,9 +669,7 @@
     "location": "IBU Public House",
     "description": "Six-ounce ground chuck patty served with bourbon bacon jam, crispy shallots, arugula, and blue cheese and topped with a fried egg on a toasted brioche bun",
     "locationUrl": "https://goo.gl/maps/3ar4ynkamCuAk8h66",
-    "neighborhood": [
-      "southwest"
-    ]
+    "neighborhood": ["southwest"]
   },
   {
     "id": "190",
@@ -812,9 +683,7 @@
     "location": "Tryst",
     "description": "Toasted brioche bun with garlic aioli, burger patty marinated in adobo sauce (made with soy sauce, vinegar, and garlic) then stuffed with ooze-liscious cheese and topped with Filipino green papaya relish",
     "locationUrl": "https://goo.gl/maps/AfK4QD3R4Xg6HXGL8",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "191",
@@ -828,17 +697,12 @@
     "location": "Kells Brewery",
     "description": "Irish magic, corned beef, potatoes, bacon, onion, lettuce, bubble and squeak, and tangy mustard aioli on a bun",
     "locationUrl": "https://goo.gl/maps/aQSxqzpfsb8AnRXX7",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "192",
     "url": "https://www.portlandmercury.com/events/26831841/impossible-green-chile-cheeseburger",
-    "diet": [
-      "vegetarian",
-      "vegan"
-    ],
+    "diet": ["vegetarian", "vegan"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 3 pm-2:30 am",
@@ -847,9 +711,7 @@
     "location": "White Owl Social Club",
     "description": "Impossible Burger patty, green chiles, American cheese, and roasted garlic aioli",
     "locationUrl": "https://goo.gl/maps/Afwx2mAqJYdbbdGC7",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "193",
@@ -863,9 +725,7 @@
     "location": "Kells (Downtown)",
     "description": "Lamb, tomatoes, garlic, ginger, pistachios, raisins, spices, and fried turmeric potatoes",
     "locationUrl": "https://goo.gl/maps/vhiLoqkH334LKHK96",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "194",
@@ -879,9 +739,7 @@
     "location": "Ya Hala",
     "description": "Seven-spice ground beef, harissa mayonnaise, onions, cheese, lettuce, and a brioche bun",
     "locationUrl": "https://goo.gl/maps/a6u2TCx7zP5AfSHC6",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "195",
@@ -895,9 +753,7 @@
     "location": "Kim Jong Smokehouse",
     "description": "Burger patty, grilled hot dog, kimchi, and gochujang sauce on a sesame bun",
     "locationUrl": "https://goo.gl/maps/J1DhSLjcQKb8L3JE8",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "196",
@@ -911,9 +767,7 @@
     "location": "Yur's Bar & Grill",
     "description": "One hundred percent antibiotic- and hormone-free locally sourced beef, three slices of crispy bacon, three slices of American cheese, peanut butter, and a drizzle of sriracha on a Grand Central potato bun",
     "locationUrl": "https://goo.gl/maps/KFJy3bLazBcg4pE86",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "197",
@@ -927,18 +781,12 @@
     "location": "Las Primas",
     "description": "Our quarter-pound beef patty is grilled to perfection with a traditional tangy marinade, then topped with so much delicious! We're talking tostones (crispy, savory PLANTAINS) plus secret sauce, Peruvian-style slaw, and pepper-jack cheese. Yum!",
     "locationUrl": "https://goo.gl/maps/k17ji3bCUc2Pqod4A",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "198",
     "url": "https://www.portlandmercury.com/events/26831859/leckere-lucy",
-    "diet": [
-      "vegetarian",
-      "vegan",
-      "gf"
-    ],
+    "diet": ["vegetarian", "vegan", "gf"],
     "type": "burger",
     "year": 2019,
     "hours": "Mon-Sat 11 am-10 pm",
@@ -947,9 +795,7 @@
     "location": "Zoiglhaus Brewing Company",
     "description": "Grass-fed beef stuffed with caramelized onions and smoky gouda, topped with Haus-slaw and a zesty secret sauce",
     "locationUrl": "https://goo.gl/maps/AGjGjCWHzmJ5gs8F9",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "199",
@@ -963,9 +809,7 @@
     "location": "Lay Low Tavern",
     "description": "Painted Hills ground beef, marinated Walla Walla sweet onions, mixed greens, Tillamook Vintage Extra Sharp White, bacon, and horseradish red pepper aioli on a Portland French Pub Bun",
     "locationUrl": "https://goo.gl/maps/k1xUNcF6XNpMGDB69",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "200",
@@ -979,9 +823,7 @@
     "location": "The Liberty Glass",
     "description": "Texas-rubbed beef burger with marionberry mole barbecue sauce, roasted chile salad, and queso Oaxaca",
     "locationUrl": "https://goo.gl/maps/FMR3xWMTHnxB2V9cA",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "201",
@@ -995,8 +837,6 @@
     "location": "Local 66 Bar and Grill",
     "description": "Smoked kimchi, peanut butter, smoked bacon, and Korean barbecue sauce",
     "locationUrl": "https://goo.gl/maps/5TFfUBdxJDMRBfuR9",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   }
 ]

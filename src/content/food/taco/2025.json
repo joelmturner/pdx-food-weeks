@@ -7,9 +7,7 @@
     "location": "Taco Pedaler",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/9750fc5d-50c1-4824-99f6-c3e83bba74e3/IMG_8065+-+Robert+Stott.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -23,9 +21,7 @@
     "location": "Fabos Tacos Cart",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/2b12c431-9fae-45ae-8daa-61381d355db7/IMG_7860+-+Fabos+Tacos.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -39,9 +35,7 @@
     "location": "Tacos Fita",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/2697696f-f793-4ab3-845e-743c7919d74f/IMG_0448+-+Rafael+Duenas.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -55,10 +49,7 @@
     "location": "Tacovore Portland",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "gf",
-      "vegetarian"
-    ],
+    "diet": ["gf", "vegetarian"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/a9c1f7a5-8bef-410c-9c34-34ec369810c1/IMG_3778+-+Brynna+Grunwald.JPG",
     "neighborhood": [],
     "year": 2025,
@@ -72,9 +63,7 @@
     "location": "The Rambler",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/47ea54ff-f31c-46e7-83b6-888fd12d5483/IMG_2082.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -88,9 +77,7 @@
     "location": "Toasted S'mores Bar",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/1dc7014e-1eb0-4117-ac21-0d5a9b88f360/348s.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -104,9 +91,7 @@
     "location": "Speed-O-Cappuccino",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/4bdf485b-80a7-4558-a7cb-8a24061c3a97/IMG_2626.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -120,9 +105,7 @@
     "location": "Betos Taqueria",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/6bbc094e-17dc-4a47-9eb2-18846540aa86/IMG_0914+-+Wendy+Soriano-Valencia.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -136,9 +119,7 @@
     "location": "Bar Cala",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/1e620b3c-f34a-4e5b-8072-79158571323a/F5117C44-D041-412B-A390-429C3AE34DA0.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -152,9 +133,7 @@
     "location": "Saint Burrito",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/4970d369-42bd-4ca7-b98d-0bdec69671d7/19D5784F-FAAF-43E2-8997-8C2FB8F2C771+-+Timofsilence+01.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -168,9 +147,7 @@
     "location": "Garcia's Taqueria at MLK Street Food",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/6327788d-4be3-46fa-b722-0dd89bf11d75/RenderedImage+-+Benjamin+Page.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -184,9 +161,7 @@
     "location": "Afterlife",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/af804649-95e1-48d9-a411-cb3917cf33de/IMG_8428+-+bobby+hooper.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -200,9 +175,7 @@
     "location": "Radio Room",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/0199f3b1-069c-4dea-a140-2d8ce8b1e99c/IMG_1174+3+-+Camille+Alfrey.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -216,9 +189,7 @@
     "location": "Sabor Autentico",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/a29d7c79-0f98-4bd5-aed3-fe7d8bec6e18/image+-+Megan+Johnson.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -232,9 +203,7 @@
     "location": "The Smokin' Oak Barbeque",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/60e77ad1-d1fe-4cee-ac4d-5bfc552c0b5b/SmokinOak-Taco-Week+-+Cartside+PDX.png",
     "neighborhood": [],
     "year": 2025,
@@ -248,9 +217,7 @@
     "location": "Mis Tacones",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/bc89ce69-8e8f-40f9-acab-af6438971602/IMG_1278+-+Mis+Tacones+PDX.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -264,9 +231,7 @@
     "location": "Makulit",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/11b75a45-e0cb-4351-b2d3-bd4b9d36a00f/mak-taco+-+Makul%C3%ADt+HQ.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -280,9 +245,7 @@
     "location": "Triple Lindy",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/20b6ac28-7186-4631-9174-8011d2af8a4e/Mahi+Mahi+Taco+Special+-+RG+HornBuckle.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -296,9 +259,7 @@
     "location": "Smash & Grab",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/0b1b8fb8-1a15-4efd-a99d-cda9aba2eb7f/IMG_3338+-+Katie+Dover.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -312,9 +273,7 @@
     "location": "La Patroncita",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/72750a0b-8ad5-4023-b230-084ed45b6c59/IMG_8353+-+Diana+Arenas.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -328,9 +287,7 @@
     "location": "Birdies PDX",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/73c65f8e-d3d3-4b77-8561-a2d59af5fd10/IMG_2052.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -344,9 +301,7 @@
     "location": "The Shawarma Truck",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/6fb7103a-9d7a-45e6-9ec3-74af50631b1c/IMG_7132+-+Cynthia+Preciado.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -360,9 +315,7 @@
     "location": "Tacos El Trompo",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/db403073-480e-4276-ae97-747877f5acb5/IMG_2050.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -376,9 +329,7 @@
     "location": "EL JARRITO TAQUERIA",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/860173cd-0e67-4a59-b66d-961c90f52fc4/IMG_2430.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -392,9 +343,7 @@
     "location": "Migration Brewing - Glisan",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/e00758ca-e3b2-4e43-8744-d1311c102e0f/IMG_2249.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -408,9 +357,7 @@
     "location": "Migration Brewing x Papas Frita - Williams",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/413ad179-3173-4326-a479-f6e3c079c3ff/IMG_2250.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -424,9 +371,7 @@
     "location": "Nom Nom Wings",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/1da892b2-1ea9-4ff7-a882-f5e8ebf9bcef/slow-cooker-beef-tips+-+Joe+Han.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -440,10 +385,7 @@
     "location": "Street Heat",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat",
-      "vegan"
-    ],
+    "diet": ["meat", "vegan"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/9f87e355-077c-4031-949b-2f1d7255d5ec/IMG_2544.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -457,9 +399,7 @@
     "location": "Wow Cow",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/6bb306e5-2673-40ba-8a11-59d423fbe247/CB281EBE-5AE1-4CC0-BA7C-8EC2A6024465+-+Jay+Kwon.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -473,9 +413,7 @@
     "location": "NorthPort",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/e8829c50-4f68-4169-8752-382ba4af3b4d/IMG_2726.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -489,9 +427,7 @@
     "location": "Papi Chulos",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/5a438f4d-436a-419c-b4b5-920109eaad41/IMG_2785.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -505,9 +441,7 @@
     "location": "Marky D's",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/088b5ab6-ccc5-45ab-ab88-4071972c2d07/Smash-Burger-Tacos-square.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -521,9 +455,7 @@
     "location": "CoKiea's Kitchen",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/eb2d633a-2910-4bda-9fd4-f525ba229f7f/20250213_191659+-+Nikiea+Pankey.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -537,10 +469,7 @@
     "location": "Mosaic Taphouse (Chem Gio)",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat",
-      "vegan"
-    ],
+    "diet": ["meat", "vegan"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/476971b0-d307-4f7f-b77f-2d8af3d0578f/tacos+-+Anh+Tran.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -554,9 +483,7 @@
     "location": "The Minibar PDX",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/63175105-c10b-44f2-8e11-841823866eae/minibar_pdx_bright_array_achiote+-+The+Mini+Bar+PDX.jpg",
     "neighborhood": [],
     "year": 2025,
@@ -570,9 +497,7 @@
     "location": "La Chingada",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/e236ec07-110d-47ea-8236-295be74f9311/a99e33d4-12d0-4a5c-93e0-4afaa67be90f+-+La+Chingada+LLC.jpeg",
     "neighborhood": [],
     "year": 2025,
@@ -586,9 +511,7 @@
     "location": "Los Plebles Tacos",
     "locationUrl": null,
     "hours": "",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "imageUrl": "https://res.cloudinary.com/joelmturner/image/fetch/w_400,h_400,c_fill,dpr_2/https://images.squarespace-cdn.com/content/v1/65b43e25bf004551fd66bdde/96ad7c5d-d2d4-4159-b55f-f53745f5b06d/Los+Pleb.jpg",
     "neighborhood": [],
     "year": 2025,

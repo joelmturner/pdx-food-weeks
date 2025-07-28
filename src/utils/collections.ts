@@ -1,80 +1,53 @@
 import { db, eq, list } from "astro:db";
+import { getCollection } from "astro:content";
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { EventsItem, FoodItem, ListItem } from "types";
 import events from "../content/events/events.json";
+import { FOOD_TYPES } from "../constants";
 
 export function getYearsFromData(data: number[]) {
   const uniqueYears = new Set(data);
   return Array.from(uniqueYears);
 }
 
-export async function getYearsFromFoodType(type: FoodItem["type"]) {
-  try {
-    const currentDir = path.dirname(new URL(import.meta.url).pathname);
-    const files = await fs.readdir(
-      path.join(currentDir, "../content/food", type)
-    );
-    const years = files.map(file => file.split(".")[0]);
-    return getYearsFromData(years.map(year => Number(year)));
-  } catch (error) {
-    // fallback for production environments where filesystem access might be limited
-    console.warn(`Could not read filesystem for ${type}, using fallback data`);
+export async function getYearsFromFoodType(): Promise<
+  {
+    name: string;
+    slug: string;
+    years: number[];
+  }[]
+> {
+  const foodCollection = await getCollection("food");
+  const items: { name: string; slug: string; years: number[] }[] = [];
+  FOOD_TYPES.forEach(type => {
+    const item = foodCollection.filter(item => item.id.split("/")[0] === type);
+    items.push({
+      name: type,
+      slug: type,
+      years: [
+        ...new Set(item.flatMap(item => item.data.map(item => item.year))),
+      ],
+    });
+  });
 
-    // return known years based on the food type
-    const fallbackYears: Record<FoodItem["type"], number[]> = {
-      sandwich: [2022, 2024, 2025],
-      nacho: [2019, 2023, 2025],
-      burger: [2019, 2023, 2024, 2025],
-      pizza: [2024, 2025],
-      wing: [2024],
-      taco: [2025],
-    };
-
-    return fallbackYears[type] || [];
-  }
+  return items;
 }
 
 export async function getFoodItemById(
   id: string
 ): Promise<FoodItem | undefined> {
-  try {
-    const currentDir = path.dirname(new URL(import.meta.url).pathname);
-    // we need to look through the content of the json files in the food directory and find the item that contains the id
-    const foodTypeDirectories = await fs.readdir(
-      path.join(currentDir, "../content/food")
-    ); // returns a list of the food type directories
-    const items = await Promise.all(
-      foodTypeDirectories.map(async foodTypeDirectory => {
-        const files = await fs.readdir(
-          path.join(currentDir, "../content/food", foodTypeDirectory)
-        );
-        const items = await Promise.all(
-          files.map(async file => {
-            const module = await import(
-              /* @vite-ignore */ `../content/food/${foodTypeDirectory}/${file}`
-            );
-            return module.default.find(
-              (item: FoodItem) => item.id === id
-            ) as unknown as FoodItem;
-          })
-        );
-        return items.find(item => item !== undefined);
-      })
-    );
-    return items.find(item => item !== undefined);
-  } catch (error) {
-    // fallback for production environments where filesystem access might be limited
-    console.warn(
-      `Could not read filesystem for getFoodItemById, returning undefined`
-    );
-    return undefined;
-  }
+  const foodCollection = await getCollection("food");
+  const item = foodCollection.find(item => item.id === id);
+  return item?.data[0] as unknown as FoodItem;
 }
 
 export async function getFoodItemsByIds(ids: string[]): Promise<FoodItem[]> {
-  const items = await Promise.all(ids.map(id => getFoodItemById(id)));
-  return items.filter(item => item !== undefined);
+  const foodCollection = await getCollection("food");
+  const items = foodCollection
+    .filter(item => ids.includes(item.id))
+    .flatMap(item => item.data);
+  return items as unknown as FoodItem[];
 }
 
 export function getUniqueNeighborhoods(data: FoodItem[]): string[] {
@@ -136,6 +109,28 @@ export async function getEventDetails(year: number, type: EventsItem["type"]) {
   return events.find(
     event => event.year === year && event.type === type
   ) as unknown as EventsItem;
+}
+
+export async function getFoodItemsByTypeAndYear(
+  foodType: string,
+  year: string
+): Promise<FoodItem[]> {
+  const foodCollection = await getCollection("food");
+  const items = foodCollection
+    .filter(item => {
+      // extract food type from file path (e.g., "burger/2025.json" -> "burger")
+      const foodTypeFromPath = item.id.split("/")[0];
+      // extract year from file path (e.g., "burger/2025.json" -> "2025")
+      const yearFromPath = item.id.split("/")[1]?.split(".")[0];
+      return foodTypeFromPath === foodType && yearFromPath === year;
+    })
+    .flatMap(item => item.data)
+    .map(item => ({
+      ...item,
+      type: foodType as FoodItem["type"],
+    })) as FoodItem[];
+
+  return items;
 }
 
 export const formatter = new Intl.DateTimeFormat("en-US", {

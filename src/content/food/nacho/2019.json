@@ -11,9 +11,7 @@
     "location": "23 Hoyt",
     "description": "House tots, creamy Mornay cheese sauce, pickled jalapeños, Castelvetrano olives, and fresh scallion",
     "locationUrl": "http://www.23hoyt.com/",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "74",
@@ -27,9 +25,7 @@
     "location": "Pepino's",
     "description": "A heaping mound of freshly made chips, melted Monterey Jack cheese, salsa fresca, guacamole, sour cream, salsa Suzy (spicy salsa), and roasted jalapeños",
     "locationUrl": "http://www.pepinos.org/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "75",
@@ -43,9 +39,7 @@
     "location": "Oaks Bottom Public House",
     "description": "Crispy tater tots smothered with jalapeño and pepper jack queso and topped with Lompoc Brewing's Lomporter-braised beef",
     "locationUrl": "http://www.newoldlompoc.com/oaksbottomhome.html",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "76",
@@ -59,9 +53,7 @@
     "location": "Saucebox",
     "description": "Crispy wontons topped with avocado, cucumber, spicy mayo, unagi sauce, and spicy tuna",
     "locationUrl": "http://www.saucebox.com",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "77",
@@ -75,9 +67,7 @@
     "location": "Ate Oh Ate",
     "description": "Taro chips topped with Kalua pig, Longboard kimchi queso, green onion straws, and shaved radish",
     "locationUrl": "http://www.ateohate.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "78",
@@ -91,16 +81,12 @@
     "location": "Ascendant Beer Company",
     "description": "Tortilla chips, Swiss beer-cheese sauce, mustard-braised pork, Pilsner dill pickle chips, and spicy mustard sauce",
     "locationUrl": "https://www.ascendantbeer.com/",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "79",
     "url": "https://www.portlandmercury.com/events/27232289/the-9-os",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "nacho",
     "year": 2019,
     "hours": "Daily 3 pm-2 am (21+ Only), Sat & Sun 11 am-3 pm (all ages)",
@@ -109,9 +95,7 @@
     "location": "Retro Game Bar",
     "description": "Mango, avocado, cilantro, habanero, pico, queso, manchego, pinto, with Dorito",
     "locationUrl": "https://www.rgbpdx.com/",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "80",
@@ -125,9 +109,7 @@
     "location": "Reverend's BBQ",
     "description": "Tortilla chips with brisket and ground-beef taco meat, green chili cheese sauce, pickled jalapeños, red onion, radish, black olives, and sour cream",
     "locationUrl": "http://reverendsbbq.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "81",
@@ -141,9 +123,7 @@
     "location": "Oregon Public House",
     "description": "Juanita's corn chips topped with melted pepper jack cheese, roasted jalapeños, black beans, charred corn, and chopped Mama Lil's pickled peppers, drizzled with a house-made queso sauce featuring Mama Lil&#x2019;s peppers. Garnished with fresh cilantro and Mexican crema",
     "locationUrl": "http://oregonpublichouse.com",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "82",
@@ -171,9 +151,7 @@
     "location": "Brunch Box",
     "description": "Chili lime-coated fries topped with taco-seasoned ground beef, nacho cheese, and pickled jalapeños",
     "locationUrl": "https://www.brunchboxpdx.com/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "84",
@@ -187,9 +165,7 @@
     "location": "Avid Cider & Kitchen",
     "description": "Fried duros seasoned with Tajín, topped with cotija cheese, house chorizo, pickled onions and hot peppers, then drizzled with cilantro aioli",
     "locationUrl": "https://www.avidcider.com",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "85",
@@ -203,9 +179,7 @@
     "location": "Bluehour",
     "description": "Pickled serranos, red onions, lime, taro chips, and avocado crema",
     "locationUrl": "http://www.bluehouronline.com/",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "86",
@@ -219,16 +193,12 @@
     "location": "The Wurst",
     "description": "Wood-fired carne asada with a roasted chipotle aioli, Monterey Jack fondue, fresh tomatoes, onions and cilantro",
     "locationUrl": "http://thewurstpdx.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "87",
     "url": "https://www.portlandmercury.com/events/27231930/greek-nachos",
-    "diet": [
-      "gf"
-    ],
+    "diet": ["gf"],
     "type": "nacho",
     "year": 2019,
     "hours": "Mon-Fri 4pm-2:30am, Sat-Sun 10am-2:30am",
@@ -237,9 +207,7 @@
     "location": "Bar Maven",
     "description": "Homemade tortilla chips, house-made tzatziki sauce, house-braised shredded beef with Greek seasonings, feta cheese, fresh tomatoes, pepperoncinis, fresh cucumbers, house-pickled white onions, kalamata olives, and parsley, sprinkled with sumac",
     "locationUrl": "http://barmaven-pdx.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "88",
@@ -253,9 +221,7 @@
     "location": "West Coast Grocery Company",
     "description": "Corn tortilla chips smothered in queso blanco and topped with fire-roasted corn, cotija cheese, cilantro, pepino and Tajín",
     "locationUrl": "https://westcoastgrocerycompany.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "89",
@@ -269,16 +235,12 @@
     "location": "Carlita's",
     "description": "House-made tortilla lime chips, black beans, white cheddar queso with fire-roasted jalapeños and Fresno red peppers, tomatoes, red onions, black olives, cotija, and cilantro",
     "locationUrl": "http://www.carlitaspdx.com/",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "90",
     "url": "https://www.portlandmercury.com/events/27232306/totchos-con-jefe",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "nacho",
     "year": 2019,
     "hours": "Sun-Thurs 7am-11pmFri-Sat 7am-12am",
@@ -287,9 +249,7 @@
     "location": "Tilt (Pearl District)",
     "description": "Housemade cheddar tots topped with queso, ground beef, black olives, onions, sour cream, and salsa. Also available at Tilt's Swan Island and East Burnside Bridge locations.",
     "locationUrl": "http://tiltitup.com",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "91",
@@ -303,16 +263,12 @@
     "location": "BRIX Tavern",
     "description": "Braised roasted pork shoulder, Swiss cheese fondue, grilled tomato salsa, cilantro cream, and tortilla chips",
     "locationUrl": "http://www.brixtavern.com",
-    "neighborhood": [
-      "northwest"
-    ]
+    "neighborhood": ["northwest"]
   },
   {
     "id": "92",
     "url": "https://www.portlandmercury.com/events/27232021/chilaquiles-de-casa",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "nacho",
     "year": 2019,
     "hours": "Mon - Thurs 4 pm-9 pm, Fri 4 pm-10 pm, Saturday 11 am-10pm",
@@ -321,9 +277,7 @@
     "location": "Casa Tolteca",
     "description": "Chilaquiles are made with our oven-baked tostadas and are topped with red and green sauce, queso fresco, and Mexican crema",
     "locationUrl": "https://casatoltecapdx.com",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "93",
@@ -337,9 +291,7 @@
     "location": "Boke Bowl",
     "description": "Szechuan pork and garlic chive with togorashi Tillamook cheese sauce over crispy house-fried wonton chips",
     "locationUrl": "http://bokebowl.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "94",
@@ -353,9 +305,7 @@
     "location": "Church",
     "description": "Braised chicken, corn salsa, chimichurri crema, and wonton chips",
     "locationUrl": "http://churchbarpdx.com",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "95",
@@ -369,9 +319,7 @@
     "location": "Concordia Ale House & Eatery",
     "description": "Seasoned waffle fries, queso sauce, taco-seasoned beef, tomatoes, olives, and pickled jalapeños and green onions, topped with fire-roasted salsa",
     "locationUrl": "http://concordia-ale.com",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "96",
@@ -385,9 +333,7 @@
     "location": "Dots Cafe",
     "description": "Fried wontons, Tillamook cheddar/jack, kimchi, and Gochujang",
     "locationUrl": "http://dotscafeportland.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "97",
@@ -401,9 +347,7 @@
     "location": "Clarklewis",
     "description": "Pita chips, feta cheese fondue, pickled peppers, salsa verde, za' atar, scallions, and Castelvetrano olives",
     "locationUrl": "http://www.clarklewispdx.com/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "98",
@@ -417,9 +361,7 @@
     "location": "Moreland Ale House",
     "description": "Corn tortilla chips, house-made nacho cheese sauce, shredded barbacoa brisket with a crema drizzle and a pickled jalapeño relish ",
     "locationUrl": "https://morelandalehouse.com/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "99",
@@ -433,9 +375,7 @@
     "location": "Danwei Canting",
     "description": "Tortilla chips, red braised pork, red chili cheese sauce, scallion, and cilantro",
     "locationUrl": "http://www.danweicanting.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "100",
@@ -449,9 +389,7 @@
     "location": "Lucky Devil Lounge",
     "description": "Tater tots, chipotle cheese sauce, ground taco beef, green and white onions, tomatoes, jalapeños, and sour cream",
     "locationUrl": "http://www.luckydevillounge.com/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "101",
@@ -465,9 +403,7 @@
     "location": "HopCity Tavern & Market",
     "description": "Blue corn tortilla chips, housemade refried black beans, pork carnitas, Oaxaca cheese, pickled jalapeño, carrots and radishes, salsa verde, and cilantro crema ",
     "locationUrl": "http://www3.hilton.com/en/hotels/oregon/hilton-portland-downtown-PDXPHHH/dining/index.html,",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "102",
@@ -481,9 +417,7 @@
     "location": "Migration Brewing Co.",
     "description": "Mole sauce, roasted chicken, Hatch chile crema, black beans, fried plantain, and pickled red onion ",
     "locationUrl": "http://migrationbrewing.com/",
-    "neighborhood": [
-      "northeast"
-    ]
+    "neighborhood": ["northeast"]
   },
   {
     "id": "103",
@@ -497,9 +431,7 @@
     "location": "The Liberty Glass",
     "description": "The base: deep-fried white corn tortillas sprinkled with salt and Tajín. The sauce: our queso-or, as we like to call it, liquid gold! The toppings: spicy pickled jalapeños and crumbled queso fresco ",
     "locationUrl": "http://www.libertyglassbar.com/",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "104",
@@ -513,16 +445,12 @@
     "location": "Local 66 Bar and Grill",
     "description": "House-made seasoned corn chips, house-made dill pickle queso cheese sauce, pastrami, white onions, tomato, and a horseradish spicy brown mustard ",
     "locationUrl": "https://www.local66bar.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "105",
     "url": "https://www.portlandmercury.com/events/27232268/the-double-stack",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "nacho",
     "year": 2019,
     "hours": "Mon-Fri 2 pm-2:30 am, Sat-Sun 10 am-2:30 am",
@@ -531,18 +459,12 @@
     "location": "Night Light Lounge",
     "description": "Fried smoked chicken, three local Mexican cheeses, roasted poblanos, queso, and pico de gallo",
     "locationUrl": "http://www.nightlightlounge.net",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "106",
     "url": "https://www.portlandmercury.com/events/27232272/kimchi-nachos",
-    "diet": [
-      "vegan",
-      "gf",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "gf", "vegetarian"],
     "type": "nacho",
     "year": 2019,
     "hours": "Tues - Thurs 4 pm-9 pm, Fri & Sat 11 am-10 pm, Sun 11 am-9 pm (closed Mon)",
@@ -551,9 +473,7 @@
     "location": "No Bones Beach Club",
     "description": "Homemade chips, cashew poblano cheese sauce, Gochujang soy curls, sriracha aioli, sesame seeds, scallions, and kimchi ",
     "locationUrl": "http://nobonesbeachclub.com",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "107",
@@ -567,16 +487,12 @@
     "location": "Le Bistro Montage",
     "description": "Juanita's tortilla chips, topped with spicy creole pulled chicken, cajun nacho cheese macaroni, and fresh-cut pico de gallo ",
     "locationUrl": "http://www.montageportland.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "108",
     "url": "https://www.portlandmercury.com/events/27232096/sas-squash",
-    "diet": [
-      "gf"
-    ],
+    "diet": ["gf"],
     "type": "nacho",
     "year": 2019,
     "hours": "",
@@ -585,9 +501,7 @@
     "location": "DEN at the Portland Marriott City Center",
     "description": "Blue corn chips, chili-roasted winter squash, corn milk queso, cilantro, red onion, green chiles, and chocolate mole",
     "locationUrl": "https://www.marriott.com/hotels/hotel-information/restaurant/pdxct-portland-marriott-city-center/",
-    "neighborhood": [
-      "downtown"
-    ]
+    "neighborhood": ["downtown"]
   },
   {
     "id": "109",
@@ -601,17 +515,12 @@
     "location": "Haymaker",
     "description": "Pork belly, brown sugar-glazed and fried crispy. Served on a base of tortilla, queso blanco, flamed grilled red peppers, and green onion ",
     "locationUrl": "https://www.haymakerportland.com/",
-    "neighborhood": [
-      "north"
-    ]
+    "neighborhood": ["north"]
   },
   {
     "id": "110",
     "url": "https://www.portlandmercury.com/events/27232202/nachyo-mamas-fries",
-    "diet": [
-      "vegan",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "vegetarian"],
     "type": "nacho",
     "year": 2019,
     "hours": "Mon-Fri 11 am-10:30 pm, Sat-Sun 9 am-10:30 pm",
@@ -620,9 +529,7 @@
     "location": "Next Level Burger",
     "description": "Tasty fries topped with vegan chz, black beans, tomatoes, onions, vegan sour cream, guacamole, and spicy jalapeños",
     "locationUrl": "http://www.nextlevelburger.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "111",
@@ -636,9 +543,7 @@
     "location": "Nick's Famous Coney Island",
     "description": "Tortilla chips smothered in queso blanco, then topped with roasted sweet corn, fresh cilantro, and chili powder",
     "locationUrl": "http://www.nicksfamousconeys.com",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   },
   {
     "id": "112",
@@ -652,8 +557,6 @@
     "location": "Landmark Saloon",
     "description": "Smoked pork butt, roasted chiles, onions, and special cheese sauce",
     "locationUrl": "http://thelandmarksaloon.com/",
-    "neighborhood": [
-      "southeast"
-    ]
+    "neighborhood": ["southeast"]
   }
 ]

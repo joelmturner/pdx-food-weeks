@@ -174,7 +174,9 @@ const staticUrls = [
 */
 
 export async function crawl() {
-  const urls = await getEventUrls('https://everout.com/portland/events/the-portland-mercurys-pizza-week-2024/e170026/');
+  const urls = await getEventUrls(
+    "https://everout.com/portland/events/the-portland-mercurys-pizza-week-2024/e170026/"
+  );
   const eventData = await getPages(urls);
 
   fs.writeFile("pizza2024.json", JSON.stringify(eventData), err => {

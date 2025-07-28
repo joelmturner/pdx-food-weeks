@@ -5,7 +5,7 @@
     "dev": "astro dev",
     "dev:prod": "astro dev --remote",
     "start": "astro dev",
-    "build": "node scripts/generateNavigationData.mjs && node scripts/generateFoodData.mjs && astro check && astro build --remote",
+    "build": "astro check && astro build --remote",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -13,9 +13,7 @@
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "cz": "cz",
     "prepare": "husky install",
-    "lint": "eslint .",
-    "generate-nav": "node scripts/generateNavigationData.mjs",
-    "generate-food": "node scripts/generateFoodData.mjs"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",

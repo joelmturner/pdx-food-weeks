@@ -2,9 +2,7 @@
   {
     "id": "202",
     "url": "https://everout.com/portland/events/chorizo-beef-burger/e153508/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -13,16 +11,12 @@
     "location": "Yard Bar - Traveling Taphouse - Lulu's Kitchen",
     "description": "Custom blended chorizo and beef patty to tantalize your tongue, on top of house made avocado crema slaw mix finished with Pepper Jack, cheddar, and Monterey cheese sauce ",
     "locationUrl": "https://www.travelingtaphouse.com/",
-    "neighborhood": [
-      "Boise"
-    ]
+    "neighborhood": ["Boise"]
   },
   {
     "id": "203",
     "url": "https://everout.com/portland/events/zaatar-beef-burger/e153392/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -31,16 +25,12 @@
     "location": "Ya Hala",
     "description": "Unveiling our Za'atar-Spiced Beef Burger: juicy seared beef infused with Lebanese za'atar, nestled in a buttery brioche bun. Topped with cool tzatziki, spiced grilled onions, juicy tomato, and crisp lettuce for a harmonious blend of flavors and textures. Travel via taste buds.",
     "locationUrl": "http://www.yahalarestaurant.com/",
-    "neighborhood": [
-      "Montavilla"
-    ]
+    "neighborhood": ["Montavilla"]
   },
   {
     "id": "204",
     "url": "https://everout.com/portland/events/creamed-corn-elote-burger/e152779/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -49,16 +39,12 @@
     "location": "Wolf's Head Portland",
     "description": "A Midwest take on a classic side perfect on top of a burger! ",
     "locationUrl": "https://wolfsheadbbq.com/",
-    "neighborhood": [
-      "Central Eastside"
-    ]
+    "neighborhood": ["Central Eastside"]
   },
   {
     "id": "205",
     "url": "https://everout.com/portland/events/jalapeno-popper-burger/e152780/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -67,16 +53,12 @@
     "location": "Wolf's Head Burgerhouse",
     "description": "Spicy, savory, creamy, bacony goodness! Inspired by the bar snack classic!",
     "locationUrl": "https://wolfsheadbbq.com/",
-    "neighborhood": [
-      "Central Beaverton"
-    ]
+    "neighborhood": ["Central Beaverton"]
   },
   {
     "id": "206",
     "url": "https://everout.com/portland/events/lamb-and-chevre-burger/e153319/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -85,16 +67,12 @@
     "location": "Wine & Growl",
     "description": "We wanted to showcase a burger that is less commonly seen on menus and utilizes lamb from a fantastic local farm!",
     "locationUrl": "https://wineandgrowl.com/",
-    "neighborhood": [
-      "Central Beaverton"
-    ]
+    "neighborhood": ["Central Beaverton"]
   },
   {
     "id": "207",
     "url": "https://everout.com/portland/events/smoky-pimento-bbq-burger/e152878/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -103,16 +81,12 @@
     "location": "Von Ebert Brewing",
     "description": "Our Burger Week recipe was inspired by summertime cookouts, team collaboration, the love of smoked meats, and brought together with a crisp light lager from the Von Ebert Brewing team! All of this was created and brewed with you in mind.",
     "locationUrl": "https://www.vonebertbrewing.com/",
-    "neighborhood": [
-      "Pearl District"
-    ]
+    "neighborhood": ["Pearl District"]
   },
   {
     "id": "208",
     "url": "https://everout.com/portland/events/cowgirlnboy-burger/e153466/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -121,17 +95,12 @@
     "location": "Triple Nickel",
     "description": "MORE COW BELL! It's grub time! Inspired by Jim Beam whiskey, because every cowboy/cowgirl loves a lil Jim with their meat and beans! Our rich, hearty combo of Jim Bean reduced baked beans with bacon, brown sugar, sauteed onions, and secret ingredients will have you licking your chops and your neighbors too, should they consent.... BUT, they won't! Y'all will be wantin' more! Come git it! GIDDYUP!!! ",
     "locationUrl": null,
-    "neighborhood": [
-      "Sunnyside"
-    ]
+    "neighborhood": ["Sunnyside"]
   },
   {
     "id": "209",
     "url": "https://everout.com/portland/events/alebrijes-burger/e153315/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -140,16 +109,12 @@
     "location": "Todo",
     "description": "Albrijes are the mythical creatures of Oaxaca guarding against evil. We all need a guardian in our court. Eating one of our burgers will give you the fortitude and spice (not too much, promise) to go out and face the evil spirits.",
     "locationUrl": "https://www.todotaco.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "210",
     "url": "https://everout.com/portland/events/the-giambrone/e153470/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -158,16 +123,12 @@
     "location": "Toast",
     "description": "Reminds me of the garden ",
     "locationUrl": "http://toastpdx.com/",
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "211",
     "url": "https://everout.com/portland/events/brie-be-jammin/e153397/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -176,16 +137,12 @@
     "location": "Three Mermaids Public House",
     "description": "We hand form our patties and make our sauces and jams from scratch! We love a savory sweet combo and the brie, bacon jam combo is delicious!",
     "locationUrl": "https://www.threemermaidspub.com/",
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "212",
     "url": "https://everout.com/portland/events/pig-and-pimento-double-smash/e153559/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -194,16 +151,12 @@
     "location": "The Tavern at Heathman",
     "description": "A double smash burger topped with house-cured bacon, two types of onions, AND the world's tastiest spreadable cheese? Pimento-no-they-didn't! Pimento-yes-they-did.",
     "locationUrl": "https://heathmanhotel.com/dining/the-tavern-at-heathman/",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "213",
     "url": "https://everout.com/portland/events/fondue-and-shroom-burger/e153323/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -212,16 +165,12 @@
     "location": "Taylor Street Tavern",
     "description": "We put our unique spin on this classic combo. This burger is crafted to hit sweet, spicy, tangy, and savory notes. Our Swiss fondue ties the whole dish together and leaves your mouth watering!",
     "locationUrl": "http://taylorstreettavern.com/",
-    "neighborhood": [
-      "Downtown Portland"
-    ]
+    "neighborhood": ["Downtown Portland"]
   },
   {
     "id": "214",
     "url": "https://everout.com/portland/events/chili-jam-burger/e153316/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -230,16 +179,12 @@
     "location": "Sweet Home Bar & Grill",
     "description": "Our chef loves the flavor combo of sweet and spicy, and wanted to share that love with you through his own original version of chili jam! ",
     "locationUrl": null,
-    "neighborhood": [
-      "North Portland"
-    ]
+    "neighborhood": ["North Portland"]
   },
   {
     "id": "215",
     "url": "https://everout.com/portland/events/hatch-chile-burger/e153682/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -248,16 +193,12 @@
     "location": "Steeplejack Pizza and Beer",
     "description": "We've got the spice, the raspberry ketchup to balance it, and a hatch chile beer releasing that our Pink Boots intern, Gillian, has brought to life. ",
     "locationUrl": "https://www.steeplejackbeer.com/",
-    "neighborhood": [
-      "Hillsdale"
-    ]
+    "neighborhood": ["Hillsdale"]
   },
   {
     "id": "216",
     "url": "https://everout.com/portland/events/spinach-burger/e153304/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -266,16 +207,12 @@
     "location": "Steakadelphia",
     "description": "Steakadelphia's handmade burgers are always seasoned to perfection on a sweet burger bun",
     "locationUrl": "http://steakadelphia.com/",
-    "neighborhood": [
-      "South Tabor"
-    ]
+    "neighborhood": ["South Tabor"]
   },
   {
     "id": "217",
     "url": "https://everout.com/portland/events/divine-intervention/e153001/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -284,16 +221,12 @@
     "location": "Star Bar",
     "description": "These savory and sweet flavors end up being pretty sloppy and sexy together. They are the perfect one-night stand. Combined, each bite will take you beyond what you'd thought possible from a burger, leaving you out of breath but wanting more. ",
     "locationUrl": "http://star-bar-rocks.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "218",
     "url": "https://everout.com/portland/events/pimento-bacon-cheeseburger/e153312/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -302,17 +235,12 @@
     "location": "Spoke & Fork",
     "description": "Chef has created a special burger using Three Little Fig's chutney and house-made pimento cheese. It's a sweet and savory treat that's sure to delight your taste buds. Come in today and try it for yourself during Portland Burger Week!",
     "locationUrl": null,
-    "neighborhood": [
-      "Lloyd District"
-    ]
+    "neighborhood": ["Lloyd District"]
   },
   {
     "id": "219",
     "url": "https://everout.com/portland/events/the-bakon-bitch/e153031/",
-    "diet": [
-      "vegan",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "vegetarian"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -321,16 +249,12 @@
     "location": "Speed-o Cappuccino",
     "description": "We have spent the year perfecting our vegan smash burgers so that our guests can have the most delicious burger every time they visit us!",
     "locationUrl": "https://speed-o-cappuccino.business.site/",
-    "neighborhood": [
-      "Central Eastside"
-    ]
+    "neighborhood": ["Central Eastside"]
   },
   {
     "id": "220",
     "url": "https://everout.com/portland/events/bacon-confrontation/e153687/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -339,18 +263,12 @@
     "location": "Slow Bar",
     "description": "Multi-dimensional salt-cured and smoked sensations. Assertive notes of tangy umami with bright garden crunch accent mastication of bovine texture and sowbelly emulsification coalesce to a cultivated dining experience.",
     "locationUrl": "http://www.slowbar.net/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "221",
     "url": "https://everout.com/portland/events/pupusa-burger/e153555/",
-    "diet": [
-      "vegan",
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegan", "vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -359,16 +277,12 @@
     "location": "Salvi PDX",
     "description": "One of a kind amazing, you've never had anything like this. Salvi PDX is taking El Salvador and mixing it will a little bit of the Rose City! ",
     "locationUrl": "https://www.salvipdx.com/",
-    "neighborhood": [
-      "Hosford-Abernethy"
-    ]
+    "neighborhood": ["Hosford-Abernethy"]
   },
   {
     "id": "222",
     "url": "https://everout.com/portland/events/tamarindo/e153372/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -377,16 +291,12 @@
     "location": "Salvador Molly's",
     "description": "All beef patty with slightly spicy tamarindo BBQ sauce, beer battered fried pickles, on a local baked pub bun. ",
     "locationUrl": "http://salvadormollys.com/",
-    "neighborhood": [
-      "Southwest Portland"
-    ]
+    "neighborhood": ["Southwest Portland"]
   },
   {
     "id": "223",
     "url": "https://everout.com/portland/events/greens-n-things-bacon-cheeseburger/e152874/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -395,16 +305,12 @@
     "location": "Roux Boi",
     "description": "This is inspired by our jerk chicken sandwich! ",
     "locationUrl": "https://rouxboi.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "224",
     "url": "https://everout.com/portland/events/scarface/e152906/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -413,16 +319,12 @@
     "location": "Round Here Bar",
     "description": "Say hello to my little friends. Two amazing chorizo/beef sliders, pickles, garlic aioli, a rich Cubano Rojo sauce served on King's Hawaiian rolls. The potato sticks on top create the right amount of crunch. Every day above ground is a good day.",
     "locationUrl": "https://everout.com/portland/events/scarface/e152906/roundherebar.com",
-    "neighborhood": [
-      "Nob Hill"
-    ]
+    "neighborhood": ["Nob Hill"]
   },
   {
     "id": "225",
     "url": "https://everout.com/portland/events/the-south-paw/e152999/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -431,16 +333,12 @@
     "location": "Rocky's Sports & Spirits",
     "description": "This \"southern bad boy\" will KNOCK OUT your tastebuds with one bite! Starting with a fresh seasoned all beef patty, layered with a smooth, zesty jalapeño cream cheese, stacked with a fresh, crunchy island slaw, sweet and tangy Carrie's house-made BBQ sauce, and topped with lean and savory pork ends. ",
     "locationUrl": "https://rockys-sports-spirits.business.site/",
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "226",
     "url": "https://everout.com/portland/events/caesar-burger/e153003/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -449,16 +347,12 @@
     "location": "Reverend's BBQ",
     "description": "Inspired by Johnnie's in Oklahoma City, we are topping a beef patty with a Caesar salad. Messy and delicious!",
     "locationUrl": "http://reverendsbbq.com/",
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "227",
     "url": "https://everout.com/portland/events/sweet-thai-chili-onion-jam-smash-burger/e153313/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -467,18 +361,12 @@
     "location": "Prime Tap House",
     "description": "Our house-made sweet chili jam was inspired by our love of Asian cuisine and the American classic, the cheeseburger. East meets West. There's no better combo! ",
     "locationUrl": "https://www.primetaphouse.com/",
-    "neighborhood": [
-      "Multiple Locations"
-    ]
+    "neighborhood": ["Multiple Locations"]
   },
   {
     "id": "228",
     "url": "https://everout.com/portland/events/ooga-chaka/e153309/",
-    "diet": [
-      "vegan",
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegan", "vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -487,18 +375,12 @@
     "location": "Portland Burger",
     "description": "Why: We are hooked on a feeling. We're high on believing that you're in love with me. A feeling created by \"Stacy's Mom,\" \"Jenny 867-5309,\" \"Dirty Deeds Done Dirt Cheap,\" \"Enter Sandman\" and more. How: We create a taste that makes the first bite lead to a desire for a second bite, a longing for continued bites. Keep it up, girl, yeah you turn me on. What: When you hold me, in your arms so tight, you let me know, everything's alright. Home of the LINE-BEER. Party on, Garth",
     "locationUrl": "http://portlandburger.net/",
-    "neighborhood": [
-      "Southwest Portland"
-    ]
+    "neighborhood": ["Southwest Portland"]
   },
   {
     "id": "229",
     "url": "https://everout.com/portland/events/jalapeno-burger/e153449/",
-    "diet": [
-      "vegan",
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegan", "vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -507,16 +389,12 @@
     "location": "Ponderosa Lounge & Grill",
     "description": "Saddle up for a wild ride with our Jalapeño Burger! This fiery delight boasts Pepper Jack cheese, sizzling jalapeños, and a lasso of Sriracha mayo, all topped with fresh lettuce, tomato, pickles, and onions. Giddy up and take a bite of the wild, spicy West! Yeehaw!",
     "locationUrl": "http://www.ponderosalounge.com/",
-    "neighborhood": [
-      "North Portland"
-    ]
+    "neighborhood": ["North Portland"]
   },
   {
     "id": "230",
     "url": "https://everout.com/portland/events/lil-mac/e153321/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -525,16 +403,12 @@
     "location": "Paymaster Lounge",
     "description": "This burger was created in homage to the Big Mac, but with a helluva lot less preservatives and zero corporate fast food weirdness.",
     "locationUrl": null,
-    "neighborhood": [
-      "Northwest Portland"
-    ]
+    "neighborhood": ["Northwest Portland"]
   },
   {
     "id": "231",
     "url": "https://everout.com/portland/events/miami-burger/e153331/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -543,17 +417,12 @@
     "location": "Papi Sal's",
     "description": "An ode to Miami. The classic combination of beef and bananas that you would find in any Puerto Rican home, with the homey nostalgia of a burger with American cheese, pickles, and onions.",
     "locationUrl": "https://www.papisalspdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "232",
     "url": "https://everout.com/portland/events/the-chile-con-queso/e153307/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -562,16 +431,12 @@
     "location": "Pah!",
     "description": "Chile con queso is a very traditional heartwarming dish in Mexico and we wanted to incorporate that somehow into our \"Burger Week\" burger. We swapped out jalapeños for roasted poblanos to get rid of the spiciness, and made it a bit creamier and richer in texture so it would stay on top of the patty. Very excited for this dish!",
     "locationUrl": "https://www.yelp.com/biz/pah-portland",
-    "neighborhood": [
-      "Lents"
-    ]
+    "neighborhood": ["Lents"]
   },
   {
     "id": "233",
     "url": "https://everout.com/portland/events/nduja-remember/e153306/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -580,16 +445,12 @@
     "location": "Pacific Standard",
     "description": "A nostalgia-evoking sando with a hand-formed patty—breaded and fried—topped with a collection of drive-thru toppings that remind us of meals from our youth.",
     "locationUrl": null,
-    "neighborhood": [
-      "Kerns"
-    ]
+    "neighborhood": ["Kerns"]
   },
   {
     "id": "234",
     "url": "https://everout.com/portland/events/bourbon-old-fashioned-featuring-jim-beam/e153401/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -598,16 +459,12 @@
     "location": "Oregon Public House",
     "description": "Inspired by the Oregon Public House's new craft cocktail menu, this tasty burger mirrors the goodness of the classic old fashioned cocktail with its bourbon glaze reduced from the ingredients of the cocktail itself. You'll want another for the road!",
     "locationUrl": "http://oregonpublichouse.com/",
-    "neighborhood": [
-      "Woodlawn"
-    ]
+    "neighborhood": ["Woodlawn"]
   },
   {
     "id": "235",
     "url": "https://everout.com/portland/events/jersey-special/e152983/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -616,17 +473,12 @@
     "location": "Nick's Famous Coney Island",
     "description": "With our chef being from New Jersey, what better way to get a taste of home?",
     "locationUrl": "http://www.nicksfamousconeys.com/",
-    "neighborhood": [
-      "Richmond"
-    ]
+    "neighborhood": ["Richmond"]
   },
   {
     "id": "236",
     "url": "https://everout.com/portland/events/mac-attack-burger/e152909/",
-    "diet": [
-      "vegan",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "vegetarian"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -635,17 +487,12 @@
     "location": "Next Level Burger",
     "description": "This cheesy creation combines two of our favorite comfort foods—burgers and mac and cheese! ",
     "locationUrl": "https://www.nextlevelburger.com/",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "237",
     "url": "https://everout.com/portland/events/the-super-delicioso-burger/e153318/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -654,16 +501,12 @@
     "location": "Moreland Ale House",
     "description": "Steak quality burger deserves the topping we're giving you. Sweet, savory, cheesy, buttery deliciousness. If your mouth's not watering, go see your doctor ",
     "locationUrl": "https://morelandalehouse.com/",
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "238",
     "url": "https://everout.com/portland/events/the-frankie/e152907/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -672,16 +515,12 @@
     "location": "Monster Smash at My-O-My",
     "description": "This is a well-balanced burger and one of my favorite to make for myself. The BBQ sauce adds a nice bit of heat and sweetness to the rich, gooey pimento cheese. The brioche bun and perfectly lacey smashed patty all work together to make a nice balance of texture and flavor.",
     "locationUrl": "https://monstersmashpdx.square.site/",
-    "neighborhood": [
-      "Sumner"
-    ]
+    "neighborhood": ["Sumner"]
   },
   {
     "id": "239",
     "url": "https://everout.com/portland/events/chimichurrgur/e153505/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -690,16 +529,12 @@
     "location": "Migration Brewing Co.",
     "description": "What more do we need to say...chimichurri is always a yes",
     "locationUrl": "http://migrationbrewing.com/",
-    "neighborhood": [
-      "Kerns"
-    ]
+    "neighborhood": ["Kerns"]
   },
   {
     "id": "240",
     "url": "https://everout.com/portland/events/the-zach-attack/e153317/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -708,16 +543,12 @@
     "location": "Migration Brewing",
     "description": "A taste of the SW right here in the Pacific NW. This will be a do not miss burger for BW2023",
     "locationUrl": "https://migrationbrewing.com/",
-    "neighborhood": [
-      "Boise"
-    ]
+    "neighborhood": ["Boise"]
   },
   {
     "id": "241",
     "url": "https://everout.com/portland/events/the-yummy-burger/e152816/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -726,17 +557,12 @@
     "location": "Mighty Moe's Tanker",
     "description": "We love showing our creativity through our food. Having people love the way we cook gives us the drive to create more delicious cheeseburger combinations for everyone to enjoy.",
     "locationUrl": "https://mightymoestanker.godaddysites.com/",
-    "neighborhood": [
-      "Hawthorne District"
-    ]
+    "neighborhood": ["Hawthorne District"]
   },
   {
     "id": "242",
     "url": "https://everout.com/portland/events/abigails-burger/e152778/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -745,16 +571,12 @@
     "location": "Mayrose Restaurant and Bar",
     "description": "Elk burger with Tillamook Extra Sharp White Cheddar, béarnaise aioli, and caramelized onion on a brioche bun",
     "locationUrl": "https://www.hilton.com/en/hotels/pdxtphh-the-duniway-portland/dining/?y_source=1_Nzk4OTc3NDMtODYwLWxvY2F0aW9uLndlYnNpdGU=",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "243",
     "url": "https://everout.com/portland/events/aafs-smash-burger/e153560/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -763,16 +585,12 @@
     "location": "Lulu",
     "description": "Savor every bite and embrace the ultimate burger experience! Join us for a mouthwatering celebration during Burger Week as we unveil an irresistible AAFS Smash Burger! ",
     "locationUrl": "https://www.lulubarpdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "244",
     "url": "https://everout.com/portland/events/the-spicy-pleasure-melt/e153314/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -781,16 +599,12 @@
     "location": "Lucky Devil Lounge",
     "description": "In the bewitching atmosphere of Lucky Devil Lounge, you'll encounter an irresistible delight during Burger Week. The SPICY PLEASURE MELT, featuring a soft pub bun, gently cradles the alluring Painted Hills beef patty. Spicy chipotle mayo adds a seductive kick, while naughty crispy onions tantalize your taste buds. Steamy Jack cheese melts sensuously, enveloping the burger. Tempting shredded lettuce adds a refreshing touch, and the risqué habanero jelly sparks an intoxicating heat. Each bite becomes an alluring dance of flavors, as the devilish combination entices you into a world of sinful pleasure. Surrender to the temptation and let this devilish burger take you on an unforgettable journey of taste and wild desires...",
     "locationUrl": "http://www.luckydevillounge.com/",
-    "neighborhood": [
-      "Hosford-Abernethy"
-    ]
+    "neighborhood": ["Hosford-Abernethy"]
   },
   {
     "id": "245",
     "url": "https://everout.com/portland/events/down-and-out-burger/e152822/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -799,16 +613,12 @@
     "location": "Loyal Legion Beaverton",
     "description": "This burger is inspired by West Coast fast food, but made with the quality of product you deserve. The beef is never frozen, veggies chopped daily, sauce made in-house, and fresh baked local bread. Loyal Legion, love it your way.",
     "locationUrl": "https://loyallegionpdx.com/",
-    "neighborhood": [
-      "Central Beaverton"
-    ]
+    "neighborhood": ["Central Beaverton"]
   },
   {
     "id": "246",
     "url": "https://everout.com/portland/events/kim-cheese-burger/e152831/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -817,17 +627,12 @@
     "location": "Loyal Legion",
     "description": "It is inspired by our sous chef who will eat kimchi by the jar if you let him! We wanted to get a little weird this year anyway, so there it is!",
     "locationUrl": "http://loyallegionpdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "247",
     "url": "https://everout.com/portland/events/salsa-macha-honey-burger/e152876/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -836,16 +641,12 @@
     "location": "Lo's Burgers",
     "description": "Salsa macha is a Veracruzian oil-based sauce very reminiscent of a Chinese chili crisp. Salsa macha roughly translates to \"brave sauce\" due to how spicy it is! We've flash fried ground chili árbol and sesame seeds, and mixed it with honey and vinegar to create a truly sensational burger topping. This sweet, spicy, and tangy honey salsa is then drizzled on top of our smash burger with melted Swiss cheese and Lo's secret sauce. Don't miss this one y'all!",
     "locationUrl": "https://losburgerspdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "248",
     "url": "https://everout.com/portland/events/donny-was-a-good-bowler-and-a-good-man/e153677/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -854,16 +655,12 @@
     "location": "Laurelwood Brewing Co",
     "description": "Our house-smoked pork belly is to die for, especially paired with our sweet chili aioi! Inspired by the man, the legend, the bowler, Theodore Donald Karabotsos. Don't ask us why. While you're here, order a Target Practice - a 12 oz Wood Lager and shot of Jim Beam for $9.",
     "locationUrl": "http://www.laurelwoodbrewpub.com/",
-    "neighborhood": [
-      "Rose City Park"
-    ]
+    "neighborhood": ["Rose City Park"]
   },
   {
     "id": "249",
     "url": "https://everout.com/portland/events/lil-lariat/e153326/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -872,17 +669,12 @@
     "location": "Lariat Lounge",
     "description": "A lil' (little) version of our 75-year-old menu item, \"The Lariat Burger,\" delicious enough to have its own LED sign....\"Now serving the soon-to-be famous Lariat Burger.\" This burger has been eaten by generations throughout our neighborhood, and we're thrilled to start our first venture into Burger Week with a lil' Lariat Burger!",
     "locationUrl": null,
-    "neighborhood": [
-      "Southeast Portland"
-    ]
+    "neighborhood": ["Southeast Portland"]
   },
   {
     "id": "250",
     "url": "https://everout.com/portland/events/hellbelly-deluxe/e153442/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -891,16 +683,12 @@
     "location": "Killer Burger",
     "description": "Inspired by the legendary Rob Zombie album, this burger is piled high with some of our favorite ingredients—crispy jalapeños, spicy BBQ, pickles, grilled onions, cheddar, and, of course, the superbeast of the show, the peanut butter and bacon. Some of our best of tracks are featured on this burger!",
     "locationUrl": "https://killerburger.com/",
-    "neighborhood": [
-      "Southwest Portland"
-    ]
+    "neighborhood": ["Southwest Portland"]
   },
   {
     "id": "251",
     "url": "https://everout.com/portland/events/nacho-burger/e153554/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -909,16 +697,12 @@
     "location": "Kells Brewery",
     "description": "Kells is famous for its pub grub, our nachos have been on the Travel Channel and the Food Network. We wanted to make a burger that was fun to eat and went well with our brewery's beers. ",
     "locationUrl": "http://kellsbrewery.com/",
-    "neighborhood": [
-      "Northwest Portland"
-    ]
+    "neighborhood": ["Northwest Portland"]
   },
   {
     "id": "252",
     "url": "https://everout.com/portland/events/jahn-mi-burger/e153330/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -927,16 +711,12 @@
     "location": "John's Marketplace",
     "description": "We took the essence of a báhn mì sandwich and styled it to satisfy both burger enthusiasts and fans of Vietnamese cuisine. By blending these delicious elements together, we created a unique burger that showcases amazing flavors.",
     "locationUrl": "https://www.johnsmarketplace.com/",
-    "neighborhood": [
-      "Beaverton"
-    ]
+    "neighborhood": ["Beaverton"]
   },
   {
     "id": "253",
     "url": "https://everout.com/portland/events/buffalo-crisp/e153329/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -945,17 +725,12 @@
     "location": "John's Marketplace",
     "description": "At John's Marketplace, we take pride in crafting exceptional smash burgers bursting with flavor. Our inspiration for this special came from a love of combining the rich tastes of roasted garlic, classic Buffalo heat, creamy blue cheese, sweet caramelized onion, and rich bacon into one bite.",
     "locationUrl": "https://www.johnsmarketplace.com/",
-    "neighborhood": [
-      "Southwest Portland"
-    ]
+    "neighborhood": ["Southwest Portland"]
   },
   {
     "id": "254",
     "url": "https://everout.com/portland/events/the-cheesy-mccheeser/e152769/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -964,16 +739,12 @@
     "location": "Hop City Tavern",
     "description": "1/2 lb burger, portobello mushroom, Gruyère, Cheesy McCheeser sauce, and dijon-horseradish spread on a pretzel bun",
     "locationUrl": "https://www.hilton.com/en/hotels/pdxphhh-hilton-portland-downtown/dining/",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "255",
     "url": "https://everout.com/portland/events/the-ron-burgundy/e152883/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -982,17 +753,12 @@
     "location": "Home, A Bar",
     "description": "Back when people believed what they heard on the news. It looks good, really good and was inspired by true events. Garlic aioli with a seasoned burger, Swiss cheese, and a rich mushroom Burgundy sauce over fries. You stay classy Portland.",
     "locationUrl": "http://www.homebarpdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "256",
     "url": "https://everout.com/portland/events/hefe-vegan-burger/e153327/",
-    "diet": [
-      "vegan",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "vegetarian"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1001,18 +767,12 @@
     "location": "Hefe Burger",
     "description": "Our house-made vegan patty (beans, roasted pepper, olives, parsley, and our secret spices) topped with vegan cheddar, grilled roasted pepper, marinated arugula, green fermented tomatoes, creamy black truffle sauce, and house-made ketchup on a toasted bun.",
     "locationUrl": "https://www.hefeburger.com/",
-    "neighborhood": [
-      "Cathedral Park"
-    ]
+    "neighborhood": ["Cathedral Park"]
   },
   {
     "id": "257",
     "url": "https://everout.com/portland/events/aloha-you-fine-swine/e153399/",
-    "diet": [
-      "vegan",
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegan", "vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1021,16 +781,12 @@
     "location": "Haymaker",
     "description": "A little sweet, some heat, and some sour. We think this is a great summer treat",
     "locationUrl": "https://www.haymakerportland.com/",
-    "neighborhood": [
-      "Overlook"
-    ]
+    "neighborhood": ["Overlook"]
   },
   {
     "id": "258",
     "url": "https://everout.com/portland/events/the-french-onion-burger/e153000/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1039,18 +795,12 @@
     "location": "Grays Restaurant and Bar",
     "description": "This Parisian inspired burger does not disappoint. The juicy patty is perfectly balanced with the savoriness of the Gruyère and caramelized onions.",
     "locationUrl": "https://www.graysatthepark.com/?SEO_id=GMB--R-PDXVAHH&y_source=1_MTk1OTQ3MjgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D#masthead",
-    "neighborhood": [
-      "Vancouver"
-    ]
+    "neighborhood": ["Vancouver"]
   },
   {
     "id": "259",
     "url": "https://everout.com/portland/events/green-chili-cheese-burger/e153553/",
-    "diet": [
-      "vegan",
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegan", "vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1059,17 +809,12 @@
     "location": "Grand Fir Brewing",
     "description": "Hatch green chilies, Fritos, cheese, love",
     "locationUrl": "https://www.grandfirbrewing.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "260",
     "url": "https://everout.com/portland/events/thunder-gun/e152994/",
-    "diet": [
-      "vegan",
-      "vegetarian"
-    ],
+    "diet": ["vegan", "vegetarian"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1078,16 +823,12 @@
     "location": "GNARLYS",
     "description": "NO HESITATION. NO SURRENDER. NO MAN LEFT BEHIND.",
     "locationUrl": "https://www.gnarlyspdx.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "261",
     "url": "https://everout.com/portland/events/taste-the-awesome-burger/e153551/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1096,17 +837,12 @@
     "location": "Gigantic Brewing",
     "description": "Experience the coming together of tropical sweet, rich meat, and heat! Our \"so damn delicious\" pineapple, bacon, Cholula, onion jam is loaded on top of a smash burger patty topped with American cheese. Does it get any better than this? Come see why we call it the \"Taste the Awesome Burger!\"",
     "locationUrl": "https://www.giganticbrewing.com/",
-    "neighborhood": [
-      "Hawthorne District"
-    ]
+    "neighborhood": ["Hawthorne District"]
   },
   {
     "id": "262",
     "url": "https://everout.com/portland/events/backyard-bbq-burger/e153324/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1115,16 +851,12 @@
     "location": "Fuller's Burger Shack",
     "description": "We are celebrating the sunny days with an ode to our favorite summer pastime, the backyard BBQ. Crisp, crunchy, savory, and sweet, this burger is one to come back for!",
     "locationUrl": "https://fullersburgershack.com/",
-    "neighborhood": [
-      "Northeast Portland"
-    ]
+    "neighborhood": ["Northeast Portland"]
   },
   {
     "id": "263",
     "url": "https://everout.com/portland/events/sweet-heat-brisket-burger/e153460/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1133,16 +865,12 @@
     "location": "Duke's Public House",
     "description": "8 oz beef patty, slow-cooked brisket, mango chutney, spicy mayo, tomato, and arugula on a brioche bun",
     "locationUrl": "https://www.dukesph.com/",
-    "neighborhood": [
-      "Lake Oswego"
-    ]
+    "neighborhood": ["Lake Oswego"]
   },
   {
     "id": "264",
     "url": "https://everout.com/portland/events/meatloaf-monday-burger/e152989/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1151,16 +879,12 @@
     "location": "Dirty Bird's Kitchen at Swift Lounge",
     "description": "Inspired by our Swift Lounge Meatloaf Mondays, our meatloaf burger keeps it perfectly spiced with an ají limo ketchup glaze and chips on the inside for a hint of childhood nostalgia.",
     "locationUrl": "https://www.dirtybirdskitchenpdx.com/",
-    "neighborhood": [
-      "Sullivan's Gulch"
-    ]
+    "neighborhood": ["Sullivan's Gulch"]
   },
   {
     "id": "265",
     "url": "https://everout.com/portland/events/the-eighth-street-wonder/e153305/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1169,16 +893,12 @@
     "location": "Crux Fermentation Project",
     "description": "Everything we do at Crux is a project. This cheeseburger variation is no different. We incorporated beer, fermentation, and feedback/involvement from our team. We hope you'll enjoy!!",
     "locationUrl": "https://www.cruxfermentation.com/visit-us/portland-pub/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "266",
     "url": "https://everout.com/portland/events/the-riggatoni/e153512/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1187,16 +907,12 @@
     "location": "Church Bar",
     "description": "Dedicated to Grandma Marilyn. Every year for as long as I can remember, these meatballs have been a staple at every family gathering. I couldn't help but to be inspired to recreate her famous meatballs—with a modern twist.",
     "locationUrl": "https://www.facebook.com/ChurchBarPdx",
-    "neighborhood": [
-      "Kerns"
-    ]
+    "neighborhood": ["Kerns"]
   },
   {
     "id": "267",
     "url": "https://everout.com/portland/events/smac-my-skrimps-up/e153320/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1205,16 +921,12 @@
     "location": "Choi Choi's",
     "description": "Our fun take on surf and turf! Try it with our cart-made Hot Willy's Habanero Hot Sauce! ",
     "locationUrl": "https://choichois.com/",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "268",
     "url": "https://everout.com/portland/events/lil-spicy-b/e153311/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1223,16 +935,12 @@
     "location": "Carina Lounge",
     "description": "The Lil Spicy B. is a flavor coaster on a soft bun. ",
     "locationUrl": "http://www.carinalounge.com/",
-    "neighborhood": [
-      "Northwest Portland"
-    ]
+    "neighborhood": ["Northwest Portland"]
   },
   {
     "id": "269",
     "url": "https://everout.com/portland/events/queso-stevens/e153303/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1241,17 +949,12 @@
     "location": "Burger Stevens",
     "description": "Queso Stevens is inspired by Sonic Drive-In's amazing Queso Burger that existed in 2020",
     "locationUrl": "https://www.burgerstevens.com/",
-    "neighborhood": [
-      "Boise"
-    ]
+    "neighborhood": ["Boise"]
   },
   {
     "id": "270",
     "url": "https://everout.com/portland/events/smoky-aloha-burger/e153328/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1260,17 +963,12 @@
     "location": "Bucket Brigade Sports Bar & Restaurant",
     "description": "Sweet and fresh with a hint of spice! Delicious taste of summer vibes.",
     "locationUrl": "https://www.bucketbrigadesportsbar.net/",
-    "neighborhood": [
-      "Foster - Powell"
-    ]
+    "neighborhood": ["Foster - Powell"]
   },
   {
     "id": "271",
     "url": "https://everout.com/portland/events/brix-cheeseburger/e153322/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1279,16 +977,12 @@
     "location": "BRIX Tavern",
     "description": "When a classic is done well it should be celebrated! The BRIX Cheeseburger comes with traditional toppings and a little twist with the smoked cheddar. Some things are timeless for a reason.",
     "locationUrl": "http://www.brixtavern.com/",
-    "neighborhood": [
-      "Northwest Portland"
-    ]
+    "neighborhood": ["Northwest Portland"]
   },
   {
     "id": "272",
     "url": "https://everout.com/portland/events/spicy-pineapple-burger/e153310/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1297,16 +991,12 @@
     "location": "Bottle + Kitchen",
     "description": "Are you into fitness? We're into fitness…fit'ness whole burger into our mouth! Swing by B+K and wrap your lips around this juicy burger today.",
     "locationUrl": "https://www.bottlekitchen.com/",
-    "neighborhood": [
-      "Portland Downtown"
-    ]
+    "neighborhood": ["Portland Downtown"]
   },
   {
     "id": "273",
     "url": "https://everout.com/portland/events/boke-burger/e153325/",
-    "diet": [
-      "meat"
-    ],
+    "diet": ["meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1315,17 +1005,12 @@
     "location": "Boke Bowl",
     "description": "If it ain't broke, don't fix it! Burgers are great as is, we just put a little Boke in it!",
     "locationUrl": "http://bokebowl.com/",
-    "neighborhood": [
-      "Buckman"
-    ]
+    "neighborhood": ["Buckman"]
   },
   {
     "id": "274",
     "url": "https://everout.com/portland/events/smash-the-hatch/e152908/",
-    "diet": [
-      "vegetarian",
-      "meat"
-    ],
+    "diet": ["vegetarian", "meat"],
     "type": "burger",
     "year": 2023,
     "hours": "",
@@ -1334,8 +1019,6 @@
     "location": "Binary Brewing",
     "description": "Two crispy SMASHED 100% beef patties covered in melted sharp white cheddar, roasted hatch chile, house pickles, griddled onions, and cilantro mayo. ",
     "locationUrl": "http://binarybrewing.co/",
-    "neighborhood": [
-      "Central Beaverton"
-    ]
+    "neighborhood": ["Central Beaverton"]
   }
 ]

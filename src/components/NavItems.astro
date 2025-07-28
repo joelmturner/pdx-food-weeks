@@ -1,9 +1,7 @@
 ---
-import { getNavigationData } from "@utils/navigationData";
-import { FOOD_TYPES } from "../constants";
+import { getYearsFromFoodType } from "@utils/collections";
 
-// use static navigation data to avoid filesystem access at runtime
-const collectionNavItems = getNavigationData();
+const collectionNavItems = await getYearsFromFoodType();
 
 type Props = {
   activeNav?: string;
@@ -44,7 +42,7 @@ const hasQueryParams = searchParams.toString().length > 0;
         {collectionNavItems.map(item => (
           <wa-dropdown>
             <wa-button slot="trigger" caret appearance="plain" size="small">
-              <div class="text-lg">{item.name}</div>
+              <div class="text-lg capitalize">{item.name}</div>
             </wa-button>
             <div class="flex flex-col gap-2 w-full pt-2 bg-base-100 border border-base-300">
               {item?.years?.map(year => (

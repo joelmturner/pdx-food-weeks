@@ -44,9 +44,7 @@
   {
     "id": "4",
     "url": "https://everout.com/portland/events/bread-over-alice-waters/e120606/",
-    "diet": [
-      "vegetarian"
-    ],
+    "diet": ["vegetarian"],
     "type": "sandwich",
     "year": 2022,
     "hours": "Tue, Thur, Fri 11 am-6 pm, Wed & Sat 12-6 pm",
@@ -60,9 +58,7 @@
   {
     "id": "5",
     "url": "https://everout.com/portland/events/cheesesteak-hoagie/e120600/",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "sandwich",
     "year": 2022,
     "hours": "11 am - 8 pm",
@@ -118,9 +114,7 @@
   {
     "id": "9",
     "url": "https://everout.com/portland/events/king-katsu-banh-mi/e120607/",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "sandwich",
     "year": 2022,
     "hours": "Mon-Sat 11 am-7:45 pm",
@@ -148,9 +142,7 @@
   {
     "id": "11",
     "url": "https://everout.com/portland/events/no-pharm-chicken-sando/e120619/",
-    "diet": [
-      "vegan"
-    ],
+    "diet": ["vegan"],
     "type": "sandwich",
     "year": 2022,
     "hours": "4 pm-1 am",
@@ -299,8 +291,6 @@
     "location": "Snappy's",
     "description": "Ham, bacon, house dill pickles, caramelized onions, Swiss cheese, stone-ground mustard",
     "locationUrl": "https://everout.com/portland/locations/hunker-down/l43581/",
-    "neighborhood": [
-      "Mount Tabor"
-    ]
+    "neighborhood": ["Mount Tabor"]
   }
 ]

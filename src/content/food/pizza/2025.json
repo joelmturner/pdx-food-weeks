@@ -5,9 +5,7 @@
     "url": "https://everout.com/portland/events/all-the-slaw-things/e202229/",
     "location": "Boxcar Pizza",
     "locationUrl": "https://everout.com/portland/locations/boxcar-pizza/l39786/",
-    "neighborhood": [
-      "Kerns"
-    ],
+    "neighborhood": ["Kerns"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am-10 pm",
     "mapUrl": null,
     "year": 2025,
@@ -15,10 +13,7 @@
     "description": "Mozzarella, Cheddar, Fried Chicken, Waffle Fries, Pickels, Coleslaw, Honey Mustard",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am-10 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTQ2OTE0NTg5NC11c2VyaW1hZ2UtMTc0MjEzNjY5MTIzNzk0NC1JTUdfMTM3NS1jb3B5LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "vegan"
-    ]
+    "diet": ["gf", "vegan"]
   },
   {
     "id": "Clarklewis-Bierbrezel",
@@ -26,9 +21,7 @@
     "url": "https://everout.com/portland/events/bierbrezel/e202235/",
     "location": "Clarklewis",
     "locationUrl": "https://everout.com/portland/locations/clarklewis/l24469/",
-    "neighborhood": [
-      "Buckman"
-    ],
+    "neighborhood": ["Buckman"],
     "date": "Multiple dates between April 14 - April 20, 4 pm",
     "mapUrl": null,
     "year": 2025,
@@ -36,9 +29,7 @@
     "description": "House Made German Style Soft Pretzel Dough, Shaved Wood Oven Roasted Prime Rib, Red Onion, Chuckanut Brewery Kolsch Cheddar Sauce, Mozzarella, Dijon Creme Fraiche",
     "hours": "Multiple dates between April 14 - April 20, 4 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjA3OTkwMzAxMS11c2VyaW1hZ2UtMTc0MjIzMDc0ODc1Nzg0MS1QcmV0emVsLVBpenphLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Double Mountain Woodstock Taproom-Bánh Mízza",
@@ -46,9 +37,7 @@
     "url": "https://everout.com/portland/events/banh-mizza/e202185/",
     "location": "Double Mountain Woodstock Taproom",
     "locationUrl": "https://everout.com/portland/locations/double-mountain-woodstock-taproom/l20226/",
-    "neighborhood": [
-      "Southeast Portland"
-    ],
+    "neighborhood": ["Southeast Portland"],
     "date": "Multiple dates between April 14 - April 20, 12-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -56,9 +45,7 @@
     "description": "Braised pork shoulder with shaved red onions, sweet nước chấm sauce, and light mozzarella. Topped with pickled daikon radish, carrots, and Fresno peppers. Finished with fresh cilantro and spicy sriracha mayo.",
     "hours": "Multiple dates between April 14 - April 20, 12-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzAxMDQxODU0MDQzNi11c2VyaW1hZ2UtMTc0MjI1MzE2MDU5NzgyNS1JTUdfMDEzMl9qcGcuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Firehouse-\"Char\"lie and the Broccolini Factory",
@@ -66,9 +53,7 @@
     "url": "https://everout.com/portland/events/char-lie-and-the-broccolini-factory/e202268/",
     "location": "Firehouse",
     "locationUrl": "https://everout.com/portland/locations/firehouse/l23048/",
-    "neighborhood": [
-      "Woodlawn"
-    ],
+    "neighborhood": ["Woodlawn"],
     "date": "Multiple dates between April 16 - April 20, 5 pm",
     "mapUrl": null,
     "year": 2025,
@@ -76,9 +61,7 @@
     "description": "Wood fired charred broccolini and red onion, roasted red pepper sauce, mozzarella, garlic oil, oregano, and aleppo pepper",
     "hours": "Multiple dates between April 16 - April 20, 5 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTMzMDIzODk3NS11c2VyaW1hZ2UtMTc0MjQzNzM4NTY4ODcyLUlNR18wNTQ0LmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Love Verona Pizza & Pasta-Led Zeppelin Pie",
@@ -86,9 +69,7 @@
     "url": "https://everout.com/portland/events/led-zeppelin-pie/e202232/",
     "location": "Love Verona Pizza & Pasta",
     "locationUrl": "https://everout.com/portland/locations/love-verona-pizza-pasta/l43448/",
-    "neighborhood": [
-      "St. Johns"
-    ],
+    "neighborhood": ["St. Johns"],
     "date": "Multiple dates between April 14 - April 20, 10 am",
     "mapUrl": null,
     "year": 2025,
@@ -96,9 +77,7 @@
     "description": "Pizza sauce,garlic,fresh mozzarella,shredded mozzarella,cup and char pepperoni,bacon,mango chunks ,bell peppers and finished with mango habanero sauce .",
     "hours": "Multiple dates between April 14 - April 20, 10 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjI0MTIzMDUzMy0wLUlNR184Mzg1LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Loowit Brewing - Ole's Outpost-Mercury's Butt Burner",
@@ -106,9 +85,7 @@
     "url": "https://everout.com/portland/events/mercurys-butt-burner/e202240/",
     "location": "Loowit Brewing - Ole's Outpost",
     "locationUrl": "https://everout.com/portland/locations/loowit-brewing-oles-outpost/l46070/",
-    "neighborhood": [
-      "Vancouver"
-    ],
+    "neighborhood": ["Vancouver"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -116,9 +93,7 @@
     "description": "Roasted Beets, arugula, garlic, ricotta, finished with parm, fried pickled red onion and Sweet Potato Fire hot sauce from Elov8ted.",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjM4MzMyMzA3LXVzZXJpbWFnZS0xNzQyMjQ1Nzc1OTUxNzcxLUlNR18wOTYzLUxhcmdlLmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Metropolitan Tavern-Mediterranean Meadow",
@@ -126,9 +101,7 @@
     "url": "https://everout.com/portland/events/mediterranean-meadow/e202238/",
     "location": "Metropolitan Tavern",
     "locationUrl": "https://everout.com/portland/locations/metropolitan-tavern/l41450/",
-    "neighborhood": [
-      "Lloyd District"
-    ],
+    "neighborhood": ["Lloyd District"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -136,10 +109,7 @@
     "description": "Lamb Sausage Pizza, guajillo tomato sauce, grilled zucchini, oregano, fennel/ fennel pollen, garlic confit, goat cheese, mozzarella",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzUyOTcyNDIwMDM3NS1JTUdfMzc4Ny5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Pizza Thief @ Great Notion-Desayuno",
@@ -147,9 +117,7 @@
     "url": "https://everout.com/portland/events/desayuno/e202234/",
     "location": "Pizza Thief @ Great Notion",
     "locationUrl": "https://everout.com/portland/locations/pizza-thief-great-notion/l44913/",
-    "neighborhood": [
-      "Northwest Industrial"
-    ],
+    "neighborhood": ["Northwest Industrial"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -157,9 +125,7 @@
     "description": "Pork chorizo & roasted potatoes, cream, mozzarella, provolone, fontal, jalapeños, egg yolks, evoo, chives, and Hot Mama Salsa's Smokey Chile Crunch Oil.",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjA3NTEzNDUwMi11c2VyaW1hZ2UtMTc0MjE2Mzc0MTM5ODY4NC1JTUdfMjk1My5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Red Sauce Pizza-Popper John's",
@@ -167,9 +133,7 @@
     "url": "https://everout.com/portland/events/popper-johns/e202245/",
     "location": "Red Sauce Pizza",
     "locationUrl": "https://everout.com/portland/locations/red-sauce-pizza/l43443/",
-    "neighborhood": [
-      "Beaumont - Wilshire"
-    ],
+    "neighborhood": ["Beaumont - Wilshire"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -177,9 +141,7 @@
     "description": "House smoked bacon, pickled jalapenos, Tillamook aged white cheddar, herbed cream cheese, sourdough breadcrumbs. No red sauce.",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5Njk5OTUwMDY4Ni11c2VyaW1hZ2UtMTc0MjI2MjI3MTk2MTc5OS1wb3BwZXJqb2huMjAyNS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Rudy's Gourmet Pizza-Italian Sweet Heat",
@@ -187,9 +149,7 @@
     "url": "https://everout.com/portland/events/italian-sweet-heat/e202228/",
     "location": "Rudy's Gourmet Pizza",
     "locationUrl": "https://everout.com/portland/locations/rudys-gourmet-pizza/l24064/",
-    "neighborhood": [
-      "Creston - Kenilworth"
-    ],
+    "neighborhood": ["Creston - Kenilworth"],
     "date": "Multiple dates between April 14 - April 20, 12 pm-12 am",
     "mapUrl": null,
     "year": 2025,
@@ -197,12 +157,7 @@
     "description": "Italian sausage, roasted red bell pepper, grilled onion, mozzarella cheese drizzled with house made sweet heat hot sauce.",
     "hours": "Multiple dates between April 14 - April 20, 12 pm-12 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTQ2OTExODktdXNlcmltYWdlLTE3NDIxNTYyNzkzNzEyNjktSU1HXzM4OTIuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "meat",
-      "vegetarian",
-      "vegan"
-    ]
+    "diet": ["gf", "meat", "vegetarian", "vegan"]
   },
   {
     "id": "Signal Station Pizza-Pura Vida!!!",
@@ -210,9 +165,7 @@
     "url": "https://everout.com/portland/events/pura-vida/e202249/",
     "location": "Signal Station Pizza",
     "locationUrl": "https://everout.com/portland/locations/signal-station-pizza/l24383/",
-    "neighborhood": [
-      "North Portland"
-    ],
+    "neighborhood": ["North Portland"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -220,10 +173,7 @@
     "description": "Olive Oil Base with Whole Milk Mozzarella, Plantains, Caribbean Jerk Chicken, Toasted Coconut, and a Spicy Coconut Lime Drizzle.",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NzM3MzU1NzgzOS11c2VyaW1hZ2UtMTc0MjI0NjE0NTM5OTg3NS0xNTcxODM4NzE4Nzc5MDcyNzc1LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Ruse Brewing-Stoney Creek",
@@ -231,9 +181,7 @@
     "url": "https://everout.com/portland/events/stoney-creek/e202230/",
     "location": "Ruse Brewing",
     "locationUrl": "https://everout.com/portland/locations/ruse-brewing/l45458/",
-    "neighborhood": [
-      "Slabtown"
-    ],
+    "neighborhood": ["Slabtown"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -241,10 +189,7 @@
     "description": "Olympia Provisions Louanika greek salami, green olive, calabrian chillies, basil, mozzarella, pecorino & red sauce.",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTYyODA0My11c2VyaW1hZ2UtMTc0MjE1NjM5NjY2MjA1My1JTUdfNjQ3My5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Lazy Days Brewing-The Masala Magic",
@@ -252,9 +197,7 @@
     "url": "https://everout.com/portland/events/the-masala-magic/e202274/",
     "location": "Lazy Days Brewing",
     "locationUrl": "https://everout.com/portland/locations/lazy-days-brewing/l46149/",
-    "neighborhood": [
-      "Multiple Locations"
-    ],
+    "neighborhood": ["Multiple Locations"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -262,9 +205,7 @@
     "description": "Chicken tikka masala, Spinach, Roasted garlic, Mushrooms, Red onion, Brick cheese, Crema.",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTUzNjY2NTUxOS11c2VyaW1hZ2UtMTc0MjMzNzY5MDg0Mzk4Ny1JTUdfNjY5NC5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Humdinger Pizza-Thai Rung",
@@ -272,9 +213,7 @@
     "url": "https://everout.com/portland/events/thai-rung/e202270/",
     "location": "Humdinger Pizza",
     "locationUrl": "https://everout.com/portland/locations/humdinger-pizza/l40241/",
-    "neighborhood": [
-      "Lents"
-    ],
+    "neighborhood": ["Lents"],
     "date": "Multiple dates between April 14 - April 20, 11 am-10 pm",
     "mapUrl": null,
     "year": 2025,
@@ -282,9 +221,7 @@
     "description": "Red curry, mozzarella, soy roasted eggplant, mushroom, spring onion, pickled fresno chilis, clilantro pesto, thai basil, lime",
     "hours": "Multiple dates between April 14 - April 20, 11 am-10 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjE2Mjk3NjAwMi0wLUlNR18xOTQ1LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "HOTLIPS Pizza-Pearl-Spring Tango",
@@ -292,9 +229,7 @@
     "url": "https://everout.com/portland/events/spring-tango/e202252/",
     "location": "HOTLIPS Pizza-Pearl",
     "locationUrl": "https://everout.com/portland/locations/hotlips-pizza-pearl/l25067/",
-    "neighborhood": [
-      "Northwest Portland"
-    ],
+    "neighborhood": ["Northwest Portland"],
     "date": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -302,10 +237,7 @@
     "description": "Housemade garlic sauce, fresh baby arugula, feta cheese, roasted peppers, mozzarella.",
     "hours": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NzY3MDg3MTQyNC11c2VyaW1hZ2UtMTc0MjI1ODY3MzM0ODg3Mi1TcHJpbmctVGFuZ28uanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "vegetarian"
-    ]
+    "diet": ["gf", "vegetarian"]
   },
   {
     "id": "HOTLIPS Pizza-Hawthorne-Spring Chicken",
@@ -313,9 +245,7 @@
     "url": "https://everout.com/portland/events/spring-chicken/e202250/",
     "location": "HOTLIPS Pizza-Hawthorne",
     "locationUrl": "https://everout.com/portland/locations/hotlips-pizza-hawthorne/l25070/",
-    "neighborhood": [
-      "Hosford-Abernethy"
-    ],
+    "neighborhood": ["Hosford-Abernethy"],
     "date": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -323,9 +253,7 @@
     "description": "Homemade chicken sausage, marinara sauce, fresh baby arugula, feta cheese, mozzarella.",
     "hours": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NzM4NjM5NDIxNC11c2VyaW1hZ2UtMTc0MjI1ODY1NTk4ODY0LVNwcmluZy1DaGlja2VuLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Hopworks Brewery-I Love It When You Call Me Big Popper",
@@ -333,9 +261,7 @@
     "url": "https://everout.com/portland/events/i-love-it-when-you-call-me-big-popper/e202263/",
     "location": "Hopworks Brewery",
     "locationUrl": "https://everout.com/portland/locations/hopworks-brewery/l23201/",
-    "neighborhood": [
-      "Creston - Kenilworth"
-    ],
+    "neighborhood": ["Creston - Kenilworth"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -343,9 +269,7 @@
     "description": "Cream cheese and sour cream base with mozzarella, fresh jalapenos, pickled jalapenos, bacon.",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjkyMTY5ODYwNy0wLUktbG92ZS1pdC13aGVuLXlvdS1jYWxsLW1lLWJpZy1wb3BwZXIuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Straight From New York Pizza-Hakuna Masala",
@@ -353,9 +277,7 @@
     "url": "https://everout.com/portland/events/hakuna-masala/e202255/",
     "location": "Straight From New York Pizza",
     "locationUrl": "https://everout.com/portland/locations/straight-from-new-york-pizza/l20594/",
-    "neighborhood": [
-      "Sunnyside"
-    ],
+    "neighborhood": ["Sunnyside"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -363,10 +285,7 @@
     "description": "Masala sauce, shredded chicken, roasted garlic, red onion, cilantro",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5Nzk0NjY2NzU4LXVzZXJpbWFnZS0xNzQyMjcyNzU0MTcwMzg2LVNGTlktQmVsbW9udF9QaXp6YS1XZWVrLTIwMjVfaGlkZWYuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Hapa Pizza-Thai Steak Tartare Pizza",
@@ -374,9 +293,7 @@
     "url": "https://everout.com/portland/events/thai-steak-tartare-pizza/e202257/",
     "location": "Hapa Pizza",
     "locationUrl": "https://everout.com/portland/locations/hapa-pizza/l43377/",
-    "neighborhood": [
-      "Beaverton"
-    ],
+    "neighborhood": ["Beaverton"],
     "date": "Multiple dates between April 16 - April 20, 11:30 am-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -384,9 +301,7 @@
     "description": "Thai tamarind sauce, mozz, steak tartare, red onions, cilantro, mint, green onions, ngo gai (culantro), roasted rice, soy cured egg yolk",
     "hours": "Multiple dates between April 16 - April 20, 11:30 am-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0NDA1NzY4NzY0OC1oYXBhcGl6emEuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Fino Bistro & Pizzeria-Split Open and Melt",
@@ -394,9 +309,7 @@
     "url": "https://everout.com/portland/events/split-open-and-melt/e202264/",
     "location": "Fino Bistro & Pizzeria",
     "locationUrl": "https://everout.com/portland/locations/fino-bistro-pizzeria/l44851/",
-    "neighborhood": [
-      "Kenton"
-    ],
+    "neighborhood": ["Kenton"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -404,9 +317,7 @@
     "description": "Crispy Tater-Tots, Mushroom Gravy, Cheese Curds, Pickled Jalapeno Chive Oil",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjAyMjc1NTE1OC0wLUlNR181MDc3LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Double Mountain Overlook Taproom-Lord of the Rinds",
@@ -414,9 +325,7 @@
     "url": "https://everout.com/portland/events/lord-of-the-rinds/e202181/",
     "location": "Double Mountain Overlook Taproom",
     "locationUrl": "https://everout.com/portland/locations/double-mountain-overlook-taproom/l43796/",
-    "neighborhood": [
-      "Overlook"
-    ],
+    "neighborhood": ["Overlook"],
     "date": "Multiple dates between April 14 - April 20, 12-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -424,10 +333,7 @@
     "description": "Marinated pork belly and house-fried rinds with piped Rogue Creamery Bleu, pickled Fresno peppers, topped with fresh arugula.",
     "hours": "Multiple dates between April 14 - April 20, 12-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzAwOTk4Mjc5NDQzMi11c2VyaW1hZ2UtMTc0MjI1MTY0MDg1MjIzNi1JTUdfNTUwNS0zLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Dimo's Apizza-Madonna Mia",
@@ -435,9 +341,7 @@
     "url": "https://everout.com/portland/events/madonna-mia/e202209/",
     "location": "Dimo's Apizza",
     "locationUrl": "https://everout.com/portland/locations/dimos-apizza/l39653/",
-    "neighborhood": [
-      "Kerns"
-    ],
+    "neighborhood": ["Kerns"],
     "date": "Multiple dates between April 7 - April 13, various times",
     "mapUrl": null,
     "year": 2025,
@@ -445,9 +349,7 @@
     "description": "Basically an elevated Classic Tomato Pie With Peppers and onions. \nDescription: Tomato sauce, Grana Padano, Pecorino Romano, shaved garlic, sliced shallot, roast long hot peppers, focaccia breadcrumbs, olive oil, fennel pollen",
     "hours": "Multiple dates between April 7 - April 13, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDA5NjAyMTgzNS11c2VyaW1hZ2UtMTc0MTQ3OTA1NzI3NzA0OC1JTUdfNTI5MS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Mississippi Pizza Pub & Atlantis Lounge-Hognato",
@@ -455,9 +357,7 @@
     "url": "https://everout.com/portland/events/hognato/e202226/",
     "location": "Mississippi Pizza Pub & Atlantis Lounge",
     "locationUrl": "https://everout.com/portland/locations/mississippi-pizza-pub-atlantis-lounge/l25318/",
-    "neighborhood": [
-      "Boise"
-    ],
+    "neighborhood": ["Boise"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -465,10 +365,7 @@
     "description": "Tomato sauce, mozzarella, smoked pulled pork, bacon, pickled red onions, medley of pickled poblano, fresno, and anaheim peppers, topped with bbq sauce.",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTE1Mzk0NDM4Mi11c2VyaW1hZ2UtMTc0MjA1ODExNjM2NzIzOS1Qd2Vlay5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "New Cascadia Traditional-GLUTEN-FREE KOREAN BBQ PIZZA",
@@ -476,9 +373,7 @@
     "url": "https://everout.com/portland/events/gluten-free-korean-bbq-pizza/e202212/",
     "location": "New Cascadia Traditional",
     "locationUrl": "https://everout.com/portland/locations/new-cascadia-traditional/l46045/",
-    "neighborhood": [
-      "Hosford-Abernethy"
-    ],
+    "neighborhood": ["Hosford-Abernethy"],
     "date": "Multiple dates between April 14 - April 20, 8 am",
     "mapUrl": null,
     "year": 2025,
@@ -486,10 +381,7 @@
     "description": "Ground beef sautéed in Korean BBQ sauce, provolone and mozzarella cheese, sliced red, yellow onion, scallions, green bell pepper, sliced mushroom, Kimchi, arugula and Yum Yum sauce.",
     "hours": "Multiple dates between April 14 - April 20, 8 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDI2MDY5OTc0Ny11c2VyaW1hZ2UtMTc0MTgwMjU2NTg0OTY5Mi1JTUdfNzU1OS5KUEciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Oathbreaker Pie-Tates To See You Go, Spuds To Watch You Walk Away",
@@ -497,9 +389,7 @@
     "url": "https://everout.com/portland/events/tates-to-see-you-go-spuds-to-watch-you-walk-away/e202227/",
     "location": "Oathbreaker Pie",
     "locationUrl": "https://everout.com/portland/locations/oathbreaker-pie/l45684/",
-    "neighborhood": [
-      "Mount Tabor"
-    ],
+    "neighborhood": ["Mount Tabor"],
     "date": "Multiple dates between April 16 - April 20, 12 pm",
     "mapUrl": null,
     "year": 2025,
@@ -507,9 +397,7 @@
     "description": "Baked Russet potatoes, cheddar, mozzarella, bacon, crispy potato skins, scallion and sour cream sauce.",
     "hours": "Multiple dates between April 16 - April 20, 12 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTM4MDAxNTM2OS11c2VyaW1hZ2UtMTc0MTcyNDk3NzI1NTk5Ni1JTUdfMzcxNi5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Oakshire Beer Hall-Slow-Roasted Pork & Chimichurri",
@@ -517,9 +405,7 @@
     "url": "https://everout.com/portland/events/slow-roasted-pork-chimichurri/e202242/",
     "location": "Oakshire Beer Hall",
     "locationUrl": "https://everout.com/portland/locations/oakshire-beer-hall/l19501/",
-    "neighborhood": [
-      "Concordia"
-    ],
+    "neighborhood": ["Concordia"],
     "date": "Multiple dates between April 14 - April 20, 12-9:30 pm",
     "mapUrl": null,
     "year": 2025,
@@ -527,9 +413,7 @@
     "description": "Braised pork shoulder, garlic confit, red onion, mozzarella, chimichurri",
     "hours": "Multiple dates between April 14 - April 20, 12-9:30 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjY4ODI5Mzc5Mi11c2VyaW1hZ2UtMTc0MjI0NzAxNDk0MDkzNi1JTUdfOTIwMS5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Meta Pizza-Old Santa Fe Trail",
@@ -537,9 +421,7 @@
     "url": "https://everout.com/portland/events/old-santa-fe-trail/e202219/",
     "location": "Meta Pizza",
     "locationUrl": "https://everout.com/portland/locations/meta-pizza/l41472/",
-    "neighborhood": [
-      "Brooklyn"
-    ],
+    "neighborhood": ["Brooklyn"],
     "date": "Multiple dates between April 15 - April 20, 3 pm",
     "mapUrl": null,
     "year": 2025,
@@ -547,10 +429,7 @@
     "description": "Cheddar Queso base, Hatch Green Chili, Seasoned Ground Beef, Cilantro Pesto",
     "hours": "Multiple dates between April 15 - April 20, 3 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjMxMjY1NjQyLTAtSU1HXzU0MzkuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Oven and Shaker-Jalapeno Bizzness",
@@ -558,9 +437,7 @@
     "url": "https://everout.com/portland/events/jalapeno-bizzness/e202253/",
     "location": "Oven and Shaker",
     "locationUrl": "https://everout.com/portland/locations/oven-and-shaker/l21232/",
-    "neighborhood": [
-      "Northwest Portland"
-    ],
+    "neighborhood": ["Northwest Portland"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -568,10 +445,7 @@
     "description": "A garlic and rosemary bechamel, pecorino cheese, red onions, house pickled jalapenos, house pulled mozzarella, house made sausage, and finished with house pickled fennel, lemon juice, and parsley.",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5Nzc4NzczNTEwNS11c2VyaW1hZ2UtMTc0MjI2MTc3MDM4NzA3MS1qYWxhcGVuby1iaXp6bmVzcy5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Portland Cider Company-Cherry Bomb",
@@ -579,9 +453,7 @@
     "url": "https://everout.com/portland/events/cherry-bomb/e202216/",
     "location": "Portland Cider Company",
     "locationUrl": "https://everout.com/portland/locations/portland-cider-company/l20605/",
-    "neighborhood": [
-      ""
-    ],
+    "neighborhood": [""],
     "date": "Multiple dates between April 16 - April 20, 2 pm",
     "mapUrl": null,
     "year": 2025,
@@ -589,9 +461,7 @@
     "description": "Pepperoni, smoked mozzarella, Serrano peppers, Bordeaux cherries over house red sauce.",
     "hours": "Multiple dates between April 16 - April 20, 2 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDQ4NTAyOTE2Ni11c2VyaW1hZ2UtMTc0MTgyMTEzNTI0MzEwOC1QaXp6YS1XZWVrLTIwMjVfUG9ydGxhbmQtQ2lkZXItQ28tQ2hlcnJ5LUJvbWItMTA4MHgxMDgwLnBuZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Ruse Brewing-Field Trip",
@@ -599,9 +469,7 @@
     "url": "https://everout.com/portland/events/field-trip/e202221/",
     "location": "Ruse Brewing",
     "locationUrl": "https://everout.com/portland/locations/ruse-brewing/l19807/",
-    "neighborhood": [
-      "Brooklyn"
-    ],
+    "neighborhood": ["Brooklyn"],
     "date": "Multiple dates between April 16 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -609,10 +477,7 @@
     "description": "Mississippi pot roast, house pickled giardiniera, arugula, sea salt & potato chips",
     "hours": "Multiple dates between April 16 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDYzNzE4MTM2Mi11c2VyaW1hZ2UtMTc0MTk5MzY2OTQwNTA0Ny1JTUdfNjQ0NS5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "The Blind Onion-Chicken Caprese",
@@ -620,9 +485,7 @@
     "url": "https://everout.com/portland/events/chicken-caprese/e202215/",
     "location": "The Blind Onion",
     "locationUrl": "https://everout.com/portland/locations/the-blind-onion/l43449/",
-    "neighborhood": [
-      "Mount Tabor"
-    ],
+    "neighborhood": ["Mount Tabor"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -630,9 +493,7 @@
     "description": "Red sauce, chicken, mozzarella, sun dried tomatoes, parmesan, balsamic glaze and fresh basil",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDQ2MDU1NjgwMi11c2VyaW1hZ2UtMTc0MTgxNzc1NTk3MjU2NC1JTUdfNjc2Ni5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Dante's-The MeatFinger",
@@ -640,9 +501,7 @@
     "url": "https://everout.com/portland/events/the-meatfinger/e202266/",
     "location": "Dante's",
     "locationUrl": "https://everout.com/portland/locations/dantes/l24972/",
-    "neighborhood": [
-      "Old Town-Chinatown"
-    ],
+    "neighborhood": ["Old Town-Chinatown"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -650,9 +509,7 @@
     "description": "Mortadella, Whole Milk Mozzarella & Oregano",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTIxMjg0OTk1NS11c2VyaW1hZ2UtMTc0MjUxNTUxMDQ1NDE0Ni1JTUdfMjkxMi5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Carina Lounge-Spicy Side Chick",
@@ -660,9 +517,7 @@
     "url": "https://everout.com/portland/events/spicy-side-chick/e202233/",
     "location": "Carina Lounge",
     "locationUrl": "https://everout.com/portland/locations/carina-lounge/l24935/",
-    "neighborhood": [
-      "Northwest Portland"
-    ],
+    "neighborhood": ["Northwest Portland"],
     "date": "Multiple dates between April 16 - April 20, 4:30 pm",
     "mapUrl": null,
     "year": 2025,
@@ -670,9 +525,7 @@
     "description": "Calabrian Chili Chicken Sausage with a Vodka Cream Sauce and Fontina Cheese",
     "hours": "Multiple dates between April 16 - April 20, 4:30 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjA2NzA0MDMzNy11c2VyaW1hZ2UtMTc0MjIyOTU4MTU5MzU5Ni1JTUdfMTc1My5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Brix Tavern-Pineapple Prosciutto Delight Pizza",
@@ -680,9 +533,7 @@
     "url": "https://everout.com/portland/events/pineapple-prosciutto-delight-pizza/e202236/",
     "location": "Brix Tavern",
     "locationUrl": "https://everout.com/portland/locations/brix-tavern/l44848/",
-    "neighborhood": [
-      "Pearl District"
-    ],
+    "neighborhood": ["Pearl District"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -690,10 +541,7 @@
     "description": "White pizza with Cream cheese sauce, Roasted pineapple , Prosciutto , Basil ,Balsamic syrup",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjE1MTcyNjUyMi11c2VyaW1hZ2UtMTc0MjIyOTY0NjczNDkzNy1Ccml4LVBpenphLTIwMjUuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Reeva Cafe y Cocina a la Leña-MachuPizza 2025",
@@ -701,9 +549,7 @@
     "url": "https://everout.com/portland/events/machupizza-2025/e202243/",
     "location": "Reeva Cafe y Cocina a la Leña",
     "locationUrl": "https://everout.com/portland/locations/reeva-cafe-y-cocina-a-la-lena/l44847/",
-    "neighborhood": [
-      "Roseway"
-    ],
+    "neighborhood": ["Roseway"],
     "date": "Multiple dates between April 14 - April 20, 11 am-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -711,10 +557,7 @@
     "description": "Carapulcra (Peruvian Dry Potato Stew)\nAjí Panca Mole\nPork OR Mushroom as a veggie option\nMicro greens \nPickled onions \n*Contains nuts",
     "hours": "Multiple dates between April 14 - April 20, 11 am-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjY4NzgzMzMzMi11c2VyaW1hZ2UtMTc0MjI0ODM5MzkzMzM0My1JTUdfODMxNi5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Scottie's Pizza Parlor-Defiant Jazz",
@@ -722,9 +565,7 @@
     "url": "https://everout.com/portland/events/defiant-jazz/e202183/",
     "location": "Scottie's Pizza Parlor",
     "locationUrl": "https://everout.com/portland/locations/scotties-pizza-parlor/l46148/",
-    "neighborhood": [
-      "Multiple Locations"
-    ],
+    "neighborhood": ["Multiple Locations"],
     "date": "Multiple dates between April 15 - April 19, 12-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -732,9 +573,7 @@
     "description": "A moody trio of woeful tomato sauce, malicious vodka sauce, frolicking basil pesto, and fresh & aged mozzarella, baked 'jazzed up' the Scottie's way with oregano, crushed red chile, and garlic oil.",
     "hours": "Multiple dates between April 15 - April 19, 12-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzAxMDM4MzQ5OTk2My11c2VyaW1hZ2UtMTc0Mjg1ODExMTA3OTUzOS1QaXp6YS1XZWVrLTIwMjUtLS1EZWZpYW50LUphenoucG5nIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Straight From New York Pizza-Dill or No Dill Island",
@@ -742,9 +581,7 @@
     "url": "https://everout.com/portland/events/dill-or-no-dill-island/e202256/",
     "location": "Straight From New York Pizza",
     "locationUrl": "https://everout.com/portland/locations/straight-from-new-york-pizza/l19599/",
-    "neighborhood": [
-      "Sunnyside"
-    ],
+    "neighborhood": ["Sunnyside"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -752,10 +589,7 @@
     "description": "Creamy mascarpone dill spread, pears, bacon, blue cheese",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5ODAyNjU1OTQwNi11c2VyaW1hZ2UtMTc0MjI3MzQxMzQyODU3OC1TRk5ZLUhhd3Rob3JuZV9QaXp6YS1XZWVrLTIwMjVoaWRlZi5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Benson High School-The Blueberry Threat or \"BT\"",
@@ -763,9 +597,7 @@
     "url": "https://everout.com/portland/events/the-blueberry-threat-or-bt/e202179/",
     "location": "Benson High School",
     "locationUrl": "https://everout.com/portland/locations/benson-high-school/l28235/",
-    "neighborhood": [
-      "Kerns"
-    ],
+    "neighborhood": ["Kerns"],
     "date": "Multiple dates between April 10 - April 11, 6-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -773,9 +605,7 @@
     "description": "Marinara sauce, Mozzarella, Cheddar, Onions, Orange Bell Pepper, Pepperoni, Chorizo, red pepper flakes and drizzled with our house made Blueberry Threat Hot Honey.",
     "hours": "Multiple dates between April 10 - April 11, 6-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0ODIzOTc2MTQ4OS1CVF9QaXp6YV8xLmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Barbur World Foods-Smoke Show",
@@ -783,9 +613,7 @@
     "url": "https://everout.com/portland/events/smoke-show/e202261/",
     "location": "Barbur World Foods",
     "locationUrl": "https://everout.com/portland/locations/barbur-world-foods/l22770/",
-    "neighborhood": [
-      "Southwest Portland"
-    ],
+    "neighborhood": ["Southwest Portland"],
     "date": "Multiple dates between April 14 - April 20, 10:30 am-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -793,9 +621,7 @@
     "description": "Pizza base, muhammara spread, shredded mozzarella, crispy eggplant slices, mint leaves.",
     "hours": "Multiple dates between April 14 - April 20, 10:30 am-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5ODQ0Njc5MTk3Mi11c2VyaW1hZ2UtMTc0MjMwNzU5NzM4NjAwNC0yMkJGRTdCNy00QzI0LTQ1NDEtODAxOS01NkI5NjM5NzQzMDFfMV8xMDVfYy5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Baby Doll Pizza Northeast-Spam-Me",
@@ -803,9 +629,7 @@
     "url": "https://everout.com/portland/events/spam-me/e202223/",
     "location": "Baby Doll Pizza Northeast",
     "locationUrl": "https://everout.com/portland/locations/baby-doll-pizza-northeast/l46043/",
-    "neighborhood": [
-      "King"
-    ],
+    "neighborhood": ["King"],
     "date": "Multiple dates between April 14 - April 20, 4-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -813,9 +637,7 @@
     "description": "A Spam Musubi pie with Portland's own Choi's Kimchi, Corn, Seaweed Flakes & a Gochujang Chili Crisp Mayo.",
     "hours": "Multiple dates between April 14 - April 20, 4-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDg0NTMxNjA1LXVzZXJpbWFnZS0xNzQyMDEyMzc3MzUzOTU4LVNwYW0tTWUuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Baby Doll Pizza-Peach-ah Pie!",
@@ -823,9 +645,7 @@
     "url": "https://everout.com/portland/events/peach-ah-pie/e202222/",
     "location": "Baby Doll Pizza",
     "locationUrl": "https://everout.com/portland/locations/baby-doll-pizza/l20895/",
-    "neighborhood": [
-      "Kerns"
-    ],
+    "neighborhood": ["Kerns"],
     "date": "Multiple dates between April 14 - April 20, 12-8 pm",
     "mapUrl": null,
     "year": 2025,
@@ -833,9 +653,7 @@
     "description": "Peach pie with mortadella (the cool kid of the deli case), house made ricotta, garlic, fresh basil and balsamic reduction.",
     "hours": "Multiple dates between April 14 - April 20, 12-8 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDgzOTU2NDE4MS11c2VyaW1hZ2UtMTc0MjAxMDI3NzcxMDk5My1QZWFjaC1haC1QaWUuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Taylor Street Tavern-Portuguese Hawaiian Sausage Pizza",
@@ -843,9 +661,7 @@
     "url": "https://everout.com/portland/events/portuguese-hawaiian-sausage-pizza/e202237/",
     "location": "Taylor Street Tavern",
     "locationUrl": "https://everout.com/portland/locations/taylor-street-tavern/l42403/",
-    "neighborhood": [
-      "Downtown Portland"
-    ],
+    "neighborhood": ["Downtown Portland"],
     "date": "Multiple dates between April 14 - April 19, 11 am-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -853,10 +669,7 @@
     "description": "Linguica, mushrooms, kalamata, grilled pineapple, mama Lil's peppers, hot honey",
     "hours": "Multiple dates between April 14 - April 19, 11 am-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NjE1NTMyNTQwMy11c2VyaW1hZ2UtMTc0MjIzMjc0NDM0NzA2OS1UYXlsb3ItU3RyZWV0LVRhdmVybi0tLVBpenphLVdlZWsuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "The Dullahan Pizza Pub-Chimi Chimi Ya!",
@@ -864,9 +677,7 @@
     "url": "https://everout.com/portland/events/chimi-chimi-ya/e202260/",
     "location": "The Dullahan Pizza Pub",
     "locationUrl": "https://everout.com/portland/locations/the-dullahan-pizza-pub/l46044/",
-    "neighborhood": [
-      "Creston - Kenilworth"
-    ],
+    "neighborhood": ["Creston - Kenilworth"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -874,9 +685,7 @@
     "description": "Chimichurri base\nOnion\nMama Lil's",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5ODQzODYzMjU4OS11c2VyaW1hZ2UtMTc0MjI1NDE0MzczNzU4MS1pbWFnZTAwMDAwMC5KUEciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "The Secret Pizza Society-The Last Ronin",
@@ -884,9 +693,7 @@
     "url": "https://everout.com/portland/events/the-last-ronin/e202239/",
     "location": "The Secret Pizza Society",
     "locationUrl": "https://everout.com/portland/locations/the-secret-pizza-society/l19610/",
-    "neighborhood": [
-      "Montavilla"
-    ],
+    "neighborhood": ["Montavilla"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -894,10 +701,7 @@
     "description": "Sweet Potato Mash\nRoasted Beets\nMustard Greens\nMarshmallow",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0NDIxNzU1NTc2NC1lY3JldC5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "vegan"
-    ]
+    "diet": ["gf", "vegan"]
   },
   {
     "id": "Atlas Pizza-The Za'atar-Day Night Fever",
@@ -905,9 +709,7 @@
     "url": "https://everout.com/portland/events/the-zaatar-day-night-fever/e202269/",
     "location": "Atlas Pizza",
     "locationUrl": "https://everout.com/portland/locations/atlas-pizza/l19890/",
-    "neighborhood": [
-      "North Portland"
-    ],
+    "neighborhood": ["North Portland"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -915,9 +717,7 @@
     "description": "Garlic oil base, mozzarella & feta cheese, shawarma chicken, pickled red onion, pepperoncini, topped with fresh parsley & za'atar garlic cream sauce.",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0MzQ3ODk0NjQ5OC1CVThBMDU0Mi5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Atlas Pizza-The Smokeshow",
@@ -925,9 +725,7 @@
     "url": "https://everout.com/portland/events/the-smokeshow/e202272/",
     "location": "Atlas Pizza",
     "locationUrl": "https://everout.com/portland/locations/atlas-pizza/l20599/",
-    "neighborhood": [
-      "Richmond"
-    ],
+    "neighborhood": ["Richmond"],
     "date": "Multiple dates between April 14 - April 20, 4-10 pm",
     "mapUrl": null,
     "year": 2025,
@@ -935,9 +733,7 @@
     "description": "Garlic oil base, mozzarella & sharp white cheddar cheese, smoked turkey burnt ends, applewood smoked bacon, rosemary potatoes, caramelized onions & fresh chives.",
     "hours": "Multiple dates between April 14 - April 20, 4-10 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0MzY2NjI1OTE0OS1CVThBMDU0NC5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Atlas Pizza-The Alpine Gold",
@@ -945,9 +741,7 @@
     "url": "https://everout.com/portland/events/the-alpine-gold/e202271/",
     "location": "Atlas Pizza",
     "locationUrl": "https://everout.com/portland/locations/atlas-pizza/l19607/",
-    "neighborhood": [
-      "Foster - Powell"
-    ],
+    "neighborhood": ["Foster - Powell"],
     "date": "Multiple dates between April 14 - April 20, 4-10 pm",
     "mapUrl": null,
     "year": 2025,
@@ -955,9 +749,7 @@
     "description": "Nothing is more comforting than a bowl of French onion soup. But... what about a SLICE of French onion soup? Woahhh, man. We decided we had to give it a try, and we think you'll enjoy it as much as we do!",
     "hours": "Multiple dates between April 14 - April 20, 4-10 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ0MzkxNDc4ODUzNi1BVExBU0ZPU1RFUi5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Assembly Brewing-The Second Coming",
@@ -965,9 +757,7 @@
     "url": "https://everout.com/portland/events/the-second-coming/e202248/",
     "location": "Assembly Brewing",
     "locationUrl": "https://everout.com/portland/locations/assembly-brewing/l46146/",
-    "neighborhood": [
-      "Multiple Locations"
-    ],
+    "neighborhood": ["Multiple Locations"],
     "date": "Multiple dates between April 14 - April 20, 11 am-10 pm",
     "mapUrl": null,
     "year": 2025,
@@ -975,9 +765,7 @@
     "description": "Caramelized Wisconsin brick cheese, signature marinara, sage & walnut pesto, prickly pear balsamic glaze.",
     "hours": "Multiple dates between April 14 - April 20, 11 am-10 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NzIxMTY3MTU2OS11c2VyaW1hZ2UtMTc0MjI1NDg0OTI0NzI5OS1QVy0yMDI1LXNtYWxsLnBuZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Amalfi's Italian Restaurant-Sweet Heat On Fremont",
@@ -985,9 +773,7 @@
     "url": "https://everout.com/portland/events/sweet-heat-on-fremont/e202267/",
     "location": "Amalfi's Italian Restaurant",
     "locationUrl": "https://everout.com/portland/locations/amalfis-italian-restaurant/l24240/",
-    "neighborhood": [
-      "Cully"
-    ],
+    "neighborhood": ["Cully"],
     "date": "Multiple dates between April 16 - April 19, 4 pm",
     "mapUrl": null,
     "year": 2025,
@@ -995,9 +781,7 @@
     "description": "A mini pizza made with our signature red sauce, mozzarella, pepperoni, basil, and Mike's hot honey.",
     "hours": "Multiple dates between April 16 - April 19, 4 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTMwNjg3MDk2Ni11c2VyaW1hZ2UtMTc0MjQ1Mzc4ODE5NDUtSU1HXzIyOTYuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "21st Century Pizza-Rose City Roost",
@@ -1005,9 +789,7 @@
     "url": "https://everout.com/portland/events/rose-city-roost/e202254/",
     "location": "21st Century Pizza",
     "locationUrl": "https://everout.com/portland/locations/21st-century-pizza/l19605/",
-    "neighborhood": [
-      "Southwest Portland"
-    ],
+    "neighborhood": ["Southwest Portland"],
     "date": "Multiple dates between April 14 - April 19, various times",
     "mapUrl": null,
     "year": 2025,
@@ -1015,9 +797,7 @@
     "description": "Chicken, bacon, red onion, on a garlic white base.",
     "hours": "Multiple dates between April 14 - April 19, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5Nzk0Mjc2OTgyNS11c2VyaW1hZ2UtMTc0MjI2MjM0NDE5NDAzMi1Sb3NlLUNpdHktUm9vc3QucG5nIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "10 Barrel Brewing-Stacys Mom",
@@ -1025,9 +805,7 @@
     "url": "https://everout.com/portland/events/stacys-mom/e202246/",
     "location": "10 Barrel Brewing",
     "locationUrl": "https://everout.com/portland/locations/10-barrel-brewing/l20637/",
-    "neighborhood": [
-      "Pearl District"
-    ],
+    "neighborhood": ["Pearl District"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -1035,10 +813,7 @@
     "description": "Vodka sauce base with Fresh mozzarella, salami, mama Lils peppers, jalapeños and goat cheese. Garnished with Parmesan, hot honey and fresh basil.",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNTkzNTUwOTY5NS0wLUlNR18wMzQ1LmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "The Social Spoon-BALLIN'!",
@@ -1046,9 +821,7 @@
     "url": "https://everout.com/portland/events/ballin/e202273/",
     "location": "The Social Spoon",
     "locationUrl": "https://everout.com/portland/locations/the-social-spoon/l45216/",
-    "neighborhood": [
-      "Downtown Portland"
-    ],
+    "neighborhood": ["Downtown Portland"],
     "date": "Multiple dates between April 14 - April 19, 4-9:30 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1056,9 +829,7 @@
     "description": "Fig Onion Jam, Gruyere & Mozzarella, Arugula, Wagyu Carpaccio, Shaved Truffle, Pickled Morels, Flat Bread",
     "hours": "Multiple dates between April 14 - April 19, 4-9:30 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTUzNTc0Mjc4Ni11c2VyaW1hZ2UtMTc0MjM0MTc1MjcxMjA4NS1JTUdfMjAyNTAzMThfMTYxMDQ3MjY5X0hEUl9QT1JUUkFJVC1FRElULmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "The Star-The Hot Hoyt",
@@ -1066,9 +837,7 @@
     "url": "https://everout.com/portland/events/the-hot-hoyt/e202220/",
     "location": "The Star",
     "locationUrl": "https://everout.com/portland/locations/the-star/l19387/",
-    "neighborhood": [
-      "Northwest Portland"
-    ],
+    "neighborhood": ["Northwest Portland"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -1076,10 +845,7 @@
     "description": "Calabrian chili spiced red sauce, roasted red onions, Spanish chorizo, hot honey and herbs",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNjM4NTMwMDU4MS0wLUlNR185MDI0LmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Via Chicago-Chicago own Kim Chi",
@@ -1087,9 +853,7 @@
     "url": "https://everout.com/portland/events/chicago-own-kim-chi/e202210/",
     "location": "Via Chicago",
     "locationUrl": "https://everout.com/portland/locations/via-chicago/l20593/",
-    "neighborhood": [
-      "Vernon"
-    ],
+    "neighborhood": ["Vernon"],
     "date": "Multiple dates between April 14 - April 20, 12 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1097,9 +861,7 @@
     "description": "Kimchi, scallions, Gochujang sauce",
     "hours": "Multiple dates between April 14 - April 20, 12 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDE3MTEwMDA4OS11c2VyaW1hZ2UtMTc0MTc5MDUxNTI5ODA4My1JTUdfMjE3MC5qcGciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "Vincenzo's Pizza-Pizza Scarpetta",
@@ -1107,9 +869,7 @@
     "url": "https://everout.com/portland/events/pizza-scarpetta/e202265/",
     "location": "Vincenzo's Pizza",
     "locationUrl": "https://everout.com/portland/locations/vincenzos-pizza/l43025/",
-    "neighborhood": [
-      "Rose City Park"
-    ],
+    "neighborhood": ["Rose City Park"],
     "date": "Multiple dates between April 15 - April 19, 4-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1117,9 +877,7 @@
     "description": "A Sicilian pan style pizza that is stuffed with beef meatballs, topped with mozzarella and a San Marzano marinara, grated parmigiano reggiano, calabrian chili oil fried garlic slices, and then spritzed with a basil infused olive oil.",
     "hours": "Multiple dates between April 15 - April 19, 4-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5OTIwNjMxMzIwNi11c2VyaW1hZ2UtMTc0MjU5NDAyMzM3MzE1OC1JTUdfMTMxMi5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Virtuous Pie-Spicy BBQ Chick'n Pizza",
@@ -1127,9 +885,7 @@
     "url": "https://everout.com/portland/events/spicy-bbq-chickn-pizza/e202231/",
     "location": "Virtuous Pie",
     "locationUrl": "https://everout.com/portland/locations/virtuous-pie/l20079/",
-    "neighborhood": [
-      "Hosford-Abernethy"
-    ],
+    "neighborhood": ["Hosford-Abernethy"],
     "date": "Multiple dates between April 14 - April 20, 11 am",
     "mapUrl": null,
     "year": 2025,
@@ -1137,10 +893,7 @@
     "description": "spicy bbq soy curls, blistered shishito peppers, cheddar, san marzano tomato sauce, pickled red onion & fresh cilantro",
     "hours": "Multiple dates between April 14 - April 20, 11 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTYyOTI3MjgyNi11c2VyaW1hZ2UtMTc0MjE2OTkzNTc5Nzc0Ni1VbnRpdGxlZC1kZXNpZ24uanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "vegan"
-    ]
+    "diet": ["gf", "vegan"]
   },
   {
     "id": "Von Ebert Brewing-Caribbean Jerk",
@@ -1148,9 +901,7 @@
     "url": "https://everout.com/portland/events/caribbean-jerk/e202213/",
     "location": "Von Ebert Brewing",
     "locationUrl": "https://everout.com/portland/locations/von-ebert-brewing/l43450/",
-    "neighborhood": [
-      "Beaverton"
-    ],
+    "neighborhood": ["Beaverton"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am",
     "mapUrl": null,
     "year": 2025,
@@ -1158,10 +909,7 @@
     "description": "White sauce, jerk chicken, pineapple, red onion, Mama Lil's pepper, Caribbean Crema",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzIwNzMzMjAzMDQ5NS0wLXVzZXJpbWFnZS0xNzQxODEyOTIxNjUxNzc3LUlNR18wMzk5LmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Von Ebert Brewing Glendoveer + Kitchen-\"Smoked Chicken Wing\" Pie",
@@ -1169,9 +917,7 @@
     "url": "https://everout.com/portland/events/smoked-chicken-wing-pie/e202218/",
     "location": "Von Ebert Brewing Glendoveer + Kitchen",
     "locationUrl": "https://everout.com/portland/locations/von-ebert-brewing-glendoveer-kitchen/l45857/",
-    "neighborhood": [
-      "Hazelwood"
-    ],
+    "neighborhood": ["Hazelwood"],
     "date": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1179,10 +925,7 @@
     "description": "Smoked Chicken Thighs tossed in our Korean Sauce.  Mild Wing + Red Sauce Blend topped with Mozzarella, Blue Cheese Crumbles, Chicken + Green Onions",
     "hours": "Multiple dates between April 14 - April 20, 11 am-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NDUzMzk0MzExMy11c2VyaW1hZ2UtMTc0MTkwNzk2MzE0MTg1OS10aHVtYm5haWxfSU1HXzczOTYuanBnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "gf",
-      "meat"
-    ]
+    "diet": ["gf", "meat"]
   },
   {
     "id": "Whit's Pizza Pies-Cheeked Up Pie",
@@ -1190,9 +933,7 @@
     "url": "https://everout.com/portland/events/cheeked-up-pie/e202180/",
     "location": "Whit's Pizza Pies",
     "locationUrl": "https://everout.com/portland/locations/whits-pizza-pies/l46127/",
-    "neighborhood": [
-      "Buckman"
-    ],
+    "neighborhood": ["Buckman"],
     "date": "Multiple dates between April 14 - April 20, various times",
     "mapUrl": null,
     "year": 2025,
@@ -1200,9 +941,7 @@
     "description": "Sliced guanciale, fresh garlic, a blend of mozzarella and fontina cheese, roasted asparagus, finished with pickled onions and pecorino Romano\n\nCan be made vegetarian",
     "hours": "Multiple dates between April 14 - April 20, various times",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzQ2MDYyMzcyMDYyNS1JTUdfNTM1OS5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Wild Child Pizza-Greek'n Out",
@@ -1210,9 +949,7 @@
     "url": "https://everout.com/portland/events/greekn-out/e202224/",
     "location": "Wild Child Pizza",
     "locationUrl": "https://everout.com/portland/locations/wild-child-pizza/l46147/",
-    "neighborhood": [
-      "Multiple Locations"
-    ],
+    "neighborhood": ["Multiple Locations"],
     "date": "Multiple dates between April 14 - April 20, 4 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1220,9 +957,7 @@
     "description": "Mozzarella , Feta Crumbles , Za'atar Oil Drizzle , Halved Cherry Tomatoes ,Garlic Lemon Yogurt Sauce , Halved Mandolin'd Cucumbers",
     "hours": "Multiple dates between April 14 - April 20, 4 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5NTE0NTA5NTI5LXVzZXJpbWFnZS0xNzQyMDUyODIxNzk0OTk4LVBJWlpBV0VFSy0wMTk0LmpwZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMH19fQ==",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   },
   {
     "id": "World Foods-Toum Raider",
@@ -1230,9 +965,7 @@
     "url": "https://everout.com/portland/events/toum-raider/e202259/",
     "location": "World Foods",
     "locationUrl": "https://everout.com/portland/locations/world-foods/l19467/",
-    "neighborhood": [
-      "Northwest Portland"
-    ],
+    "neighborhood": ["Northwest Portland"],
     "date": "Multiple dates between April 14 - April 20, 10 am-7:30 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1240,9 +973,7 @@
     "description": "Pizza base, toum, yellow potatoes, chicken",
     "hours": "Multiple dates between April 14 - April 20, 10 am-7:30 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5ODM3NTE4NzY4MS11c2VyaW1hZ2UtMTc0MjMwODA5NTk5NzkxLTlGMUQxRDFGLTE5OEUtNDgyMS04RTgyLUM4OUM0Q0IzMDUxOV8xXzEwNV9jLmpwZWciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDB9fX0=",
-    "diet": [
-      "meat"
-    ]
+    "diet": ["meat"]
   },
   {
     "id": "Ya Hala-The Big Mezza",
@@ -1250,9 +981,7 @@
     "url": "https://everout.com/portland/events/the-big-mezza/e202258/",
     "location": "Ya Hala",
     "locationUrl": "https://everout.com/portland/locations/ya-hala/l25515/",
-    "neighborhood": [
-      "Montavilla"
-    ],
+    "neighborhood": ["Montavilla"],
     "date": "Multiple dates between April 14 - April 20, 11:30 am-9 pm",
     "mapUrl": null,
     "year": 2025,
@@ -1260,8 +989,6 @@
     "description": "Tomato sauce, mozzarella cheese, fresh tomato, falafel, grape leaves, cauliflower (arnabeet), fresh mint, side of hummus.",
     "hours": "Multiple dates between April 14 - April 20, 11:30 am-9 pm",
     "imageUrl": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc0MzA5ODA5MjQ1MjkxMi11c2VyaW1hZ2UtMTc0MjMwNTAzNDgyMTk1Mi1BNDYyOTBGQy02RUI0LTQzRDYtODA2OS03QkZFMkI4OTg4OTlfMV8xMDVfYy5qcGVnIiwgImVkaXRzIjogeyJyZXNpemUiOiB7ImZpdCI6ICJpbnNpZGUiLCAicG9zaXRpb24iOiAiY2VudHJlIiwgIndpZHRoIjogOTYwLCAiaGVpZ2h0IjogNjAwfX19",
-    "diet": [
-      "vegetarian"
-    ]
+    "diet": ["vegetarian"]
   }
 ]

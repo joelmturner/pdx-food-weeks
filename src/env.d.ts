@@ -3,9 +3,9 @@
 /// <reference types="astro/client" />
 
 declare namespace App {
-    interface Locals {
-      // Add your properties here
-      user?: User;
-        session?: Session | null;
-    }
+  interface Locals {
+    // Add your properties here
+    user?: User;
+    session?: Session | null;
   }
+}
