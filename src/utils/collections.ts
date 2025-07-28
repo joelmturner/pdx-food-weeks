@@ -2,7 +2,6 @@ import { getCollection } from "astro:content";
 import { db, eq, list } from "astro:db";
 import type { EventsItem, FoodItem, ListItem } from "types";
 import { FOOD_TYPES } from "../constants";
-import events from "../content/events/events.json";
 
 export function getYearsFromData(data: number[]) {
   const uniqueYears = new Set(data);
@@ -111,10 +110,15 @@ export async function getFoodItems(
   }
 }
 
-export async function getEventDetails(year: number, type: EventsItem["type"]) {
-  return events.find(
-    event => event.year === year && event.type === type
-  ) as unknown as EventsItem;
+export async function getEventDetails(
+  year: number,
+  type: EventsItem["type"]
+): Promise<EventsItem> {
+  const eventCollection = await getCollection("events");
+  const items = eventCollection[0].data.filter(item => {
+    return item.year === year && item.type === type;
+  });
+  return items[0] as unknown as EventsItem;
 }
 
 export async function getFoodItemsByTypeAndYear(
