@@ -3,35 +3,55 @@
 
 export const navigationData = [
   {
-    name: "Burger",
-    slug: "burger",
-    years: [2025, 2024, 2023, 2019],
+    "name": "Burger",
+    "slug": "burger",
+    "years": [
+      2025,
+      2024,
+      2023,
+      2019
+    ]
   },
   {
-    name: "Nacho",
-    slug: "nacho",
-    years: [2025, 2023, 2019],
+    "name": "Nacho",
+    "slug": "nacho",
+    "years": [
+      2025,
+      2023,
+      2019
+    ]
   },
   {
-    name: "Pizza",
-    slug: "pizza",
-    years: [2025, 2024],
+    "name": "Pizza",
+    "slug": "pizza",
+    "years": [
+      2025,
+      2024
+    ]
   },
   {
-    name: "Sandwich",
-    slug: "sandwich",
-    years: [2025, 2024, 2022],
+    "name": "Sandwich",
+    "slug": "sandwich",
+    "years": [
+      2025,
+      2024,
+      2022
+    ]
   },
   {
-    name: "Taco",
-    slug: "taco",
-    years: [2025],
+    "name": "Taco",
+    "slug": "taco",
+    "years": [
+      2025
+    ]
   },
   {
-    name: "Wing",
-    slug: "wing",
-    years: [2024],
-  },
+    "name": "Wing",
+    "slug": "wing",
+    "years": [
+      2024
+    ]
+  }
 ];
 
 export function getNavigationData() {

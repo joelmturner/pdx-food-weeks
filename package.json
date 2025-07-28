@@ -5,7 +5,7 @@
     "dev": "astro dev",
     "dev:prod": "astro dev --remote",
     "start": "astro dev",
-    "build": "node scripts/generateNavigationData.mjs && astro check && astro build --remote",
+    "build": "node scripts/generateNavigationData.mjs && node scripts/generateFoodData.mjs && astro check && astro build --remote",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -14,7 +14,8 @@
     "cz": "cz",
     "prepare": "husky install",
     "lint": "eslint .",
-    "generate-nav": "node scripts/generateNavigationData.mjs"
+    "generate-nav": "node scripts/generateNavigationData.mjs",
+    "generate-food": "node scripts/generateFoodData.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",

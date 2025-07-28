@@ -7,10 +7,10 @@ import CardGrid from "@components/CardGrid.astro";
 import {
   formatter,
   getEventDetails,
-  getFoodItems,
   getLists,
   getUniqueNeighborhoods,
 } from "@utils/collections";
+import { getFoodItems } from "@utils/foodData";
 import type { FoodItem } from "types";
 
 const { foodType, year } = Astro.params;
