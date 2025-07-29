@@ -92,22 +92,22 @@ const hasQueryParams = searchParams.toString().length > 0;
             <wa-avatar label="User" initials={user.username?.[0]} />
           </wa-button>
 
-          <wa-dropdown-item value="my-lists">
-            <wa-icon slot="icon" name="list" />
+          <wa-dropdown-item value="my-lists" class="p-0">
             <a
-              class="w-full wa-body-m hover:text-inherit hover:no-underline"
+              class="w-full wa-body-m hover:text-inherit hover:no-underline flex items-center gap-2 px-4 py-2"
               href={`/me`}
             >
+              <wa-icon slot="icon" name="list" />
               My Lists
             </a>
           </wa-dropdown-item>
-          <wa-dropdown-item value="logout">
-            <wa-icon slot="icon" name="right-from-bracket" />
+          <wa-dropdown-item value="logout" class="p-0">
             <a
               href="#"
-              class="w-full wa-body-m hover:text-inherit hover:no-underline"
+              class="w-full wa-body-m hover:text-inherit hover:no-underline flex items-center gap-2 px-4 py-2"
               onclick="event.preventDefault(); fetch('/api/logout', { method: 'POST' }).then(() => window.location.href = '/')"
             >
+              <wa-icon slot="icon" name="right-from-bracket" />
               Logout
             </a>
           </wa-dropdown-item>

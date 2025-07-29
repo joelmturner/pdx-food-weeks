@@ -64,12 +64,14 @@ if (hasStartAndEnd) {
         ) : (
           <div class="flex gap-4 items-center">
             <h1>{props.pageTitle}</h1>
-            <wa-badge
-              variant={badgeVariantByStatus[eventStatus]}
-              appearance="filled outlined"
-            >
-              {eventStatus}
-            </wa-badge>
+            {!props.hideFilters && (
+              <wa-badge
+                variant={badgeVariantByStatus[eventStatus]}
+                appearance="filled outlined"
+              >
+                {eventStatus}
+              </wa-badge>
+            )}
           </div>
         )
       }

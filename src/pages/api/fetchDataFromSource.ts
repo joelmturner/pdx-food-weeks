@@ -156,6 +156,8 @@ const getPages = async (eventUrls: string[]) => {
     const title = $("header > h1").text().trim();
     const location = $(".location > a").text().trim();
     const year = new Date().getFullYear();
+    const mapUrl =
+      $(".map iframe").attr("src")?.replace("/embed/v1/place", "") ?? null;
     return {
       id: `${location}-${title}-${year}`,
       title,
@@ -164,7 +166,7 @@ const getPages = async (eventUrls: string[]) => {
       locationUrl: $(".location > a").attr("href") ?? null,
       neighborhood,
       date: $(".date-summary > span").text().trim(),
-      mapUrl: $(".map iframe").attr("src") ?? null,
+      mapUrl,
       description: ingredients ?? "",
       hours: hours ?? "",
       imageUrl: $(".item-image img").attr("src") ?? null,

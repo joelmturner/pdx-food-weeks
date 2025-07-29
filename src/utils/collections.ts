@@ -55,8 +55,8 @@ export async function getFoodItemById(
 export async function getFoodItemsByIds(ids: string[]): Promise<FoodItem[]> {
   const foodCollection = await getCollection("food");
   const items = foodCollection
-    .filter(item => ids.includes(item.id))
-    .flatMap(item => item.data);
+    .flatMap(item => item.data)
+    .filter(item => ids.includes(item.id));
   return items as unknown as FoodItem[];
 }
 
