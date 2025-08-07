@@ -1,0 +1,47 @@
+# llms.txt for pdxfoodweeks.com
+
+# Site Overview
+pdxfoodweeks.com is a community-driven directory of Portland, Oregon's themed food week events. Each event is categorized by food type and year, e.g., /burger/2025. The site allows filtering by dietary restrictions (vegan, vegetarian, gluten-free, meat) and Portland neighborhoods.
+
+# Content Structure
+/burger/{year}
+/nacho/{year}
+/pizza/{year}
+/sandwich/{year}
+/taco/{year}
+/wing/{year}
+
+# Current Routes
+/burger/2019
+/burger/2023
+/burger/2024
+/burger/2025
+
+/nacho/2019
+/nacho/2023
+/nacho/2025
+
+/pizza/2024
+/pizza/2025
+
+/sandwich/2022
+/sandwich/2024
+/sandwich/2025
+
+/taco/2025
+
+/wing/2024
+
+# Key Features
+- Events include venue, menu item, description, hours, and image.
+- Filtering supported by:
+  - Dietary preference: vegan, vegetarian, gluten-free, meat
+  - Neighborhood: e.g., NE Portland, SE Portland, NW Portland, etc.
+
+# Notes for Crawlers
+- Content is JSON-backed and organized by food type and year.
+- Events should be discoverable from category/year routes.
+- No login or paywall required for browsing.
+
+# Sitemap
+/sitemap-index.xml

@@ -17,7 +17,17 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      filter: page => {
+        return (
+          !page.includes("/api") &&
+          !page.includes("/admin") &&
+          !page.includes("/me") &&
+          !page.includes("/login") &&
+          !page.includes("/signup")
+        );
+      },
+    }),
     db(),
     svelte(),
   ],
