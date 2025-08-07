@@ -27,6 +27,22 @@ export default defineConfig({
           !page.includes("/signup")
         );
       },
+      customPages: [
+        "https://pdxfoodweeks.com/burger/2019",
+        "https://pdxfoodweeks.com/burger/2023",
+        "https://pdxfoodweeks.com/burger/2024",
+        "https://pdxfoodweeks.com/burger/2025",
+        "https://pdxfoodweeks.com/nacho/2019",
+        "https://pdxfoodweeks.com/nacho/2023",
+        "https://pdxfoodweeks.com/nacho/2025",
+        "https://pdxfoodweeks.com/pizza/2024",
+        "https://pdxfoodweeks.com/pizza/2025",
+        "https://pdxfoodweeks.com/sandwich/2022",
+        "https://pdxfoodweeks.com/sandwich/2024",
+        "https://pdxfoodweeks.com/sandwich/2025",
+        "https://pdxfoodweeks.com/taco/2025",
+        "https://pdxfoodweeks.com/wing/2024",
+      ],
     }),
     db(),
     svelte(),
