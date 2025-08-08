@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "http://www.pdxfoodweeks.com/:path*",
+      "destination": "https://pdxfoodweeks.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://pdxfoodweeks.com/:path*",
+      "destination": "https://pdxfoodweeks.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://www.pdxfoodweeks.com/:path*",
+      "destination": "https://pdxfoodweeks.com/:path*",
+      "permanent": true
+    }
+  ]
+}
