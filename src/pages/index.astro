@@ -24,6 +24,7 @@ const username = Astro.locals.user?.username;
               width={536}
               height={536}
               class="rounded-2xl shadow-xl"
+              sizes="(max-width: 768px) 398px, 536px"
             />
           </div>
           <div class="flex w-full flex-col gap-6 md:w-1/2">
@@ -41,12 +42,13 @@ const username = Astro.locals.user?.username;
             </p>
 
             <div class="w-100 flex flex-col gap-1">
-              <img
+              <Image
                 src="https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc1Mjc5MDE4OTA5NjYzOC05NzB4MjUwLU1lcmNCVzI1LnBuZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMCwgIndpdGhvdXRFbmxhcmdlbWVudCI6IGZhbHNlfSwgInJvdGF0ZSI6IG51bGx9fQ=="
                 width="536"
                 height="138"
                 class="rounded-lg shadow"
                 alt="PDX Burger Week 2025"
+                sizes="(max-width: 768px) 398px, 536px"
               />
               <p class="py-2">
                 <a
