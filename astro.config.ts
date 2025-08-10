@@ -4,8 +4,8 @@ import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import db from "@astrojs/db";
 import vercel from "@astrojs/vercel/serverless";
-
 import svelte from "@astrojs/svelte";
+import sentry from "@sentry/astro";
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,6 +46,12 @@ export default defineConfig({
     }),
     db(),
     svelte(),
+    sentry({
+      sourceMapsUploadOptions: {
+        project: "pdx-food-weeks",
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+      },
+    }),
   ],
   scopedStyleStrategy: "where",
   output: "server",

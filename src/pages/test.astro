@@ -1,0 +1,10 @@
+<button id="error-button">Throw test error</button>
+<script>
+  function handleClick() {
+    throw new Error("This is a test error");
+  }
+  const button = document.querySelector("#error-button");
+  if (button) {
+    button.addEventListener("click", handleClick);
+  }
+</script>

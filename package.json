@@ -24,6 +24,7 @@
     "@lucia-auth/adapter-drizzle": "^1.0.7",
     "@lucia-auth/adapter-sqlite": "^3.0.1",
     "@resvg/resvg-js": "^2.6.2",
+    "@sentry/astro": "^10.3.0",
     "@vercel/analytics": "^1.2.2",
     "astro": "^4.5.15",
     "fuse.js": "^7.0.0",
