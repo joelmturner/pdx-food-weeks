@@ -38,9 +38,9 @@ let eventStatus: keyof typeof badgeVariantByStatus = "Past";
 const hasStartAndEnd = dateStart && dateEnd;
 
 if (hasStartAndEnd) {
-  if (new Date(dateStart) < new Date()) {
+  if (new Date(dateEnd) < new Date()) {
     eventStatus = "Past";
-  } else if (new Date(dateEnd) > new Date()) {
+  } else if (new Date(dateStart) > new Date()) {
     eventStatus = "Upcoming";
   } else {
     eventStatus = "Active";

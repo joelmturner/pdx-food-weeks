@@ -5,6 +5,18 @@
   export let lists: ListItem[] = [];
 
   let myElement: HTMLDialogElement | null;
+  let listName = "New List";
+  // get the url of the current page
+  if (typeof window !== "undefined") {
+    const url = window.location.href;
+    // get the last two parts of the url
+    const lastTwoParts = url.split("/").slice(-2);
+
+    // capitalize the first letter of each word
+    listName = lastTwoParts
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
 
   const handleChooseList = async (e: any) => {
     myElement?.showModal();
@@ -19,15 +31,32 @@
     const listIds = formData.getAll("list").filter(Boolean);
 
     // send null user doesn't have any list
-    const resolvedListIds =
+    let resolvedListIds =
       listIds?.length === 1 && listIds[0] === "noListHere" ? null : listIds;
+
+    if (!resolvedListIds) {
+      // create list
+      const newList = await fetch(`/api/lists/create`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name: listName }),
+      });
+
+      const newListData = await newList.json();
+
+      console.log("newListData", newListData);
+
+      resolvedListIds = [newListData.id];
+    }
 
     if (!foodId) {
       console.log("No food id");
       return;
     }
 
-    const saved = await fetch(`/api/lists/update`, {
+    await fetch(`/api/lists/update`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -60,7 +89,7 @@
                 value="noListHere"
                 class="checkbox checkbox-accent"
               />
-              <span class="label-text">Saved Items</span>
+              <span class="label-text">{listName}</span>
             </label>
           {/if}
 
@@ -71,6 +100,7 @@
                 value={list.id}
                 name="list"
                 class="checkbox checkbox-accent"
+                checked={lists.length === 1}
               />
               <span class="label-text">{list.name}</span>
             </label>

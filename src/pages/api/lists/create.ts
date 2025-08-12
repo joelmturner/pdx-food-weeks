@@ -36,18 +36,33 @@ export async function POST(context: APIContext): Promise<Response> {
     const response = await db
       .insert(list)
       .values({
+        userId,
         name,
         foodIds: [],
-        userId,
       })
       .run();
 
-    return new Response(null, {
+    return new Response(JSON.stringify({ id: `${response.lastInsertRowid}` }), {
       status: 201,
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
   } catch (error) {
-    return new Response(null, {
-      status: 500,
-    });
+    console.error("Error creating list:", error);
+
+    // return error details for debugging
+    return new Response(
+      JSON.stringify({
+        error: "Failed to create list",
+        details: error instanceof Error ? error.message : String(error),
+      }),
+      {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
   }
 }

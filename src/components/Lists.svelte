@@ -95,7 +95,13 @@
                 >
                   <input type="hidden" name="listId" value={list.id} />
                   <input type="hidden" name="foodId" value={food.id} />
-                  <wa-button size="small" variant="error" appearance="outline">
+                  <wa-button
+                    size="small"
+                    variant="error"
+                    appearance="outline"
+                    type="submit"
+                    class="cursor-pointer"
+                  >
                     <wa-icon slot="end" name="undo"></wa-icon>
                     Remove from list
                   </wa-button>
