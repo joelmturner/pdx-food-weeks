@@ -73,7 +73,8 @@ function getValue($: any, key: string) {
 }
 
 function sanitizeString(str: string) {
-  return str.replaceAll("–", "-").replaceAll("’", "'");
+  if (!str) return "";
+  return str.replaceAll("–", "-").replaceAll("’", "'").replaceAll(" ", " ");
 }
 
 const getPages = async (eventUrls: string[]) => {
@@ -219,7 +220,17 @@ async function getEventDetails(baseUrl: string) {
     $(".description.additional-details iframe").attr("src") ?? null;
   // check which type the title contains
   const type = types.find(type => title.toLowerCase().includes(type));
-  return { title, dateStart, dateEnd, url, description, year, type, mapUrl };
+  return {
+    title: sanitizeString(title),
+    dateStart,
+    dateEnd,
+    url,
+    description: sanitizeString(description),
+    year,
+    type,
+    mapUrl,
+    ogImage: $(".item-detail.event img").attr("src") ?? null,
+  };
 }
 
 const getEventUrls = async (baseUrl: string) => {

@@ -40,14 +40,59 @@ const foodTypePlural =
 // SEO optimized content
 const pageTitle = `Portland ${foodTypeCapitalized} Week ${year} - PDX Food Weeks`;
 const description = `Explore Portland ${foodTypeCapitalized} Week ${year}! ${items.length} unique ${foodTypePlural.toLowerCase()} across ${neighborhoods.length} Portland neighborhoods. ${dateRange ? `Running ${dateRange}` : ""}`;
+// calculate event status based on dates
+let eventStatus = "EventScheduled";
+if (eventDetails) {
+  const now = new Date();
+  const startDate = new Date(eventDetails.dateStart);
+  const endDate = new Date(eventDetails.dateEnd);
+
+  if (endDate < now) {
+    eventStatus = "EventCancelled";
+  } else if (startDate > now) {
+    eventStatus = "EventScheduled";
+  } else {
+    eventStatus = "EventPostponed";
+  }
+}
+
+// extract pricing information from description
+let offers = null;
+if (eventDetails?.description) {
+  const priceMatches = eventDetails.description.match(/\$(\d+)/g);
+  if (priceMatches) {
+    const prices = priceMatches.map(price => price.replace("$", ""));
+    offers = {
+      "@type": "Offer",
+      price: Math.min(...prices.map(p => parseInt(p))),
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      validFrom: eventDetails.dateStart,
+      validThrough: eventDetails.dateEnd,
+    };
+  }
+}
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Event",
   name: `Portland ${foodTypeCapitalized} Week ${year}`,
   description: description,
+  eventStatus: eventStatus,
   ...(eventDetails && {
     startDate: eventDetails.dateStart,
     endDate: eventDetails.dateEnd,
+    image: eventDetails.ogImage || eventDetails.organizer?.logo,
+    ...(eventDetails.organizer && {
+      organizer: {
+        "@type": "Organization",
+        name: eventDetails.organizer.name,
+        description: eventDetails.organizer.description,
+        logo: eventDetails.organizer.logo,
+        url: eventDetails.organizer.url,
+      },
+    }),
+    ...(offers && { offers }),
   }),
   location: {
     "@type": "City",
