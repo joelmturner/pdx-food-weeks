@@ -107,9 +107,28 @@ const schema = {
       </div>
     </div>
 
-    <p class="text-neutral-content">
-      {description}
-    </p>
+    <div class="description-container">
+      <p
+        class="text-neutral-content description-text"
+        data-full-text={description}
+      >
+        {
+          description.length > 150
+            ? description.slice(0, 150) + "..."
+            : description
+        }
+      </p>
+      {
+        description.length > 150 && (
+          <button
+            class="text-accent hover:text-accent-focus text-sm font-medium cursor-pointer description-toggle"
+            data-description-id={id}
+          >
+            Read more
+          </button>
+        )
+      }
+    </div>
 
     <div class="justify-between text-sm">
       {
@@ -146,5 +165,46 @@ const schema = {
     .tooltip::before {
       @apply max-w-60 border p-2;
     }
+
+    .description-container {
+      @apply flex flex-col gap-1;
+    }
+
+    .description-text {
+      @apply leading-relaxed;
+    }
+
+    .description-toggle {
+      @apply self-start transition-colors duration-200;
+    }
   </style>
 </div>
+
+<script>
+  // add event listeners to all description toggle buttons
+  document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("click", function (e) {
+      if (
+        e.target instanceof HTMLElement &&
+        e.target.classList.contains("description-toggle")
+      ) {
+        const button = e.target;
+        const descriptionText = button.previousElementSibling;
+        const fullText = descriptionText.dataset.fullText;
+        const isExpanded = descriptionText.dataset.expanded === "true";
+
+        if (isExpanded) {
+          // collapse
+          descriptionText.textContent = fullText.slice(0, 150) + "...";
+          descriptionText.dataset.expanded = "false";
+          button.textContent = "Read more";
+        } else {
+          // expand
+          descriptionText.textContent = fullText;
+          descriptionText.dataset.expanded = "true";
+          button.textContent = "Show less";
+        }
+      }
+    });
+  });
+</script>
