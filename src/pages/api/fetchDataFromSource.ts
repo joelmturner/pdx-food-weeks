@@ -72,6 +72,10 @@ function getValue($: any, key: string) {
   return output || null;
 }
 
+function sanitizeString(str: string) {
+  return str.replaceAll("–", "-").replaceAll("’", "'");
+}
+
 const getPages = async (eventUrls: string[]) => {
   const events = eventUrls.map(async function (url) {
     const $ = await fetchData(url);
@@ -159,16 +163,16 @@ const getPages = async (eventUrls: string[]) => {
     const mapUrl =
       $(".map iframe").attr("src")?.replace("/embed/v1/place", "") ?? null;
     return {
-      id: `${location}-${title}-${year}`,
-      title,
+      id: `${sanitizeString(location)}-${sanitizeString(title)}-${year}`,
+      title: sanitizeString(title),
       url,
-      location,
+      location: sanitizeString(location),
       locationUrl: $(".location > a").attr("href") ?? null,
       neighborhood,
-      date: $(".date-summary > span").text().trim(),
+      date: sanitizeString($(".date-summary > span").text().trim()),
       mapUrl,
-      description: ingredients ?? "",
-      hours: hours ?? "",
+      description: sanitizeString(ingredients ?? ""),
+      hours: sanitizeString(hours ?? ""),
       imageUrl: $(".item-image img").attr("src") ?? null,
       diet,
     };
