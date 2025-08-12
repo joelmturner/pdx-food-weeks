@@ -190,7 +190,17 @@ const schema = {
       ) {
         const button = e.target;
         const descriptionText = button.previousElementSibling;
+
+        // check if descriptionText exists and has the required properties
+        if (!descriptionText || !(descriptionText instanceof HTMLElement)) {
+          return;
+        }
+
         const fullText = descriptionText.dataset.fullText;
+        if (!fullText) {
+          return;
+        }
+
         const isExpanded = descriptionText.dataset.expanded === "true";
 
         if (isExpanded) {
