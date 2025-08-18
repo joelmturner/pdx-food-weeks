@@ -42,7 +42,7 @@ export default defineConfig({
         "https://pdxfoodweeks.com/sandwich/2025",
         "https://pdxfoodweeks.com/taco/2025",
         "https://pdxfoodweeks.com/wing/2024",
-        "https://pdxfoodweeks.com/weiner/2025",
+        "https://pdxfoodweeks.com/wiener/2025",
       ],
     }),
     db(),
