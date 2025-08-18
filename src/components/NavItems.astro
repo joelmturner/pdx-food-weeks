@@ -11,7 +11,7 @@ type Props = {
 const user = Astro.locals.user;
 const { type } = Astro.props;
 
-// Get current query parameters
+// get current query parameters
 const searchParams = new URLSearchParams(Astro.url.search);
 const hasQueryParams = searchParams.toString().length > 0;
 ---
@@ -105,7 +105,7 @@ const hasQueryParams = searchParams.toString().length > 0;
             <a
               href="#"
               class="w-full wa-body-m hover:text-inherit hover:no-underline flex items-center gap-2 px-4 py-2"
-              onclick="event.preventDefault(); fetch('/api/logout', { method: 'POST' }).then(() => window.location.href = '/')"
+              id="logout-link"
             >
               <wa-icon slot="icon" name="right-from-bracket" />
               Logout
@@ -170,6 +170,23 @@ const hasQueryParams = searchParams.toString().length > 0;
         link.href = baseUrl + (searchParams ? searchParams : "");
       }
     });
+  });
+
+  // handle logout
+  document.getElementById("logout-link")?.addEventListener("click", event => {
+    event.preventDefault();
+    fetch("/api/logout", { method: "POST" })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          window.location.href = "/";
+        } else {
+          console.error("Logout failed:", data.message);
+        }
+      })
+      .catch(error => {
+        console.error("Logout error:", error);
+      });
   });
 </script>
 

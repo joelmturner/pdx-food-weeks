@@ -1,5 +1,5 @@
 import type { APIContext } from "astro";
-import { and, db, eq, inArray, list, notInArray } from "astro:db";
+import { and, db, eq, list } from "astro:db";
 
 export async function POST(context: APIContext): Promise<Response> {
   if (!context.locals.session) {

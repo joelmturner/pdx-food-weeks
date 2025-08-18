@@ -277,7 +277,7 @@ const getEventUrls = async (baseUrl: string) => {
   const extraUrlsToCheck: string[] = [];
 
   if ($(".descriptions additional-details h4 a").length > 0) {
-    $(".descriptions additional-details h4 a").each(function (index, element) {
+    $(".descriptions additional-details h4 a").each(function (_, element) {
       extraUrlsToCheck.push($(element).attr("href") ?? "");
     });
   }
@@ -285,13 +285,13 @@ const getEventUrls = async (baseUrl: string) => {
   if (extraUrlsToCheck.length > 0) {
     for (const url of extraUrlsToCheck) {
       const $ = await fetchData(url);
-      $(".event.list-item .event-title a").each(function (index, element) {
+      $(".event.list-item .event-title a").each(function (_, element) {
         eventUrls.push($(element).attr("href") ?? "");
       });
     }
   }
 
-  $(".item-detail.event > .row > .col > a").each(function (index, element) {
+  $(".item-detail.event > .row > .col > a").each(function (_, element) {
     eventUrls.push($(element).attr("href") ?? "");
   });
   return eventUrls;

@@ -1,5 +1,3 @@
-import { getImage } from "astro:assets";
-
 export function checkImageBrightness(imageElement: HTMLImageElement): boolean {
   try {
     const canvas = document.createElement("canvas");

@@ -64,7 +64,11 @@ const schema = {
   data-dietary={dietaryOptions}
   data-neighborhood={neighborhoodOptions}
 >
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(schema)}
+  />
   <a href={url} target="_blank" rel="nofollow noopener noreferrer">
     <Image
       src={imageUrl}
@@ -180,7 +184,7 @@ const schema = {
   </style>
 </div>
 
-<script>
+<script is:inline>
   // add event listeners to all description toggle buttons
   document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("click", function (e) {

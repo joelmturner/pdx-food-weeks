@@ -47,7 +47,7 @@ function runIt() {
     'wa-select[data-filter-key="neighborhoods"]'
   );
 
-  const handleFilterChange = (e: Event) => {
+  const handleFilterChange = () => {
     const foodCards = document.querySelectorAll(".card");
 
     // Get selected values from the selects - value is already an array for multiple selects
