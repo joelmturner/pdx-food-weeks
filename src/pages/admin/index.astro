@@ -33,7 +33,9 @@ const foodType = Astro.params.foodType;
 <script>
   const select = document.querySelector("wa-select");
   select?.addEventListener("change", e => {
-    const value = e.target.value;
-    window.history.pushState({}, "", `/admin?foodType=${value}`);
+    if (e.target && "value" in e.target) {
+      const value = e.target.value;
+      window.history.pushState({}, "", `/admin?foodType=${value}`);
+    }
   });
 </script>
