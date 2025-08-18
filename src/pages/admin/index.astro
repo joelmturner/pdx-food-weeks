@@ -1,13 +1,18 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import { FOOD_TYPES } from "../../constants";
+import DataForm from "@components/DataForm.svelte";
+import Header from "@components/Header.astro";
 
 if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
   return Astro.redirect("/");
 }
+
+const foodType = Astro.params.foodType;
 ---
 
 <Layout>
+  <Header activeNav="admin" />
   <header class="p-4">
     <div class="text-base-content max-w-6xl mx-auto">
       <h1 class="text-3xl">Admin</h1>
@@ -15,18 +20,20 @@ if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
   </header>
   <main class="max-w-6xl mx-auto align-left w-full" card-edit={null}>
     <h2 class="text-2xl">Edit Da Foods</h2>
-    <div class="grid gap-4 grid-cols-3">
-      {
-        FOOD_TYPES.map(item => (
-          <div class="card bg-base-300">
-            <div class="card-body gap-3">
-              <div class="card-title">
-                <a href={`/admin/${item}`}>{item}</a>
-              </div>
-            </div>
-          </div>
-        ))
-      }
-    </div>
+    <wa-select label="Select Food Type">
+      {FOOD_TYPES.map(item => <wa-option value={item}>{item}</wa-option>)}
+    </wa-select>
+
+    <h2 class="text-2xl">{foodType}</h2>
+    <DataForm client:load />
   </main>
 </Layout>
+
+<!-- add food type param to url on selection -->
+<script>
+  const select = document.querySelector("wa-select");
+  select?.addEventListener("change", e => {
+    const value = e.target.value;
+    window.history.pushState({}, "", `/admin?foodType=${value}`);
+  });
+</script>

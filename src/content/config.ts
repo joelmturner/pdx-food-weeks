@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+import { FOOD_TYPES } from "../constants";
 
 const eventSchema = z.object({
   id: z.number(),
@@ -7,7 +8,7 @@ const eventSchema = z.object({
   dateStart: z.string(),
   dateEnd: z.string(),
   url: z.string(),
-  type: z.enum(["burger", "nacho", "pizza", "sandwich", "wing", "taco"]),
+  type: z.enum(FOOD_TYPES),
   year: z.number(),
   ogImage: z.string().optional(),
   mapUrl: z.string().optional(),
@@ -36,7 +37,7 @@ const foodSchema = z.object({
   imageUrl: z.string(),
   mapUrl: z.string().nullable().optional(),
   diet: z.array(z.enum(["gf", "vegetarian", "vegan", "meat"])),
-  type: z.enum(["burger", "nacho", "pizza", "sandwich", "wing", "taco"]),
+  type: z.enum(FOOD_TYPES),
   year: z.number(),
 });
 

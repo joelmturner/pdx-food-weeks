@@ -12,11 +12,12 @@ import {
   getUniqueNeighborhoods,
 } from "@utils/collections";
 import type { FoodItem } from "@content/config";
+import { FOOD_TYPES } from "../../constants";
 
 const { foodType, year } = Astro.params;
 
-const validFoodTypes = ["burger", "nacho", "pizza", "sandwich", "wing", "taco"];
-if (!validFoodTypes.includes(foodType!)) {
+const validFoodTypes = FOOD_TYPES;
+if (!validFoodTypes.includes(foodType! as FoodItem["type"])) {
   return Astro.redirect("/404");
 }
 

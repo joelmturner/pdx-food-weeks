@@ -1,6 +1,7 @@
 import { load } from "cheerio";
 import axios from "axios";
 import type { APIContext } from "astro";
+import { FOOD_TYPES } from "../../constants";
 
 let cache: any = null;
 
@@ -21,7 +22,7 @@ const fetchData = async (url: string) => {
   return load(result.data);
 };
 
-function getValue($: any, key: string) {
+function getValue($: any, key: string): string | null {
   // First try the specific structure we know about
   let questionElement = $(".answer.row .question-text").filter(function (
     this: any
@@ -32,13 +33,15 @@ function getValue($: any, key: string) {
       .toLowerCase()
       .replace(/\s+/g, " ")
       .replace(/[^\w\s]/g, "");
+
     const normalizedKey = key
       .toLowerCase()
       .replace(/\s+/g, " ")
       .replace(/[^\w\s]/g, "");
+
     return (
       normalizedText.includes(normalizedKey) ||
-      normalizedKey.includes(normalizedText)
+      normalizedKey.includes(normalizedKey)
     );
   });
 
@@ -61,6 +64,31 @@ function getValue($: any, key: string) {
     });
   }
 
+  // If we still don't find it, try the description structure
+  if (questionElement.length === 0) {
+    const descriptionText = $(".description").text();
+    // split on capital letters not after a space, then add a space before each capital letter
+    // this accounts for things like "Meat or Vegetarian? VeganOther"
+    const descriptionTextSplit = descriptionText.split(/(?=[A-Z])/);
+    const descriptionTextSplitWithSpace = descriptionTextSplit.map(
+      (item: string) => item.trim()
+    );
+    const descriptionTextSplitWithSpaceJoined =
+      descriptionTextSplitWithSpace.join(" ");
+    if (descriptionText.includes(key)) {
+      // Find the text after the key
+      const regex = new RegExp(
+        `${key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*([^\\n\\r]*?)(?=\\n|\\r|$|\\w+\\?|\\w+\\s*:)`,
+        "i"
+      );
+      const match = descriptionTextSplitWithSpaceJoined.match(regex);
+
+      if (match && match[1]) {
+        return match[1].trim();
+      }
+    }
+  }
+
   // Get the parent div with class 'answer row' and then find the answer-text div within it
   const answerElement = questionElement
     .closest(".answer.row")
@@ -74,7 +102,11 @@ function getValue($: any, key: string) {
 
 function sanitizeString(str: string) {
   if (!str) return "";
-  return str.replaceAll("–", "-").replaceAll("’", "'").replaceAll(" ", " ");
+  return str
+    .replaceAll("–", "-")
+    .replaceAll("’", "'")
+    .replaceAll(" ", " ")
+    .replaceAll("‘", "'");
 }
 
 const getPages = async (eventUrls: string[]) => {
@@ -93,7 +125,9 @@ const getPages = async (eventUrls: string[]) => {
       getValue($, "Available Gluten-Free?") || getValue($, "Gluten Free?");
     const dietary =
       getValue($, "Meat or Vegetarian?") ||
-      getValue($, "Chicken or Vegetarian?");
+      getValue($, "Chicken or Vegetarian?") ||
+      getValue($, "Meat or Vegetarian") ||
+      getValue($, "Chicken or Vegetarian");
 
     const ingredients =
       getValue($, "What's On It") ||
@@ -107,22 +141,17 @@ const getPages = async (eventUrls: string[]) => {
       $(".date-summary > span").text().trim();
 
     const veganCheck = ["yes", "vegan"];
-    const isVegan = vegan
-      ? veganCheck.some(
-          item =>
-            vegan.toLowerCase().includes(item) ||
-            dietary.toLowerCase().includes(item)
-        )
-      : false;
+    const isVegan =
+      (vegan && veganCheck.some(item => vegan.toLowerCase().includes(item))) ||
+      (dietary && dietary.toLowerCase().trim() === "vegan");
 
     const vegetarianCheck = ["yes", "vegetarian"];
-    const isVegetarian = vegetarian
-      ? vegetarianCheck.some(
-          item =>
-            vegetarian.toLowerCase().includes(item) ||
-            dietary.toLowerCase().includes(item)
-        )
-      : false;
+    const isVegetarian =
+      (vegetarian &&
+        vegetarianCheck.some(item =>
+          vegetarian.toLowerCase().includes(item)
+        )) ||
+      (dietary && dietary.toLowerCase().trim() === "vegetarian");
 
     const glutenFreeCheck = ["yes", "gluten free", "available"];
     const isGlutenFree = glutenFree
@@ -135,10 +164,14 @@ const getPages = async (eventUrls: string[]) => {
         ?.toLowerCase()
         .split(",")
         .map((option: string) => option.trim()) || [];
-    const dietaryResolved = dietaryOptions.map((option: string) => {
-      const firstWord = option.split(" ")[0];
-      return firstWord === "chicken" ? "meat" : firstWord;
-    });
+    const dietaryResolved = dietaryOptions
+      .map((option: string) => {
+        const firstWord = option.split(" ")[0];
+        return firstWord === "chicken" ? "meat" : firstWord;
+      })
+      .filter((option: string) =>
+        ["meat", "vegetarian", "vegan"].includes(option)
+      );
 
     const diet = [
       ...new Set(
@@ -149,7 +182,11 @@ const getPages = async (eventUrls: string[]) => {
           ...dietaryResolved,
         ].filter(Boolean)
       ),
-    ];
+    ].filter(
+      (dietType): dietType is string =>
+        dietType !== undefined &&
+        ["vegan", "vegetarian", "gf", "meat"].includes(dietType)
+    );
 
     const rawNeighborhood =
       $(".location > span").text().replace("(Portland)", "")?.trim() ?? null;
@@ -215,17 +252,16 @@ async function getEventDetails(baseUrl: string) {
     getValue($, "What's On Them:") ||
     getValue($, "What's In It:") ||
     getValue($, "What's On It...");
-  const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
   const mapUrl =
     $(".description.additional-details iframe").attr("src") ?? null;
   // check which type the title contains
-  const type = types.find(type => title.toLowerCase().includes(type));
+  const type = FOOD_TYPES.find(type => title.toLowerCase().includes(type));
   return {
     title: sanitizeString(title),
     dateStart,
     dateEnd,
     url,
-    description: sanitizeString(description),
+    description: sanitizeString(description ?? ""),
     year,
     type,
     mapUrl,
@@ -268,8 +304,7 @@ const getEventUrls = async (baseUrl: string) => {
 */
 
 function getEventType(url: string) {
-  const types = ["sandwich", "nacho", "burger", "pizza", "wing"];
-  const type = types.find(type => url.toLowerCase().includes(type));
+  const type = FOOD_TYPES.find(type => url.toLowerCase().includes(type));
   return type;
 }
 
@@ -283,7 +318,7 @@ export async function POST(context: APIContext): Promise<Response> {
   const data = await context.request.json();
   console.log("data", data);
   const baseUrl = data.url;
-  const type = getEventType(baseUrl);
+  const type = data.type || getEventType(baseUrl);
 
   if (!cache) {
     cache = {};

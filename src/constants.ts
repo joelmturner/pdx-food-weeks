@@ -5,4 +5,5 @@ export const FOOD_TYPES = [
   "sandwich",
   "taco",
   "wing",
+  "weiner",
 ] as const;

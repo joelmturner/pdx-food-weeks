@@ -2,18 +2,24 @@
   $: data = null as { eventDetails: any; food: any[] } | null;
 
   $: status = "idle";
+  $: type =
+    (typeof window !== "undefined" && window?.location.search.split("=")[1]) ||
+    "";
 
   async function handleSubmitUrl(
     event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement }
   ) {
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
     // Handle form submission logic here
     const response = await fetch("/api/fetchDataFromSource", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ url: formData.get("url") }),
+      body: JSON.stringify({
+        url: formData.get("url"),
+        type: formData.get("type"),
+      }),
     });
 
     if (response?.ok) {
@@ -26,7 +32,7 @@
   async function handleSubmitData(
     event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement }
   ) {
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
 
     status = "loading";
     // Handle form submission logic here
@@ -89,6 +95,13 @@
   <div class="flex flex-col gap-1">
     <label for="url">URL</label>
     <input name="url" id="url" class="input input-bordered w-full max-w-xs" />
+    <input
+      name="type"
+      id="type"
+      class="input input-bordered w-full max-w-xs"
+      hidden
+      value={type}
+    />
   </div>
   <button type="submit" class="btn btn-primary max-w-xs">Fetch Data</button>
 </form>
@@ -97,63 +110,4 @@
   <span class="loading loading-ring loading-md"></span>
 {:else}
   <p>{status}</p>
-{/if}
-
-{#if data}
-  <h3>Food</h3>
-  <form on:submit|preventDefault={handleSubmitData} class="flex flex-col gap-3">
-    <div class="flex flex-col gap-1">
-      <label for="year">Year</label>
-      <input
-        name="year"
-        id="year"
-        type="number"
-        class="input input-bordered w-full max-w-xs"
-      />
-    </div>
-    <div class="flex flex-col gap-1">
-      <label for="type">Type</label>
-      <select
-        id="type"
-        name="type"
-        class="select select-bordered w-full max-w-xs"
-      >
-        <option value="pizza">Pizza</option>
-        <option value="burger">Burger</option>
-        <option value="nacho">Nachos</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="wing">Wing</option>
-      </select>
-    </div>
-
-    <button type="submit" class="btn btn-primary max-w-xs">Add to db</button>
-    <input value={JSON.stringify(data.food)} hidden name="data" id="data" />
-  </form>
-
-  <h3>Event Details</h3>
-  <form
-    on:submit|preventDefault={handleSubmitEventDetails}
-    class="flex flex-col gap-3"
-  >
-    <input
-      type="hidden"
-      value={JSON.stringify(data.eventDetails)}
-      name="data"
-      id="name"
-    />
-    <button type="submit" class="btn btn-primary max-w-xs">Add to db</button>
-  </form>
-
-  <div class="h-full max-h-96 w-full p-4 overflow-auto">
-    <pre><code>
-        {JSON.stringify(data.eventDetails, null, 2)}
-    </code></pre>
-  </div>
-
-  <div class="py-24" />
-  <div class="h-full max-h-96 w-full p-4 overflow-auto">
-    <pre><code>
-        {JSON.stringify(data.food, null, 2)}
-    </code></pre>
-  </div>
 {/if}
