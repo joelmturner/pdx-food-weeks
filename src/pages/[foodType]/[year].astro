@@ -9,6 +9,7 @@ import {
   getEventDetails,
   getFoodItemsByTypeAndYear,
   getLists,
+  getOrganizer,
   getUniqueNeighborhoods,
 } from "@utils/collections";
 import type { FoodItem } from "@content/config";
@@ -28,6 +29,7 @@ const eventDetails = await getEventDetails(
   Number(year),
   foodType! as FoodItem["type"]
 );
+const organizer = await getOrganizer(eventDetails?.organizer);
 
 const dateRange = eventDetails
   ? `${formatter.format(new Date(eventDetails.dateStart))} - ${formatter.format(new Date(eventDetails.dateEnd))} ${eventDetails.year}`
@@ -83,14 +85,14 @@ const schema = {
   ...(eventDetails && {
     startDate: eventDetails.dateStart,
     endDate: eventDetails.dateEnd,
-    image: eventDetails.ogImage || eventDetails.organizer?.logo,
-    ...(eventDetails.organizer && {
+    image: eventDetails.ogImage || organizer?.logo,
+    ...(organizer && {
       organizer: {
         "@type": "Organization",
-        name: eventDetails.organizer.name,
-        description: eventDetails.organizer.description,
-        logo: eventDetails.organizer.logo,
-        url: eventDetails.organizer.url,
+        name: organizer.name,
+        description: organizer.description,
+        logo: organizer.logo,
+        url: organizer.url,
       },
     }),
     ...(offers && { offers }),
@@ -124,6 +126,7 @@ const schema = {
     neighborhoods={neighborhoods}
     pageDesc={dateRange}
     eventDetails={eventDetails}
+    organizer={organizer}
   >
     {items && <CardGrid items={items} lists={lists} />}
   </Main>

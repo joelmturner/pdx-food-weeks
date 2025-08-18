@@ -1,0 +1,134 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { FOOD_TYPES } from "../../../constants";
+import Header from "@components/Header.astro";
+import { getCollection } from "astro:content";
+import MainAdmin from "@layouts/MainAdmin.astro";
+import { Image } from "astro:assets";
+
+if (!Astro.locals.user || Astro.locals.user.role !== "admin") {
+  return Astro.redirect("/");
+}
+
+const eventId = Number(Astro.url.searchParams.get("eventId"));
+const events = await getCollection("events");
+const organizers = await getCollection("organizer");
+
+const editingEvent = events?.[0]?.data.find(
+  eventItem => eventItem.id === eventId
+);
+---
+
+<Layout>
+  <Header activeNav="admin" />
+  <MainAdmin activeNav="events">
+    <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4">
+          <wa-select id="event-item" label="Event" value={eventId}>
+            {
+              events?.[0]?.data.map(eventItem => (
+                <wa-option
+                  value={eventItem.id}
+                  selected={eventItem.id === eventId}
+                >
+                  {eventItem.year} {eventItem.type}
+                </wa-option>
+              ))
+            }
+          </wa-select>
+        </div>
+      </div>
+      {
+        eventId > 0 && (
+          <div class="flex gap-8">
+            <div class="flex flex-col gap-4 w-1/2">
+              <h2 class="text-2xl">Update details</h2>
+              <form class="flex flex-col gap-4">
+                <wa-input
+                  label="Title"
+                  name="title"
+                  value={editingEvent?.title}
+                />
+                <wa-textarea
+                  label="Description"
+                  name="description"
+                  value={editingEvent?.description}
+                />
+                <wa-input
+                  label="Date Start"
+                  name="dateStart"
+                  value={editingEvent?.dateStart}
+                />
+                <wa-input
+                  label="Date End"
+                  name="dateEnd"
+                  value={editingEvent?.dateEnd}
+                />
+                <wa-input label="URL" name="url" value={editingEvent?.url} />
+                <wa-input
+                  label="OG Image"
+                  name="ogImage"
+                  value={editingEvent?.ogImage}
+                />
+                <wa-input
+                  label="Map URL"
+                  name="mapUrl"
+                  value={editingEvent?.mapUrl}
+                />
+                <wa-input
+                  label="Year"
+                  name="year"
+                  type="number"
+                  value={editingEvent?.year}
+                />
+                <wa-select
+                  id="food-type"
+                  label="Select Food Type"
+                  value={editingEvent?.type}
+                >
+                  {FOOD_TYPES.map(item => (
+                    <wa-option value={item}>{item}</wa-option>
+                  ))}
+                </wa-select>
+                <wa-select
+                  id="organizer"
+                  label="Select Organizer"
+                  value={editingEvent?.organizer}
+                >
+                  {organizers.map(item => (
+                    <wa-option value={item.data.id}>{item.data.name}</wa-option>
+                  ))}
+                </wa-select>
+                <wa-button type="submit">Save</wa-button>
+              </form>
+            </div>
+            <div class="w-1/2 flex flex-col gap-4">
+              <Image
+                src={editingEvent?.ogImage || ""}
+                width="536"
+                height="138"
+                class="rounded-lg shadow"
+                alt={editingEvent?.title || ""}
+                sizes="(max-width: 768px) 398px, 536px"
+              />
+            </div>
+          </div>
+        )
+      }
+    </div>
+  </MainAdmin>
+</Layout>
+
+<script>
+  const selectEvent = document.querySelector("#event-item");
+  selectEvent?.addEventListener("change", e => {
+    if (e.target && "value" in e.target) {
+      const value = String(e.target.value);
+      const url = new URL(window.location.href);
+      url.searchParams.set("eventId", value);
+      // reload the page with new search param to update editingEvent
+      window.location.href = url.toString();
+    }
+  });
+</script>

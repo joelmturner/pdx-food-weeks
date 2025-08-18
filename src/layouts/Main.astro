@@ -2,7 +2,7 @@
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import CollectionFilters from "@components/CollectionFilters.astro";
 import { Image } from "astro:assets";
-import type { EventItem } from "../content/config";
+import type { EventItem, Organizer } from "../content/config";
 
 interface StringTitleProp {
   pageTitle: string;
@@ -10,6 +10,7 @@ interface StringTitleProp {
   neighborhoods?: string[];
   hideFilters?: boolean;
   eventDetails?: EventItem;
+  organizer?: Organizer;
 }
 
 interface ArrayTitleProp {
@@ -19,13 +20,14 @@ interface ArrayTitleProp {
   neighborhoods?: string[];
   hideFilters?: boolean;
   eventDetails?: EventItem;
+  organizer?: Organizer;
 }
 
 export type Props = StringTitleProp | ArrayTitleProp;
 
 const { props } = Astro;
-const { organizer, mapUrl, dateStart, dateEnd } = props.eventDetails || {};
-const { logo, url, name, description } = organizer || {};
+const { mapUrl, dateStart, dateEnd } = props.eventDetails || {};
+const { logo, url, name, description } = props.organizer || {};
 
 const badgeVariantByStatus = {
   Past: "danger",

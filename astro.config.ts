@@ -63,5 +63,17 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["oslo"],
     },
+    resolve: {
+      alias: {
+        "@assets": "/src/assets",
+        "@config": "/src/config",
+        "@components": "/src/components",
+        "@content": "/src/content",
+        "@layouts": "/src/layouts",
+        "@pages": "/src/pages",
+        "@styles": "/src/styles",
+        "@utils": "/src/utils",
+      },
+    },
   },
 });

@@ -12,12 +12,12 @@ const eventSchema = z.object({
   year: z.number(),
   ogImage: z.string().optional(),
   mapUrl: z.string().optional(),
-  organizer: z.object({
-    name: z.string(),
-    description: z.string(),
-    url: z.string(),
-    logo: z.string(),
-  }),
+  organizer: z
+    .number()
+    .refine(val => val > 0, {
+      message: "organizer must reference a valid organizer id",
+    })
+    .describe("references organizerSchema.id"),
 });
 
 const events = defineCollection({
@@ -46,12 +46,27 @@ const food = defineCollection({
   schema: z.array(foodSchema),
 });
 
+const organizerSchema = z.object({
+  id: z.number(),
+  name: z.string(),
+  description: z.string(),
+  url: z.string(),
+  logo: z.string(),
+});
+
+const organizer = defineCollection({
+  type: "data",
+  schema: organizerSchema,
+});
+
 export const collections = {
   events,
   food,
+  organizer,
 };
 
 export type Events = z.infer<z.ZodArray<typeof eventSchema>>;
 export type EventItem = z.infer<typeof eventSchema>;
 export type FoodItems = z.infer<z.ZodArray<typeof foodSchema>>;
 export type FoodItem = z.infer<typeof foodSchema>;
+export type Organizer = z.infer<typeof organizerSchema>;

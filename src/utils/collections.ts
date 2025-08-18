@@ -2,7 +2,7 @@ import { getCollection } from "astro:content";
 import { db, eq, list } from "astro:db";
 import type { ListItem } from "types";
 import { FOOD_TYPES } from "../constants";
-import type { EventItem, FoodItem } from "../content/config";
+import type { EventItem, FoodItem, Organizer } from "../content/config";
 
 export function getYearsFromData(data: number[]) {
   const uniqueYears = new Set(data);
@@ -124,6 +124,12 @@ export async function getEventDetails(
     return item.year === year && item.type === type;
   });
   return items[0];
+}
+
+export async function getOrganizer(id: number): Promise<Organizer> {
+  const organizerCollection = await getCollection("organizer");
+  const item = organizerCollection.find(item => item.data.id === id);
+  return item?.data as unknown as Organizer;
 }
 
 export async function getFoodItemsByTypeAndYear(
