@@ -24,6 +24,33 @@
     --color-border: 171, 75, 8;
   }
 
+  /* prevent layout shifts during theme switching */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* critical layout stability */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ensure stable viewport height */
+  html,
+  body {
+    min-height: 100vh;
+  }
+
+  /* prevent content jumping during load */
+  main {
+    min-height: 100vh;
+  }
+
+  /* ensure images don't cause layout shifts */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   #sun-svg,
   html[data-theme="business"] #moon-svg {
     display: none;
@@ -35,7 +62,7 @@
   }
 
   body {
-    @apply flex min-h-[100svh] flex-col bg-base-100 font-sans text-base-content;
+    @apply min-h-[100svh] bg-base-100 font-sans text-base-content;
   }
 
   section,
@@ -83,6 +110,54 @@
   visibility: hidden;
 }
 
+/* prevent layout shifts for WebAwesome components */
+wa-button:not(:defined) {
+  display: inline-block;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+}
+
+wa-drawer:not(:defined) {
+  display: inline-block;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+}
+
+/* ensure mobile navigation button has stable dimensions */
+wa-button {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+}
+
+/* header loading state */
+header:not(.header-stable) {
+  opacity: 0.8;
+}
+
+header.header-stable {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+/* logo loading state */
+.logo-skeleton {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-loaded .logo-skeleton {
+  opacity: 0;
+}
+
+.logo-loaded [data-id="logo"] {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+[data-id="logo"] {
+  opacity: 0;
+}
+
 :root {
   --wa-color-surface-default: 97.7882% 0.00418 56.375637;
 }
@@ -92,4 +167,31 @@
 :is(:host-context(.wa-dark)) {
   /* your custom styles here */
   --wa-color-surface-default: 33, 39, 55;
+}
+
+/* ensure logo image is properly contained */
+.logo-container img {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.logo-loaded .logo-container img {
+  opacity: 1;
+}
+
+/* additional optimizations for year pages */
+.logo-container {
+  min-height: 200px;
+}
+
+/* prevent iframe layout shifts */
+iframe {
+  border: none;
+}
+
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.logo-container.dark-logo {
+  background-color: rgba(255, 255, 255, 0.8);
 }

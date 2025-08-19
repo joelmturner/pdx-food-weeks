@@ -81,14 +81,19 @@ if (hasStartAndEnd) {
       <div class="flex flex-col gap-2">
         {
           logo && typeof logo === "string" && (
-            <div class="logo-container">
-              <Image
-                src={logo}
-                alt={name || ""}
-                width={400}
-                height={200}
-                id="logo-image"
-              />
+            <div class="logo-container flex justify-center items-center">
+              <div class="aspect-[4/1] w-full max-w-[400px]">
+                <Image
+                  src={logo}
+                  alt={name || ""}
+                  width={400}
+                  height={100}
+                  id="logo-image"
+                  class="w-full h-full object-contain"
+                  sizes="(max-width: 768px) 128px, 200px"
+                  loading="eager"
+                />
+              </div>
             </div>
           )
         }
@@ -99,16 +104,18 @@ if (hasStartAndEnd) {
     <div class="w-full">
       {
         mapUrl && (
-          <iframe
-            src={mapUrl}
-            width="100%"
-            height="100%"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="w-full h-full min-h-[400px] rounded-lg"
-          />
+          <div class="aspect-[4/3] w-full bg-base-200">
+            <iframe
+              src={mapUrl}
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="w-full h-full rounded-lg"
+            />
+          </div>
         )
       }
     </div>
@@ -123,6 +130,31 @@ if (hasStartAndEnd) {
   <slot />
 </main>
 
+<script>
+  // prevent layout shifts during logo loading
+  document.addEventListener("DOMContentLoaded", function () {
+    const logoImage = document.getElementById("logo-image");
+    if (logoImage) {
+      const logoContainer = logoImage.closest(".logo-container");
+
+      if (logoContainer) {
+        // add loaded state immediately if image is already loaded
+        if (logoImage instanceof HTMLImageElement && logoImage.complete) {
+          logoContainer.classList.add("logo-loaded");
+        } else {
+          // add loaded state when image loads
+          logoImage.addEventListener("load", () => {
+            logoContainer.classList.add("logo-loaded");
+          });
+          logoImage.addEventListener("error", () => {
+            logoContainer.classList.add("logo-loaded");
+          });
+        }
+      }
+    }
+  });
+</script>
+
 <style>
   #main-content {
     @apply mx-auto w-full max-w-6xl px-4 pb-4;
@@ -135,9 +167,15 @@ if (hasStartAndEnd) {
   }
   .logo-container {
     @apply p-4 rounded-lg;
-    background-color: rgba(0, 0, 0, 0.8);
   }
-  .logo-container.dark-logo {
-    background-color: rgba(255, 255, 255, 0.8);
+
+  /* ensure logo image is properly contained */
+  .logo-container img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .logo-loaded .logo-container img {
+    opacity: 1;
   }
 </style>

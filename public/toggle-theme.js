@@ -63,11 +63,11 @@ function checkLogoBrightness() {
     const averageBrightness = totalBrightness / (pixelCount / 4);
     const isDark = averageBrightness < 0.5;
 
-    if (logoImage.parentElement) {
+    if (logoImage.closest(".logo-container")) {
       if (isDark) {
-        logoImage.parentElement.classList.add("dark-logo");
+        logoImage.closest(".logo-container").classList.add("dark-logo");
       } else {
-        logoImage.parentElement.classList.remove("dark-logo");
+        logoImage.closest(".logo-container").classList.remove("dark-logo");
       }
     }
   }
@@ -149,3 +149,10 @@ window
     themeValue = isDark ? "business" : "cupcake";
     setPreference();
   });
+
+// enhance existing theme functionality to prevent layout shifts
+const originalReflectPreference = reflectPreference;
+reflectPreference = function () {
+  // call original function
+  originalReflectPreference();
+};

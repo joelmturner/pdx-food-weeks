@@ -41,13 +41,33 @@ const socialImageURL = new URL(
 >
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- WebAwesome CSS - load immediately to prevent layout shifts -->
+    <link
+      rel="stylesheet"
+      href="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/styles/themes/default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/styles/webawesome.css"
+    />
+
+    <!-- WebAwesome script -->
+    <script
+      type="module"
+      is:inline
+      src="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/webawesome.loader.js"
+    ></script>
 
     <!-- General Meta Tags -->
     <title>{title}</title>
@@ -70,20 +90,6 @@ const socialImageURL = new URL(
     <meta property="twitter:image" content={socialImageURL} />
 
     <meta name="theme-color" content="" />
-
-    <link
-      rel="stylesheet"
-      href="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/styles/themes/default.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/styles/webawesome.css"
-    />
-    <script
-      type="module"
-      is:inline
-      src="https://early.webawesome.com/webawesome@3.0.0-beta.3/dist/webawesome.loader.js"
-    ></script>
 
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
