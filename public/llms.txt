@@ -10,6 +10,7 @@ pdxfoodweeks.com is a community-driven directory of Portland, Oregon's themed fo
 /sandwich/{year}
 /taco/{year}
 /wing/{year}
+/wiener/{year}
 
 # Current Routes
 /burger/2019
@@ -31,6 +32,9 @@ pdxfoodweeks.com is a community-driven directory of Portland, Oregon's themed fo
 /taco/2025
 
 /wing/2024
+/wing/2025
+
+/wiener/2025
 
 # Key Features
 - Events include venue, menu item, description, hours, and image.
@@ -42,6 +46,7 @@ pdxfoodweeks.com is a community-driven directory of Portland, Oregon's themed fo
 - Content is JSON-backed and organized by food type and year.
 - Events should be discoverable from category/year routes.
 - No login or paywall required for browsing.
+- Site is statically built with Astro and runs on Vercel
 
 # Sitemap
 /sitemap-index.xml

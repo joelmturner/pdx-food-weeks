@@ -128,7 +128,18 @@ const schema = {
     eventDetails={eventDetails}
     organizer={organizer}
   >
-    {items && <CardGrid items={items} lists={lists} />}
+    {
+      items?.length > 0 ? (
+        <CardGrid items={items} lists={lists} />
+      ) : (
+        <>
+          <wa-divider />
+          <div class="flex flex-col gap-2">
+            <p>No items found for this event yet, check back later!</p>
+          </div>
+        </>
+      )
+    }
   </Main>
   <Footer />
 </Layout>
