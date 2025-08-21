@@ -200,5 +200,18 @@
     "ogImage": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTczNzEzNDM3MDQyNjI3NC1XaWVuZXJXZWVrLTk3MHgyNTAtMi5wbmciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDAsICJ3aXRob3V0RW5sYXJnZW1lbnQiOiBmYWxzZX0sICJyb3RhdGUiOiBudWxsfX0=",
     "organizer": 1,
     "mapUrl": "https://www.google.com/maps/d/embed?mid=1wM5V52XpHkRBicj8ula3Tdw23F4IrkY&ehbc=2E312F&noprof=1"
+  },
+  {
+    "id": 17,
+    "title": "The Portland Mercury's Wing Week 2025",
+    "dateStart": "2025-09-29T00:01:00.000Z",
+    "dateEnd": "2025-10-05T23:59:00.000Z",
+    "url": "https://everout.com/portland/events/the-portland-mercurys-wing-week-2025/e205792/",
+    "description": "",
+    "year": 2025,
+    "type": "wing",
+    "mapUrl": "",
+    "ogImage": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc1NTcyNzg2NjA5OTYwMy05NzB4MjUwLVdpbmdXZWVrMjAyNS5wbmciLCAiZWRpdHMiOiB7InJlc2l6ZSI6IHsiZml0IjogImluc2lkZSIsICJwb3NpdGlvbiI6ICJjZW50cmUiLCAid2lkdGgiOiA5NjAsICJoZWlnaHQiOiA2MDAsICJ3aXRob3V0RW5sYXJnZW1lbnQiOiBmYWxzZX0sICJyb3RhdGUiOiBudWxsfX0=",
+    "organizer": 1
   }
 ]

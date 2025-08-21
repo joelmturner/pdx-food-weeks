@@ -32,6 +32,41 @@ export async function getYearsFromAllEvents(): Promise<
   return items;
 }
 
+export async function getLatestEvent(): Promise<EventItem> {
+  const eventCollection = await getCollection("events");
+  return eventCollection[0].data.sort(
+    (a, b) => new Date(b.dateEnd).getTime() - new Date(a.dateEnd).getTime()
+  )[0];
+}
+
+export async function getFeaturedEvent(): Promise<{
+  event: EventItem;
+  dateRange: string;
+  hasFood: boolean;
+}> {
+  const latestEvent = await getLatestEvent();
+  // format the date range for display
+  const formatDateRange = (startDate: string, endDate: string) => {
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+
+    const startMonth = start.toLocaleDateString("en-US", { month: "long" });
+    const startDay = start.getDate();
+    const endMonth = end.toLocaleDateString("en-US", { month: "long" });
+    const endDay = end.getDate();
+
+    if (startMonth === endMonth) {
+      return `${startMonth} ${startDay} - ${endDay}`;
+    } else {
+      return `${startMonth} ${startDay} - ${endMonth} ${endDay}`;
+    }
+  };
+
+  const dateRange = formatDateRange(latestEvent.dateStart, latestEvent.dateEnd);
+  const hasFood = await getFoodItems(latestEvent.year, latestEvent.type);
+  return { event: latestEvent, dateRange, hasFood: hasFood.length > 0 };
+}
+
 export async function getYearsFromFoodType(
   type: FoodItem["type"]
 ): Promise<number[]> {

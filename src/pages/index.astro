@@ -3,9 +3,11 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { Image } from "astro:assets";
-
 import heroImage from "../assets/images/Neon 80s Style Food.webp";
+import { getFeaturedEvent } from "@utils/collections";
+
 const username = Astro.locals.user?.username;
+const { event: latestEvent, dateRange, hasFood } = await getFeaturedEvent();
 ---
 
 <Layout>
@@ -61,32 +63,52 @@ const username = Astro.locals.user?.username;
               beautiful creations from each vendor.
             </p>
 
+            <h3 class="text-2xl font-bold">Latest Event</h3>
             <div class="w-100 flex flex-col gap-1">
-              <div class="aspect-[536/138] w-full max-w-[536px] bg-base-200">
-                <img
-                  src="https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTc1Mjc5MDE4OTA5NjYzOC05NzB4MjUwLU1lcmNCVzI1LnBuZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDk2MCwgImhlaWdodCI6IDYwMCwgIndpdGhvdXRFbmxhcmdlbWVudCI6IGZhbHNlfSwgInJvdGF0ZSI6IG51bGx9fQ=="
-                  width="536"
-                  height="138"
-                  class="h-full w-full rounded-lg shadow object-cover"
-                  alt="PDX Burger Week 2025"
-                  loading="eager"
-                  decoding="sync"
-                />
-              </div>
+              {
+                latestEvent.ogImage && (
+                  <div class="aspect-[536/138] w-full max-w-[536px] bg-base-200">
+                    <img
+                      src={latestEvent.ogImage}
+                      width="536"
+                      height="138"
+                      class="h-full w-full rounded-lg shadow object-cover"
+                      alt={latestEvent.title}
+                      loading="eager"
+                      decoding="sync"
+                    />
+                  </div>
+                )
+              }
               <p class="py-2">
-                <a
-                  class="link"
-                  href="https://everout.com/portland/events/the-portland-mercurys-burger-week-2025/e205791/"
-                  target="_blank">PDX Burger Week by Portland Mercury</a
-                >. From August 11 - August 17.
+                <a class="link" href={latestEvent.url} target="_blank"
+                  >{latestEvent.title}</a
+                >. From {dateRange}.
               </p>
 
-              <wa-button
-                appearance="accent"
-                variant="brand"
-                size="large"
-                href="/burger/2025">Check out the burgers</wa-button
-              >
+              {
+                hasFood ? (
+                  <wa-button
+                    appearance="accent"
+                    variant="brand"
+                    size="large"
+                    href={`/${latestEvent.type}/${latestEvent.year}`}
+                  >
+                    Check out the {latestEvent.type}s
+                  </wa-button>
+                ) : (
+                  <wa-callout
+                    variant="neutral"
+                    appearance="plain"
+                    class="border-secondary border"
+                  >
+                    <wa-icon slot="icon" name="info" />
+                    <strong>No food items yet for this event</strong>
+                    <br />
+                    Check back later for updates.
+                  </wa-callout>
+                )
+              }
             </div>
           </div>
         </div>
