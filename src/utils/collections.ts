@@ -34,9 +34,11 @@ export async function getYearsFromAllEvents(): Promise<
 
 export async function getLatestEvent(): Promise<EventItem> {
   const eventCollection = await getCollection("events");
-  return eventCollection[0].data.sort(
+  const sortedEvents = eventCollection[0].data.sort(
     (a, b) => new Date(b.dateEnd).getTime() - new Date(a.dateEnd).getTime()
-  )[0];
+  );
+
+  return sortedEvents[0];
 }
 
 export async function getFeaturedEvent(): Promise<{
@@ -64,8 +66,8 @@ export async function getFeaturedEvent(): Promise<{
 
   const dateRange = formatDateRange(latestEvent.dateStart, latestEvent.dateEnd);
 
-  const hasFood =
-    (await getFoodItems(latestEvent.year, latestEvent.type))?.length > 0;
+  const foodItems = await getFoodItems(latestEvent.year, latestEvent.type);
+  const hasFood = foodItems?.length > 0;
 
   return { event: latestEvent, dateRange, hasFood };
 }
@@ -135,19 +137,30 @@ export async function getFoodItems(
   type: FoodItem["type"]
 ): Promise<FoodItem[]> {
   try {
-    const module = await import(
-      /* @vite-ignore */ `../content/food/${type}/${year}.json`
-    );
-    const items: FoodItem[] = module.default || module;
+    const foodCollection = await getCollection("food");
 
-    const filteredItems = items.filter(
-      item => item.year === year && item.type === type
-    );
-    return filteredItems as unknown as FoodItem[];
+    const items = foodCollection
+      .filter(item => {
+        // extract food type from file path (e.g., "burger/2025.json" -> "burger")
+        const foodTypeFromPath = item.id.split("/")[0];
+        // extract year from file path (e.g., "burger/2025.json" -> "2025")
+        const yearFromPath = item.id.split("/")[1]?.split(".")[0];
+        const matches =
+          foodTypeFromPath === type && yearFromPath === year.toString();
+
+        return matches;
+      })
+      .flatMap(item => item.data)
+      .map(item => ({
+        ...item,
+        type: type,
+      })) as FoodItem[];
+
+    return items;
   } catch (error) {
     // fallback for production environments where import might fail
     console.warn(
-      `Could not import food data for ${type}/${year}, returning empty array`
+      `Could not get food data for ${type}/${year}, returning empty array`
     );
     return [];
   }
