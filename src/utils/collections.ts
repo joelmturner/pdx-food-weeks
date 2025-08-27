@@ -63,8 +63,11 @@ export async function getFeaturedEvent(): Promise<{
   };
 
   const dateRange = formatDateRange(latestEvent.dateStart, latestEvent.dateEnd);
-  const hasFood = await getFoodItems(latestEvent.year, latestEvent.type);
-  return { event: latestEvent, dateRange, hasFood: hasFood.length > 0 };
+
+  const hasFood =
+    (await getFoodItems(latestEvent.year, latestEvent.type))?.length > 0;
+
+  return { event: latestEvent, dateRange, hasFood };
 }
 
 export async function getYearsFromFoodType(
