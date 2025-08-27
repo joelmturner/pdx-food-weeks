@@ -294,6 +294,11 @@ const getEventUrls = async (baseUrl: string) => {
   $(".item-detail.event > .row > .col > a").each(function (_, element) {
     eventUrls.push($(element).attr("href") ?? "");
   });
+  $(".item-detail.event > .row.mt-4 > .group-item > a").each(
+    function (_, element) {
+      eventUrls.push($(element).attr("href") ?? "");
+    }
+  );
   return eventUrls;
 };
 
