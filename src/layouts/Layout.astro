@@ -1,10 +1,6 @@
 ---
-import { LOCALE, SITE } from "@config";
-import { ViewTransitions } from "astro:transitions";
-import SpeedInsights from "@vercel/speed-insights/astro";
+import { LOCALE } from "@config";
 import "../styles/base.css";
-
-const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export interface Props {
   title?: string;
@@ -17,28 +13,10 @@ export interface Props {
   scrollSmooth?: boolean;
   includeLeaflet?: boolean;
 }
-
-const {
-  title = SITE.title,
-  author = SITE.author,
-  description = SITE.desc,
-  ogImage = SITE.ogImage,
-  canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
-  scrollSmooth = false,
-  includeLeaflet = false,
-} = Astro.props;
-
-const socialImageURL = new URL(
-  ogImage ?? SITE.ogImage ?? "og.png",
-  Astro.url.origin
-).href;
 ---
 
 <!doctype html>
-<html
-  lang=`${LOCALE.lang ?? "en"}`
-  class={`${scrollSmooth ? "scroll-smooth" : ""}`}
->
+<html lang=`${LOCALE.lang ?? "en"}`>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -49,84 +27,7 @@ const socialImageURL = new URL(
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
-
-    <!-- WebAwesome CSS - load immediately to prevent layout shifts -->
-    <link
-      rel="stylesheet"
-      href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/default.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css"
-    />
-
-    <!-- WebAwesome script -->
-    <script
-      type="module"
-      is:inline
-      src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"
-    ></script>
-
-    <!-- General Meta Tags -->
-    <title>{title}</title>
-    <meta name="title" content={title} />
-    <meta name="description" content={description} />
-    <meta name="author" content={author} />
-    <link rel="sitemap" href="/sitemap-index.xml" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL} />
-    <meta property="og:image" content={socialImageURL} />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
-
-    <meta name="theme-color" content="" />
-
-    {
-      // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
-      // include google-site-verification tag in the heading
-      // Learn more: https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag
-      googleSiteVerification && (
-        <meta
-          name="google-site-verification"
-          content={googleSiteVerification}
-        />
-      )
-    }
-
-    <ViewTransitions />
-
-    <script is:inline src="/toggle-theme.js"></script>
-    {
-      includeLeaflet && (
-        <>
-          <link
-            rel="stylesheet"
-            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-            crossorigin=""
-          />
-          <script
-            is:inline
-            src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""
-          />
-        </>
-      )
-    }
   </head>
-  <body>
-    <slot />
-    <SpeedInsights />
-  </body>
+  <body> <slot /></body>
 </html>

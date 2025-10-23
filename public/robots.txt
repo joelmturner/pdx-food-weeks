@@ -12,5 +12,3 @@ Disallow: /api/
 # disallow admin pages
 Disallow: /admin/
 
-# sitemap location (optional - add your sitemap URL if you have one)
-# Sitemap: https://yourdomain.com/sitemap-index.xml

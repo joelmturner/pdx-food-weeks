@@ -1,6 +1,3 @@
-import type socialIcons from "@assets/socialIcons";
-import { FOOD_TYPES } from "./constants";
-
 export type Site = {
   website: string;
   author: string;
@@ -13,7 +10,7 @@ export type Site = {
 };
 
 export type SocialObjects = {
-  name: keyof typeof socialIcons;
+  name: string;
   href: string;
   active: boolean;
   linkTitle: string;
@@ -25,5 +22,3 @@ export type ListItem = {
   foodIds: number[];
   userId: string;
 };
-
-export type FoodType = (typeof FOOD_TYPES)[number];

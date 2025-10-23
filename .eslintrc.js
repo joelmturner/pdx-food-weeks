@@ -19,5 +19,14 @@ module.exports = {
       },
       rules: {},
     },
+    {
+      files: ["*.ts", "*.tsx"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module",
+      },
+      rules: {},
+    },
   ],
 };
